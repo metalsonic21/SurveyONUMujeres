@@ -9,7 +9,7 @@
                     padding: 5px;
                 }
       
-                .row::after{
+                .rw::after{
                     content: "";
                     clear: both;
                     display: table;
@@ -29,6 +29,12 @@
             font-size: 16px;
   }
     </style>
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('body div').slideDown();
+            });
+        </script>
 
     <meta charset="UTF-8">
     </head>
@@ -57,7 +63,7 @@
 
       <!-- Imágenes --> 
 
-    <div class="row">
+    <div class="rw">
             <div class="column">
       <img src="/Survey/imgs/92c92a43b7215b17669147429dbf93baa555c116.jpeg" alt="HTML5 Icon" style="margin-left: 355px;width:188px;height:128px">
             </div>
@@ -70,7 +76,7 @@
         </div>
 
         <!-- Botones --> 
-        <input type="button" class="button" value="Empezar" style="margin-left: 555px">
+        <a href="questions/filter1.html" class="button" style="margin-left: 555px">Empezar</a>
         <a href="http://www.corporacionjsk.es" class="button">Cancelar</a>
 </body>
 </html> 
