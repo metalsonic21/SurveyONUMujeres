@@ -1,0 +1,40 @@
+<style>
+	#TopNav {
+	 background-color: #dcdcdc;
+	 width:100%;
+	 height:40px;	 
+	}
+	a { color: transparent !important;}
+</style>
+		
+
+<script>
+	history.pushState(null, null, location.href);
+	window.onpopstate = function(event) {
+		history.go(1);
+	};
+</script>		
+		
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>		
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>	
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 		
+		
+<div id="TopNav">
+	<a target="_top" href="index.html">
+		<button class="btn btn-default"><span class="glyphicon glyphicon-home"></span>&nbsp;Home</button>
+	</a>	
+		
+	<a target="_top" href="about.html">
+		<button class="btn btn-default"><span class="glyphicon glyphicon-question-sign"></span>&nbsp;About</button>
+	</a>	
+	
+	<a target="_top" href="http://blog.regencysoftware.com/post/html-page-transitions-animiations">
+		<button class="btn btn-default"><span class="glyphicon glyphicon-user"></span>&nbsp;Blog Post</button>
+	</a>		
+	
+	<a target="_blank" href="https://github.com/daneden/animate.css">
+		<button class="btn btn-default"><span class="glyphicon glyphicon-question-sign"></span>&nbsp;GitHub</button>
+	</a>	
+</div>
+

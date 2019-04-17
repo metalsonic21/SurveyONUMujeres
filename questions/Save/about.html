@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />		
+        <title>About - Animate.css</title>
+		<link rel="shortcut icon" href="http://blog.regencysoftware.com/pics/favicon.png" type="image/x-icon" />		
+        <link rel="stylesheet" href="css/animate.css">		
+        <link rel="stylesheet" href="css/pageTransitions.css"> 		
+		
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>		
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>	
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 		
+
+		<script>
+			history.pushState(null, null, location.href);
+			window.onpopstate = function(event) {
+				history.go(1);
+			};
+		</script>				
+    </head>
+    <body>
+        <!-- Container with an id -->
+        <div id="main" class="main-container" >
+			<!-- <object style="width:100%;height:60px;" data="topnav.html"></object>    -->
+			
+			<div id="TopNav">
+				<a href="index.html">
+					<button class="btn btn-default"><span class="glyphicon glyphicon-home"></span>&nbsp;Home</button>
+				</a>	
+					
+				<a href="about.html">
+					<button class="btn btn-default"><span class="glyphicon glyphicon-question-sign"></span>&nbsp;About</button>
+				</a>	
+				
+				<a target="_top" href="http://blog.regencysoftware.com/post/html-page-transitions-animiations">
+					<button class="btn btn-default"><span class="glyphicon glyphicon-user"></span>&nbsp;Blog</button>
+				</a>		
+				
+				<a target="_blank" href="https://github.com/daneden/animate.css">
+					<button class="btn btn-default"><span class="glyphicon glyphicon-question-sign"></span>&nbsp;GitHub</button>
+				</a>	
+			</div>					
+			
+            <div class="m-scene main-content animated fadeInRightBig">
+
+				<div class="panel panel-default">
+				  <div class="panel-heading"><span class="glyphicon glyphicon-question-sign"></span>&nbsp;About Us</div>
+				  <div class="panel-body">
+					<ul> <li>Curabitur luctus ligula at nibh pretium, non gravida turpis posuere.</li> <li>Donec eu libero vel risus vehicula aliquet.</li> </ul> 
+					<p>Sed ac metus fermentum nisi lacinia sodales. Nullam porta tristique justo et laoreet. Vestibulum pulvinar, purus a finibus commodo, quam lectus imperdiet arcu, vel sollicitudin augue ligula quis lorem. </p>
+					
+					<p>Nunc vehicula lectus nec quam interdum, vitae mattis sapien iaculis. Duis et dui sed lorem hendrerit sollicitudin. Donec ut justo tincidunt, finibus nisi ut, fringilla augue. Donec a nibh nec libero pellentesque semper et vel lacus. Integer quis magna quam	</p>					
+				  </div>
+				</div>											
+				
+            </div>
+        </div>
+    </body>
+</html>
