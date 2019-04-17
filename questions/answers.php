@@ -88,6 +88,19 @@ class answers {
         }
     }
 
+    public function replace($value){
+        if ($value == "1"){
+            $this->setFour("Emprendimiento");
+        }
+        else if ($value == "2"){
+            $this->setFour("MiPyme");
+        }
+        else if ($value == "3"){
+            $this->setFour("Independiente");
+        }
+
+    }
+
 }
 
 ?>

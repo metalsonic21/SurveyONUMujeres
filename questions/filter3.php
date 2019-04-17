@@ -1,5 +1,20 @@
 <?php
     include_once 'answers.php';
+
+    $f1="nulo";
+    $a = new answers();
+    $a->constructor("testone","testtwo","testthree","testfour","testfive","testsix"); 
+
+    if(isset($_POST['radio'])){
+    $f1 = $_POST['radio'];
+    $a->setFour($f1);
+    $a->replace($a->getFour());
+    }
+
+    if (isset($_POST['submitbttn'])) {
+        header("Location: filter4.php"); 
+        exit();
+    }
 ?>
 
 <!doctype html>
@@ -30,32 +45,32 @@
 				<div class="panel panel-default">
 
         <!-- Pregunta 1 -->
-				  <div class="panel-heading">&nbsp;FI.4.¿Usted diría que este negocio es un emprendimiento, MiPyme, o una actividad como profesional independiente?</div>
-				  <div class="panel-body">
-                  <div class="hr-line-dashed"></div>
-                                <div class="form-group row"><label class="col-sm-2 col-form-label"><br/>
-                                    <small class="text-navy"></small></label>
-                                    <div class="col-sm-10">
-                                        <div><label> <input type="radio" value="si" id="optionsRadios1" name="optionsRadios"> <b>Emprendimiento:</b> (Iniciativa que ya está facturando, aunque no necesariamente redituando ganancias) </label></div>
-                                        <div><label> <input type="radio" value="no" id="optionsRadios2" name="optionsRadios" >  <b>Mipyme(Micro, pequeña o mediana empresa)</b> </label></div>
-                                        <div><label> <input type="radio" value="si" id="optionsRadios3" name="optionsRadios"> <b>Actividad Profesional Independiente:</b> (Es una persona que trabaja por su cuenta, manejando su propio ritmo, tiempos y lugar de trabajo, en la actividad que desarrolle. También se le conoce como freelancer) </label></div>
-                                    </div>
-                                </div>         
-                
-            <!-- Aceptar/Cancelar -->          
-                    <div id="TopNav" style="background:#fff">
-				        <a class="hide-links" href="http://www.corporacionjsk.es">
-					        <button class="btn btn-default" style="float:right;">&nbsp;Cancelar</button>
-				    </a>	
-					
-				    <a class="hide-links" href="filter4.php">
-					<button class="btn btn-default" style="float:right;">&nbsp;Continuar</button>
-				</a>	
-			</div>				
-        </div>		
-                  </div>		  
-                </div>	
+			<div class="panel-heading">&nbsp;FI.4.¿Usted diría que este negocio es un emprendimiento, MiPyme, o una actividad como profesional independiente?</div>
+			<div class="panel-body">
+            <div class="hr-line-dashed"></div>
+            <div class="form-group row"><label class="col-sm-2 col-form-label"><br/>
+            <small class="text-navy"></small></label>
+            <form action="" method="post">
+            <div class="col-sm-10">
+            <div><label> <input type="radio" value="1" name="radio"> <b>Emprendimiento:</b> (Iniciativa que ya está facturando, aunque no necesariamente redituando ganancias) </label></div>
+            <div><label> <input type="radio" value="2" name="radio"> <b>Mipyme(Micro, pequeña o mediana empresa)</b> </label></div>
+            <div><label> <input type="radio" value="3" name="optionsRadios"> <b>Actividad Profesional Independiente:</b> (Es una persona que trabaja por su cuenta, manejando su propio ritmo, tiempos y lugar de trabajo, en la actividad que desarrolle. También se le conoce como freelancer) </label></div>
             </div>
+            </div>         
+                
+        <!-- Aceptar/Cancelar -->          
+            <div id="TopNav" style="background:#fff">
+			<a class="hide-links" href="http://www.corporacionjsk.es">
+			<button class="btn btn-default" style="float:right;">&nbsp;Cancelar</button>
+			</a>	
+            <form>
+                <input type="submit" name="submitbttn" value="Continuar" id="submitbttn" class="btn btn-default" style="float:right"/>
+            </form> 
+			</div>				
+            </div>		
+            </div>		  
+            </div>	
+            </form>
             
         <!-- Slider -->
         
@@ -74,28 +89,6 @@
           <img src="https://i.imgur.com/QjCmXZa.png" alt="ccs_logo" class="img-thumbail img-fluid" style="width:280px;height:150px;">
         </div>
         <br></br>
-
-
-        <!-- PHP -->
-
-        <?php
-            $a = new answers();
-            $a->constructor($a->getOne(),$a->getTwo(),$a->getThree(),$a->getFour(),$a->getFive(),$a->getSix()); 
-           /* var_dump($_POST);
-
-                if (isset($_POST['optionRadios'])) {
-                    $foo = $_POST['optionRadios'];
-                }
-
-                if (isset($_POST['submitBttn'])) {
-                    $a->setOne($foo);
-                    echo $a->getOne();
-                }
-
-                if ($a->checkYN($a->getOne()) == 0){
-                    readfile('terminate.html');
-                }*/
-        ?>
     <body>		
     </body>
 </html>

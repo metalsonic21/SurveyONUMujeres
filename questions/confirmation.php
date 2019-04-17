@@ -1,6 +1,5 @@
 <?php
-    include_once 'answers.php';
-?>
+    include_once 'answers.php';?>
 
 <!doctype html>
 <html>
@@ -29,35 +28,51 @@
 
 				<div class="panel panel-default">
 
-        <!-- Pregunta 1 -->
-				  <div class="panel-heading" style="background-color:#fffff">&nbsp;FI.1. ¿Sería usted tan amable de regalarnos unos minutos para responder algunas preguntas?.Por favor considere que no hay respuestas buenas ni malas, y que la información será tratada de manera generalizada para fines estadísticos.</div>
-				  <div class="panel-body" >
-                  <div class="hr-line-dashed"></div>
-                                <div class="form-group row"><label class="col-sm-2 col-form-label"><br/>
-                                    <small class="text-navy"></small></label>
-                                    <div class="col-sm-10">
-                                        <form action = "" method ="post">
-                                        <div><label> <input type="radio" value="si" id="optionsRadios1" name="optionsRadios" > Sí </label></div>
-                                        <div><label> <input type="radio" value="no" id="optionsRadios2" name="optionsRadios" 
-                                            >  No </label></div>
-                                    </div>
-                                </div>
-                                <br></br><br></br>
 
-            <!-- Aceptar/Cancelar -->
-                    <div id="TopNav" style="background:#fff">
-				        <a class="hide-links" href="http://www.corporacionjsk.es">
+        <!-- Pregunta 1 -->
+
+                <div class="panel-heading" style="background-color:#fffff">&nbsp;FI.1. ¿Sería usted tan amable de regalarnos unos minutos para responder algunas preguntas?.Por favor considere que no hay respuestas buenas ni malas, y que la información será tratada de manera generalizada para fines estadísticos.</div>
+                <div class="panel-body" >
+                <div class="hr-line-dashed"></div>   
+                <div class="form-group row"><label class="col-sm-2 col-form-label"><br/>
+                <small class="text-navy"></small></label>
+                <form action="" method="post">
+                <div class="col-sm-10">
+                <div><label><input type="radio" name="radio" value="si" >Sí</label></div>
+                <div><label><input type="radio" name="radio" value="no" >No</label></div>
+                </div>
+                </div>
+                <br></br><br></br>
+
+        <!-- Aceptar/Cancelar -->
+
+
+                <div id="TopNav" style="background:#fff">
+                <a class="hide-links" href="http://www.corporacionjsk.es">
 					        <button class="btn btn-default" style="float:right;">&nbsp;Cancelar</button>
-				    </a>	
-					
-				    <a class="hide-links" href="negotiation.php">
-					<button class="btn btn-default" style="float:right;">&nbsp;Continuar</button>
-				</a>	
-			</div>				
-        </div>		
-                  </div>		  
-                </div>	
+                </a>
+                <form>
+                <input type="submit" name="submitbttn" value="Continuar" id="submitbttn" class="btn btn-default" style="float:right"/>
+                </form>    
             </div>
+            </div>
+            </div>
+            </div>
+                </form>
+<!-- PHP -->
+<?php
+                    $f1="nulo";
+                    $a = new answers();
+                    $a->constructor("testone","testtwo","testthree","testfour","testfive","testsix"); 
+                if(isset($_POST['radio']))
+                {
+                $f1 = $_POST['radio'];
+                $a->setOne($f1);
+                echo ($a->checkYN($a->getOne()));
+                
+                }?>
+
+
 <body>    
         <!-- Slider -->
         
@@ -77,26 +92,16 @@
         </div>
         <br></br>
 
-        <!-- PHP -->
-
-        <?php
-            $a = new answers();
-            $a->constructor($a->getOne(),$a->getTwo(),$a->getThree(),$a->getFour(),$a->getFive(),$a->getSix()); 
-           /* var_dump($_POST);
-
-                if (isset($_POST['optionRadios'])) {
-                    $foo = $_POST['optionRadios'];
+        <!-- PHP (Validaciones) -->
+<?php
+            if (isset($_POST['submitbttn'])) {
+                if ($a->checkYN($a->getOne())==0){
+                    readfile("terminate.html");
                 }
-
-                if (isset($_POST['submitBttn'])) {
-                    $a->setOne($foo);
-                    echo $a->getOne();
+                else if($a->checkYN($a->getOne())==1) {
+                    header("Location: negotiation.php"); 
+                    exit();
                 }
-
-                if ($a->checkYN($a->getOne()) == 0){
-                    readfile('terminate.html');
-                }*/
-        ?>
-		
-    </body>
+            }
+        ?></body>
 </html>
