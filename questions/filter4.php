@@ -16,15 +16,13 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 					
     </head>
     <header>
-            <div class= "topnav">
-                <ul>
-                    <li class="active">
-                        <a href="#">Principal</a>
-                    </li>
-                </ul>
+    <!-- Inicio --> 
+    <div class= "title">
+                    <h1>ONU MUJERES & PROCOMER</h1>
             </div>
+    <br></br><br></br><br></br>
         <!-- Container de las preguntas -->
-        <div id="main" class="main-container" style="height:600px;max-width:1000px;width:900px" >	
+        <div id="main" class="main-container animated fadeInRightBig" style="height:380px;max-width:1000px;width:900px;background:#fffff" >	
 					
             <div class="m-scene main-content animated fadeInRightBig">
 
@@ -82,7 +80,16 @@
 		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>	
 		<script type="text/javascript" src="scripts/jquery.smoothState.js"></script>		
         <script type="text/javascript" src="scripts/functions.js"></script>		
+
+        </header>
         
+      <!-- Imágenes --> 
+      <div class="container text-center" style="width:100%;">
+            <img src="https://i.imgur.com/KAs344v.jpg" alt="inn_logo" class="img-thumbail img-fluid" style="width:220px;height:150px;">
+          <img src="https://i.imgur.com/SKxuaq5.jpg" alt="ccs_logo" class="img-thumbail img-fluid" style="width:280px;height:150px;">
+          <img src="https://i.imgur.com/QjCmXZa.png" alt="ccs_logo" class="img-thumbail img-fluid" style="width:280px;height:150px;">
+        </div>
+        <br></br>
 
         <!-- PHP -->
 
@@ -91,7 +98,6 @@
             $a->constructor($a->getOne(),$a->getTwo(),$a->getThree(),$a->getFour(),$a->getFive(),$a->getSix()); 
 
         ?>
-    </header>
     <body>
     </body>
 </html>

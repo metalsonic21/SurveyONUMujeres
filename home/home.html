@@ -1,21 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Estilo de imágenes -->
-        <style>
-                .column{
-                    float: left;
-                    width: 33.33%;
-                    padding: 5px;
-                }
-      
-                .rw::after{
-                    content: "";
-                    clear: both;
-                    display: table;
-                }
-              </style>
-
     <!-- Estilo de botones -->
     <style>
         .button {
@@ -31,6 +16,7 @@
             font-size: 16px;
   }
     </style>
+
         <script src="js/jquery-3.1.1.min.js"></script>
         <script>
             $(document).ready(function(){
@@ -48,29 +34,23 @@
     <link href="css/iCheck/custom.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
     <body>
         <header>
-            <div class= "topnav">
-                <ul>
-                    <li class="active">
-                        <a href="#">Principal</a>
-                    </li>
-                </ul>
-            </div>
             <!-- Inicio --> 
-
             <div class= "title">
                     <h1>ONU MUJERES & PROCOMER</h1>
             </div>
             <div class= "info">
                         <li class="square">
             <!-- Acerca de --> 
-            <div class= "subtitle">
-                <h2><br>Estudio sobre emprendimientos y negocios de mujeres</br></h2></div>
-            <div class= "about">
-                        <p><br>ONU Mujeres y PROCOMER están realizando una encuesta sobre aspectos relacionados con la oferta de productos y servicios y las necesidades que tienen los negocios liderados por mujeres en Costa Rica. Por esta razón estamos solicitando su apoyo para contestar unas preguntas al respecto.</br>                        
+            <div class= "container">
+                <br></br><br></br><h2 class="text-sm-center h5 text-white"><br>Estudio sobre emprendimientos y negocios de mujeres</br></h2></div>
+            <div class= "container text-white h6">
+                        <p class="text-center"><br>ONU Mujeres y PROCOMER están realizando una encuesta sobre aspectos relacionados con la oferta de productos y servicios y las necesidades que tienen los negocios liderados por mujeres en Costa Rica. Por esta razón estamos solicitando su apoyo para contestar unas preguntas al respecto.</br>                        
                         <br>Cientos de negocios de mujeres están participando en esta iniciativa ya que con la información recabada, además de desarrollar un Directorio de Negocios liderados por Mujeres, se espera conocer las necesidades puntuales de las empresarias con el objetivo de generar programas y proyectos que nos permitan cerrar las brechas para promover mayores oportunidades para las mujeres emprendedoras y empresarias. </br>
                         
                         
@@ -81,23 +61,19 @@
 
         </header>
       <!-- Imágenes --> 
-    <div class="rw">
-            <div class="column">
-      <img src="/Survey/imgs/92c92a43b7215b17669147429dbf93baa555c116.jpeg" alt="HTML5 Icon" style="margin-left: 355px;width:188px;height:128px">
-            </div>
-            <div class="column">
-      <img src="/Survey/imgs/procomer.jpg" alt="HTML5 Icon" style="margin-left: 55px;width:248px;height:128px">
-            </div>
-            <div class="column">
-        <img src="/Survey/imgs/UN-Women-logo-social-media-1024x512-es.png" alt="HTML5 Icon" style="position:absolute; right:430px;width:248px;height:128px">
-            </div>
-        </div>
+      <div class="container text-center" style="width:100%;">
+            <img src="https://i.imgur.com/KAs344v.jpg" alt="inn_logo" class="img-thumbail img-fluid" style="width:220px;height:150px;">
+          <img src="https://i.imgur.com/SKxuaq5.jpg" alt="ccs_logo" class="img-thumbail img-fluid" style="width:280px;height:150px;">
+          <img src="https://i.imgur.com/QjCmXZa.png" alt="ccs_logo" class="img-thumbail img-fluid" style="width:280px;height:150px;">
+    </div>
 
         <!-- Botones --> 
         <br></br>
-        <a href="questions/confirmation.php" class="button" style="margin-left: 555px">Empezar</a>
-        <a href="http://www.corporacionjsk.es" class="button">Cancelar</a>
+    <div class="container text-center">
+        <a href="questions/confirmation.php" class="btn btn-info btn-lg" role="button" style="background: #62b539; width:140px; height: 52px;">Empezar</a>
+        <a href="http://www.corporacionjsk.es" class="btn btn-info btn-lg" role="button" style="background: #62b539; width:140px; height: 52px;">Cancelar</a>
         <br></br>
+    </div>
 
 </body>
 </html> 

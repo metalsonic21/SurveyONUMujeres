@@ -17,15 +17,13 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 					
     </head>
     <header>
-            <div class= "topnav">
-                <ul>
-                    <li class="active">
-                        <a href="#">Principal</a>
-                    </li>
-                </ul>
+        <!-- Inicio --> 
+        <div class= "title">
+                    <h1>ONU MUJERES & PROCOMER</h1>
             </div>
+    <br></br><br></br><br></br>
         <!-- Container de las preguntas -->
-        <div id="main" class="main-container" style="height:500px;max-width:1000px;width:900px" >	
+        <div id="main" class="main-container animated fadeInRightBig" style="height:300px;max-width:1000px;width:900px;background:#fffff" >	
 					
             <div class="m-scene main-content animated fadeInRightBig">
 
@@ -42,7 +40,9 @@
                                         <div><label> <input type="radio" value="no" id="optionsRadios2" name="optionsRadios" >  <b>Mipyme(Micro, pequeña o mediana empresa)</b> </label></div>
                                         <div><label> <input type="radio" value="si" id="optionsRadios3" name="optionsRadios"> <b>Actividad Profesional Independiente:</b> (Es una persona que trabaja por su cuenta, manejando su propio ritmo, tiempos y lugar de trabajo, en la actividad que desarrolle. También se le conoce como freelancer) </label></div>
                                     </div>
-                                </div>
+                                </div>         
+                
+            <!-- Aceptar/Cancelar -->          
                     <div id="TopNav" style="background:#fff">
 				        <a class="hide-links" href="http://www.corporacionjsk.es">
 					        <button class="btn btn-default" style="float:right;">&nbsp;Cancelar</button>
@@ -64,6 +64,17 @@
 		<script type="text/javascript" src="scripts/jquery.smoothState.js"></script>		
         <script type="text/javascript" src="scripts/functions.js"></script>		
         
+        
+        </header>
+        
+      <!-- Imágenes --> 
+      <div class="container text-center" style="width:100%;">
+            <img src="https://i.imgur.com/KAs344v.jpg" alt="inn_logo" class="img-thumbail img-fluid" style="width:220px;height:150px;">
+          <img src="https://i.imgur.com/SKxuaq5.jpg" alt="ccs_logo" class="img-thumbail img-fluid" style="width:280px;height:150px;">
+          <img src="https://i.imgur.com/QjCmXZa.png" alt="ccs_logo" class="img-thumbail img-fluid" style="width:280px;height:150px;">
+        </div>
+        <br></br>
+
 
         <!-- PHP -->
 
@@ -85,7 +96,6 @@
                     readfile('terminate.html');
                 }*/
         ?>
-</header>    
     <body>		
     </body>
 </html>

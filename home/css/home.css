@@ -28,7 +28,7 @@ header{
     background-image: url(../20920.jpg); /* fallback */
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 100%), url(../20920.jpg);
     opacity:0.8;
-    height: 680px;
+    height: 400px;
     background-size: cover;
     background-position: center;
 }

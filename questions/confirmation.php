@@ -17,24 +17,21 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 				
     </head>
     <header>
-            <div class= "topnav">
-                <ul>
-                    <li class="active">
-                        <a href="#">Principal</a>
-                    </li>
-                </ul>
+    <!-- Inicio --> 
+            <div class= "title">
+                    <h1>ONU MUJERES & PROCOMER</h1>
             </div>
-    
+    <br></br><br></br><br></br>
         <!-- Container de las preguntas -->
-        <div id="main" class="main-container" style="height:500px;max-width:1000px;width:900px;background:#f3ecec;" >	
+        <div id="main" class="main-container animated fadeInRightBig" style="height:370px;max-width:1000px;width:900px;background:#fffff;" >	
 					
             <div class="m-scene main-content animated fadeInRightBig">
 
 				<div class="panel panel-default">
 
         <!-- Pregunta 1 -->
-				  <div class="panel-heading" style="background-color:#d0adaf">&nbsp;FI.1. ¿Sería usted tan amable de regalarnos unos minutos para responder algunas preguntas?.Por favor considere que no hay respuestas buenas ni malas, y que la información será tratada de manera generalizada para fines estadísticos.</div>
-				  <div class="panel-body">
+				  <div class="panel-heading" style="background-color:#fffff">&nbsp;FI.1. ¿Sería usted tan amable de regalarnos unos minutos para responder algunas preguntas?.Por favor considere que no hay respuestas buenas ni malas, y que la información será tratada de manera generalizada para fines estadísticos.</div>
+				  <div class="panel-body" >
                   <div class="hr-line-dashed"></div>
                                 <div class="form-group row"><label class="col-sm-2 col-form-label"><br/>
                                     <small class="text-navy"></small></label>
@@ -45,6 +42,9 @@
                                             >  No </label></div>
                                     </div>
                                 </div>
+                                <br></br><br></br>
+
+            <!-- Aceptar/Cancelar -->
                     <div id="TopNav" style="background:#fff">
 				        <a class="hide-links" href="http://www.corporacionjsk.es">
 					        <button class="btn btn-default" style="float:right;">&nbsp;Cancelar</button>
@@ -58,7 +58,6 @@
                   </div>		  
                 </div>	
             </div>
-</header>
 <body>    
         <!-- Slider -->
         
@@ -67,6 +66,16 @@
 		<script type="text/javascript" src="scripts/jquery.smoothState.js"></script>		
         <script type="text/javascript" src="scripts/functions.js"></script>		
         
+        
+        </header>
+        
+      <!-- Imágenes --> 
+      <div class="container text-center" style="width:100%;">
+            <img src="https://i.imgur.com/KAs344v.jpg" alt="inn_logo" class="img-thumbail img-fluid" style="width:220px;height:150px;">
+          <img src="https://i.imgur.com/SKxuaq5.jpg" alt="ccs_logo" class="img-thumbail img-fluid" style="width:280px;height:150px;">
+          <img src="https://i.imgur.com/QjCmXZa.png" alt="ccs_logo" class="img-thumbail img-fluid" style="width:280px;height:150px;">
+        </div>
+        <br></br>
 
         <!-- PHP -->
 
