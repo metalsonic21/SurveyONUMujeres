@@ -29,25 +29,33 @@
 <!doctype html>
 <html>
     <head>
-    <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />		
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> ONU MUJERES & PROCOMER </title>
         <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/iCheck/custom.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/questions.css">
-		<link rel="stylesheet" href="css/animate.css">		
+        <link rel="stylesheet" href="css/animate.css">		
+        <link href="css/style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link rel="stylesheet" href="css/pageTransitions.css?v=2"> 	
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 					
     </head>
-    <header>
+    <header style="padding-top: 0px;">
     <!-- Inicio --> 
     <div class= "title">
                     <h1>ONU MUJERES & PROCOMER</h1>
             </div>
     <br></br><br></br><br></br>
-        <!-- Container de las preguntas -->
-        <div id="main" class="main-container animated fadeInRightBig" style="height:410px;max-width:1000px;width:900px;background:#fffff" >	
+        <!-- Container de las preguntas height:410px;max-width:1000px;width:900px; -->
+        <div id="main" class="main-container animated fadeInRightBig" style="background:#fffff" >	
 					
             <div class="m-scene main-content animated fadeInRightBig">
 
@@ -85,7 +93,7 @@
             <!-- Aceptar/Cancelar -->
             <div id="TopNav" style="background:#fff">
                 <a class="hide-links" href="http://www.corporacionjsk.es">
-					        <button class="btn btn-default" style="float:right;">&nbsp;Cancelar</button>
+					        <button class="btn btn-default" style="float:right; margin-left:5px;">&nbsp;Cancelar</button>
                 </a>
                 <form>
                 <input type="submit" name="submitbttn" value="Continuar" id="submitbttn" class="btn btn-default" style="float:right"/>
@@ -97,7 +105,7 @@
                 </form>
                 </header>
             <!-- PHP -->
-    <body>
+    <body style="padding-top: 0px;">
         <!-- Slider -->
         
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>		

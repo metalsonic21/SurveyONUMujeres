@@ -5,64 +5,14 @@ body{
 
 }
 
-/*Barra de tareas de arriba*/
-
-.topnav{
-    background-color: #333;
-    overflow: hidden;
-    height: 62px;
-}
-
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 10px 22px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-
 /*Fondo*/
 
 header{
-    background-image: url(../20920.jpg); /* fallback */
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 100%), url(../20920.jpg);
-    opacity:0.8;
-    height: 588px;
+    background-image: url(../20921.jpg); /* fallback */
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 100%), url(../20921.jpg);
+    height: 788px;
     background-size: cover;
     background-position: center;
-}
-
-/*Boton principal*/
-
-ul{
-    float: right;
-    list-style-type: none;
-    padding: 10px;
-    padding-left: 580px;
-}
-
-ul li{
-    display:inline-block;
-}
-
-ul li a{
-    text-decoration: none;
-    color: #fff;
-    padding: 5px 20px;
-    border: 1px solid transparent;
-    transition: 0.6s ease;
-}
-
-ul li a:hover{
-    background-color: #fff;
-    color: #000;
-
-}
-
-ul li.active a{
-    background-color: #fff;
-    color: #000;
 }
 
 /*Título de ONU*/

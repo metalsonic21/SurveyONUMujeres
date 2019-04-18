@@ -5,29 +5,11 @@ body{
 
 }
 
-/*Barra de tareas de arriba*/
-
-.topnav{
-    background-color: #333;
-    overflow: hidden;
-    height: 62px;
-}
-
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 10px 22px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-
 /*Fondo*/
 
 header{
-    background-image: url(../20920.jpg); /* fallback */
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 100%), url(../20920.jpg);
-    opacity:0.8;
+    background-image: url(../20921.jpg); /* fallback */
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 100%), url(../20921.jpg);
     height: 400px;
     background-size: cover;
     background-position: center;
