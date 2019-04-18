@@ -45,7 +45,7 @@
             </div>
     <br></br><br></br><br></br>
         <!-- Container de las preguntas -->
-        <div id="main" class="main-container animated fadeInRightBig" style="height:410px;max-width:1000px;width:900px;background:#fffff" >	
+        <div id="main" class="main-container animated fadeInRightBig" style="height:460px;max-width:1000px;width:900px;background:#fffff" >	
 					
             <div class="m-scene main-content animated fadeInRightBig">
 
@@ -79,6 +79,7 @@
             <div><label> <input type="radio" value="Mujer" id="r4" name="radio2" >  Mujer </label></div>
             </div>
             </div>
+            <br></br><br></br>
 
         <!-- Aceptar/Cancelar -->
             <div id="TopNav" style="background:#fff">

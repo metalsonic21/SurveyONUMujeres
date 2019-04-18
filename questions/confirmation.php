@@ -22,7 +22,7 @@
             </div>
     <br></br><br></br><br></br>
         <!-- Container de las preguntas -->
-        <div id="main" class="main-container animated fadeInRightBig" style="height:410px;max-width:1000px;width:900px;background:#fffff;" >	
+        <div id="main" class="main-container animated fadeInRightBig" style="height:460px;max-width:1000px;width:900px;background:#fffff;" >	
 					
             <div class="m-scene main-content animated fadeInRightBig">
 
@@ -42,7 +42,7 @@
                 <div><label><input type="radio" name="radio" id="r2" value="no" >No</label></div>
                 </div>
                 </div>
-                <br></br><br></br><br></br>
+                <br></br><br></br><br></br><br></br>
 
         <!-- Aceptar/Cancelar -->
 

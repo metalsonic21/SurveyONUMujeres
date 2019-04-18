@@ -4,13 +4,13 @@ body {
 	font-size:16px !important;
 }
 .panel-default>.panel-heading {
-	background-color:	#333333 !important;	
-	border: 1px solid 	#333333 !important;
+	background-color:#5d3352 !important;	
+	border: 1px solid #5d3352 !important;
 	color:#ffffff !important;
 }
 .main-container {
-	max-width:400px;
-	height:450px;
+	max-width:900px;
+	height:460px;
  	margin-left:auto;
 	margin-right:auto;
 	background-color:#ffffff;

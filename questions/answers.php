@@ -3,6 +3,8 @@ class answers {
     public $one, $two, $three; //Aceptar encuesta
     public $four; //Emprendimiento (1), MyPime (2), Independiente(3)
     public $five, $six; //Hombre, Mujer
+    public $seven, $eight; //Nombre, Cedula
+    public $nine = array(["direccion"=>"","canton"=>"","provincia"=>""]);
 
     public function constructor($one, $two, $three, $four, $five, $six){
         /*Primer lote de preguntas*/
@@ -93,8 +95,11 @@ class answers {
         return $this->eight;
     }
 
-    public function setNine($nine){
-        $this->nine= $nine;
+    public function setNine($direccion, $canton, $provincia){
+        $this->nine["direccion"]= $direccion;
+        $this->nine["canton"]= $canton;
+        $this->nine["provincia"]= $provincia;
+
     }
 
     public function getNine(){

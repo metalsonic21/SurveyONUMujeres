@@ -11,10 +11,11 @@
             $f1 = $_GET['t1'];
             $f2 = $_GET['t2'];
             if ((strlen($f1)>0) && (strlen($f1)<=70))
-                if ((strlen($f2)>0) && (strlen($f2)<=70)){
+                if ((strlen($f2)>0) && (strlen($f2)<=120)){
                 $a->setSeven($f1);
                 $a->setEight($f2);
-                readfile("part1.php");
+                header("Location: part2.php"); 
+                exit();
             }
             }?>
 
@@ -38,7 +39,7 @@
             </div>
     <br></br><br></br><br></br><br></br>
         <!-- Container de las preguntas -->
-        <div id="main" class="main-container animated fadeInRightBig" style="height:410px;max-width:1000px;width:900px;background:#fffff;" >	
+        <div id="main" class="main-container animated fadeInRightBig" style="height:460px;max-width:1000px;width:900px;background:#fffff;" >	
 					
             <div class="m-scene main-content animated fadeInRightBig">
 
