@@ -20,7 +20,7 @@
                 readfile("terminate.html");
             }
             else if($a->checkFM($a->getSix())==1) {
-                header("Location: filter4.php"); 
+                header("Location: part1.php"); 
                 exit();
             }
             }?>
@@ -45,7 +45,7 @@
             </div>
     <br></br><br></br><br></br>
         <!-- Container de las preguntas -->
-        <div id="main" class="main-container animated fadeInRightBig" style="height:380px;max-width:1000px;width:900px;background:#fffff" >	
+        <div id="main" class="main-container animated fadeInRightBig" style="height:410px;max-width:1000px;width:900px;background:#fffff" >	
 					
             <div class="m-scene main-content animated fadeInRightBig">
 

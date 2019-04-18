@@ -14,6 +14,19 @@ class answers {
         $this->six = $six;
     }
 
+    public function constructorf1($seven, $eight, $nine, $ten, $eleven, $twelve, $thirteen, $fourteen, $fifteen){
+        /*Primer lote de preguntas*/
+        $this->seven = $seven;
+        $this->eight = $eight;
+        $this->nine = $nine;
+        $this->ten = $ten;
+        $this->eleven = $eleven;
+        $this->twelve = $twelve;
+        $this->thirteen = $thirteen;
+        $this->fourteen = $fourteen;
+        $this->fifteen = $fifteen;
+    }
+
     /*Getters y setters*/
 
     public function getOne(){
@@ -62,6 +75,71 @@ class answers {
 
     public function setSix($six){
         $this->six= $six;
+    }
+    
+    public function setSeven($seven){
+        $this->seven= $seven;
+    }
+
+    public function getSeven(){
+        return $this->seven;
+    }
+
+    public function setEight($eight){
+        $this->eight= $eight;
+    }
+
+    public function getEight(){
+        return $this->eight;
+    }
+
+    public function setNine($nine){
+        $this->nine= $nine;
+    }
+
+    public function getNine(){
+        return $this->nine;
+    }
+
+    public function getTen(){
+        return $this->ten;
+    }
+
+    public function setTen($ten){
+        $this->ten= $ten;
+    }
+
+    public function getEleven(){
+        return $this->eleven;
+    }
+
+    public function setEleven($eleven){
+        $this->eleven= $eleven;
+    }
+
+
+    public function getTwelve(){
+        return $this->twelve;
+    }
+
+    public function setTwelve($twelve){
+        $this->twelve= $twelve;
+    }
+
+    public function getThirteen(){
+        return $this->thirteen;
+    }
+
+    public function setFourteen($fourteen){
+        $this->fourteen= $fourteen;
+    }
+
+    public function getFifteen(){
+        return $this->fifteen;
+    }
+
+    public function setFifteen($fifteen){
+        $this->fifteen= $fifteen;
     }
 
     /*Filtros*/
