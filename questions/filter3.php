@@ -21,23 +21,14 @@
 <html>
     <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> ONU MUJERES & PROCOMER </title>
         <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
-        <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/iCheck/custom.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/questions.css">
         <link rel="stylesheet" href="css/animate.css">		
-        <link href="css/style.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link rel="stylesheet" href="css/pageTransitions.css?v=2"> 	
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 				
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 					
     </head>
     <header style="padding-top: 0px;">
         <!-- Inicio --> 
@@ -46,7 +37,7 @@
             </div>
     <br></br><br></br><br></br>
         <!-- Container de las preguntas -->
-        <div id="main" class="main-container animated fadeInRightBig" style="background:#fffff" >	
+        <div id="main" class="main-container animated fadeInRightBig" style="height:410px;max-width:1000px;width:900px;background:#fffff" >	
 					
             <div class="m-scene main-content animated fadeInRightBig">
 
@@ -64,7 +55,8 @@
             <div><label> <input type="radio" value="2" id="r2" name="radio"> <b>Mipyme(Micro, pequeña o mediana empresa)</b> </label></div>
             <div><label> <input type="radio" value="3" id="r3" name="radio"> <b>Actividad Profesional Independiente:</b> (Es una persona que trabaja por su cuenta, manejando su propio ritmo, tiempos y lugar de trabajo, en la actividad que desarrolle. También se le conoce como freelancer) </label></div>
             </div>
-            </div>         
+            </div>       
+            <br></br><br></br>  
                 
         <!-- Aceptar/Cancelar -->          
             <div id="TopNav" style="background:#fff">
