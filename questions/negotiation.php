@@ -61,8 +61,8 @@
             <small class="text-navy"></small></label>
             <div class="col-sm-10">
             <form action = "" method ="post">
-            <div><label> <input type="radio" value="si" name="radio" > Sí </label></div>
-            <div><label> <input type="radio" value="no" name="radio"> No </label></div>
+            <div><label> <input type="radio" value="si" id="r1" name="radio" > Sí </label></div>
+            <div><label> <input type="radio" value="no" id="r2" name="radio"> No </label></div>
             </div>
             </div>
             </div>
@@ -77,8 +77,8 @@
             <div class="form-group row"><label class="col-sm-2 col-form-label"><br/>
             <small class="text-navy"></small></label>
             <div class="col-sm-10">
-            <div><label> <input type="radio" value="si" name="radio2"> Sí </label></div>
-            <div><label> <input type="radio" value="no" name="radio2"> No</label></div>
+            <div><label> <input type="radio" value="si" id="r3" name="radio2"> Sí </label></div>
+            <div><label> <input type="radio" value="no" id="r4" name="radio2"> No</label></div>
             </div>
             </div>
 
@@ -116,4 +116,43 @@
         </div>
         <br></br>
             </body>
+
+        <!-- Verificar si radios están seleccionados -->
+
+        <script type="text/javascript" >
+            function formValidation(oEvent) { 
+            oEvent = oEvent || window.event; 
+            var txtField = oEvent.target || oEvent.srcElement; 
+
+            var t1ck=true;
+            var msg=" ";
+            if(!document.getElementById("r1").checked && !document.getElementById("r2").checked && !document.getElementById("r3").checked && !document.getElementById("r4").checked ){ t1ck=false;}
+            if(!document.getElementById("r3").checked && !document.getElementById("r4").checked ){ t1ck=false;}
+            if(!document.getElementById("r1").checked && !document.getElementById("r2").checked ){ t1ck=false;}
+            //alert(msg + t1ck);
+
+            if(t1ck){document.getElementById("submitbttn").disabled = false;
+            msg=msg+ " <b> Submit Button is enabled </b>";
+            }
+            else{document.getElementById("submitbttn").disabled = true; 
+            msg=msg+ " <b> Submit Button is disabled </b>";
+            }// end of if checking status of t1ck variable 
+            } 
+
+            window.onload = function () { 
+            var btnSignUp = document.getElementById("submitbttn"); 
+
+            var r1 = document.getElementById("r1"); 
+            var r2 = document.getElementById("r2"); 
+            var r3 = document.getElementById("r3"); 
+            var r4 = document.getElementById("r4"); 
+
+            var t1ck=false;
+            document.getElementById("submitbttn").disabled = true;
+            r1.onclick = formValidation; 
+            r2.onclick = formValidation; 
+            r3.onclick = formValidation; 
+            r4.onclick = formValidation; 
+}
+    </script>
 </html>

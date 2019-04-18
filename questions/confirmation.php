@@ -38,8 +38,8 @@
                 <small class="text-navy"></small></label>
                 <form action="" method="post">
                 <div class="col-sm-10">
-                <div><label><input type="radio" name="radio" value="si" >Sí</label></div>
-                <div><label><input type="radio" name="radio" value="no" >No</label></div>
+                <div><label><input type="radio" name="radio" id="r1" value="si" >Sí</label></div>
+                <div><label><input type="radio" name="radio" id="r2" value="no" >No</label></div>
                 </div>
                 </div>
                 <br></br><br></br>
@@ -103,5 +103,41 @@
                     exit();
                 }
             }
-        ?></body>
+        ?>
+    </body>
+
+
+        <!-- Verificar si radios están seleccionados -->
+
+        <script type="text/javascript" >
+            function formValidation(oEvent) { 
+            oEvent = oEvent || window.event; 
+            var txtField = oEvent.target || oEvent.srcElement; 
+
+            var t1ck=true;
+            var msg=" ";
+            if(!document.getElementById("r1").checked && !document.getElementById("r2").checked){ t1ck=false;}
+
+            //alert(msg + t1ck);
+
+            if(t1ck){document.getElementById("submitbttn").disabled = false;
+            msg=msg+ " <b> Submit Button is enabled </b>";
+            }
+            else{document.getElementById("submitbttn").disabled = true; 
+            msg=msg+ " <b> Submit Button is disabled </b>";
+            }// end of if checking status of t1ck variable 
+            } 
+
+            window.onload = function () { 
+            var btnSignUp = document.getElementById("submitbttn"); 
+
+            var r1 = document.getElementById("r1"); 
+            var r2 = document.getElementById("r2"); 
+
+            var t1ck=false;
+            document.getElementById("submitbttn").disabled = true;
+            r1.onclick = formValidation; 
+            r2.onclick = formValidation; 
+}
+    </script>
 </html>
