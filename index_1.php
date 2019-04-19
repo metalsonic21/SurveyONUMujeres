@@ -47,8 +47,8 @@
       FI.1. ¿Sería usted tan amable de regalarnos unos minutos para responder algunas preguntas? Por favor considere que no hay respuestas buenas ni malas, y que la información será tratada de manera generalizada para fines estadísticos.
     </h2>
     </div>
-    <form action="" method="post">
     <div class="form-check">
+    <form action="" method="post">
     <input class="form-check-input" type="radio" name="radio" id="r1" value="si">
     <label class="form-check-label" for="r1">
           Sí
@@ -59,8 +59,7 @@
     <label class="form-check-label" for="r2">
           No
     </label>
-    </div>
-    </form>    
+    </div>  
     </div>
 
 
@@ -162,21 +161,30 @@
 <!-- Pregunta 6 -->
 
 <div class="carousel-item ">
-    <div class="form-group">
-    <div class="form-row">
-    <label for="inputEmail4">&nbsp;<b>PI.1. Datos básicos del negocio:</b></label>
-    </div>
-    <div class="form-row">
-    <label for="inputEmail4">Nombre o Razón Social de la Empresa/Negocio</label>
-    <input type="email" class="form-control" id="t1" placeholder="Nombre">
+        
+      <div class="col-md-12">
+        <div class="row">
+            <label class="col align-self-center">&nbsp;<b>PI.1. Datos básicos del negocio:</b></label>
+        
+         </div>
+        
+        <div class="row">
+           <div class="col-md-6 offset-md-3">
+                       <label for="Nombre">Nombre o Razón Social:</label>
+                 <input type="text" id="nombre" class="form-control" placeholder="Nombre o Razón Social de la Empresa/Negocio">
+            </div>
+        
+            <div class="col-md-6 offset-md-3">
+              <label for="Nombre">Cédula Jurídica o Física:</label>
+                 <input type="text" id="cedula" class="form-control" placeholder="Por favor no utilice puntos, comas ni guiones, solo letras y/o números">
+            </div>
+            
+            
+        </div>    
+  
+    </div> 
     </div>
 
-    <div class="form-row">
-    <label for="inputEmail4">Cédula Jurídica o Física</label>
-    <input type="email" class="form-control" id="t2" placeholder="Por favor no utilice puntos, comas ni guiones, solo letras y/o números">
-    </div>
-    </div>
-    </div>
 
 
 
@@ -1167,6 +1175,34 @@
     </div>
 
 
+<!-- Pregunta 25 -->
+
+<div class="carousel-item ">
+        
+      <div class="col-md-12">
+        <div class="row">
+            <label class="col align-self-center">&nbsp;<b>PI.1. Datos básicos del negocio:</b></label>
+        
+         </div>
+        
+        <div class="row">
+           <div class="col-md-6 offset-md-3">
+                       <label for="Nombre">Nombre o Razón Social:</label>
+                 <input type="text" id="nombre" class="form-control" placeholder="Nombre o Razón Social de la Empresa/Negocio">
+            </div>
+        
+            <div class="col-md-6 offset-md-3">
+              <label for="Nombre">Cédula Jurídica o Física:</label>
+                 <input type="text" id="cedula" class="form-control" placeholder="Por favor no utilice puntos, comas ni guiones, solo letras y/o números">
+            </div>
+            
+            
+        </div>    
+  
+    </div> 
+    </div>
+
+
 
 
     <div class="carousel-item ">
@@ -1189,11 +1225,61 @@ gggggggggggggggghhhhhhjjjjjjjhhhhhh. <br><br>
 
 
           <!-- Botones --> 
-          <br></br>
-          <div class="container text-center">
-              <a href="#carouselExampleControls" class="btn btn-default" role="button" style="background: #62b539; width:140px; height: 52px;" data-slide="next" input type="submit">Continuar</a>
               <br></br>
-          </div>
+              <div class="container text-center" id="submitB">
+                  <a href="#carouselExampleControls" onclick="hello(); upCount()" id="submitbttn" role="button" data-slide="next" class="btn btn-info btn-lg" role="button" style="background: #62b539; width:140px; height: 52px;">Continuar</a>
+                  <br></br>
+              </div>
+
+<!-- Verificaciones y salvar datos en PHP --> 
+
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script type="text/javascript">
+  function hello() {
+    countClicks++;
+    }
+    
+    var countClicks = 0;
+
+
+    /*Verificar si en la pregunta 1 el usuario contestó "si"*/
+    
+    function upCount() { 
+    /*Verificar y enviar a PHP*/
+
+    if (countClicks == 1){
+      if (document.getElementById('r1').checked) {
+          one = document.getElementById('r1').value;
+          }
+      else if (document.getElementById('r2').checked) {
+        one = document.getElementById('r2').value;
+        }
+
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,one:one},
+        success: function(data){
+        alert(data);
+        }
+        });
+
+
+        } //Fin de 1
+
+
+
+
+
+
+    	alert(countClicks);
+      // window.location.href = "save.php";
+      }
+    
+  </script>
+
+
 
 
 
@@ -1202,6 +1288,7 @@ gggggggggggggggghhhhhhjjjjjjjhhhhhh. <br><br>
 
      
     </div>
+    </form>  
   </header>
 
   <!-- Portfolio Grid Section -->
