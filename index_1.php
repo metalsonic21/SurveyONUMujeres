@@ -39,13 +39,14 @@
 
 
 
-
+<!--                              FILTROS INICIALES                                -->
+<!--                              Sección 1                                        -->
 <!-- Pregunta 1 -->
 
 
-    <h2 class="font-weight-light mb-2 h6 small">
-      FI.1. ¿Sería usted tan amable de regalarnos unos minutos para responder algunas preguntas? Por favor considere que no hay respuestas buenas ni malas, y que la información será tratada de manera generalizada para fines estadísticos.
-    </h2>
+<div class="col-md-6 offset-md-3">
+<label for="inputEmail4"><b>FI.1. ¿Sería usted tan amable de regalarnos unos minutos para responder algunas preguntas? Por favor considere que no hay respuestas buenas ni malas, y que la información será tratada de manera generalizada para fines estadísticos.</b></label>
+</div> 
     </div>
     <div class="form-check">
     <form action="" method="post">
@@ -63,7 +64,7 @@
     </div>
 
 
-
+<!--                              Sección 2                                        -->
 <!-- Pregunta 2 -->
 
 
@@ -96,7 +97,7 @@
     </div>
     </div>
 
-      
+<!--                              Sección 3                                      -->      
 <!-- Pregunta 4 -->
 
     <div class="carousel-item ">
@@ -121,10 +122,8 @@
     </div>
 
 
-
+<!--                              Sección 4                                      -->      
 <!-- Pregunta 5 -->
-
-
 
 <div class="carousel-item ">
     <div class="form-group">
@@ -149,7 +148,7 @@
     </div>
 
     <div class="form-check">
-    <input class="form-check-input" type="radio" name="radio5" id="r13" value="Mujer">
+    <input class="form-check-input" type="radio" name="radio6" id="r13" value="Mujer">
     <label class="form-check-label" for="r13">Mujer</label>
     </div>    
     </div>
@@ -157,131 +156,143 @@
 
 
 
-<!-- PARTE 1 -->
-<!-- Pregunta 6 -->
-
-<div class="carousel-item ">
-        
-      <div class="col-md-12">
-        <div class="row">
-            <label class="col align-self-center">&nbsp;<b>PI.1. Datos básicos del negocio:</b></label>
-        
-         </div>
-        
-        <div class="row">
-           <div class="col-md-6 offset-md-3">
-                       <label for="Nombre">Nombre o Razón Social:</label>
-                 <input type="text" id="nombre" class="form-control" placeholder="Nombre o Razón Social de la Empresa/Negocio">
-            </div>
-        
-            <div class="col-md-6 offset-md-3">
-              <label for="Nombre">Cédula Jurídica o Física:</label>
-                 <input type="text" id="cedula" class="form-control" placeholder="Por favor no utilice puntos, comas ni guiones, solo letras y/o números">
-            </div>
-            
-            
-        </div>    
-  
-    </div> 
-    </div>
-
-
-
-
+<!--                              PARTE I                                -->
+<!--                              Sección 5                                        -->
 <!-- Pregunta 7 -->
 
-
-
-<div class="carousel-item ">
-    <div class="form-group">
-    <div class="form-row">
-    <label for="inputEmail4">&nbsp;<b>PI.1.3 Dirección:</b></label>
-    </div>
-    <div class="form-row">
-    <label for="inputEmail4">Provincia</label>
-    <input type="email" class="form-control" id="t3" placeholder="Provincia">
-    </div>
-
-    <div class="form-row">
-    <label for="inputEmail4">Cantón</label>
-    <input type="email" class="form-control" id="t4" placeholder="Catón">
-    </div>
-
-    <div class="form-row">
-    <label for="inputEmail4">Distrito</label>
-    <input type="email" class="form-control" id="t5" placeholder="Distrito">
-    </div>
-    </div>
-    </div>
+  <div class="carousel-item ">  
+  <div class="col-md-12">
+  <div class="row">
+  <label class="col align-self-center">&nbsp;<b>PI.1. Datos básicos del negocio:</b></label>      
+  </div>
+        
+  <div class="row">
+  <div class="col-md-6 offset-md-3">
+  <label for="Nombre">Nombre o Razón Social:</label>
+  <input type="text" id="t1" class="form-control" placeholder="Nombre o Razón Social de la Empresa/Negocio">
+  </div>
 
 <!-- Pregunta 8 -->
-
-<div class="carousel-item ">
-    <div class="form-group">
-    <div class="form-row">
-    <label for="inputEmail4">&nbsp;<b>PI.4. Teléfono</b></label>
-    </div>
-    <div class="form-row">
-    <label for="inputEmail4">Fijo</label>
-    <input type="email" class="form-control" id="t6" placeholder="Fijo">
-    </div>
-
-    <div class="form-row">
-    <label for="inputEmail4">Móvil</label>
-    <input type="email" class="form-control" id="t7" placeholder="Móvil">
-    </div>
-    </div>
-    </div>
+        
+  <div class="col-md-6 offset-md-3">
+  <label for="Nombre">Cédula Jurídica o Física:</label>
+  <input type="text" id="t2" class="form-control" placeholder="Por favor no utilice puntos, comas ni guiones, solo letras y/o números">
+  </div>        
+  </div>    
+  </div> 
+  </div>
 
 
+
+<!--                              Sección 6                                        -->
 <!-- Pregunta 9 -->
+  <div class="carousel-item ">
+  <div class="form-group">
+  <div class="form-row">
+  <label class="col align-self-center">&nbsp;<b>PI.1.3 Dirección:</b></label>
+  </div>
 
+  <div class="row">
+  <div class="col-md-6 offset-md-3">
+  <label>Provincia</label>
+  <input type="text" class="form-control" id="t3" placeholder="Provincia">
+  </div>
 
+  <div class="col-md-6 offset-md-3">
+  <label>Cantón</label>
+  <input type="text" class="form-control" id="t4" placeholder="Cantón">
+  </div>
 
-<div class="carousel-item ">
-    <div class="form-group">
-    <div class="form-row">
-    <label for="inputEmail4">&nbsp;<b>PI.1.4 Correos electrónicos (al menos uno)</b></label>
-    </div>
-    <div class="form-row">
-    <label for="inputEmail4">Correo electrónico</label>
-    <input type="email" class="form-control" id="t8" placeholder="Correo electrónico">
-    </div>
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Distrito</label>
+  <input type="text" class="form-control" id="t5" placeholder="Distrito">
+  </div>
+  </div>
+  </div>
+  </div>
 
-    <div class="form-row">
-    <label for="inputEmail4">Correo electrónico</label>
-    <input type="email" class="form-control" id="t9" placeholder="Correo electrónico">
-    </div>
-    </div>
-    </div>
-
-
+<!--                              Sección 7                                        -->
 <!-- Pregunta 10 -->
 
-<div class="carousel-item ">
-    <div class="form-group">
-    <div class="form-row">
-    <label for="inputEmail4">Nombre de fantasía</label>
-    <input type="email" class="form-control" id="t10" placeholder="Nombre">
-    </div>
-
-    <div class="form-row">
-    <label for="inputEmail4">¿Con cuántos colaboradores cuenta su empresa actualmente?</label>
-    <input type="email" class="form-control" id="t11" placeholder="">
-    </div>
-    </div>
-    </div>
+  <div class="carousel-item ">
+  <div class="form-group">
+  <div class="form-row">
+  <label class ="col align-self-center">&nbsp;<b>PI.4. Teléfono</b></label>
+  </div>
 
 
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Fijo</label>
+  <input type="text" class="form-control" id="t6" placeholder="Fijo">
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Móvil</label>
+  <input type="text" class="form-control" id="t7" placeholder="Móvil">
+  </div>
+  </div>
+  </div>
+  </div>
 
 
+<!--                              Sección 8                                        -->
 <!-- Pregunta 11 -->
 
-<div class="carousel-item ">
-    <div class="form-group">
-    <div class="form-row">
-    <label for="inputEmail4">Año de inicio de operaciones</label>
-    <select class="form-control form-control">
+  <div class="carousel-item ">
+  <div class="form-group">
+  <div class="form-row">
+  <label class="col align-self-center">&nbsp;<b>PI.1.4 Correos electrónicos (al menos uno)</b></label>
+  </div>
+
+
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Correo electrónico</label>
+  <input type="email" class="form-control" id="t8" placeholder="Correo electrónico">
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Correo electrónico</label>
+  <input type="email" class="form-control" id="t9" placeholder="Correo electrónico">
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+<!--                              Sección 9                                        -->
+<!-- Pregunta 12 -->
+
+  <div class="carousel-item ">
+  <div class="form-group">
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label class="col align-self-center">Nombre de fantasía</label>
+  <input type="text" class="form-control" id="t10" placeholder="Nombre">
+  </div>
+
+<!-- Pregunta 13 -->
+
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">¿Con cuántos colaboradores cuenta su empresa actualmente?</label>
+  <input type="text" class="form-control" id="t11" placeholder="">
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+
+<!--                              Sección 10                                        -->
+<!-- Pregunta 14 -->
+
+  <div class="carousel-item ">
+  <div class="form-group">
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label class="col align-self-center">Año de inicio de operaciones</label>
+  <select class="form-control form-control" id="s1">
         <option>1900</option>
         <option>1901</option>
         <option>1902</option>
@@ -402,332 +413,366 @@
         <option>2017</option>
         <option>2018</option>
         <option>2019</option>
-
-      </select>    
+    </select>
+    </div>    
     </div>
     </div>
     </div>
 
 
-<!-- Pregunta 12 -->
-
-
-
-<div class="carousel-item ">
-    <div class="form-group">
-    <div class="form-row">
-    <label for="inputEmail4">&nbsp;<b>PI.2. Clasificación:</b></label>
-    </div>
-    <div class="form-row">
-    <label for="inputEmail4">&nbsp;PII.1. ¿A qué sector diría que pertenece su negocio? Puede seleccionar varios</label>
-    </div>
-    <div class="form-row">
-    <div class="custom-control custom-checkbox">
-    <input type="checkbox" class="custom-control-input" id="c1">
-    <label class="custom-control-label" for="customCheck1">Agrícola</label>
-    </div>
-  </div>
-  <div class="form-row">
-    <div class="custom-control custom-checkbox">
-    <input type="checkbox" class="custom-control-input" id="c2">
-    <label class="custom-control-label" for="customCheck1">Alimentaria</label>
-    </div>
-  </div>
-  <div class="form-row">
-    <div class="custom-control custom-checkbox">
-    <input type="checkbox" class="custom-control-input" id="c3">
-    <label class="custom-control-label" for="customCheck1">Pecuario y lácteos</label>
-    </div>
-  </div>
-  <div class="form-row">
-    <div class="custom-control custom-checkbox">
-        <input type="checkbox" class="custom-control-input" id="c4">
-        <label class="custom-control-label" for="customCheck1">Pesca</label>
-        </div>
-      </div>
-      <div class="form-row">
-        <div class="custom-control custom-checkbox">
-            <input type="checkbox" class="custom-control-input" id="c5">
-            <label class="custom-control-label" for="customCheck1">Plantas, flores y follajes</label>
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="c6">
-                <label class="custom-control-label" for="customCheck1">Industria-Plástico</label>
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="custom-control custom-checkbox">
-                    <input type="checkbox" class="custom-control-input" id="c7">
-                    <label class="custom-control-label" for="customCheck1">Industria-Metalmecánica</label>
-                    </div>
-                  </div>
-                  <div class="form-row">
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="c8">
-                        <label class="custom-control-label" for="customCheck1">Industria-Farmacéutica</label>
-                        </div>
-                      </div>
-                      <div class="form-row">
-                        <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="c9">
-                            <label class="custom-control-label" for="customCheck1">Industria-Cuidado personal y limpieza</label>
-                            </div>
-                          </div>
-                          <div class="form-row">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="c10">
-                                <label class="custom-control-label" for="customCheck1">Industria-Agroquímicos y fertilizantes</label>
-                                </div>
-                              </div>
-                              <div class="form-row">
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="c11">
-                                    <label class="custom-control-label" for="customCheck1">Industria-Manufactura avanzada</label>
-                                    </div>
-                                  </div>
-                                  <div class="form-row">
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="c12">
-                                        <label class="custom-control-label" for="customCheck1">Industria-Dispositivos médicos</label>
-                                        </div>
-                                      </div>
-                                      <div class="form-row">
-                                        <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="c13">
-                                            <label class="custom-control-label" for="customCheck1">Industria-Aerospacial y aeronáutica</label>
-                                            </div>
-                                          </div>
-                                          <div class="form-row">
-                                            <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="c14">
-                                                <label class="custom-control-label" for="customCheck1">Industria-Construcción y ferretería</label>
-                                                </div>
-                                              </div>
-                                              <div class="form-row">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="c15">
-                                                    <label class="custom-control-label" for="customCheck1">Industria-Empaque y embalaje</label>
-                                                    </div>
-                                                  </div>
-                                                  <div class="form-row">
-                                                    <div class="custom-control custom-checkbox">
-                                                        <input type="checkbox" class="custom-control-input" id="c16">
-                                                        <label class="custom-control-label" for="customCheck1">Industria-Maderera</label>
-                                                        </div>
-                                                      </div>
-                                                      <div class="form-row">
-                                                        <div class="custom-control custom-checkbox">
-                                                            <input type="checkbox" class="custom-control-input" id="c17">
-                                                            <label class="custom-control-label" for="customCheck1">Animación digital</label>
-                                                            </div>
-                                                          </div>
-                                                          <div class="form-row">
-                                                            <div class="custom-control custom-checkbox">
-                                                                <input type="checkbox" class="custom-control-input" id="c18">
-                                                                <label class="custom-control-label" for="customCheck1">Biotecnología</label>
-                                                                </div>
-                                                              </div>
-                                                              <div class="form-row">
-                                                                <div class="custom-control custom-checkbox">
-                                                                    <input type="checkbox" class="custom-control-input" id="c19">
-                                                                    <label class="custom-control-label" for="customCheck1">Fílmico/Audiovisual</label>
-                                                                    </div>
-                                                                  </div>
-                                                                  <div class="form-row">
-                                                                    <div class="custom-control custom-checkbox">
-                                                                        <input type="checkbox" class="custom-control-input" id="c20">
-                                                                        <label class="custom-control-label" for="customCheck1">Moda</label>
-                                                                        </div>
-                                                                      </div>
-                                                                      <div class="form-row">
-                                                                        <div class="custom-control custom-checkbox">
-                                                                            <input type="checkbox" class="custom-control-input" id="c21">
-                                                                            <label class="custom-control-label" for="customCheck1">Servicios ambientales</label>
-                                                                            </div>
-                                                                          </div>
-                                                                          <div class="form-row">
-                                                                            <div class="custom-control custom-checkbox">
-                                                                                <input type="checkbox" class="custom-control-input" id="c22">
-                                                                                <label class="custom-control-label" for="customCheck1">Servicios de diseño y construcción</label>
-                                                                                </div>
-                                                                              </div>
-                                                                              <div class="form-row">
-                                                                                <div class="custom-control custom-checkbox">
-                                                                                    <input type="checkbox" class="custom-control-input" id="c23">
-                                                                                    <label class="custom-control-label" for="customCheck1">Servicios de salud</label>
-                                                                                    </div>
-                                                                                  </div>
-                                                                                  <div class="form-row">
-                                                                                    <div class="custom-control custom-checkbox">
-                                                                                        <input type="checkbox" class="custom-control-input" id="c24">
-                                                                                        <label class="custom-control-label" for="customCheck1">Servicios educativos</label>
-                                                                                        </div>
-                                                                                      </div>
-    </div>
-    </div>
-
-
-
-<!-- Pregunta 13 -->
-
-<div class="carousel-item ">
-    <div class="form-group">
-    <div class="form-row">
-    <label for="inputEmail4"><b>PII.2 ¿Ofrece su empresa productos o servicios de elaboración propia, originales?</b></label>
-  </div>  
-    <div class="form-check">
-        <input class="form-check-input" type="radio" name="radio7" id="r14" value="si">
-        <label class="form-check-label" for="r14">Sí</label>
-        </div>
-    
-        <div class="form-check">
-        <input class="form-check-input" type="radio" name="radio7" id="r15" value="no">
-        <label class="form-check-label" for="r15">No</label>
-        </div>
-      </div>      
-
-        <div class="form-row">
-            <label for="inputEmail4"><b>PII.3 Por favor, describa detalladamente qué produce su negocio</b></label>
-          </div>  
-    <div class="form-row">
-    <label for="inputEmail4">¿Cuáles son los productos o servicios que ofrece?</label>
-    <input type="email" class="form-control" id="t11" placeholder="">
-    </div>
-    </div>
-
-
-    <!-- Pregunta 14 -->
-
-
-
-<div class="carousel-item ">
-    <div class="form-group">
-    <div class="form-row">
-    <label for="inputEmail4">&nbsp;PII.1. ¿A qué sector diría que pertenece su negocio? Puede seleccionar varios</label>
-    </div>
-    <div class="form-row">
-    <div class="custom-control custom-checkbox">
-    <input type="checkbox" class="custom-control-input" id="c25">
-    <label class="custom-control-label" for="customCheck1">Alimentos funcionales</label>
-    </div>
-  </div>
-  <div class="form-row">
-    <div class="custom-control custom-checkbox">
-    <input type="checkbox" class="custom-control-input" id="c26">
-    <label class="custom-control-label" for="customCheck1">Agricultura sostenible</label>
-    </div>
-  </div>
-  <div class="form-row">
-    <div class="custom-control custom-checkbox">
-    <input type="checkbox" class="custom-control-input" id="c27">
-    <label class="custom-control-label" for="customCheck1">Manufactura avanzada</label>
-    </div>
-  </div>
-  <div class="form-row">
-    <div class="custom-control custom-checkbox">
-        <input type="checkbox" class="custom-control-input" id="c28">
-        <label class="custom-control-label" for="customCheck1">Servicios como biotecnología</label>
-        </div>
-      </div>
-      <div class="form-row">
-        <div class="custom-control custom-checkbox">
-            <input type="checkbox" class="custom-control-input" id="c29">
-            <label class="custom-control-label" for="customCheck1">TI Aplicada</label>
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="c30">
-                <label class="custom-control-label" for="customCheck1">Servicios sostenibles</label>
-                </div>
-              </div>
-                          <div class="form-row">
-                                                                                    <div class="custom-control custom-checkbox">
-                                                                                        <input type="checkbox" class="custom-control-input" id="c31">
-                                                                                        <label class="custom-control-label" for="customCheck1">Otros</label>
-                                                                                        </div>
-                                                                                      </div>
-    </div>
-    </div>
-
-
-
-
-
+<!--                              PARTE II                                -->
+<!--                              Sección 11                                        -->
 <!-- Pregunta 15 -->
 
-<div class="carousel-item ">
-    <div class="form-group">
-    <div class="form-row">
-    <label for="inputEmail4"><b>¿Su empresa está registrada como PYME ante el MEIC?</b></label>
-  </div>  
-    <div class="form-check">
-        <input class="form-check-input" type="radio" name="radio8" id="r16" value="si">
-        <label class="form-check-label" for="r16">Sí</label>
-        </div>
-    
-        <div class="form-check">
-        <input class="form-check-input" type="radio" name="radio8" id="r17" value="no">
-        <label class="form-check-label" for="r17">No</label>
-        </div>
-    </div>
 
-    
+  <div class="carousel-item ">
+  <div class="form-group">
+  <div class="form-row">
+  <label class="col align-self-center">&nbsp;<b>PI.2. Clasificación:</b></label>
+  </div>
+
+
+  <div class="form-row">
+  <label class="col align-self-center">&nbsp;PII.1. ¿A qué sector diría que pertenece su negocio? Puede seleccionar varios</label>
+  </div>
+
+
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c1" name="c1">
+  <label class="custom-control-label" for ="c1">Agrícola</label>
+  </div>
+  </div>
+
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c2">
+  <label class="custom-control-label" for="c2">Alimentaria</label>
+  </div>
+  </div>
+
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c3">
+  <label class="custom-control-label" for="c3">Pecuario y lácteos</label>
+  </div>
+  </div>
+
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c4">
+  <label class="custom-control-label" for="c4">Pesca</label>
+  </div>
+  </div>
+
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c5">
+  <label class="custom-control-label" for="c5">Plantas, flores y follajes</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c6">
+  <label class="custom-control-label" for="c6">Industria-Plástico</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c7">
+  <label class="custom-control-label" for="c7">Industria-Metalmecánica</label>
+  </div>
+  </div>
+
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c8">
+  <label class="custom-control-label" for="c8">Industria-Farmacéutica</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c9">
+  <label class="custom-control-label" for="c9">Industria-Cuidado personal y limpieza</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c10">
+  <label class="custom-control-label" for="c10">Industria-Agroquímicos y fertilizantes</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c11">
+  <label class="custom-control-label" for="c11">Industria-Manufactura avanzada</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c12">
+  <label class="custom-control-label" for="c12">Industria-Dispositivos médicos</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c13">
+  <label class="custom-control-label" for="c13">Industria-Aerospacial y aeronáutica</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c14">
+  <label class="custom-control-label" for="c14">Industria-Construcción y ferretería</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c15">
+  <label class="custom-control-label" for="c15">Industria-Empaque y embalaje</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c16">
+  <label class="custom-control-label" for="c16">Industria-Maderera</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c17">
+  <label class="custom-control-label" for="c17">Animación digital</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c18">
+  <label class="custom-control-label" for="c18">Biotecnología</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c19">
+  <label class="custom-control-label" for="c19">Fílmico/Audiovisual</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c20">
+  <label class="custom-control-label" for="c20">Moda</label>
+  </div>
+  </div>
+  
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c21">
+  <label class="custom-control-label" for="c21">Servicios ambientales</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c22">
+  <label class="custom-control-label" for="c22">Servicios de diseño y construcción</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c23">
+  <label class="custom-control-label" for="c23">Servicios de salud</label>
+  </div>
+  </div>
+  
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c24">
+  <label class="custom-control-label" for="c24">Servicios educativos</label>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+
+<!--                              Sección 12                                        -->
 <!-- Pregunta 16 -->
 
-    <div class="form-row">
-        <label for="inputEmail4">PII.6 ¿Qué le motivó a empezar la empresa o negocio?</label>
-      </div> 
-      <div class="form-row">
-      <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio9" id="r18" value="si">
-          <label class="form-check-label" for="r18">Autoempleo / Necesidad inmediata de ingreso </label>
-          </div>
-        </div>
-          <div class="form-row">
-          <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio9" id="r19" value="no">
-              <label class="form-check-label" for="r19">Tenía experiencia en el negocio</label>
-              </div>
-            </div>
-              <div class="form-row">
-              <div class="form-check">
-                  <input class="form-check-input" type="radio" name="radio9" id="r20" value="no">
-                  <label class="form-check-label" for="r20">Independizarse</label>
-                  </div>
-                </div>
-                  <div class="form-row">
-                  <div class="form-check">
-                      <input class="form-check-input" type="radio" name="radio9" id="r21" value="no">
-                      <label class="form-check-label" for="r21">Estudió el mercado</label>
-                      </div>
-                    </div>
-                      <div class="form-row">
-                      <div class="form-check">
-                          <input class="form-check-input" type="radio" name="radio9" id="r22" value="no">
-                          <label class="form-check-label" for="r22">Heredó el negocio</label>
-                          </div>
-                        </div>
-                          <div class="form-row">
-                          <div class="form-check">
-                              <input class="form-check-input" type="radio" name="radio9" id="r23" value="no">
-                              <label class="form-check-label" for="r23">Detectó oportunidades de negocio
-                                </label>
-                              </div>
-                            </div>
-                              <div class="form-row">
-                              <div class="form-check">
-                                  <input class="form-check-input" type="radio" name="radio9" id="r24" value="no">
-                                  <label class="form-check-label" for="r24">	
-                                      Para tener ingresos adicionales </label>
-                                  </div>
-                                </div>
-    </div>
+  <div class="carousel-item ">
+  <div class="form-group">
+  <label class="col align-self-center"><b>PII.2 ¿Ofrece su empresa productos o servicios de elaboración propia, originales?</b></label>
+ 
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio7" id="r14" value="si">
+  <label class="form-check-label" for="r14">Sí</label>
+  </div> <!-- div de form -->
+    
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio7" id="r15" value="no">
+  <label class="form-check-label" for="r15">No</label>
+  </div>  <!-- div de form -->
 
 
-<!-- Pregunta 17, no entendi -->
+<!-- Pregunta 17 -->
+
+  <div class="form-row">
+  <label class="col align-self-center"><b>PII.3 Por favor, describa detalladamente qué produce su negocio</b></label>  
+  </div> <!-- div de fila -->
+  <div class="row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">¿Cuáles son los productos o servicios que ofrece?</label>
+  <input type="text" class="form-control" id="tr12" placeholder="">
+  </div> <!-- div de fila -->
+  </div> <!-- div de columna -->
+  </div>
+  </div>
+
+
+<!--                              Sección 13                                        -->
+<!-- Pregunta 18 -->
+
+  <div class="carousel-item ">
+  <div class="form-group">
+  <div class="form-row">
+  <label class="col align-self-center">&nbsp;<b>PII.4 ¿Diría que sus principales productos o servicios se podrían ubicar en alguna de las siguientes categorías?</b></label>
+  </div>
+
+
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c25">
+  <label class="custom-control-label" for="c25">Alimentos funcionales</label>
+  </div>
+  </div>
+
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c26">
+  <label class="custom-control-label" for="c26">Agricultura sostenible</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c27">
+  <label class="custom-control-label" for="c27">Manufactura avanzada</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c28">
+  <label class="custom-control-label" for="c28">Servicios como biotecnología</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c29">
+  <label class="custom-control-label" for="c29">TI Aplicada</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c30">
+  <label class="custom-control-label" for="c30">Servicios sostenibles</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c31">
+  <label class="custom-control-label" for="c31">Otros</label>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+<!--                              Sección 14                                        -->
+<!-- Pregunta 19 -->
+
+  <div class="carousel-item ">
+  <div class="form-group">
+  <label for="inputEmail4"><b>¿Su empresa está registrada como PYME ante el MEIC?</b></label> 
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio8" id="r16" value="si">
+  <label class="form-check-label" for="r16">Sí</label>
+  </div>
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio8" id="r17" value="no">
+  <label class="form-check-label" for="r17">No</label>
+  </div>
+
+    
+<!-- Pregunta 20 -->
+  <label for="inputEmail4"><b>PII.6 ¿Qué le motivó a empezar la empresa o negocio?</b></label> 
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio9" id="r18" value="autoempleo">
+  <label class="form-check-label" for="r18">Autoempleo / Necesidad inmediata de ingreso </label>
+  </div>
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio9" id="r19" value="experiencia">
+  <label class="form-check-label" for="r19">Tenía experiencia en el negocio</label>
+  </div>
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio9" id="r20" value="independizarse">
+  <label class="form-check-label" for="r20">Independizarse</label>
+  </div>
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio9" id="r21" value="estudio el mercado">
+  <label class="form-check-label" for="r21">Estudió el mercado</label>
+  </div>
+  
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio9" id="r22" value="herencia">
+  <label class="form-check-label" for="r22">Heredó el negocio</label>
+  </div>
+  
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio9" id="r23" value="detecto oportunidades de negocio">
+  <label class="form-check-label" for="r23">Detectó oportunidades de negocio
+  </label>
+  </div>
+  
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio9" id="r24" value="ingresos adicionales">
+  <label class="form-check-label" for="r24">Para tener ingresos adicionales </label>
+  </div>
+  </div>
+  </div>
+
+<!--                              Sección 15                                        -->
+<!-- Pregunta 21,22,23 no entendi -->
 
 <div class="carousel-item ">
     <div class="form-group">
@@ -735,444 +780,541 @@
     <label for="inputEmail4"><b>¿Su empresa está registrada como PYME ante el MEIC?</b></label>
   </div>  
     <div class="form-check">
-        <input class="form-check-input" type="radio" name="radio8" id="r16" value="si">
-        <label class="form-check-label" for="r16">Sí</label>
+        <input class="form-check-input" type="radio" name="radio8" id="rr16" value="si">
+        <label class="form-check-label" for="rr16">Sí</label>
         </div>
     
         <div class="form-check">
-        <input class="form-check-input" type="radio" name="radio8" id="r17" value="no">
-        <label class="form-check-label" for="r17">No</label>
+        <input class="form-check-input" type="radio" name="radio8" id="rr17" value="no">
+        <label class="form-check-label" for="rr17">No</label>
         </div>
     </div>
   </div>
 
 
-
-  <!-- Pregunta 18 -->
-
+<!--                              Sección 16                                        -->
+<!-- Pregunta 24 -->
   <div class="carousel-item ">
-      <div class="form-group">
-          <div class="form-row">
-              <label for="inputEmail4"><b>PII.10 ¿Cuenta su empresa, lista o en trámite, con alguna de las siguientes certificaciones? </b></label>
-            </div>  
-      <div class="form-row">
-      <label for="inputEmail4">BPA (Buenas Prácticas Alimenticias)</label>
-    </div>  
-      <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio10" id="r25" value="si">
-          <label class="form-check-label" for="r25">Sí</label>
-          </div>
+  <div class="form-group">
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4"><b>PII.10 ¿Cuenta su empresa, lista o en trámite, con alguna de las siguientes certificaciones? </b></label>
+  </div>
+  </div> 
+
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">BPA (Buenas Prácticas Alimenticias)</label>
+  </div>
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio10" id="r25" value="si">
+  <label class="form-check-label" for="r25">Sí</label>
+  </div>
       
-          <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio10" id="r26" value="no">
-          <label class="form-check-label" for="r26">No</label>
-          </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio10" id="r26" value="no">
+  <label class="form-check-label" for="r26">No</label>
+  </div>
 
-          <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio10" id="r17" value="et">
-              <label class="form-check-label" for="r27">En trámite</label>
-              </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio10" id="r27" value="en tramite">
+  <label class="form-check-label" for="r27">En trámite</label>
+  </div>
+  </div>  
 
-              <div class="form-row">
-                  <label for="inputEmail4">BPM (Buenas Prácticas de Manufactura)</label>
-                </div>  
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">BPM (Buenas Prácticas de Manufactura)</label>
+  </div>  
 
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="radio11" id="r28" value="si">
-                    <label class="form-check-label" for="r28">Sí</label>
-                    </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio11" id="r28" value="si">
+  <label class="form-check-label" for="r28">Sí</label>
+  </div>
                 
-                    <div class="form-check">
-                    <input class="form-check-input" type="radio" name="radio11" id="r29" value="no">
-                    <label class="form-check-label" for="r29">No</label>
-                    </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio11" id="r29" value="no">
+  <label class="form-check-label" for="r29">No</label>
+  </div>
           
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="radio11" id="r30" value="et">
-                        <label class="form-check-label" for="r30">En trámite</label>
-                        </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio11" id="r30" value="en tramite">
+  <label class="form-check-label" for="r30">En trámite</label>
+  </div>
+  </div>
 
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Manipulación de alimentos</label>
+  </div>  
 
-                        <div class="form-row">
-                            <label for="inputEmail4">Manipulación de alimentos</label>
-                          </div>  
-
-                          <div class="form-check">
-                              <input class="form-check-input" type="radio" name="radio12" id="r31" value="si">
-                              <label class="form-check-label" for="r31">Sí</label>
-                              </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio12" id="r31" value="si">
+  <label class="form-check-label" for="r31">Sí</label>
+  </div>
                           
-                              <div class="form-check">
-                              <input class="form-check-input" type="radio" name="radio12" id="r32" value="no">
-                              <label class="form-check-label" for="r32">No</label>
-                              </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio12" id="r32" value="no">
+  <label class="form-check-label" for="r32">No</label>
+  </div>
                     
-                              <div class="form-check">
-                                  <input class="form-check-input" type="radio" name="radio12" id="r33" value="et">
-                                  <label class="form-check-label" for="r33">En trámite</label>
-                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio12" id="r33" value="en tramite">
+  <label class="form-check-label" for="r33">En trámite</label>
+  </div>
+  </div>
 
-                                  <div class="form-row">
-                                      <label for="inputEmail4">HACCP(Análisis de Riesgo y Puntos Críticos de Control)</label>
-                                    </div>    
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">HACCP(Análisis de Riesgo y Puntos Críticos de Control)</label>
+  </div>    
                                     
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="radio13" id="r34" value="si">
-                                        <label class="form-check-label" for="r34">Sí</label>
-                                        </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio13" id="r34" value="si">
+  <label class="form-check-label" for="r34">Sí</label>
+  </div>
                                     
-                                        <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="radio13" id="r35" value="no">
-                                        <label class="form-check-label" for="r35">No</label>
-                                        </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio13" id="r35" value="no">
+  <label class="form-check-label" for="r35">No</label>
+  </div>
                               
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="radio13" id="r36" value="et">
-                                            <label class="form-check-label" for="r36">En trámite</label>
-                                            </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio13" id="r36" value="en tramite">
+  <label class="form-check-label" for="r36">En trámite</label>
+  </div>
+  </div>
 
 
-                                            <div class="form-row">
-                                                <label for="inputEmail4">Otra</label>
-                                              </div>  
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Otra</label>
+  </div>  
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio13" id="r37" value="si">
-                                                  <label class="form-check-label" for="r37">Sí</label>
-                                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="rradio13" id="r37" value="si">
+  <label class="form-check-label" for="r37">Sí</label>
+  </div>
                                               
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio13" id="r38" value="no">
-                                                  <label class="form-check-label" for="r38">No</label>
-                                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="rradio13" id="r38" value="no">
+  <label class="form-check-label" for="r38">No</label>
+  </div>
                                         
-                                                  <div class="form-check">
-                                                      <input class="form-check-input" type="radio" name="radio13" id="r39" value="et">
-                                                      <label class="form-check-label" for="r39">En trámite</label>
-                                                      </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="rradio13" id="r39" value="en tramite">
+  <label class="form-check-label" for="r39">En trámite</label>
+  </div>
+  </div>    
+  </div>
+  </div>
 
-            
-      </div>
-    </div>
 
-
-<!-- Pregunta 19 -->
-
-<div class="carousel-item ">
-    <div class="form-group">
-    <div class="form-row">
-    <label for="inputEmail4">&nbsp;<b>PII.11.¿Cuál es el principal problema que enfrentó la empresa en los últimos 12 meses?</b></label>
-    </div>
-    <div class="form-row">
-    <input type="email" class="form-control" id="t12" placeholder="">
-    </div>
-
-    <div class="form-row">
-        <label for="inputEmail4"><b>PII.12. ¿Durante los últimos 5 años se ha asociado con otra empresa o empresas para lograr algún objetivo comercial?</b></label>
-      </div>  
-      
-      <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio13" id="r37" value="si">
-          <label class="form-check-label" for="r37">Sí</label>
-          </div>
-      
-          <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio13" id="r38" value="no">
-          <label class="form-check-label" for="r38">No</label>
-          </div>
-
-          <div class="form-row">
-              <label for="inputEmail4">&nbsp;<b>PII.13.¿Cuál o cuáles?¿Con qué objetivo?</b></label>
-              </div>
-              <div class="form-row">
-              <input type="email" class="form-control" id="t13" placeholder="">
-              </div>
-
-              <div class="form-row">
-                  <label for="inputEmail4"><b>PII.14. ¿El recurso financiero con el que opera o trabaja la empresa (capital) es principalmente nacional o extranjero?</b></label>
-                </div>  
-                
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="radio13" id="r39" value="nacional">
-                    <label class="form-check-label" for="r39">Nacional</label>
-                    </div>
-                
-                    <div class="form-check">
-                    <input class="form-check-input" type="radio" name="radio13" id="r39" value="extranjero">
-                    <label class="form-check-label" for="r39">Extranjero</label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="radio13" id="r40" value="ambos">
-                        <label class="form-check-label" for="r40">Ambos por igual</label>
-                        </div>
-
-          
-    </div>
-    </div>
-
-  <!-- Pregunta 20 -->
+<!--                              Sección 17                                        -->
+<!-- Pregunta 25 -->
 
   <div class="carousel-item ">
-      <div class="form-row">
-          <label for="inputEmail4"><b>PARTE III. FORMALIZACIÓN E INTERNACIONALIZACIÓN</b></label>
-        </div>  
+  <div class="form-group">
+  <div class="form-row">
+  <label class="col align-self-center">&nbsp;<b>PII.11.¿Cuál es el principal problema que enfrentó la empresa en los últimos 12 meses?</b></label>
+  </div> <!-- div de row -->
 
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <input type="text" class="form-control" id="t12" placeholder="">
+  </div> <!-- div de columna -->
+  </div> <!-- div de row -->
 
-      <div class="form-group">
-          <div class="form-row">
-              <label for="inputEmail4"><b>PIII.1.¿En lo que respecta a la formalización e internacionalización, su empresa o negocio cuenta con?</b></label>
-            </div>  
-      <div class="form-row">
-      <label for="inputEmail4">Inscripción de la empresa en el Registro Nacional</label>
-    </div>  
-      <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio14" id="r41" value="si">
-          <label class="form-check-label" for="r41">Sí</label>
-          </div>
-      
-          <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio14" id="r42" value="no">
-          <label class="form-check-label" for="r42">No</label>
-          </div>
+<!-- Pregunta 26 -->
+  <div class="row">
+  <label class="col align-self-center"><b>PII.12. ¿Durante los últimos 5 años se ha asociado con otra empresa o empresas para lograr algún objetivo comercial?</b></label>
+  </div> <!-- div de row -->
 
-              <div class="form-row">
-                  <label for="inputEmail4">Inscripción de marcas en el Registro Nacional</label>
-                </div>  
-
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="radio15" id="r43" value="si">
-                    <label class="form-check-label" for="r43">Sí</label>
-                    </div>
-                
-                    <div class="form-check">
-                    <input class="form-check-input" type="radio" name="radio15" id="r44" value="no">
-                    <label class="form-check-label" for="r44">No</label>
-                    </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="rradio13" id="rr37" value="si">
+  <label class="form-check-label" for="rr37">Sí</label>
+  </div>    
           
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="rradio13" id="rr38" value="no">
+  <label class="form-check-label" for="rr38">No</label>
+  </div>
 
-                        <div class="form-row">
-                            <label for="inputEmail4">Inscripción en el Ministerio de Hacienda</label>
-                          </div>  
 
-                          <div class="form-check">
-                              <input class="form-check-input" type="radio" name="radio16" id="r45" value="si">
-                              <label class="form-check-label" for="r45">Sí</label>
-                              </div>
+<!-- Pregunta 27 -->
+  <div class="row">
+  <label class="col align-self-center">&nbsp;<b>PII.13.¿Cuál o cuáles?¿Con qué objetivo?</b></label>
+  </div> 
+  <div class="row">
+  <div class="col-md-6 offset-md-3">
+  <input type="text" class="form-control" id="t13" placeholder="">
+  </div>
+  </div>
+
+<!-- Pregunta 28 -->
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4"><b>PII.14. ¿El recurso financiero con el que opera o trabaja la empresa (capital) es principalmente nacional o extranjero?</b></label>
+  </div>  
+                
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="rrradio13" id="rr39" value="nacional">
+  <label class="form-check-label" for="rr39">Nacional</label>
+  </div>
+                
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="rrradio13" id="rrr39" value="extranjero">
+  <label class="form-check-label" for="rrr39">Extranjero</label>
+  </div>
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="rrradio13" id="r40" value="ambos">
+  <label class="form-check-label" for="r40">Ambos por igual</label>
+  </div>  
+  </div>
+  </div>
+
+
+<!--                              PARTE III                                -->
+<!--                              Sección 18                                        -->
+<!-- Pregunta 29 -->
+
+  <div class="carousel-item ">
+  <div class="form-group">
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4"><b>PARTE III. FORMALIZACIÓN E INTERNACIONALIZACIÓN</b></label>
+  </div>    <!-- div de columna -->
+  </div> <!-- div de fila -->
+
+
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4"><b>PIII.1.¿En lo que respecta a la formalización e internacionalización, su empresa o negocio cuenta con?</b></label> 
+  </div>  
+  </div>
+
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Inscripción de la empresa en el Registro Nacional</label>
+  </div> 
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio14" id="r41" value="si">
+  <label class="form-check-label" for="r41">Sí</label>
+  </div>
+      
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio14" id="r42" value="no">
+  <label class="form-check-label" for="r42">No</label>
+  </div>
+  </div>
+
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Inscripción de marcas en el Registro Nacional</label>
+  </div>  
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio15" id="r43" value="si">
+  <label class="form-check-label" for="r43">Sí</label>
+  </div>
+          
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio15" id="r44" value="no">
+  <label class="form-check-label" for="r44">No</label>
+  </div>
+  </div>
+          
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Inscripción en el Ministerio de Hacienda</label>
+  </div>  
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio16" id="r45" value="si">
+  <label class="form-check-label" for="r45">Sí</label>
+  </div>
                           
-                              <div class="form-check">
-                              <input class="form-check-input" type="radio" name="radio16" id="r46" value="no">
-                              <label class="form-check-label" for="r46">No</label>
-                              </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio16" id="r46" value="no">
+  <label class="form-check-label" for="r46">No</label>
+  </div>
+  </div>
 
-                                  <div class="form-row">
-                                      <label for="inputEmail4">Patente municipal</label>
-                                    </div>    
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Patente municipal</label>
+  </div>    
                                     
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="radio17" id="47" value="si">
-                                        <label class="form-check-label" for="r47">Sí</label>
-                                        </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio17" id="r47" value="si">
+  <label class="form-check-label" for="r47">Sí</label>
+  </div>
                                     
-                                        <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="radio17" id="r48" value="no">
-                                        <label class="form-check-label" for="r48">No</label>
-                                        </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio17" id="r48" value="no">
+  <label class="form-check-label" for="r48">No</label>
+  </div>
+  </div>
 
-
-                                            <div class="form-row">
-                                                <label for="inputEmail4">Inscripción como patrono ante la CCSS</label>
-                                              </div>  
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Inscripción como patrono ante la CCSS</label>
+  </div>  
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio18" id="r49" value="si">
-                                                  <label class="form-check-label" for="r49">Sí</label>
-                                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio18" id="r49" value="si">
+  <label class="form-check-label" for="r49">Sí</label>
+  </div>
                                               
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio18" id="r50" value="no">
-                                                  <label class="form-check-label" for="r50">No</label>
-                                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio18" id="r50" value="no">
+  <label class="form-check-label" for="r50">No</label>
+  </div>
+  </div>
 
                                                   
-                                            <div class="form-row">
-                                                <label for="inputEmail4">Inscripción y pago de póliza de RT en el INS</label>
-                                              </div>  
-                                              
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio19" id="r51" value="si">
-                                                  <label class="form-check-label" for="r51">Sí</label>
-                                                  </div>
-                                              
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio19" id="r52" value="no">
-                                                  <label class="form-check-label" for="r52">No</label>
-                                                  </div>
-      </div>
-    </div>
-
-<!-- Pregunta 21 -->
-
-<div class="carousel-item ">
-    <div class="form-row">
-    <label for="inputEmail4"><b>PIII.2. ¿Tiene cuentas bancarias a nombre de la empresa?</b></label>
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Inscripción y pago de póliza de RT en el INS</label>
   </div>  
-    <div class="form-check">
-        <input class="form-check-input" type="radio" name="radio20" id="r53" value="si">
-        <label class="form-check-label" for="r53">Sí</label>
-        </div>
+                                              
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio19" id="r51" value="si">
+  <label class="form-check-label" for="r51">Sí</label>
+  </div>
+                                              
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio19" id="r52" value="no">
+  <label class="form-check-label" for="r52">No</label>
+  </div>
+  </div>
+  </div>
+  </div>
+  
+<!--                              Sección 19                                        -->
+<!-- Pregunta 30 -->
+
+  <div class="carousel-item ">
+  <div class="form-group row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4"><b>PIII.2. ¿Tiene cuentas bancarias a nombre de la empresa?</b></label>
+  </div>
+  </div>   
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio20" id="r53" value="si">
+  <label class="form-check-label" for="r53">Sí</label>
+  </div>
     
-        <div class="form-check">
-        <input class="form-check-input" type="radio" name="radio20" id="r54" value="no">
-        <label class="form-check-label" for="r54">No</label>
-        </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio20" id="r54" value="no">
+  <label class="form-check-label" for="r54">No</label>
+  </div>
 
-            <div class="form-row">
-                <label for="inputEmail4">PIII.3. Durante los últimos 12 meses ¿ha realizado la empresa alguna venta fuera del país?</label>
-              </div>  
 
-              <div class="form-check">
-                  <input class="form-check-input" type="radio" name="radio21" id="r55" value="si">
-                  <label class="form-check-label" for="r55">Sí</label>
-                  </div>
+<!-- Pregunta 31 -->
+  <div class="form-group row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4"><b>PIII.3. Durante los últimos 12 meses ¿ha realizado la empresa alguna venta fuera del país?</b></label>
+  </div>
+  </div>  
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio21" id="r55" value="si">
+  <label class="form-check-label" for="r55">Sí</label>
+  </div>
               
-                  <div class="form-check">
-                  <input class="form-check-input" type="radio" name="radio21" id="r56" value="no">
-                  <label class="form-check-label" for="r56">No</label>
-                  </div>
-    </div>
-
-
- <!-- Pregunta 22 -->
-
-
-
- <div class="carousel-item ">
-    <div class="form-group">
-    <div class="form-row">
-    <label for="inputEmail4">&nbsp;PIII.4. ¿A qué mercados vende estos productos?</label>
-    </div>
-    <div class="form-row">
-    <div class="custom-control custom-checkbox">
-    <input type="checkbox" class="custom-control-input" id="c32">
-    <label class="custom-control-label" for="customCheck1">Centroamérica</label>
-    </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio21" id="r56" value="no">
+  <label class="form-check-label" for="r56">No</label>
   </div>
-  <div class="form-row">
-    <div class="custom-control custom-checkbox">
-    <input type="checkbox" class="custom-control-input" id="c33">
-    <label class="custom-control-label" for="customCheck1">Panamá</label>
-    </div>
   </div>
-  <div class="form-row">
-    <div class="custom-control custom-checkbox">
-    <input type="checkbox" class="custom-control-input" id="c34">
-    <label class="custom-control-label" for="customCheck1">Caribe</label>
-    </div>
+
+<!--                              Sección 20                                        -->
+<!-- Pregunta 31,32,33 -->
+<div class="carousel-item ">
+  <div class="form-group row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4"><b>PIII.2. ¿Tiene cuentas bancarias a nombre de la empresa?</b></label>
   </div>
-  <div class="form-row">
-    <div class="custom-control custom-checkbox">
-        <input type="checkbox" class="custom-control-input" id="c35">
-        <label class="custom-control-label" for="customCheck1">Otros países latinoamericanos</label>
-        </div>
-      </div>
-      <div class="form-row">
-        <div class="custom-control custom-checkbox">
-            <input type="checkbox" class="custom-control-input" id="c36">
-            <label class="custom-control-label" for="customCheck1">Europa</label>
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="c37">
-                <label class="custom-control-label" for="customCheck1">Asia</label>
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="custom-control custom-checkbox">
-                    <input type="checkbox" class="custom-control-input" id="c38">
-                    <label class="custom-control-label" for="customCheck1">Canadá</label>
-                    </div>
-                  </div>
-                                                                                  <div class="form-row">
-                                                                                    <div class="custom-control custom-checkbox">
-                                                                                        <input type="checkbox" class="custom-control-input" id="c39">
-                                                                                        <label class="custom-control-label" for="customCheck1">EEUU</label>
-                                                                                        </div>
-                                                                                      </div>
-    </div>
-    </div>
+  </div>   
 
-
- <!-- Pregunta 23 -->
-
- <div class="carousel-item ">
-    <div class="form-group">
-        <div class="form-row">
-            <label for="inputEmail4"><b>PIII.4.1¿Hacen alianzas con otras empresas o negocios para vender fuera del país? </b></label>
-          </div>  
-    <div class="form-check">
-        <input class="form-check-input" type="radio" name="radio21" id="r57" value="si">
-        <label class="form-check-label" for="r57">Sí</label>
-        </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio20" id="r53" value="si">
+  <label class="form-check-label" for="r53">Sí</label>
+  </div>
     
-        <div class="form-check">
-        <input class="form-check-input" type="radio" name="radio21" id="r58" value="no">
-        <label class="form-check-label" for="r58">No</label>
-        </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio20" id="r54" value="no">
+  <label class="form-check-label" for="r54">No</label>
+  </div>
 
 
-        <div class="form-row">
-            <label for="inputEmail4"><b>PIII.4.2. ¿Qué porcentaje aproximado representan las ventas fuera del país del monto total de ventas de la empresa?(ÚNICA)</b></label>
-          </div>  
+<!-- Pregunta 31 -->
+  <div class="form-group row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4"><b>PIII.3. Durante los últimos 12 meses ¿ha realizado la empresa alguna venta fuera del país?</b></label>
+  </div>
+  </div>  
 
-              <div class="form-check">
-                  <input class="form-check-input" type="radio" name="radio22" id="r59" value="si">
-                  <label class="form-check-label" for="r59">Menos del 10 %</label>
-                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio21" id="r55" value="si">
+  <label class="form-check-label" for="r55">Sí</label>
+  </div>
               
-                  <div class="form-check">
-                  <input class="form-check-input" type="radio" name="radio22" id="r60" value="no">
-                  <label class="form-check-label" for="r60">Entre 11 y 40 %</label>
-                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio21" id="r56" value="no">
+  <label class="form-check-label" for="r56">No</label>
+  </div>
+  </div>
+
+
+
+
+<!--                              Sección 21                                        -->
+<!-- Pregunta 34 -->
+  <div class="carousel-item ">
+  <div class="form-group">
+  <div class="form-row">
+  <label class="col asign-self-center">&nbsp;<b>PIII.4. ¿A qué mercados vende estos productos?</b></label>
+  </div>
+
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c32">
+  <label class="custom-control-label" for="c32">Centroamérica</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c33">
+  <label class="custom-control-label" for="c33">Panamá</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c34">
+  <label class="custom-control-label" for="c34">Caribe</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c35">
+  <label class="custom-control-label" for="c35">Otros países latinoamericanos</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c36">
+  <label class="custom-control-label" for="c36">Europa</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c37">
+  <label class="custom-control-label" for="c37">Asia</label>
+  </div>
+  </div>
+  
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c38">
+  <label class="custom-control-label" for="c38">Canadá</label>
+  </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="c39">
+  <label class="custom-control-label" for="c39">EEUU</label>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+<!--                              Sección 22                                        -->
+<!-- Pregunta 35 -->
+
+  <div class="carousel-item ">
+  <div class="form-group row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4"><b>PIII.4.1¿Hacen alianzas con otras empresas o negocios para vender fuera del país? </b></label>
+  </div>  
+  </div>  
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio21" id="r57" value="si">
+  <label class="form-check-label" for="r57">Sí</label>
+  </div>
+    
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio21" id="r58" value="no">
+  <label class="form-check-label" for="r58">No</label>
+  </div>
+
+<!-- Pregunta 36 -->
+  <div class="form-group row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4"><b>PIII.4.2. ¿Qué porcentaje aproximado representan las ventas fuera del país del monto total de ventas de la empresa?</b></label>
+  </div>  
+  </div>  
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio22" id="r59" value="m10">
+  <label class="form-check-label" for="r59">Menos del 10 %</label>
+  </div>
+              
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio22" id="r60" value="1140">
+  <label class="form-check-label" for="r60">Entre 11 y 40 %</label>
+  </div>
         
-                  <div class="form-check">
-                      <input class="form-check-input" type="radio" name="radio22" id="r61" value="et">
-                      <label class="form-check-label" for="r61">Entre 41 y 70 %</label>
-                      </div>
-
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="radio22" id="r62" value="si">
-                            <label class="form-check-label" for="r62">Más del 71 %</label>
-                            </div>    
-    </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio22" id="r61" value="4170">
+  <label class="form-check-label" for="r61">Entre 41 y 70 %</label>
   </div>
 
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio22" id="r62" value="71">
+  <label class="form-check-label" for="r62">Más del 71 %</label>
+  </div>    
+  </div>
+  
 
-<!-- Pregunta 24 -->
+<!--                              Sección 23                                        -->
+<!-- Pregunta 37 -->
 
-<div class="carousel-item ">
-    <div class="form-group">
-    <div class="form-row">
-    <label for="inputEmail4"><b>PIII.4.3¿Es su producto o servicio un insumo de otra empresa que exporta o es exportado a otra empresa?</b></label>
-  </div>  
-    <div class="form-check">
-        <input class="form-check-input" type="radio" name="radio23" id="r63" value="si">
-        <label class="form-check-label" for="r63">Sí</label>
-        </div>
+  <div class="carousel-item ">
+  <div class="form-group">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4"><b>PIII.4.3¿Es su producto o servicio un insumo de otra empresa que exporta o es exportado a otra empresa?</b></label>
+  </div> 
+  </div> 
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio23" id="r63" value="si">
+  <label class="form-check-label" for="r63">Sí</label>
+  </div>
     
-        <div class="form-check">
-        <input class="form-check-input" type="radio" name="radio7" id="r64" value="no">
-        <label class="form-check-label" for="r64">No</label>
-        </div>
-      </div>      
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio23" id="r64" value="no">
+  <label class="form-check-label" for="r64">No</label>
+  </div>     
 
-        <div class="form-row">
-            <label for="inputEmail4"><b>Por favor, detalle</b></label>
-          </div>  
-    <div class="form-row">
-    <input type="email" class="form-control" id="t12" placeholder="">
-    </div>
-    </div>
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4"><b>Por favor, detalle</b></label> 
+  <input type="text" class="form-control" id="tr13" placeholder="">
+  </div>
+  </div>
 
 
 <!-- Pregunta 25 -->
@@ -3998,6 +4140,7 @@ PARTE X.  COMPETENCIAS: MOTIVACIÓN
     /*Verificar y enviar a PHP*/
 
     if (countClicks == 1){
+      var one;
       if (document.getElementById('r1').checked) {
           one = document.getElementById('r1').value;
           }
@@ -4010,7 +4153,6 @@ PARTE X.  COMPETENCIAS: MOTIVACIÓN
         url:"save.php",
         data: {cont: countClicks,one:one},
         success: function(data){
-        alert(data);
         }
         });
 
@@ -4018,11 +4160,598 @@ PARTE X.  COMPETENCIAS: MOTIVACIÓN
         } //Fin de 1
 
 
+        if (countClicks == 2){
+          var r2;
+          var r3;
+      if (document.getElementById('r3').checked) {
+          r2 = document.getElementById('r3').value;
+          }
+      else if (document.getElementById('r4').checked) {
+        r2 = document.getElementById('r4').value;
+        }
+
+        if (document.getElementById('r5').checked) {
+          r3 = document.getElementById('r5').value;
+          }
+      else if (document.getElementById('r6').checked) {
+        r3 = document.getElementById('r6').value;
+        }
+
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,r2:r2,r3:r3},
+        success: function(data){
+        }
+        });
 
 
+        } //Fin de 2
+
+        if (countClicks == 3){
+          var r4;
+      if (document.getElementById('r7').checked) {
+          r4 = document.getElementById('r7').value;
+          }
+      else if (document.getElementById('r8').checked) {
+        r4 = document.getElementById('r8').value;
+        }
+
+        else if (document.getElementById('r9').checked) {
+        r4 = document.getElementById('r9').value;
+        }
+
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,r4:r4},
+        success: function(data){
+        }
+        });
 
 
-    	alert(countClicks);
+        } //Fin de 3
+
+        if (countClicks == 4){
+          var r5;
+          var r6;
+      if (document.getElementById('r10').checked) {
+          r5 = document.getElementById('r10').value;
+          }
+      else if (document.getElementById('r11').checked) {
+        r5 = document.getElementById('r11').value;
+        }
+
+        if (document.getElementById('r12').checked) {
+          r6 = document.getElementById('r12').value;
+          }
+      else if (document.getElementById('r13').checked) {
+        r6 = document.getElementById('r13').value;
+        }
+
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,r5:r5,r6:r6},
+        success: function(data){
+        }
+        });
+
+
+        } //Fin de 4
+
+        if (countClicks == 5){
+          var r7;
+          var r8;
+          r7 = document.getElementById("t1").value;
+          r8 = document.getElementById("t2").value;
+
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,r7:r7,r8:r8},
+        success: function(data){
+        }
+        });
+
+
+        } //Fin de 5
+
+
+        if (countClicks == 6){
+          var provincia;
+          var canton;
+          var distrito;
+          provincia = document.getElementById("t3").value;
+          canton = document.getElementById("t4").value;
+          distrito = document.getElementById("t5").value;
+
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,provincia:provincia,canton:canton,distrito:distrito},
+        success: function(data){
+        }
+        });
+
+
+        } //Fin de 6
+
+
+        if (countClicks == 7){
+          var movil;
+          var fijo;
+          movil = document.getElementById("t6").value;
+          fijo = document.getElementById("t7").value;
+
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,movil:movil,fijo:fijo},
+        success: function(data){
+        }
+        });
+
+
+        } //Fin de 7
+
+        if (countClicks == 8){
+          var correo1;
+          var correo2;
+          correo1 = document.getElementById("t8").value;
+          correo2 = document.getElementById("t9").value;
+
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,correo1:correo1,correo2:correo2},
+        success: function(data){
+        }
+        });
+
+
+        } //Fin de 8
+
+        if (countClicks == 9){
+          var r12;
+          var r13;
+          r12 = document.getElementById("t10").value;
+          r13 = document.getElementById("t11").value;
+
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,r12:r12,r13:r13},
+        success: function(data){
+        }
+        });
+
+
+        } //Fin de 9
+
+
+        if (countClicks == 10){
+          var r14;
+          r14 = document.getElementById("s1").value;
+
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,r14:r14},
+        success: function(data){
+        }
+        });
+
+
+        } //Fin de 10
+
+        
+        if (countClicks == 11){
+          var c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16,c17,c18,c19,c20,c21,c22,c23,c24;
+          c1 = document.getElementById("c1").checked;
+          c2 = document.getElementById("c2").checked;
+          c3 = document.getElementById("c3").checked;
+          c4 = document.getElementById("c4").checked;
+          c5 = document.getElementById("c5").checked;
+          c6 = document.getElementById("c6").checked;
+          c7 = document.getElementById("c7").checked;
+          c8 = document.getElementById("c8").checked;
+          c9 = document.getElementById("c9").checked;
+          c10 = document.getElementById("c10").checked;
+          c11 = document.getElementById("c11").checked;
+          c12 = document.getElementById("c12").checked;
+          c13 = document.getElementById("c13").checked;
+          c14 = document.getElementById("c14").checked;
+          c15 = document.getElementById("c15").checked;
+          c16 = document.getElementById("c16").checked;
+          c17 = document.getElementById("c17").checked;
+          c18 = document.getElementById("c18").checked;
+          c19 = document.getElementById("c19").checked;
+          c20 = document.getElementById("c20").checked;
+          c21 = document.getElementById("c21").checked;
+          c22 = document.getElementById("c22").checked;
+          c23 = document.getElementById("c23").checked;
+          c24 = document.getElementById("c24").checked;
+
+
+         $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,c1:c1,c2:c2,c3:c3,c4:c4,c5:c5,c6:c6,c7:c7,c8:c8,c9:c9,c10:c10,c11:c11
+        ,c12:c12,c13:c13,c14:c14,c15:c15,c16:c16,c17:c17,c18:c18,c19:c19,c20:c20,c21:c21,c22:c22,
+        c23:c23,c24:c24},
+        success: function(data){
+        }
+        });
+
+
+        } //Fin de 11
+
+
+        
+        if (countClicks == 12){
+          var r16,r17;
+
+          if (document.getElementById('r14').checked) {
+          r16 = document.getElementById('r14').value;
+          }
+      else if (document.getElementById('r15').checked) {
+        r16 = document.getElementById('r15').value;
+        }
+
+
+          r17 = document.getElementById("tr12").value;
+
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,r16:r16,r17:r17},
+        success: function(data){
+        }
+        });
+
+
+        } //Fin de 12
+
+
+                
+        if (countClicks == 13){
+          var c25,c26,c27,c28,c29,c30,c31;
+          c25 = document.getElementById("c25").checked;
+          c26 = document.getElementById("c26").checked;
+          c27 = document.getElementById("c27").checked;
+          c28 = document.getElementById("c28").checked;
+          c29 = document.getElementById("c29").checked;
+          c30 = document.getElementById("c30").checked;
+          c31 = document.getElementById("c31").checked;
+
+
+         $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,c25:c25,c26:c26,c27:c27,c28:c28,c29:c29,c30:c30,c31:c31},
+        success: function(data){
+        }
+        });
+
+
+        } //Fin de 13
+
+                
+        if (countClicks == 14){
+          var r18,r19;
+
+          if (document.getElementById('r16').checked) {
+          r18 = document.getElementById('r16').value;
+          }
+      else if (document.getElementById('r17').checked) {
+        r18 = document.getElementById('r17').value;
+        }
+
+        if (document.getElementById('r18').checked) {
+          r19 = document.getElementById('r18').value;
+          }
+      else if (document.getElementById('r19').checked) {
+        r19 = document.getElementById('r19').value;
+        }
+        else if (document.getElementById('r20').checked) {
+        r19 = document.getElementById('r20').value;
+        }
+        else if (document.getElementById('r21').checked) {
+        r19 = document.getElementById('r21').value;
+        }
+        else if (document.getElementById('r22').checked) {
+        r19 = document.getElementById('r22').value;
+        }
+        else if (document.getElementById('r23').checked) {
+        r19 = document.getElementById('r23').value;
+        }
+        else if (document.getElementById('r24').checked) {
+        r19 = document.getElementById('r24').value;
+        }
+
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,r18:r18,r19:r19},
+        success: function(data){
+        }
+        });
+
+
+        } //Fin de 14
+
+
+        if (countClicks == 16){
+          var bpa,bpm,manipulacion,haccp,otra;
+
+          if (document.getElementById('r25').checked) {
+          bpa = document.getElementById('r25').value;
+          }
+      else if (document.getElementById('r26').checked) {
+        bpa = document.getElementById('r26').value;
+        }
+        else if (document.getElementById('r27').checked) {
+        bpa = document.getElementById('r27').value;
+        }
+
+        if (document.getElementById('r28').checked) {
+          bpm = document.getElementById('r28').value;
+          }
+      else if (document.getElementById('r29').checked) {
+        bpm = document.getElementById('r29').value;
+        }
+        else if (document.getElementById('r30').checked) {
+      bpm = document.getElementById('r30').value;
+        }
+
+        if (document.getElementById('r31').checked) {
+          manipulacion = document.getElementById('r31').value;
+          }
+        else if (document.getElementById('r32').checked) {
+        manipulacion = document.getElementById('r32').value;
+        }
+        else if (document.getElementById('r33').checked) {
+        manipulacion = document.getElementById('r33').value;
+        }
+
+
+        if (document.getElementById('r34').checked) {
+        haccp = document.getElementById('r34').value;
+        }
+        else if (document.getElementById('r35').checked) {
+        haccp = document.getElementById('r35').value;
+        }
+        else if (document.getElementById('r36').checked) {
+        haccp = document.getElementById('r36').value;
+        }
+
+        if (document.getElementById('r37').checked) {
+        otra = document.getElementById('r37').value;
+        }
+        else if (document.getElementById('r37').checked) {
+        otra = document.getElementById('r37').value;
+        }
+        else if (document.getElementById('r38').checked) {
+        otra = document.getElementById('r38').value;
+        }
+
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,bpa:bpa,bpm:bpm,manipulacion:manipulacion,haccp:haccp,otra:otra},
+        success: function(data){
+        }
+        });
+
+
+        } //Fin de 16
+
+
+        if (countClicks == 17){
+          var t12,r28,t13,r26;
+          t12 = document.getElementById("t12").value;
+          t13 = document.getElementById("t12").value;
+
+          if (document.getElementById('rr37').checked) {
+          r26 = document.getElementById('rr37').value;
+          }
+      else if (document.getElementById('rr38').checked) {
+        r26 = document.getElementById('rr38').value;
+        }
+
+
+          if (document.getElementById('rr39').checked) {
+          r28 = document.getElementById('rr39').value;
+          }
+      else if (document.getElementById('rrr39').checked) {
+        r28 = document.getElementById('rrr39').value;
+        }
+        else if (document.getElementById('r40').checked) {
+        r28 = document.getElementById('r40').value;
+        }
+
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,t12:t12,t13:t13,r26:r26,r28:r28},
+        success: function(data){
+        }
+        });
+
+
+        } //Fin de 17
+
+        if (countClicks == 18){
+          var rn,mrn,mh,pm,ccss,rt;
+
+          if (document.getElementById('r41').checked) {
+          rn = document.getElementById('r41').value;
+          }
+      else if (document.getElementById('r42').checked) {
+        rn = document.getElementById('r42').value;
+        }
+
+
+          if (document.getElementById('r43').checked) {
+          mrn = document.getElementById('r43').value;
+          }
+      else if (document.getElementById('r44').checked) {
+        mrn = document.getElementById('r44').value;
+        }
+        
+        if (document.getElementById('r45').checked) {
+          mh = document.getElementById('r45').value;
+          }
+      else if (document.getElementById('r46').checked) {
+        mh = document.getElementById('r46').value;
+        }
+        
+
+        if (document.getElementById('r47').checked) {
+          pm = document.getElementById('r47').value;
+          }
+      else if (document.getElementById('r48').checked) {
+        pm = document.getElementById('r48').value;
+        }
+        
+
+        if (document.getElementById('r49').checked) {
+          ccss = document.getElementById('r49').value;
+          }
+      else if (document.getElementById('r50').checked) {
+        ccss = document.getElementById('r50').value;
+        }
+        
+        if (document.getElementById('r51').checked) {
+          rt = document.getElementById('r51').value;
+          }
+      else if (document.getElementById('r52').checked) {
+        rt = document.getElementById('r52').value;
+        }
+        
+
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,rn:rn,mrn:mrn,mh:mh,pm:pm,ccss:ccss,rt:rt},
+        success: function(data){
+        }
+        });
+
+        } //Fin de 18
+
+        
+        if (countClicks == 19){
+          var r30,r31;
+
+          if (document.getElementById('r53').checked) {
+          r30 = document.getElementById('r53').value;
+          }
+      else if (document.getElementById('r54').checked) {
+        r30 = document.getElementById('r55').value;
+        }
+
+        if (document.getElementById('r55').checked) {
+          r31 = document.getElementById('r55').value;
+          }
+      else if (document.getElementById('r56').checked) {
+        r31 = document.getElementById('r56').value;
+        }
+
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,r30:r30,r31:r31},
+        success: function(data){
+        }
+        });
+
+        } //Fin de 19
+
+        if (countClicks == 21){
+          var c32,c33,c34,c35,c36,c37,c38,c39;
+          c32 = document.getElementById("c32").checked;
+          c33 = document.getElementById("c33").checked;
+          c34 = document.getElementById("c34").checked;
+          c35 = document.getElementById("c35").checked;
+          c36 = document.getElementById("c36").checked;
+          c37 = document.getElementById("c37").checked;
+          c38 = document.getElementById("c38").checked;
+          c39 = document.getElementById("c39").checked;
+         
+
+
+         $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,c32:c32,c33:c33,c34:c34,c35:c35,c36:c36,c37:c37,c38:c38,c39:c39},
+        success: function(data){
+        }
+        });
+
+
+        } //Fin de 21
+
+        if (countClicks == 22){
+          var r35,r36;
+
+      if (document.getElementById('r57').checked) {
+          r35 = document.getElementById('r57').value;
+          }
+      else if (document.getElementById('r58').checked) {
+        r35 = document.getElementById('r58').value;
+        }
+
+        if (document.getElementById('r59').checked) {
+          r36 = document.getElementById('r59').value;
+          }
+      else if (document.getElementById('r60').checked) {
+        r36 = document.getElementById('r60').value;
+        }
+        else if (document.getElementById('r61').checked) {
+        r36 = document.getElementById('r61').value;
+        }
+        else if (document.getElementById('r62').checked) {
+        r36 = document.getElementById('r62').value;
+        }
+  
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,r35:r35,r36:r36},
+        success: function(data){
+        }
+        });
+
+
+        } //Fin de 22
+
+        if (countClicks == 23){
+          var r37,tr13;
+
+      if (document.getElementById('r63').checked) {
+          r37 = document.getElementById('r63').value;
+          }
+      else if (document.getElementById('r64').checked) {
+        r37 = document.getElementById('r64').value;
+        }
+        tr13 = document.getElementById("tr13").value;
+  
+  
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,r37:r37,tr13:tr13},
+        success: function(data){
+          alert(data);
+        }
+        });
+
+
+        } //Fin de 23
+
+    	//alert(countClicks);
       // window.location.href = "save.php";
       }
     
