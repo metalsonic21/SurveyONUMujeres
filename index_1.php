@@ -1317,785 +1317,730 @@
   </div>
 
 
-<!-- Pregunta 25 -->
+<!--                              Sección 24                                        -->
+<!-- Pregunta 38 -->
 
-<div class="carousel-item ">
-        
-      <div class="col-md-12">        
-        <div class="row">
-           <div class="col-md-6 offset-md-3">
-                       <label for="Nombre"><b>PIII.4.4. Durante los próximos 12 meses ¿Piensa realizar la empresa alguna venta fuera del país?</b></label>
-                       <div class="form-check">
-        <input class="form-check-input" type="radio" name="radio24" id="r65" value="si">
-        <label class="form-check-label" for="r65">Sí</label>
-        </div>
+  <div class="carousel-item ">
+  <div class="col-md-12">        
+  <div class="row">
+  <div class="col-md-6 offset-md-3">
+  <label for="Nombre"><b>PIII.4.4. Durante los próximos 12 meses ¿Piensa realizar la empresa alguna venta fuera del país?</b></label>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio24" id="r65" value="si">
+  <label class="form-check-label" for="r65">Sí</label>
+  </div>
     
-        <div class="form-check">
-        <input class="form-check-input" type="radio" name="radio24" id="r66" value="no">
-        <label class="form-check-label" for="r66">No</label>
-        </div> <!-- Div de form -->
-            </div> <!-- Div de columna -->
-            </div>    <!-- Div de fila -->
-
-        <div class="row">
-            <div class="col-md-6 offset-md-3">
-              <label for="Nombre"><b>PIII.4.5. ¿Cuál sería el principal producto o servicio que están pensando en vender?</b></label>
-                 <input type="text" id="t13" class="form-control" placeholder="Por favor detalle">
-            </div> <!-- Div de columna -->
-            </div> <!-- Div de fila -->
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio24" id="r66" value="no">
+  <label class="form-check-label" for="r66">No</label>
+  </div> <!-- Div de form -->
+  </div> <!-- Div de columna -->
+  </div>    <!-- Div de fila -->
 
 
-            <div class="row">
-            <div class="col-md-6 offset-md-3">
-              <label for="Nombre"><b>PIII.4.6. ¿A qué mercado planean vender?</b> </label>
-                 <input type="text" id="t14" class="form-control" placeholder="Por favor detalle">
-            </div> <!-- Div de columna -->
-            </div> <!-- Div de fila -->
-    </div> <!-- Div md/12 -->
-    </div> <!-- Div carousel -->
+  <div class="row">
+  <div class="col-md-6 offset-md-3">
+  <label for="Nombre"><b>PIII.4.5. ¿Cuál sería el principal producto o servicio que están pensando en vender?</b></label>
+  <input type="text" id="trr13" class="form-control" placeholder="Por favor detalle">
+  </div> <!-- Div de columna -->
+  </div> <!-- Div de fila -->
+
+  <div class="row">
+  <div class="col-md-6 offset-md-3">
+  <label for="Nombre"><b>PIII.4.6. ¿A qué mercado planean vender?</b> </label>
+  <input type="text" id="t14" class="form-control" placeholder="Por favor detalle">
+  </div> <!-- Div de columna -->
+  </div> <!-- Div de fila -->
+  </div> <!-- Div md/12 -->
+  </div> <!-- Div carousel -->
 
 
-  <!-- Pregunta 26 -->
-
+<!--                              Sección 25                                        -->
+<!-- Pregunta 39 -->
   <div class="carousel-item ">
-      <div class="form-group">
-          <div class="form-row">
-          <div class="col-md-6 offset-md-3">
-              <label for="inputEmail4"><b>PIII.4.7 ¿Cuáles considera ud que son las principales limitaciones al momento de exportar? </b></label>
-            </div>  
-            </div>  
-      <div class="form-row">
-      <div class="col-md-6 offset-md-3">
-      <label for="inputEmail4">Hay preferencia por enfocarse en el mercadolocal</label>
-    </div>  
-      <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio25" id="r41" value="si">
-          <label class="form-check-label" for="r41">Sí</label>
-          </div>
+  <div class="form-group">
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4"><b>PIII.4.7 ¿Cuáles considera ud que son las principales limitaciones al momento de exportar? </b></label>
+  </div>  
+  </div>
+
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Hay preferencia por enfocarse en el mercadolocal</label>
+  </div>
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio25" id="rr41" value="si">
+  <label class="form-check-label" for="rr41">Sí</label>
+  </div>
       
-          <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio25" id="r42" value="no">
-          <label class="form-check-label" for="r42">No</label>
-          </div></div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio25" id="rr42" value="no">
+  <label class="form-check-label" for="rr42">No</label>
+  </div></div>
 
-              <div class="form-row">
-              <div class="col-md-6 offset-md-3">
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Considera el riesgo muy alto, tiene temor</label>
+  </div>  
 
-                  <label for="inputEmail4">Considera el riesgo muy alto, tiene temor</label>
-                </div>  
-
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="radio26" id="r43" value="si">
-                    <label class="form-check-label" for="r43">Sí</label>
-                    </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio26" id="rr43" value="si">
+  <label class="form-check-label" for="rr43">Sí</label>
+  </div>
                 
-                    <div class="form-check">
-                    <input class="form-check-input" type="radio" name="radio26" id="r44" value="no">
-                    <label class="form-check-label" for="r44">No</label>
-                    </div></div>
-          
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio26" id="rr44" value="no">
+  <label class="form-check-label" for="rr44">No</label>
+  </div></div>        
+  
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">El volumen solicitado puede superar sucapacidad productiva</label>
+  </div>  
 
-                        <div class="form-row">
-                        <div class="col-md-6 offset-md-3">
-
-                            <label for="inputEmail4">El volumen solicitado puede superar sucapacidad productiva</label>
-                          </div>  
-
-                          <div class="form-check">
-                              <input class="form-check-input" type="radio" name="radio27" id="r45" value="si">
-                              <label class="form-check-label" for="r45">Sí</label>
-                              </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio27" id="rr45" value="si">
+  <label class="form-check-label" for="rr45">Sí</label>
+  </div>
                           
-                              <div class="form-check">
-                              <input class="form-check-input" type="radio" name="radio27" id="r46" value="no">
-                              <label class="form-check-label" for="r46">No</label>
-                              </div></div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio27" id="rr46" value="no">
+  <label class="form-check-label" for="rr46">No</label>
+  </div></div>
 
-                                  <div class="form-row">
-                                  <div class="col-md-6 offset-md-3">
-
-                                      <label for="inputEmail4">	
-Falta de información sobre elmercado destino</label>
-                                    </div>    
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">	Falta de información sobre elmercado destino</label>
+  </div>    
                                     
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="radio28" id="47" value="si">
-                                        <label class="form-check-label" for="r47">Sí</label>
-                                        </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio28" id="rr47" value="si">
+  <label class="form-check-label" for="rr47">Sí</label>
+  </div>
                                     
-                                        <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="radio28" id="r48" value="no">
-                                        <label class="form-check-label" for="r48">No</label>
-                                        </div></div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio28" id="rr48" value="no">
+  <label class="form-check-label" for="rr48">No</label>
+  </div></div>
 
 
-                                            <div class="form-row">
-                                            <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">Falta de contactos comerciales    </label>
-                                              </div>  
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Falta de contactos comerciales    </label>
+  </div>  
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio29" id="r49" value="si">
-                                                  <label class="form-check-label" for="r49">Sí</label>
-                                                  </div>
-                                              
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio29" id="r50" value="no">
-                                                  <label class="form-check-label" for="r50">No</label>
-                                                  </div></div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio29" id="rr49" value="si">
+  <label class="form-check-label" for="rr49">Sí</label>
+  </div>
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio29" id="rr50" value="no">
+  <label class="form-check-label" for="rr50">No</label>
+  </div></div>
 
                                                   
-                                            <div class="form-row">
-                                            <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">Desconocimiento de instituciones de apoyo</label>
-                                              </div>  
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Desconocimiento de instituciones de apoyo</label>
+  </div>  
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio30" id="r51" value="si">
-                                                  <label class="form-check-label" for="r51">Sí</label>
-                                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio30" id="rr51" value="si">
+  <label class="form-check-label" for="rr51">Sí</label>
+  </div>
                                               
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio30" id="r52" value="no">
-                                                  <label class="form-check-label" for="r52">No</label>
-                                                  </div></div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio30" id="rr52" value="no">
+  <label class="form-check-label" for="r52">No</label>
+  </div></div>
 
-
-                                                                                                    
-                                            <div class="form-row">
-                                            <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">Desconocimiento de trámites de exportación y logística    </label>
-                                              </div>  
+                                                        
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Desconocimiento de trámites de exportación y logística    </label>
+  </div>  
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio31" id="r53" value="si">
-                                                  <label class="form-check-label" for="r53">Sí</label>
-                                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio31" id="rr53" value="si">
+  <label class="form-check-label" for="rr53">Sí</label>
+  </div>
                                               
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio31" id="r54" value="no">
-                                                  <label class="form-check-label" for="r54">No</label>
-                                                  </div></div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio31" id="rr54" value="no">
+  <label class="form-check-label" for="rr54">No</label>
+  </div></div>
 
-                                                  
-
-                                                  <div class="form-row">
-                                                  <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">Problemas con trámites específicos (Ministerio de Salud, Agricultura, ICAFE, entre otros)   </label>
-                                              </div>  
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Problemas con trámites específicos (Ministerio de Salud, Agricultura, ICAFE, entre otros)   </label>
+  </div>  
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio32" id="r55" value="si">
-                                                  <label class="form-check-label" for="r55">Sí</label>
-                                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio32" id="rr55" value="si">
+  <label class="form-check-label" for="rr55">Sí</label>
+  </div>
                                               
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio32" id="r56" value="no">
-                                                  <label class="form-check-label" for="r56">No</label>
-                                                  </div></div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio32" id="rr56" value="no">
+  <label class="form-check-label" for="rr56">No</label>
+  </div></div>
 
-                                                  <div class="form-row">
-                                                  <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">Falta de opciones de financiamiento  </label>
-                                              </div>  
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Falta de opciones de financiamiento  </label>
+  </div>  
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio33" id="r57" value="si">
-                                                  <label class="form-check-label" for="r57">Sí</label>
-                                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio33" id="rr57" value="si"> 
+  <label class="form-check-label" for="rr57">Sí</label>
+  </div>
                                               
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio33" id="r58" value="no">
-                                                  <label class="form-check-label" for="r58">No</label>
-                                                  </div></div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio33" id="rr58" value="no">
+  <label class="form-check-label" for="rr58">No</label>
+  </div></div>
 
-                                                  <div class="form-row">
-                                                  <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">Desconocimiento de los requisitos del comprador en cuanto a normas, certificaciones, etiquetado, etc. </label>
-                                              </div>  
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Desconocimiento de los requisitos del comprador en cuanto a normas, certificaciones, etiquetado, etc. </label>
+  </div>  
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio34" id="r59" value="si">
-                                                  <label class="form-check-label" for="r59">Sí</label>
-                                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio34" id="rr59" value="si">
+  <label class="form-check-label" for="r59">Sí</label>
+  </div>
                                               
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio34" id="r60" value="no">
-                                                  <label class="form-check-label" for="r60">No</label>
-                                                  </div></div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio34" id="rr60" value="no">
+  <label class="form-check-label" for="rr60">No</label>
+  </div></div>
 
-                                                  <div class="form-row">
-                                                  <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">Altos costos de producción (agua, electricidad, mano de obra, insumos, etc.) </label>
-                                              </div>  
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Altos costos de producción (agua, electricidad, mano de obra, insumos, etc.) </label>
+  </div>  
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio35" id="r61" value="si">
-                                                  <label class="form-check-label" for="r61">Sí</label>
-                                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio35" id="rr61" value="si">
+  <label class="form-check-label" for="rr61">Sí</label>
+  </div>
                                               
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio35" id="r62" value="no">
-                                                  <label class="form-check-label" for="r62">No</label>
-                                                  </div></div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio35" id="rr62" value="no">
+  <label class="form-check-label" for="rr62">No</label>
+  </div></div>
 
-                                                  <div class="form-row">
-                                                  <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">Altos costos de logística </label>
-                                              </div>  
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Altos costos de logística </label>
+  </div>  
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio36" id="r63" value="si">
-                                                  <label class="form-check-label" for="r63">Sí</label>
-                                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio36" id="rr63" value="si">
+  <label class="form-check-label" for="rr63">Sí</label>
+  </div>
                                               
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio36" id="r64" value="no">
-                                                  <label class="form-check-label" for="r64">No</label>
-                                                  </div></div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio36" id="rr64" value="no">
+  <label class="form-check-label" for="rr64">No</label>
+  </div></div>
 
-                                                  <div class="form-row">
-                                                  <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">Tipo de cambio </label>
-                                              </div>  
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Tipo de cambio </label>
+  </div>                                              
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio37" id="r65" value="si">
-                                                  <label class="form-check-label" for="r65">Sí</label>
-                                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio37" id="rr65" value="si">
+  <label class="form-check-label" for="rr65">Sí</label>
+  </div>
                                               
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio37" id="r66" value="no">
-                                                  <label class="form-check-label" for="r66">No</label>
-                                                  </div></div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio37" id="rr66" value="no">
+  <label class="form-check-label" for="rr66">No</label>
+  </div></div>
 
-                                                  <div class="form-row">
-                                                  <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">Escasez de materia prima o insumos </label>
-                                              </div>  
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Escasez de materia prima o insumos </label>
+  </div>  
+                      
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio38" id="rr67" value="si">
+  <label class="form-check-label" for="rr67">Sí</label>
+  </div>
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio38" id="r67" value="si">
-                                                  <label class="form-check-label" for="r67">Sí</label>
-                                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio38" id="rr68" value="no">
+  <label class="form-check-label" for="rr68">No</label>
+  </div></div>
+
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">	Alto número de competidores </label>
+  </div>  
                                               
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio38" id="r68" value="no">
-                                                  <label class="form-check-label" for="r68">No</label>
-                                                  </div></div>
-
-                                                  <div class="form-row">
-                                                  <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">	
-Alto número de competidores </label>
-                                              </div>  
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio39" id="rr69" value="si">
+  <label class="form-check-label" for="rr69">Sí</label>
+  </div>
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio39" id="r69" value="si">
-                                                  <label class="form-check-label" for="r69">Sí</label>
-                                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio39" id="rr70" value="no">
+  <label class="form-check-label" for="rr70">No</label>
+  </div></div>
+
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Competencia con mejores precios </label>
+  </div>  
+                            
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio40" id="rr71" value="si">
+  <label class="form-check-label" for="rr71">Sí</label>
+  </div>
                                               
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio39" id="r70" value="no">
-                                                  <label class="form-check-label" for="r70">No</label>
-                                                  </div></div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio40" id="rr72" value="no">
+  <label class="form-check-label" for="rr72">No</label>
+  </div></div>
 
-                                                  <div class="form-row">
-                                                  <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">Competencia con mejores precios </label>
-                                              </div>  
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Otro  </label>
+  </div>  
+                    
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio41" id="rr73" value="si">
+  <label class="form-check-label" for="rr73">Sí</label>
+  </div>
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio40" id="r71" value="si">
-                                                  <label class="form-check-label" for="r71">Sí</label>
-                                                  </div>
-                                              
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio40" id="r72" value="no">
-                                                  <label class="form-check-label" for="r72">No</label>
-                                                  </div></div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio41" id="rr74" value="no">
+  <label class="form-check-label" for="rr74">No</label>
+  </div></div>
 
-                                                  <div class="form-row">
-                                                  <div class="col-md-6 offset-md-3">
+  <div class="row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">¿Cuál?</label>
+  <input type="text" class="form-control" id="otro" placeholder="">
+  </div> <!-- div de fila -->
+  </div> <!-- div de columna -->                                          
+  </div>
+  </div>
 
-                                                <label for="inputEmail4">Otro  </label>
-                                              </div>  
-                                              
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio41" id="r73" value="si">
-                                                  <label class="form-check-label" for="r73">Sí</label>
-                                                  </div>
-                                              
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio41" id="r74" value="no">
-                                                  <label class="form-check-label" for="r74">No</label>
-                                                  </div></div>
-                                                  
-      </div>
-    </div>
+<!--                              Sección 26                                        -->
+<!-- Pregunta 40 -->
 
-<!-- Pregunta 25 -->
+  <div class="carousel-item ">   
+  <div class="col-md-12">        
+  <div class="row">
+  <div class="col-md-6 offset-md-3">
+  <label for="Nombre"><b>PIII.4.8. ¿Con base en su experiencia, cuáles diría usted que son los tres (3) factores claves para que una empresa sea exitosa exportando?</b></label>
+  <input type="text" id="trrr13" class="form-control" placeholder="">
+  </div> <!-- Div de columna -->
+  </div> <!-- Div de fila -->
 
-<div class="carousel-item ">
-        
-      <div class="col-md-12">        
-           <div class="row">
-            <div class="col-md-6 offset-md-3">
-              <label for="Nombre"><b>PIII.4.8. ¿Con base en su experiencia, cuáles diría usted que son los tres (3) factores claves para que una empresa sea exitosa exportando?</b></label>
-                 <input type="text" id="t13" class="form-control" placeholder="">
-            </div> <!-- Div de columna -->
-            </div> <!-- Div de fila -->
+  <div class="row">
+  <div class="col-md-6 offset-md-3">
+  <label for="Nombre"><b> PARTE IV. ESTRUCTURA Y FINANCIAMIENTO</b></label>
+  </div> </div>
 
-            <div class="row">
-           <div class="col-md-6 offset-md-3">
-           <label for="Nombre"><b> PARTE IV. ESTRUCTURA Y FINANCIAMIENTO</b></label>
-            </div> </div>
-
-
-            <div class="row">
-           <div class="col-md-6 offset-md-3">
-           <label for="Nombre"><b>PIV.1¿Ha requerido algún financiamiento para operar la empresa o negocio durante 2017 o 2018?</b></label>
-           <div class="form-check">
-        <input class="form-check-input" type="radio" name="radio42" id="r75" value="si">
-        <label class="form-check-label" for="r75">Sí</label>
-        </div>
+  <div class="row">
+  <div class="col-md-6 offset-md-3">
+  <label for="Nombre"><b>PIV.1¿Ha requerido algún financiamiento para operar la empresa o negocio durante 2017 o 2018?</b></label>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio42" id="r75" value="si">
+  <label class="form-check-label" for="r75">Sí</label>
+  </div>
     
-        <div class="form-check">
-        <input class="form-check-input" type="radio" name="radio42" id="r76" value="no">
-        <label class="form-check-label" for="r76">No</label>
-        </div> <!-- Div de form -->
-            </div> <!-- Div de columna -->
-            </div>    <!-- Div de fila -->
-    </div> <!-- Div md/12 -->
-    </div> <!-- Div carousel -->
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio42" id="r76" value="no">
+  <label class="form-check-label" for="r76">No</label>
+  </div> <!-- Div de form -->
+  </div> <!-- Div de columna -->
+  </div>    <!-- Div de fila -->
 
 
-
-
-  <!-- Pregunta 26 -->
-
-  <div class="carousel-item ">
-      <div class="form-group">
-          <div class="form-row">
-          <div class="col-md-6 offset-md-3">
-              <label for="inputEmail4"><b>PIII.4.7 ¿Cuáles considera ud que son las principales limitaciones al momento de exportar? </b></label>
-            </div>  
-            </div>  
-      <div class="form-row">
-      <div class="col-md-6 offset-md-3">
-      <label for="inputEmail4">Recursos propios</label>
-    </div>  
-      <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio43" id="r77" value="si">
-          <label class="form-check-label" for="r77">Sí</label>
-          </div>
+<!-- Pregunta 41 -->
+  <div class="form-group">
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4"><b>PIV.1.1 ¿Qué tipo de financiamiento?</b></label>
+  </div>  
+  </div>  
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Recursos propios</label>
+  </div>  
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio43" id="r77" value="si">
+  <label class="form-check-label" for="r77">Sí</label>
+  </div>
       
-          <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio43" id="r78" value="no">
-          <label class="form-check-label" for="r78">No</label>
-          </div></div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio43" id="r78" value="no">
+  <label class="form-check-label" for="r78">No</label>
+  </div></div>
 
-              <div class="form-row">
-              <div class="col-md-6 offset-md-3">
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Préstamos informales</label>
+  </div>  
 
-                  <label for="inputEmail4">	
-Préstamos informales</label>
-                </div>  
-
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="radio44" id="r79" value="si">
-                    <label class="form-check-label" for="r79">Sí</label>
-                    </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio44" id="r79" value="si">
+  <label class="form-check-label" for="r79">Sí</label>
+  </div>
                 
-                    <div class="form-check">
-                    <input class="form-check-input" type="radio" name="radio44" id="r80" value="no">
-                    <label class="form-check-label" for="r80">No</label>
-                    </div></div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio44" id="r80" value="no">
+  <label class="form-check-label" for="r80">No</label>
+  </div></div>
           
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Bancos Públicos</label>
+  </div>  
 
-                        <div class="form-row">
-                        <div class="col-md-6 offset-md-3">
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio45" id="r81" value="si">
+  <label class="form-check-label" for="r81">Sí</label>
+  </div>
+                         
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio45" id="r82" value="no">
+  <label class="form-check-label" for="r82">No</label>
+  </div></div>
 
-                            <label for="inputEmail4">Bancos Públicos</label>
-                          </div>  
-
-                          <div class="form-check">
-                              <input class="form-check-input" type="radio" name="radio45" id="r81" value="si">
-                              <label class="form-check-label" for="r81">Sí</label>
-                              </div>
-                          
-                              <div class="form-check">
-                              <input class="form-check-input" type="radio" name="radio45" id="r82" value="no">
-                              <label class="form-check-label" for="r82">No</label>
-                              </div></div>
-
-                                  <div class="form-row">
-                                  <div class="col-md-6 offset-md-3">
-
-                                      <label for="inputEmail4">	
-                                      Préstamos de otras empresas</label>
-                                    </div>    
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">	Préstamos de otras empresas</label>
+  </div>    
                                     
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="radio46" id="83" value="si">
-                                        <label class="form-check-label" for="r47">Sí</label>
-                                        </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio46" id="83" value="si">
+  <label class="form-check-label" for="r83">Sí</label>
+  </div>
                                     
-                                        <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="radio46" id="r84" value="no">
-                                        <label class="form-check-label" for="r48">No</label>
-                                        </div></div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio46" id="r84" value="no">
+  <label class="form-check-label" for="r84">No</label>
+  </div></div>
 
-
-                                            <div class="form-row">
-                                            <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">Bancos privados</label>
-                                              </div>  
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Bancos privados</label>
+  </div>  
+                                            
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio47" id="r85" value="si">
+  <label class="form-check-label" for="r85">Sí</label>
+  </div>
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio47" id="r85" value="si">
-                                                  <label class="form-check-label" for="r85">Sí</label>
-                                                  </div>
-                                              
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio47" id="r86" value="no">
-                                                  <label class="form-check-label" for="r86">No</label>
-                                                  </div></div>
-
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio47" id="r86" value="no">
+  <label class="form-check-label" for="r86">No</label>
+  </div></div>
                                                   
-                                            <div class="form-row">
-                                            <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">Tarjetas de crédito</label>
-                                              </div>  
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Tarjetas de crédito</label>
+  </div>  
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio48" id="r87" value="si">
-                                                  <label class="form-check-label" for="r51">Sí</label>
-                                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio48" id="r87" value="si">
+  <label class="form-check-label" for="r87">Sí</label>
+  </div>
+                                             
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio48" id="r88" value="no">
+  <label class="form-check-label" for="r88">No</label>
+  </div></div>
+
+                                                                                                  
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Proveedores  </label>
+  </div>  
                                               
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio48" id="r88" value="no">
-                                                  <label class="form-check-label" for="r52">No</label>
-                                                  </div></div>
-
-
-                                                                                                    
-                                            <div class="form-row">
-                                            <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">Proveedores  </label>
-                                              </div>  
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio49" id="r89" value="si">
+  <label class="form-check-label" for="r89">Sí</label>
+  </div>
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio49" id="r89" value="si">
-                                                  <label class="form-check-label" for="r89">Sí</label>
-                                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio49" id="r90" value="no">
+  <label class="form-check-label" for="r90">No</label>
+  </div></div>
+                                             
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Parientes/amigos </label>
+  </div>  
                                               
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio49" id="r90" value="no">
-                                                  <label class="form-check-label" for="r90">No</label>
-                                                  </div></div>
-
-                                                  
-
-                                                  <div class="form-row">
-                                                  <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">Parientes/amigos </label>
-                                              </div>  
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio50" id="r91" value="si">
+  <label class="form-check-label" for="r91">Sí</label>
+  </div>
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio50" id="r91" value="si">
-                                                  <label class="form-check-label" for="r91">Sí</label>
-                                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio50" id="r92" value="no">
+  <label class="form-check-label" for="r92">No</label>
+  </div></div>
+
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Emisión de acciones </label>
+  </div>  
                                               
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio50" id="r92" value="no">
-                                                  <label class="form-check-label" for="r92">No</label>
-                                                  </div></div>
-
-                                                  <div class="form-row">
-                                                  <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">Emisión de acciones </label>
-                                              </div>  
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio51" id="r93" value="si">
+  <label class="form-check-label" for="r93">Sí</label>
+  </div>
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio51" id="r93" value="si">
-                                                  <label class="form-check-label" for="r93">Sí</label>
-                                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio51" id="r94" value="no">
+  <label class="form-check-label" for="r94">No</label>
+  </div></div>
+
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">	Cooperativas</label>
+  </div>  
                                               
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio51" id="r94" value="no">
-                                                  <label class="form-check-label" for="r94">No</label>
-                                                  </div></div>
-
-                                                  <div class="form-row">
-                                                  <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">	
-Cooperativas</label>
-                                              </div>  
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio52" id="r95" value="si">
+  <label class="form-check-label" for="r95">Sí</label>
+  </div>
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio52" id="r95" value="si">
-                                                  <label class="form-check-label" for="r95">Sí</label>
-                                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio52" id="r96" value="no">
+  <label class="form-check-label" for="r96">No</label>
+  </div></div>
+
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Org de microfinanzas</label>
+  </div>  
                                               
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio52" id="r96" value="no">
-                                                  <label class="form-check-label" for="r96">No</label>
-                                                  </div></div>
-
-                                                  <div class="form-row">
-                                                  <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">Org de microfinanzas</label>
-                                              </div>  
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio53" id="r97" value="si">
+  <label class="form-check-label" for="r97">Sí</label>
+  </div>
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio53" id="r97" value="si">
-                                                  <label class="form-check-label" for="r97">Sí</label>
-                                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio53" id="r98" value="no">
+  <label class="form-check-label" for="r98">No</label>
+  </div></div>
+
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Fondos Propyme </label>
+  </div>  
                                               
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio53" id="r98" value="no">
-                                                  <label class="form-check-label" for="r98">No</label>
-                                                  </div></div>
-
-                                                  <div class="form-row">
-                                                  <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">Fondos Propyme </label>
-                                              </div>  
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio54" id="r99" value="si">
+  <label class="form-check-label" for="r99">Sí</label>
+  </div>
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio54" id="r99" value="si">
-                                                  <label class="form-check-label" for="r99">Sí</label>
-                                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio54" id="r100" value="no">
+  <label class="form-check-label" for="r100">No</label>
+  </div></div>
+
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">	FINADE</label>
+  </div>  
                                               
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio54" id="r100" value="no">
-                                                  <label class="form-check-label" for="r100">No</label>
-                                                  </div></div>
-
-                                                  <div class="form-row">
-                                                  <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">	
-FINADE</label>
-                                              </div>  
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio55" id="r101" value="si">
+  <label class="form-check-label" for="r101">Sí</label>
+  </div>
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio55" id="r101" value="si">
-                                                  <label class="form-check-label" for="r101">Sí</label>
-                                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio55" id="r102" value="no">
+  <label class="form-check-label" for="r102">No</label>
+  </div></div>
+
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Programa banca para el desarrollo </label>
+  </div>  
+                                            
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio56" id="r103" value="si">
+  <label class="form-check-label" for="r103">Sí</label>
+  </div>
                                               
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio55" id="r102" value="no">
-                                                  <label class="form-check-label" for="r102">No</label>
-                                                  </div></div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio56" id="r104" value="no">
+  <label class="form-check-label" for="r104">No</label>
+  </div></div>
 
-                                                  <div class="form-row">
-                                                  <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">Programa banca para el desarrollo </label>
-                                              </div>  
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">	FOMujeres </label>
+  </div>  
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio56" id="r103" value="si">
-                                                  <label class="form-check-label" for="r103">Sí</label>
-                                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio57" id="r105" value="si">
+  <label class="form-check-label" for="r105">Sí</label>
+  </div>
                                               
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio56" id="r104" value="no">
-                                                  <label class="form-check-label" for="r103">No</label>
-                                                  </div></div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio57" id="r106" value="no">
+  <label class="form-check-label" for="r106">No</label>
+  </div></div>
 
-                                                  <div class="form-row">
-                                                  <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">	
-                                                Programa banca para el desarrollo </label>
-                                              </div>  
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4"> Otras asociaciones </label>
+  </div>  
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio57" id="r105" value="si">
-                                                  <label class="form-check-label" for="r105">Sí</label>
-                                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio58" id="r107" value="si">
+  <label class="form-check-label" for="r107">Sí</label>
+  </div>
                                               
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio57" id="r106" value="no">
-                                                  <label class="form-check-label" for="r106">No</label>
-                                                  </div></div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio58" id="r108" value="no">
+  <label class="form-check-label" for="r108">No</label>
+  </div></div>
 
-                                                  <div class="form-row">
-                                                  <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">FOmujeres </label>
-                                              </div>  
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Otro </label>
+  </div>  
+                                   
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio59" id="r109" value="si">
+  <label class="form-check-label" for="r109">Sí</label>
+  </div>
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio58" id="r107" value="si">
-                                                  <label class="form-check-label" for="r107">Sí</label>
-                                                  </div>
-                                              
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio58" id="r108" value="no">
-                                                  <label class="form-check-label" for="r108">No</label>
-                                                  </div></div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio59" id="rr109" value="no">
+  <label class="form-check-label" for="rr109">No</label>
+  </div></div>                                          
+  </div>
 
-                                                  <div class="form-row">
-                                                  <div class="col-md-6 offset-md-3">
+  <div class="row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">¿Cuál?</label>
+  <input type="text" class="form-control" id="otro2" placeholder="Por favor detalle">
+  </div> <!-- div de fila -->
+  </div> <!-- div de columna -->                                          
 
-                                                <label for="inputEmail4">Otras asociaciones </label>
-                                              </div>  
-                                              
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio59" id="r109" value="si">
-                                                  <label class="form-check-label" for="r109">Sí</label>
-                                                  </div>
-                                              
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio59" id="r74" value="no">
-                                                  <label class="form-check-label" for="r109">No</label>
-                                                  </div></div>
-                                                  
-      </div>
-    </div>
+<!-- Pregunta 42 -->  
+  <div class="form-group">
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4"><b>PIV.1.2 ¿Para qué fines ha utilizado el financiamiento?</b></label>
+  </div>  
+  </div>
 
-
-  <!-- Pregunta 26 -->
-
-  <div class="carousel-item ">
-      <div class="form-group">
-          <div class="form-row">
-          <div class="col-md-6 offset-md-3">
-              <label for="inputEmail4"><b>PIV.1.2 ¿Para qué fines ha utilizado el financiamiento?</b></label>
-            </div>  
-            </div>  
-      <div class="form-row">
-      <div class="col-md-6 offset-md-3">
-      <label for="inputEmail4">Compra de materia prima o insumos</label>
-    </div>  
-      <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio60" id="r110" value="si">
-          <label class="form-check-label" for="r110">Sí</label>
-          </div>
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Compra de materia prima o insumos</label>
+  </div>  
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio60" id="r110" value="si">
+  <label class="form-check-label" for="r110">Sí</label>
+  </div>
       
-          <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio60" id="r111" value="no">
-          <label class="form-check-label" for="r111">No</label>
-          </div></div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio60" id="r111" value="no">
+  <label class="form-check-label" for="r111">No</label>
+  </div></div>
 
-              <div class="form-row">
-              <div class="col-md-6 offset-md-3">
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">	Compra de maquinaria</label>
+  </div>  
 
-                  <label for="inputEmail4">	Compra de maquinaria</label>
-                </div>  
-
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="radio61" id="r112" value="si">
-                    <label class="form-check-label" for="r112">Sí</label>
-                    </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio61" id="r112" value="si">
+  <label class="form-check-label" for="r112">Sí</label>
+  </div>
                 
-                    <div class="form-check">
-                    <input class="form-check-input" type="radio" name="radio61" id="r113" value="no">
-                    <label class="form-check-label" for="r113">No</label>
-                    </div></div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio61" id="r113" value="no">
+  <label class="form-check-label" for="r113">No</label>
+  </div></div>
           
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Obtener certificaciones</label>
+  </div>  
 
-                        <div class="form-row">
-                        <div class="col-md-6 offset-md-3">
-
-                            <label for="inputEmail4">Obtener certificaciones</label>
-                          </div>  
-
-                          <div class="form-check">
-                              <input class="form-check-input" type="radio" name="radio62" id="r114" value="si">
-                              <label class="form-check-label" for="r114">Sí</label>
-                              </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio62" id="r114" value="si">
+  <label class="form-check-label" for="r114">Sí</label>
+  </div>
                           
-                              <div class="form-check">
-                              <input class="form-check-input" type="radio" name="radio62" id="r115" value="no">
-                              <label class="form-check-label" for="r115">No</label>
-                              </div></div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio62" id="r115" value="no">
+  <label class="form-check-label" for="r115">No</label>
+  </div></div>
 
-                                  <div class="form-row">
-                                  <div class="col-md-6 offset-md-3">
-
-                                      <label for="inputEmail4">	
-                                      Mejoras a las instalaciones de la empresa</label>
-                                    </div>    
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">	Mejoras a las instalaciones de la empresa</label>
+  </div>    
                                     
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="radio63" id="r116" value="si">
-                                        <label class="form-check-label" for="r116">Sí</label>
-                                        </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio63" id="r116" value="si">
+  <label class="form-check-label" for="r116">Sí</label>
+  </div>
                                     
-                                        <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="radio63" id="r117" value="no">
-                                        <label class="form-check-label" for="r117">No</label>
-                                        </div></div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio63" id="r117" value="no">
+  <label class="form-check-label" for="r117">No</label>
+  </div></div>
 
-
-                                            <div class="form-row">
-                                            <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">Pago de Planillas</label>
-                                              </div>  
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Pago de Planillas</label>
+  </div>  
+                                             
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio64" id="r118" value="si">
+  <label class="form-check-label" for="r118">Sí</label>
+  </div>
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio47" id="r118" value="si">
-                                                  <label class="form-check-label" for="r118">Sí</label>
-                                                  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio64" id="r119" value="no">
+  <label class="form-check-label" for="r119">No</label>
+  </div></div>
+
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">Otras (esperifique): </label>
+  </div>  
                                               
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio47" id="r119" value="no">
-                                                  <label class="form-check-label" for="r119">No</label>
-                                                  </div></div>
-
-                                      
-
-                                                  <div class="form-row">
-                                                  <div class="col-md-6 offset-md-3">
-
-                                                <label for="inputEmail4">Otras (esperifique): </label>
-                                              </div>  
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio65" id="r120" value="si">
+  <label class="form-check-label" for="r120">Sí</label>
+  </div>
                                               
-                                              <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio59" id="r120" value="si">
-                                                  <label class="form-check-label" for="r120">Sí</label>
-                                                  </div>
-                                              
-                                                  <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="radio59" id="r121" value="no">
-                                                  <label class="form-check-label" for="r121">No</label>
-                                                  </div></div>
-                                                  <div class="form-row">
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio65" id="r121" value="no">
+  <label class="form-check-label" for="r121">No</label>
+  </div></div>
 
+  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
+  <input type="text" id="t15" class="form-control" placeholder="Por favor detalle">
+  </div> <!-- Div de columna -->
+  </div> <!-- Div de fila -->       
+  </div>
+  </div> <!-- Div md/12 -->
+  </div> <!-- Div carousel -->
 
-            <div class="col-md-6 offset-md-3">
-                 <input type="text" id="t15" class="form-control" placeholder="Por favor detalle">
-            </div> <!-- Div de columna -->
-            </div> <!-- Div de fila -->
-                                                  
-      </div>
-    </div>
 
 
   <!-- Pregunta 26 -->
@@ -4744,12 +4689,370 @@ PARTE X.  COMPETENCIAS: MOTIVACIÓN
         url:"save.php",
         data: {cont: countClicks,r37:r37,tr13:tr13},
         success: function(data){
-          alert(data);
         }
         });
 
 
         } //Fin de 23
+
+        if (countClicks == 24){
+          var r38,producto,mercado;
+
+      if (document.getElementById('r65').checked) {
+          r38 = document.getElementById('r65').value;
+          }
+      else if (document.getElementById('r66').checked) {
+        r38 = document.getElementById('r66').value;
+        }
+        producto = document.getElementById("trr13").value;
+        mercado = document.getElementById("t14").value;
+  
+  
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,r38:r38,producto:producto,mercado:mercado},
+        success: function(data){
+        }
+        });
+
+
+        } //Fin de 24
+
+        if (countClicks == 25){
+          var m1,m2,m3,m4,m5,m6,m7,m8,m9,m10,m11,m12,m13,m14,m15,m16,m17;
+
+          if (document.getElementById('rr41').checked) {
+          m1 = document.getElementById('rr41').value;
+          }
+      else if (document.getElementById('rr42').checked) {
+        m1 = document.getElementById('rr42').value;
+        }
+
+        if (document.getElementById('rr43').checked) {
+          m2 = document.getElementById('rr43').value;
+          }
+      else if (document.getElementById('rr44').checked) {
+        m2 = document.getElementById('rr44').value;
+        }
+
+
+        if (document.getElementById('rr45').checked) {
+          m3 = document.getElementById('rr45').value;
+          }
+        else if (document.getElementById('rr46').checked) {
+        m3 = document.getElementById('rr46').value;
+        }
+
+
+        if (document.getElementById('rr47').checked) {
+        m4 = document.getElementById('rr47').value;
+        }
+        else if (document.getElementById('rr48').checked) {
+        m4 = document.getElementById('rr48').value;
+        }
+
+        if (document.getElementById('rr49').checked) {
+        m5 = document.getElementById('rr49').value;
+        }
+        else if (document.getElementById('rr50').checked) {
+        m5 = document.getElementById('rr50').value;
+        }
+
+        if (document.getElementById('rr51').checked) {
+        m6 = document.getElementById('rr51').value;
+        }
+        else if (document.getElementById('rr52').checked) {
+        m6 = document.getElementById('rr52').value;
+        }
+
+        if (document.getElementById('rr53').checked) {
+        m7 = document.getElementById('rr53').value;
+        }
+        else if (document.getElementById('rr54').checked) {
+        m7 = document.getElementById('rr54').value;
+        }
+
+        if (document.getElementById('rr55').checked) {
+        m8 = document.getElementById('rr55').value;
+        }
+        else if (document.getElementById('rr56').checked) {
+        m8 = document.getElementById('rr56').value;
+        }
+
+        if (document.getElementById('rr57').checked) {
+        m9 = document.getElementById('rr57').value;
+        }
+        else if (document.getElementById('rr58').checked) {
+        m9 = document.getElementById('rr58').value;
+        }
+
+        if (document.getElementById('rr59').checked) {
+        m10 = document.getElementById('rr59').value;
+        }
+        else if (document.getElementById('rr60').checked) {
+        m10 = document.getElementById('rr60').value;
+        }
+
+        if (document.getElementById('rr61').checked) {
+        m11 = document.getElementById('rr61').value;
+        }
+        else if (document.getElementById('rr62').checked) {
+        m11 = document.getElementById('rr62').value;
+        }
+
+        if (document.getElementById('rr63').checked) {
+        m12 = document.getElementById('rr63').value;
+        }
+        else if (document.getElementById('rr64').checked) {
+        m12 = document.getElementById('rr64').value;
+        }
+
+        if (document.getElementById('rr65').checked) {
+        m13 = document.getElementById('rr65').value;
+        }
+        else if (document.getElementById('rr66').checked) {
+        m13 = document.getElementById('rr66').value;
+        }
+
+        if (document.getElementById('rr67').checked) {
+        m14 = document.getElementById('rr67').value;
+        }
+        else if (document.getElementById('rr68').checked) {
+        m14 = document.getElementById('rr68').value;
+        }
+
+        if (document.getElementById('rr69').checked) {
+        m15 = document.getElementById('rr69').value;
+        }
+        else if (document.getElementById('rr70').checked) {
+        m15 = document.getElementById('rr70').value;
+        }
+
+        if (document.getElementById('rr71').checked) {
+        m16 = document.getElementById('rr71').value;
+        }
+        else if (document.getElementById('rr72').checked) {
+        m16 = document.getElementById('rr72').value;
+        }
+
+        if (document.getElementById('rr73').checked) {
+        m17 = document.getElementById('rr73').value;
+        }
+        else if (document.getElementById('rr74').checked) {
+        m17 = document.getElementById('rr74').value;
+        }
+
+        var o1 = document.getElementById('otro').value;
+
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,m1:m1,m2:m2,m3:m3,m4:m4,m5:m5,m6:m6,m7:m7,m8:m8,m9:m9,m10:m10,m11:m11,m12:m12
+        ,m13:m13,m14:m14,m15:m15,m16:m16,m17:m17,o1:o1},
+        success: function(data){
+        }
+        });
+
+
+        } //Fin de 25
+
+
+        if (countClicks == 26){
+          var trrr13 = document.getElementById('trrr13').value;
+          var f;
+          var s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15,s16,s17;
+
+          if (document.getElementById('r75').checked) {
+          f = document.getElementById('r75').value;
+          }
+      else if (document.getElementById('r76').checked) {
+        f = document.getElementById('r76').value;
+        }
+
+        if (document.getElementById('r77').checked) {
+          s1 = document.getElementById('r77').value;
+          }
+      else if (document.getElementById('r78').checked) {
+        s1 = document.getElementById('r78').value;
+        }
+
+
+        if (document.getElementById('r79').checked) {
+          s2 = document.getElementById('r79').value;
+          }
+        else if (document.getElementById('r80').checked) {
+        s2 = document.getElementById('r80').value;
+        }
+
+
+        if (document.getElementById('r81').checked) {
+        s3 = document.getElementById('r81').value;
+        }
+        else if (document.getElementById('r82').checked) {
+        s3 = document.getElementById('r82').value;
+        }
+
+        if (document.getElementById('r83').checked) {
+        s4 = document.getElementById('r83').value;
+        }
+        else if (document.getElementById('r84').checked) {
+        s4 = document.getElementById('r84').value;
+        }
+
+        if (document.getElementById('r85').checked) {
+        s5 = document.getElementById('r85').value;
+        }
+        else if (document.getElementById('r86').checked) {
+        s5 = document.getElementById('r86').value;
+        }
+
+        if (document.getElementById('r87').checked) {
+        s6 = document.getElementById('r87').value;
+        }
+        else if (document.getElementById('r88').checked) {
+        s6 = document.getElementById('r88').value;
+        }
+
+        if (document.getElementById('r89').checked) {
+        s7 = document.getElementById('r89').value;
+        }
+        else if (document.getElementById('r90').checked) {
+        s7 = document.getElementById('r90').value;
+        }
+
+        if (document.getElementById('r91').checked) {
+        s8 = document.getElementById('r91').value;
+        }
+        else if (document.getElementById('r92').checked) {
+        s8 = document.getElementById('r92').value;
+        }
+
+        if (document.getElementById('r93').checked) {
+        s9 = document.getElementById('r93').value;
+        }
+        else if (document.getElementById('r94').checked) {
+        s9 = document.getElementById('r94').value;
+        }
+
+        if (document.getElementById('r95').checked) {
+        s10 = document.getElementById('r95').value;
+        }
+        else if (document.getElementById('r96').checked) {
+        s10 = document.getElementById('r96').value;
+        }
+
+        if (document.getElementById('r97').checked) {
+        s11 = document.getElementById('r97').value;
+        }
+        else if (document.getElementById('r98').checked) {
+        s11 = document.getElementById('r98').value;
+        }
+
+        if (document.getElementById('r99').checked) {
+        s12 = document.getElementById('r99').value;
+        }
+        else if (document.getElementById('r100').checked) {
+        s12 = document.getElementById('r100').value;
+        }
+
+        if (document.getElementById('r101').checked) {
+        s13 = document.getElementById('r101').value;
+        }
+        else if (document.getElementById('r102').checked) {
+        s13 = document.getElementById('r102').value;
+        }
+
+        if (document.getElementById('r103').checked) {
+        s14 = document.getElementById('r103').value;
+        }
+        else if (document.getElementById('r104').checked) {
+        s14 = document.getElementById('r104').value;
+        }
+
+        if (document.getElementById('r105').checked) {
+        s15 = document.getElementById('r105').value;
+        }
+        else if (document.getElementById('r106').checked) {
+        s15 = document.getElementById('r106').value;
+        }
+
+        if (document.getElementById('r107').checked) {
+        s16 = document.getElementById('r107').value;
+        }
+        else if (document.getElementById('r108').checked) {
+        s16 = document.getElementById('r108').value;
+        }
+
+        if (document.getElementById('rr109').checked) {
+        s17 = document.getElementById('rr109').value;
+        }
+        else if (document.getElementById('r109').checked) {
+        s17 = document.getElementById('r109').value;
+        }
+
+        var otro2 = document.getElementById('otro2').value;
+        var t15 = document.getElementById('t15').value;
+
+        /*fines*/
+
+        var f1,f2,f3,f4,f5;
+
+        if (document.getElementById('r110').checked) {
+        f1 = document.getElementById('r110').value;
+        }
+        else if (document.getElementById('r111').checked) {
+        f1 = document.getElementById('r111').value;
+        }
+
+        if (document.getElementById('r112').checked) {
+        f2 = document.getElementById('r112').value;
+        }
+        else if (document.getElementById('r113').checked) {
+        f2 = document.getElementById('r113').value;
+        }
+
+        if (document.getElementById('r114').checked) {
+        f3 = document.getElementById('r114').value;
+        }
+        else if (document.getElementById('r115').checked) {
+        f3 = document.getElementById('r115').value;
+        }
+
+        if (document.getElementById('r116').checked) {
+        f4 = document.getElementById('r116').value;
+        }
+        else if (document.getElementById('r117').checked) {
+        f4 = document.getElementById('r117').value;
+        }
+
+        if (document.getElementById('rr118').checked) {
+        f5 = document.getElementById('rr118').value;
+        }
+        else if (document.getElementById('r119').checked) {
+        f5 = document.getElementById('r119').value;
+        }
+
+        if (document.getElementById('r120').checked) {
+        f5 = document.getElementById('r120').value;
+        }
+        else if (document.getElementById('r121').checked) {
+        f5 = document.getElementById('r121').value;
+        }
+
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,f:f,s1:s1,s2:s2,s3:s3,s4:s4,s5:s5,s6:s6,s7:s7,s8:s8,s9:s9,s10:s10,s11:s11,s12:s12
+        ,s13:s13,s14:s14,s15:s15,s16:s16,s17:s17,trrr13:trrr13,f1:f1,f2:f2,f3:f3,f4:f4,f5:f5,t15:t15},
+        success: function(data){
+          alert(data);
+        }
+        });
+
+
+        } //Fin de 26
+
 
     	//alert(countClicks);
       // window.location.href = "save.php";

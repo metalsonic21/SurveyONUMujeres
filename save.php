@@ -382,5 +382,90 @@ else if ($cont == 23){
     $r37["Respuesta"] = $_POST['r37'];
     $r37["Detalles"] = $_POST['tr13'];
     }
+
+else if ($cont == 24){
+    $q38 = "PIII.4.4. Durante los próximos 12 meses ¿Piensa realizar la empresa alguna venta fuera del país?";
+    $q381 = "PIII.4.5. ¿Cuál sería el principal producto o servicio que están pensando en vender?";
+    $q382 = "PIII.4.6. ¿A qué mercado planean vender?";
+    $r38 = array("Venta"=>"","Producto"=>"","Mercado"=>"");
+    $r38["Venta"] = $_POST['r38'];
+    $r38["Producto"] = $_POST['producto'];
+    $r38["Mercado"] = $_POST['mercado'];
+
+    echo $r38["Venta"];
+    echo $r38["Producto"] ;
+    echo $r38["Mercado"] ;
+    }
+
+else if ($cont == 25){
+    $q39 = "PIII.4.7 ¿Cuáles considera ud que son las principales limitaciones al momento de exportar?";
+    $r39 = array("Hay preferencia por enfocarse en el mercadolocal"=>"","Considera el riesgo muy alto, tiene temor"=>"",
+    "El volumen solicitado puede superar sucapacidad productiva"=>"","Falta de información sobre el mercado destino"=>""
+    ,"Falta de contactos comerciales"=>"","Desconocimiento de instituciones de apoyo"=>"","Desconocimiento de trámites de exportación y logística"=>"",
+    "Problemas con trámites específicos"=>"","Falta de opciones de financiamiento"=>"","Desconocimiento de los requisitos del comprador"=>"",
+    "Altos costos de producción"=>"","Altos costos de logística"=>"","Tipo de cambio"=>"","Escasez de materia prima o insumos"=>"",
+    "Alto número de competidores"=>"","Competencia con mejores precios"=>"");
+
+    $otro = array("Respuesta"=>"", "Detalle"=>"");
+            
+    $r39["Hay preferencia por enfocarse en el mercadolocal"] = $_POST['m1'];
+    $r39["Considera el riesgo muy alto, tiene temor"] = $_POST['m2'];
+    $r39["El volumen solicitado puede superar sucapacidad productiva"] = $_POST['m3'];
+    $r39["Falta de información sobre el mercado destino"] = $_POST['m4'];
+    $r39["Falta de contactos comerciales"] = $_POST['m5'];
+    $r39["Desconocimiento de instituciones de apoyo"] = $_POST['m6'];
+    $r39["Desconocimiento de trámites de exportación y logística"] = $_POST['m7'];
+    $r39["Problemas con trámites específicos"] = $_POST['m8'];
+    $r39["Falta de opciones de financiamiento"] = $_POST['m9'];
+    $r39["Desconocimiento de los requisitos del comprador"] = $_POST['m10'];
+    $r39["Altos costos de producción"] = $_POST['m11'];
+    $r39["Altos costos de logística"] = $_POST['m12'];
+    $r39["Tipo de cambio"] = $_POST['m13'];
+    $r39["Escasez de materia prima o insumos"] = $_POST['m14'];
+    $r39["Alto número de competidores"] = $_POST['m15'];
+    $r39["Competencia con mejores precios"] = $_POST['m16'];
+
+    $otro["Respuesta"] = $_POST['m17'];
+    $otro["Detalle"] = $_POST['o1'];
+    }
+
+else if ($cont == 26){
+    $q40 = "PIV.1¿Ha requerido algún financiamiento para operar la empresa o negocio durante 2017 o 2018?";
+    $r40 = $_POST['f'];
+    echo $r40."\n";
+    $q41 = "PIV.1.1 ¿Qué tipo de financiamiento?";
+    if ($r40 == "si"){
+    
+    $r41 = array("Recursos propios"=>"","Préstamos informales"=>"",
+    "Bancos Públicos"=>"","Préstamos de otras empresas"=>""
+    ,"Bancos privados"=>"","Tarjetas de crédito"=>"","Proveedores"=>"",
+    "Parientes/amigos"=>"","Emisión de acciones"=>"","Cooperativas"=>"",
+    "Org de microfinanzas"=>"","Fondos Propyme"=>"","FINADE"=>"","Programa banca para el desarrollo"=>"",
+    "FOMujeres"=>"","Otras asociaciones"=>"");
+    
+    $otro2 = array("Respuesta"=>"", "Detalle"=>"");
+                
+    $r41["Recursos propios"] = $_POST['s1'];
+    $r41["Préstamos informales"] = $_POST['s2'];
+    $r41["Bancos Públicos"] = $_POST['s3'];
+    $r41["Préstamos de otras empresas"] = $_POST['s4'];
+    $r41["Bancos privados"] = $_POST['s5'];
+    $r41["Tarjetas de crédito"] = $_POST['s6'];
+    $r41["Proveedores"] = $_POST['s7'];
+    $r41["Parientes/amigos"] = $_POST['s8'];
+    $r41["Emisión de acciones"] = $_POST['s9'];
+    $r41["Cooperativas"] = $_POST['s10'];
+    $r41["Org de microfinanzas"] = $_POST['s11'];
+    $r41["Fondos Propyme"] = $_POST['s12'];
+    $r41["FINADE"] = $_POST['s13'];
+    $r41["Programa banca para el desarrollo"] = $_POST['s14'];
+    $r41["FOMujeres"] = $_POST['s15'];
+    $r41["Otras asociaciones"] = $_POST['s16'];
+    
+    $otro["Respuesta"] = $_POST['s17'];
+    $otro["Detalle"] = $_POST['trrr13'];
+        }
+    else $r41 = "N/A";
+    }
     
 ?>
