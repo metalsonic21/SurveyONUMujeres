@@ -11,6 +11,8 @@ $q2 = "FI.2. ¿Acepta usted que sus datos de identificación formen parte del Di
 $r2 = $_POST['r2'];
 $q3 = "FI.3. ¿Tiene usted o está usted involucrada en algún negocio?";
 $r3 = $_POST['r3'];
+
+echo $r2;
 }
 
 

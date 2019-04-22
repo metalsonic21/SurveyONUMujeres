@@ -3788,13 +3788,16 @@
   <br></br>
   </div>
 
+
+
+
 <!-- Verificaciones y salvar datos en PHP --> 
-
-
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
   <script type="text/javascript">
   function hello() {
-    countClicks++;
+    if (document.getElementById("submitbttn").disabled === false){
+      countClicks++;
+    }
+    alert(countClicks);
     }
     
     var countClicks = 0;
@@ -3821,20 +3824,26 @@
         success: function(data){
         }
         });
-
-
         } //Fin de 1
 
 
-        if (countClicks == 2){
+        if (countClicks == 2){       
+          if (document.getElementById("submitbttn").disabled === false){
           var r2;
           var r3;
       if (document.getElementById('r3').checked) {
           r2 = document.getElementById('r3').value;
+          alert("hola");
+          document.getElementById("submitbttn").disabled = false;
           }
       else if (document.getElementById('r4').checked) {
         r2 = document.getElementById('r4').value;
+        document.getElementById("submitbttn").disabled = false;
         }
+      else{
+        document.getElementById("submitbttn").disabled = true; 
+        upCount();
+      }
 
         if (document.getElementById('r5').checked) {
           r3 = document.getElementById('r5').value;
@@ -3848,13 +3857,50 @@
         url:"save.php",
         data: {cont: countClicks,r2:r2,r3:r3},
         success: function(data){
+          alert(data);
         }
         });
 
 
         } //Fin de 2
 
-        if (countClicks == 3){
+        else {
+          if (document.getElementById('r3').checked) {
+          r2 = document.getElementById('r3').value;
+          alert("hola");
+          document.getElementById("submitbttn").disabled = false;
+          }
+      else if (document.getElementById('r4').checked) {
+        r2 = document.getElementById('r4').value;
+        document.getElementById("submitbttn").disabled = false;
+        }
+      else{
+        document.getElementById("submitbttn").disabled = true; 
+        upCount();
+      }   
+      if (document.getElementById('r5').checked) {
+          r3 = document.getElementById('r5').value;
+          }
+      else if (document.getElementById('r6').checked) {
+        r3 = document.getElementById('r6').value;
+        }
+        else{
+        document.getElementById("submitbttn").disabled = true; 
+        upCount();
+      }   
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,r2:r2,r3:r3},
+        success: function(data){
+          alert(data);
+        }
+        });
+
+        }
+
+        if (countClicks == 3)
+        if (document.getElementById("submitbttn").disabled === false){
           var r4;
       if (document.getElementById('r7').checked) {
           r4 = document.getElementById('r7').value;
@@ -5636,8 +5682,52 @@
     	//alert(countClicks);
       // window.location.href = "save.php";
       }
+    }
+
+
+    if (countClicks == 0){
+    function one(oEvent) { 
+            oEvent = oEvent || window.event; 
+            var txtField = oEvent.target || oEvent.srcElement; 
+
+            var t1ck=true;
+            var msg=" ";
+            if(!document.getElementById("r1").checked && !document.getElementById("r2").checked){ t1ck=false;}
+
+            //alert(msg + t1ck);
+
+            if(t1ck){document.getElementById("submitbttn").disabled = false;
+            msg=msg+ " <b> Submit Button is enabled </b>";
+            }
+            else{document.getElementById("submitbttn").disabled = true; 
+            msg=msg+ " <b> Submit Button is disabled </b>";
+            }// end of if checking status of t1ck variable 
+            } 
+
+            window.onload = function () { 
+            var btnSignUp = document.getElementById("submitbttn"); 
+
+            var r1 = document.getElementById("r1"); 
+            var r2 = document.getElementById("r2"); 
+
+            var t1ck=false;
+            document.getElementById("submitbttn").disabled = true;
+            r1.onclick = one; 
+            r2.onclick = one; 
+}
+  }
+
+
+
+
+      
     
   </script>
+
+
+
+
+
   </div>
   </div>
   </form>  
