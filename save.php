@@ -391,10 +391,6 @@ else if ($cont == 24){
     $r38["Venta"] = $_POST['r38'];
     $r38["Producto"] = $_POST['producto'];
     $r38["Mercado"] = $_POST['mercado'];
-
-    echo $r38["Venta"];
-    echo $r38["Producto"] ;
-    echo $r38["Mercado"] ;
     }
 
 else if ($cont == 25){
@@ -430,9 +426,10 @@ else if ($cont == 25){
     }
 
 else if ($cont == 26){
+    $factoresr = $_POST['trrr13'];
+    $factoresq = "PIII.4.8. ¿Con base en su experiencia, cuáles diría usted que son los tres (3) factores claves para que una empresa sea exitosa exportando?";
     $q40 = "PIV.1¿Ha requerido algún financiamiento para operar la empresa o negocio durante 2017 o 2018?";
     $r40 = $_POST['f'];
-    echo $r40."\n";
     $q41 = "PIV.1.1 ¿Qué tipo de financiamiento?";
     if ($r40 == "si"){
     
@@ -462,10 +459,289 @@ else if ($cont == 26){
     $r41["FOMujeres"] = $_POST['s15'];
     $r41["Otras asociaciones"] = $_POST['s16'];
     
-    $otro["Respuesta"] = $_POST['s17'];
-    $otro["Detalle"] = $_POST['trrr13'];
-        }
+    $otro2["Respuesta"] = $_POST['s17'];
+    $otro2["Detalle"] = $_POST['otro2'];
+
+    $fq = "PIV.1.1 ¿Qué tipo de financiamiento?";
+    $f1 = array("Compra de materia prima o insumos"=>"","Compra de maquinaria"=>"",
+    "Obtener certificaciones"=>"","Mejoras a las instalaciones de la empresa"=>""
+    ,"Pago de Planillas"=>"");
+
+    $f1["Compra de materia prima o insumos"] = $_POST['f1'];
+    $f1["Compra de maquinaria"] = $_POST['f2'];
+    $f1["Obtener certificaciones"] = $_POST['f3']; 
+    $f1["Mejoras a las instalaciones de la empresa"] = $_POST['f4'];
+    $f1["Pago de Planillas"] = $_POST['f5'];
+
+    $otro3 = array("Respuesta"=>"", "Detalle"=>"");
+
+    $otro3["Respuesta"] = $_POST['f6'];
+    $otro3["Detalle"] = $_POST ['t15'];
+    }
     else $r41 = "N/A";
     }
+
+else if ($cont == 27){
+    $q43 = "PIV.1 ¿Ha utilizado alguna vez el apoyo de PROCOMER?";
+    $r43 = $_POST['r43'];
+    $especifico = "PV.1.1 ¿En cuál o cuáles áreas?";
+    if ($r43 == "si"){
+    $re = array("Ferias, misiones comerciales"=>"","Asesoría logística"=>"",
+    "Asesoría en el CACEX"=>"","Acceso a estudios"=>""
+    ,"Capacitaciones"=>"","Trámites"=>"","Encadenamientos"=>"");
+
+    $re["Ferias, misiones comerciales"] = $_POST['z1'];
+    $re["Asesoría logística"] = $_POST['z2'];
+    $re["Asesoría en el CACEX"] = $_POST['z3'];
+    $re["Acceso a estudios"] = $_POST['z4'];
+    $re["Capacitaciones"] = $_POST['z5'];
+    $re["Trámites"] = $_POST['z6'];
+    $re["Encadenamientos"] = $_POST['z7'];
+
+    $otro4 = array("Respuesta"=>"", "Detalle"=>"");
+    $otro4["Respuesta"] = $_POST['z8'];
+    $otro4["Detalle"] = $_POST ['otro4'];
+    }
+    else $r43 = "N/A";
+    }
+
+else if ($cont == 28){
+    $q44 = "PV.2. ¿Pertenece usted a alguna de las siguientes asociaciones o redes de empresas?";
+    $r44 = array("La Red Violeta"=>"","Mujeres en Beta"=>"",
+    "De.Mentes"=>"","SuláBatsu"=>""
+    ,"Voces Vitales"=>"","Foro de Mujeres Empresarias"=>"","WeConnect"=>"",
+    "Nosotras WeConnecting"=>"","AED"=>"");
     
+    $r44["La Red Violeta"] = $_POST['sub1'];
+    $r44["Mujeres en Beta"] = $_POST['sub2'];
+    $r44["De.Mentes"] = $_POST['sub3'];
+    $r44["SuláBatsu"] = $_POST['sub4'];
+    $r44["Voces Vitales"] = $_POST['sub5'];
+    $r44["Foro de Mujeres Empresarias"] = $_POST['sub6'];
+    $r44["WeConnect"] = $_POST['sub7'];
+    $r44["Nosotras WeConnecting"] = $_POST['sub8'];
+    $r44["AED"] = $_POST['sub9'];
+
+    $otro5 = array("Respuesta"=>"", "Detalle"=>"");
+    $otro5["Respuesta"] = $_POST['sub10'];
+    $otro5["Detalle"] = $_POST ['otro5'];
+    }
+    
+
+else if ($cont == 29){
+    $q45 = "PV.3. ¿Ha recibido usted y/o su personal capacitación en?";
+    $r45 = $_POST['r45'];
+        if ($r45 == "si"){
+        $q46 = "PV.3.1. Para los que respondieron SÍ en PV.3. ¿En cuáles?";
+        $r46 = $_POST['r46'];
+        }
+    else $r46 = "N/A";
+    }
+
+else if ($cont == 30){
+    $q47 = "PV.2. ¿Pertenece usted a alguna de las siguientes asociaciones o redes de empresas?";
+    $r47 = array("Aspectos técnicos del trabajo"=>"","Asistencia profesional"=>"",
+    "Habilidades blandas"=>"");
+    
+    $r47["Aspectos técnicos del trabajo"] = $_POST['sec1'];
+    $r47["Asistencia profesional"] = $_POST['sec2'];
+    $r47["Habilidades blandas"] = $_POST['sec3'];
+    
+    $otro6 = array("Respuesta"=>"", "Detalle"=>"");
+    $otro6["Respuesta"] = $_POST['sec4'];
+    $otro6["Detalle"] = $_POST ['otro6'];
+    }
+    
+else if ($cont == 31){
+    $q48 = "PV.5. ¿Ha recibido usted y/o su personal capacitación en Programas de fortalecimiento de capacidades para emprendedores o PYMES?";
+    $r48 = $_POST['p1'];
+    $q49 = "PV.5.1. Para los que respondieron SÍ en PV.5. ¿En cuáles?";
+    $r49 = array("Mujeres Emprendedoras MEIC"=>"","Avanzamos INAMU"=>"",
+    "Feria Mujeres Empresarias INAMU"=>"","FoMujeres INAMU"=>""
+    ,"Programa para el Desarrollo de la Mujer Emprendedora - Cámara de Comercio de Costa Rica"=>"","Al Invest"=>"",
+    "Programa de Liderazgo Ejecutivo de la Mujer INCAE"=>"",
+    "Programa Acelera BAC Credomatic"=>"","Mujer 360 Banco Nacional"=>"","VV Grow"=>"",
+    "Proyecto Emprende Inamu, MEIC, INAMU"=>"","Proyecto MADC"=>"","Proyecto Procalidad"=>""); 
+    
+    $otro7 = array("Respuesta"=>"", "Detalle"=>"");
+                
+    $r49["Mujeres Emprendedoras MEIC"] = $_POST['p2'];
+    $r49["Avanzamos INAMU"] = $_POST['p3'];
+    $r49["Feria Mujeres Empresarias INAMU"] = $_POST['p4'];
+    $r49["FoMujeres INAMU"] = $_POST['p5'];
+    $r49["Programa para el Desarrollo de la Mujer Emprendedora - Cámara de Comercio de Costa Rica"] = $_POST['p6'];
+    $r49["Al Invest"] = $_POST['p7'];
+    $r49["Programa de Liderazgo Ejecutivo de la Mujer INCAE"] = $_POST['p8'];
+    $r49["Programa Acelera BAC Credomatic"] = $_POST['p9'];
+    $r49["Mujer 360 Banco Nacional"] = $_POST['p10'];
+    $r49["VV Grow"] = $_POST['p11'];
+    $r49["Proyecto Emprende Inamu, MEIC, INAMU"] = $_POST['p12'];
+    $r49["Proyecto MADC"] = $_POST['p13'];
+    $r49["Proyecto Procalidad"] = $_POST['p14'];
+    
+    $otro["Respuesta"] = $_POST['p15'];
+    $otro["Detalle"] = $_POST['otro7'];
+    }
+
+else if ($cont == 32){
+    $q50 = "PVI.1¿Cuenta su empresa con?";
+    $r50 = array("Sitio web propio"=>"","Logo original"=>"",
+    "Email corporativo"=>"","Redes sociales"=>""); 
+                    
+    $r50["Sitio web propio"] = $_POST['re1'];
+    $r50["Logo original"] = $_POST['re2'];
+    $r50["Email corporativo"] = $_POST['re3'];
+    $r50["Redes sociales"] = $_POST['re4'];
+
+    $q501 = "Estudios de mercado";
+    $estudios = array("Competencia"=>"","Plan"=>"",
+    "Libro"=>"","Canal de ventas"=>"");
+                    
+    $estudios["Competencia"] = $_POST['d1'];
+    $estudios["Plan"] = $_POST['d2'];
+    $estudios["Libro"] = $_POST['d3'];
+    $estudios["Canal de ventas"] = $_POST['d4'];
+
+    $q502 = "Estrategias a canales de venta";
+    $cv = array("Digital"=>"","Detal"=>"",
+    "Mayor"=>"","Domicilio"=>"");
+                    
+    $cv["Digital"] = $_POST['v1'];
+    $cv["Detal"] = $_POST['v2'];
+    $cv["Mayor"] = $_POST['v3'];
+    $cv["Domicilio"] = $_POST['v4'];
+
+    $q503 = "Proyección de ventas por períodos";
+    $p = array("Anuales"=>"","Semestrales"=>"",
+    "Trimestrales"=>"");
+                    
+    $p["Anuales"] = $_POST['pe1'];
+    $p["Semestrales"] = $_POST['pe2'];
+    $p["Digitales"] = $_POST['pe3'];
+    }
+
+else if ($cont == 33){
+    $q52 = "PVI.3.¿Cuál diría usted que es el mejor aproximado de su volumen de ventas anual actualmente (en colones)?";
+    $r52 = array("Nacionales"=>"","Internacionales"=>"");
+
+    $placeholder = $_POST['nacional'];
+
+    if ($placeholder == "5"){
+        $r52["Nacionales"]= "Menos de 5 millones";
+    }
+    else if ($placeholder == "610"){
+        $r52["Nacionales"]= "Entre 6 y 10 millones";
+    }
+    else if ($placeholder == "1120"){
+        $r52["Nacionales"]= "Entre 11 y 20 millones";
+    }
+    else if ($placeholder == "2140"){
+        $r52["Nacionales"]= "Entre 21 y 40 millones";
+    }
+    else if ($placeholder == "41100"){
+        $r52["Nacionales"]= "Entre 41 y 100 millones";
+    }
+    else if ($placeholder == "101250"){
+        $r52["Nacionales"]= "Entre 101 y 250 millones";
+    }
+    else if ($placeholder == "250"){
+        $r52["Nacionales"]= "Más de 250 millones";
+    }
+
+    $placeholder = $_POST['internacional'];
+
+    if ($placeholder == "5"){
+        $r52["Internacionales"]= "Menos de 5 millones";
+    }
+    else if ($placeholder == "610"){
+        $r52["Internacionales"]= "Entre 6 y 10 millones";
+    }
+    else if ($placeholder == "1120"){
+        $r52["Internacionales"]= "Entre 11 y 20 millones";
+    }
+    else if ($placeholder == "2140"){
+        $r52["Internacionales"]= "Entre 21 y 40 millones";
+    }
+    else if ($placeholder == "41100"){
+        $r52["Internacionales"]= "Entre 41 y 100 millones";
+    }
+    else if ($placeholder == "101250"){
+        $r52["Internacionales"]= "Entre 101 y 250 millones";
+    }
+    else if ($placeholder == "250"){
+        $r52["Internacionales"]= "Más de 250 millones";
+    }
+    
+    $q53 = "PVI.4. ¿Diría usted que las ventas del 2018 fueron superiores a las de 2017? ¿En qué proporción?  (%)";
+    $r53 = array("Respuesta"=>"","Porcentaje"=>"");
+
+    $placeholder = $_POST['rr59'];
+
+        if ($placeholder == "si"){
+            $r53["Respuesta"] = "si";
+            $r53["Porcentaje"] = $_POST['r59'];
+        }
+        else {
+            $r53["Respuesta"] = "no";
+            $r53["Porcentaje"] = "N/A";
+        }
+    }
+
+else if ($cont == 34){
+    $q54 = "PVII.1.A continuación se le presentan un conjunto de frases y le pedimos que indique qué tan de acuerdo está con cada una de esas frases(Favor utilizar la siguiente escala: 1. Muy en desacuerdo 2. Algo en desacuerdo 3. Algo de acuerdo 4. Muy de acuerdo)";
+    $r54 = array("1"=>"","2"=>"","3"=>"","4"=>""); 
+
+    $r54["1"]= $_POST['g1'];
+    $r54["2"]= $_POST['g2'];
+    $r54["3"]= $_POST['g3'];
+    $r54["4"]= $_POST['g4'];
+
+    $q55 = "PVII.1.A continuación se le presentan un conjunto de frases y le pedimos que indique qué tan de acuerdo está con cada una de esas frases(Favor utilizar la siguiente escala: 1. Muy en desacuerdo 2. Algo en desacuerdo 3. Algo de acuerdo 4. Muy de acuerdo)";
+    $r55 = array("1"=>"","2"=>"","3"=>"","4"=>""); 
+
+    $r55["1"]= $_POST['q1'];
+    $r55["2"]= $_POST['q2'];
+    $r55["3"]= $_POST['q3'];
+    $r55["4"]= $_POST['q4'];
+    }
+
+else if ($cont == 35){
+    $q56 = "PVII.1.A continuación se le presentan un conjunto de frases y le pedimos que indique qué tan de acuerdo está con cada una de esas frases(Favor utilizar la siguiente escala: 1. Muy en desacuerdo 2. Algo en desacuerdo 3. Algo de acuerdo 4. Muy de acuerdo)";
+    $r56 = array("1"=>"","2"=>"","3"=>"","4"=>""); 
+    
+    $r56["1"]= $_POST['k1'];
+    $r56["2"]= $_POST['k2'];
+    $r56["3"]= $_POST['k3'];
+    $r56["4"]= $_POST['k4'];
+}
+
+else if ($cont == 36){
+    $q57 = "PVII.1.A continuación se le presentan un conjunto de frases y le pedimos que indique qué tan de acuerdo está con cada una de esas frases(Favor utilizar la siguiente escala: 1. Muy en desacuerdo 2. Algo en desacuerdo 3. Algo de acuerdo 4. Muy de acuerdo)";
+    $r57 = array("1"=>"","2"=>"","3"=>"","4"=>""); 
+    
+    $r57["1"]= $_POST['t18'];
+    $r57["2"]= $_POST['t19'];
+    $r57["3"]= $_POST['t20'];
+    $r57["4"]= $_POST['t21'];
+}
+
+else if ($cont == 37){
+    $q58 = "PARTE XI.  DATOS DEL ENTREVISTADO (PARA VALIDACIÓN)";
+    $r58 = array("Nombre"=>"","Apellido"=>"","Edad"=>"","Etnia"=>"","Propietario"=>"",
+    "Educacion"=>"","Correo"=>"","Posicion"=>"","Provincia"=>"","Canton"=>"","Distrito"=>""); 
+    
+    $r58["Nombre"]= $_POST['t22'];
+    $r58["Apellido"]= $_POST['t23'];
+    $r58["Edad"]= $_POST['t24'];
+    $r58["Etnia"]= $_POST['t25'];   
+    $r58["Correo"]= $_POST['tr25'];
+    $r58["Posicion"]= $_POST['t26'];
+    $r58["Provincia"]= $_POST['t27'];
+    $r58["Canton"]= $_POST['t28'];
+    $r58["Distrito"]= $_POST['t29'];
+    $r58["Educacion"]= $_POST['educacion'];
+    $r58["Propietario"]= $_POST['propi'];
+
+    print_r($r58);
+}
 ?>
