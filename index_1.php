@@ -1355,7 +1355,7 @@
   <label for="inputEmail4">&nbsp;<b>¿Qué producto o servicio exportó?</b></label>
   <input type="text" class="form-control" id="ex31" placeholder="Por favor detalle">
   </div>
-  </div>
+  </div>   
   </div>
 
 <!--                              Sección 20E (pag 22)                                     -->
@@ -1366,7 +1366,6 @@
   <label for="inputEmail4"><b>PIII.3.3. ¿Hacen alianzas con otras empresas o negocios para vender fuera del país?</b></label>
   </div>
   </div>  
-
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radioex11" id="ex32" value="si">
   <label class="form-check-label" for="ex32">Sí</label>
@@ -4270,7 +4269,6 @@
           countClicks = 8;
         }
 
-
         } //Fin de 8
         if (countClicks == 9){
           var r12;
@@ -4876,13 +4874,22 @@
                         prox = true;
                       }
 
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,t12:t12,t13:t13,r26:r26,r28:r28},
+        success: function(data){
+        }
+        });
+        } //Fin de 17
+        if (countClicks == 18){
+          var rn,mrn,mh,pm,ccss,rt;
           if (document.getElementById('r41').checked) {
           rn = document.getElementById('r41').value;
           }
       else if (document.getElementById('r42').checked) {
         rn = document.getElementById('r42').value;
         }
-
           if (document.getElementById('r43').checked) {
           mrn = document.getElementById('r43').value;
           }
@@ -4927,12 +4934,14 @@
         success: function(data){
         }
         });
+
         countClicks = 19;
       }
 
       else{
           countClicks = 18;
         }
+
         } //Fin de 18
         
         if (countClicks == 19){
@@ -4968,13 +4977,13 @@
               }
             }
 
+
           if (document.getElementById('r53').checked) {
           r30 = document.getElementById('r53').value;
           }
       else if (document.getElementById('r54').checked) {
         r30 = document.getElementById('r54').value;
         }
-
         if (document.getElementById('r55').checked) {
           r31 = document.getElementById('r55').value;
           }
@@ -5105,6 +5114,7 @@
 
       } // Fin de 44
 
+        } //Fin de 19
         if (countClicks == 21){
           var c32,c33,c34,c35,c36,c37,c38,c39;
           var prox = false;
@@ -5127,6 +5137,7 @@
          
         if (prox){
           $("#carouselExampleControls").carousel("next");
+
          $.ajax({
         type:"POST",
         url:"save.php",
@@ -5182,13 +5193,15 @@
               }
             }
 
+        } //Fin de 21
+        if (countClicks == 22){
+          var r35,r36;
       if (document.getElementById('r57').checked) {
           r35 = document.getElementById('r57').value;
           }
       else if (document.getElementById('r58').checked) {
         r35 = document.getElementById('r58').value;
         }
-
         if (document.getElementById('r59').checked) {
           r36 = document.getElementById('r59').value;
           }
@@ -5226,6 +5239,12 @@
 
           if (document.getElementById("tr13").value != ""){
             prox = true;
+
+        } //Fin de 22
+        if (countClicks == 23){
+          var r37,tr13;
+      if (document.getElementById('r63').checked) {
+          r37 = document.getElementById('r63').value;
           }
      
         tr13 = document.getElementById("tr13").value;
@@ -5271,6 +5290,9 @@
             }
           }
 
+        } //Fin de 23
+        if (countClicks == 24){
+          var r38,producto,mercado;
       if (document.getElementById('r65').checked) {
           r38 = document.getElementById('r65').value;
           }
@@ -5331,6 +5353,7 @@
         }
 
 
+        } //Fin de 24
         if (countClicks == 25){
           alert("hola");
           var m1,m2,m3,m4,m5,m6,m7,m8,m9,m10,m11,m12,m13,m14,m15,m16,m17;
@@ -5366,7 +5389,6 @@
       else if (document.getElementById('rr42').checked) {
         m1 = document.getElementById('rr42').value;
         }
-
         if (document.getElementById('rr43').checked) {
           m2 = document.getElementById('rr43').value;
           }
@@ -5387,7 +5409,6 @@
         else if (document.getElementById('rr48').checked) {
         m4 = document.getElementById('rr48').value;
         }
-
         if (document.getElementById('rr49').checked) {
         m5 = document.getElementById('rr49').value;
         }
