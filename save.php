@@ -4,6 +4,8 @@ $cont = $_POST['cont'];
 if ($cont == 1){
 $q1 = "FI.1. ¿Sería usted tan amable de regalarnos unos minutos para responder algunas preguntas? Por favor considere que no hay respuestas buenas ni malas, y que la información será tratada de manera generalizada para fines estadísticos.";
 $one = $_POST['one'];
+echo $one;
+//No esta leyendo nada en la primera
 }
 
 else if ($cont == 2){
@@ -11,8 +13,6 @@ $q2 = "FI.2. ¿Acepta usted que sus datos de identificación formen parte del Di
 $r2 = $_POST['r2'];
 $q3 = "FI.3. ¿Tiene usted o está usted involucrada en algún negocio?";
 $r3 = $_POST['r3'];
-
-echo $r2;
 }
 
 
@@ -79,6 +79,8 @@ else if ($cont == 9){
 else if ($cont == 10){
     $q14 = "Año de inicio de operaciones";
     $r14 = $_POST['r14'];
+    $qex1 = "¿Contrata otros trabajadores para proyectos ocasionales?";
+    $rex1 = $_POST['ex'];
     }
 
 else if ($cont == 11){
@@ -208,6 +210,7 @@ else if ($cont == 11){
     if ($placeholder == "false")
     $r15["Servicios educativos"] = "No";
     else $r15["Servicios educativos"] = "Si";
+    
     }
 
 else if ($cont == 12){
@@ -221,7 +224,8 @@ else if ($cont == 12){
 else if ($cont == 13){
     $q18 = "PII.4 ¿Diría que sus principales productos o servicios se podrían ubicar en alguna de las siguientes categorías?";
     $r18 = array("Alimentos funcionales"=>"","Agricultura sostenible"=>"","Manufactura avanzada"=>"","Servicios como biotecnología"=>"","TI Aplicada"=>""
-    ,"Servicios sostenibles"=>"","Otros"=>"");
+    ,"Servicios sostenibles"=>"");
+    $otroex = array("Respuesta"=>"", "Detalle"=>"");
 
     $placeholder = $_POST['c25'];
     if ($placeholder == "false")
@@ -255,8 +259,11 @@ else if ($cont == 13){
     
     $placeholder = $_POST['c31'];
     if ($placeholder == "false")
-        $r18["Otros"] = "No";
-    else $r18["Otros"] = "Si";
+        $otroex["Otros"] = "No";
+    else {
+        $otroex["Respuesta"] = "Si";
+        $otroex["Detalle"] = $_POST['otroex'];
+    }
     }
 
 else if ($cont == 14){
@@ -266,17 +273,38 @@ else if ($cont == 14){
     $r20 = $_POST['r19'];
     }
 
+else if ($cont == 15){
+    $q21 = "¿Cuánto tiempo tiene de producir para el mercado nacional?";
+    $r21 = $_POST['fi1'];
+    $q22 = "¿Cuánto tiempo de producir para el mercado internacional?";
+    $r22 = $_POST['fi2'];
+    $q23 = "¿Cómo visualiza a su empresa en un período de 5 años? ";
+    $r23 = $_POST['fi3'];
+    }
+
 
 else if ($cont == 16){
     $q24 = "PII.10 ¿Cuenta su empresa, lista o en trámite, con alguna de las siguientes certificaciones?";
     $r24 = array("BPA (Buenas Prácticas Alimenticias)"=>"","BPM (Buenas Prácticas de Manufactura)"=>"","Manipulación de alimentos"=>"","HACCP(Análisis de Riesgo y Puntos Críticos de Control)"=>""
-    ,"Otra"=>"");
+    ,"Certificación Orgánica"=>"","Fair Trade"=>"","Rain Forest Alliance"=>"","Esencial Costa Rica"=>"",
+    "ISO 9001"=>"","ISO 14001"=>"");
+    $otroex2 = array("Respuesta"=>"", "Detalle"=>"");
     
     $r24["BPA (Buenas Prácticas Alimenticias)"] = $_POST['bpa'];
     $r24["BPM (Buenas Prácticas de Manufactura)"] = $_POST['bpm'];
     $r24["Manipulación de alimentos"] = $_POST['manipulacion'];
     $r24["HACCP(Análisis de Riesgo y Puntos Críticos de Control)"] = $_POST['haccp'];
-    $r24["Otra"] = $_POST['otra'];
+    $r24["Certificación Orgánica"] = $_POST['co'];
+    $r24["Fair Trade"] = $_POST['ft'];
+    $r24["Rain Forest Alliance "] = $_POST['rfa'];
+    $r24["Esencial Costa Rica"] = $_POST['ecrc'];
+    $r24["ISO 9001"] = $_POST['iso9001'];
+    $r24["ISO 14001"] = $_POST['iso14001'];
+
+    $otroex2["Respuesta"] = $_POST['otra'];
+        if ($otroex2["Respuesta"] == "si" || $otroex["Respuesta"] == "et") {
+            $otroex2["Detalle"] = $_POST['detalle2'];
+        }
     }
 
 else if ($cont == 17){
@@ -284,11 +312,17 @@ else if ($cont == 17){
      $r25 = $_POST['t12'];
      $q26 = "PII.12. ¿Durante los últimos 5 años se ha asociado con otra empresa o empresas para lograr algún objetivo comercial?";
      $r26 = $_POST['r26'];
-     $q27 = "PII.13.¿Cuál o cuáles?¿Con qué objetivo?";
-     $r27 = $_POST['t13'];
-     $q28 = "PII.14. ¿El recurso financiero con el que opera o trabaja la empresa (capital) es principalmente nacional o extranjero?";
-     $r28 = $_POST['r28'];
     }
+
+else if ($cont == 40){
+    $q27 = "PII.13.¿Cuál o cuáles?¿Con qué objetivo?";
+    $r27 = $_POST['t13'];
+}
+
+else if ($cont == 41){
+    $q28 = "PII.14. ¿El recurso financiero con el que opera o trabaja la empresa (capital) es principalmente nacional o extranjero?";
+    $r28 = $_POST['r28'];
+}
 
 else if ($cont == 18){
     $q29 = "PIII.1.¿En lo que respecta a la formalización e internacionalización, su empresa o negocio cuenta con?";
@@ -309,6 +343,23 @@ else if ($cont == 19){
     $q31 = "PIII.3. Durante los últimos 12 meses ¿ha realizado la empresa alguna venta fuera del país?";
     $r31 = $_POST['r31'];
     }
+
+
+else if ($cont == 42){
+    $qex2 = "¿Qué producto o servicio exportó?";
+    $rex2 = $_POST['tex'];
+}
+
+
+else if ($cont == 43){
+    $qex3 = "¿Hacen alianzas con otras empresas o negocios para vender fuera del país?";
+    $rex3 = $_POST['al'];
+}
+
+else if ($cont == 44){
+    $qex4 = "PIII.3.4. Por favor detalle ¿qué tipo de alianzas realizan?";
+    $rex4 = $_POST['es'];
+}
 
 else if ($cont == 21){
     $q34 = "PIII.4. ¿A qué mercados vende estos productos?";
@@ -357,7 +408,7 @@ else if ($cont == 21){
 }
 
 else if ($cont == 22){
-    $q35 = "PIII.4.1¿Hacen alianzas con otras empresas o negocios para vender fuera del país?";
+    $q35 = "PIII.4.2 ¿Es su producto o servicio un insumo de otra empresa que exporta o es exportado a otra empresa?";
     $r35 = $_POST['r35'];
     $q36 = "PIII.4.2. ¿Qué porcentaje aproximado representan las ventas fuera del país del monto total de ventas de la empresa?";
     $placeholder = $_POST['r36'];
@@ -379,21 +430,26 @@ else if ($cont == 22){
 
 
 else if ($cont == 23){
-    $q37 = "PIII.4.3¿Es su producto o servicio un insumo de otra empresa que exporta o es exportado a otra empresa?";
-    $r37 = array("Respuesta"=>"","Detalles"=>"");
-    $r37["Respuesta"] = $_POST['r37'];
-    $r37["Detalles"] = $_POST['tr13'];
+    $q37 = "Por favor, detalle";
+    $r37 = $_POST['tr13'];
     }
 
-else if ($cont == 24){
+
+else if ($cont = 24){
     $q38 = "PIII.4.4. Durante los próximos 12 meses ¿Piensa realizar la empresa alguna venta fuera del país?";
+    $r38 = $_POST['r38'];
+}
+
+
+else if ($cont == 45){
     $q381 = "PIII.4.5. ¿Cuál sería el principal producto o servicio que están pensando en vender?";
     $q382 = "PIII.4.6. ¿A qué mercado planean vender?";
-    $r38 = array("Venta"=>"","Producto"=>"","Mercado"=>"");
-    $r38["Venta"] = $_POST['r38'];
-    $r38["Producto"] = $_POST['producto'];
-    $r38["Mercado"] = $_POST['mercado'];
-    }
+    $re = array("Producto"=>"","Mercado"=>"");
+    $re["Producto"] = $_POST['producto'];
+    $re["Mercado"] = $_POST['mercado'];
+
+    print_r($re);
+}
 
 else if ($cont == 25){
     $q39 = "PIII.4.7 ¿Cuáles considera ud que son las principales limitaciones al momento de exportar?";
@@ -425,6 +481,8 @@ else if ($cont == 25){
 
     $otro["Respuesta"] = $_POST['m17'];
     $otro["Detalle"] = $_POST['o1'];
+
+    print_r($r39);
     }
 
 else if ($cont == 26){
