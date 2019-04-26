@@ -448,6 +448,11 @@ else if ($cont == 45){
     $rez = array("Producto"=>"","Mercado"=>"");
     $rez["Producto"] = $_POST['producto'];
     $rez["Mercado"] = $_POST['mercado'];
+    $re = array("Producto"=>"","Mercado"=>"");
+    $re["Producto"] = $_POST['producto'];
+    $re["Mercado"] = $_POST['mercado'];
+
+    print_r($re);
 }
 
 else if ($cont == 25){
@@ -480,6 +485,8 @@ else if ($cont == 25){
 
     $otro["Respuesta"] = $_POST['m17'];
     $otro["Detalle"] = $_POST['o1'];
+
+    print_r($r39);
     }
 
 else if ($cont == 26){

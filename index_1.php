@@ -1618,7 +1618,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Falta de información sobre elmercado destino</label>
+  <label for="inputEmail4"> Falta de información sobre elmercado destino</label>
   </div>    
                                     
   <div class="form-check">
@@ -1786,7 +1786,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Alto número de competidores </label>
+  <label for="inputEmail4"> Alto número de competidores </label>
   </div>  
                                               
   <div class="form-check">
@@ -1930,7 +1930,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Préstamos de otras empresas</label>
+  <label for="inputEmail4"> Préstamos de otras empresas</label>
   </div>    
                                     
   <div class="form-check">
@@ -2021,7 +2021,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Cooperativas</label>
+  <label for="inputEmail4"> Cooperativas</label>
   </div>  
                                               
   <div class="form-check">
@@ -2066,7 +2066,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	FINADE</label>
+  <label for="inputEmail4"> FINADE</label>
   </div>  
                                               
   <div class="form-check">
@@ -2096,7 +2096,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	FOMujeres </label>
+  <label for="inputEmail4"> FOMujeres </label>
   </div>  
                                               
   <div class="form-check">
@@ -2171,7 +2171,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Compra de maquinaria</label>
+  <label for="inputEmail4"> Compra de maquinaria</label>
   </div>  
 
   <div class="form-check">
@@ -2201,7 +2201,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Mejoras a las instalaciones de la empresa</label>
+  <label for="inputEmail4"> Mejoras a las instalaciones de la empresa</label>
   </div>    
                                     
   <div class="form-check">
@@ -2302,7 +2302,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Asesoría logística</label>
+  <label for="inputEmail4"> Asesoría logística</label>
   </div>  
 
   <div class="form-check">
@@ -2332,7 +2332,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Acceso a estudios o información de mercado</label>
+  <label for="inputEmail4"> Acceso a estudios o información de mercado</label>
   </div>    
                                     
   <div class="form-check">
@@ -2470,7 +2470,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	SuláBatsu</label>
+  <label for="inputEmail4"> SuláBatsu</label>
   </div>    
                                     
   <div class="form-check">
@@ -2644,7 +2644,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Asistencia profesional (Recursos Humanos, Finanzas, Mercadeo, Publicidad)</label>
+  <label for="inputEmail4"> Asistencia profesional (Recursos Humanos, Finanzas, Mercadeo, Publicidad)</label>
   </div>  
 
   <div class="form-check">
@@ -2882,7 +2882,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Proyecto Emprende Inamu, MEIC, INAMU</label>
+  <label for="inputEmail4"> Proyecto Emprende Inamu, MEIC, INAMU</label>
   </div>  
                                               
   <div class="form-check">
@@ -2912,7 +2912,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Proyecto Procalidad MEIC, UE</label>
+  <label for="inputEmail4"> Proyecto Procalidad MEIC, UE</label>
   </div>  
                                               
   <div class="form-check">
@@ -2968,7 +2968,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Sitio web propio</label>
+  <label for="inputEmail4"> Sitio web propio</label>
   </div>  
 
   <div class="form-check">
@@ -2998,7 +2998,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Email corporativo</label>
+  <label for="inputEmail4"> Email corporativo</label>
   </div>
 
   <div class="form-check">
@@ -3013,7 +3013,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Redes sociales (FB, IG, etc.)</label>
+  <label for="inputEmail4"> Redes sociales (FB, IG, etc.)</label>
   </div>  
   
   <div class="form-check">
@@ -3044,7 +3044,7 @@
   
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Estudios de mercado</label>
+  <label for="inputEmail4"> Estudios de mercado</label>
   </div>  
   
   <div class="form-check">
@@ -3178,7 +3178,7 @@
   
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Anuales</label>
+  <label for="inputEmail4"> Anuales</label>
   </div>  
   
   <div class="form-check">
@@ -3473,7 +3473,7 @@
   
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Nadie puede velar por mis intereses, a excepción de mis familiares.</label>
+  <label for="inputEmail4"> Nadie puede velar por mis intereses, a excepción de mis familiares.</label>
   </div>  
   
   <div class="form-check">
@@ -3499,7 +3499,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Uno debe tener amistades en todas partes para resolver los problemas</label>
+  <label for="inputEmail4"> Uno debe tener amistades en todas partes para resolver los problemas</label>
   </div>  
   
   <div class="form-check">
@@ -3525,7 +3525,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Unirse con la gente lo que trae es problemas</label>
+  <label for="inputEmail4"> Unirse con la gente lo que trae es problemas</label>
   </div>  
   
   <div class="form-check">
@@ -3551,7 +3551,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Las leyes las hacen los poderosos para su beneficio</label>
+  <label for="inputEmail4"> Las leyes las hacen los poderosos para su beneficio</label>
   </div>  
   
   <div class="form-check">
@@ -3585,7 +3585,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	El rumbo de la vida está escrito y uno no puede cambiarlo.</label>
+  <label for="inputEmail4"> El rumbo de la vida está escrito y uno no puede cambiarlo.</label>
   </div>  
   
   <div class="form-check">
@@ -3611,7 +3611,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	La suerte es un factor muy importante para lograr el éxito.</label>
+  <label for="inputEmail4"> La suerte es un factor muy importante para lograr el éxito.</label>
   </div>  
   
   <div class="form-check">
@@ -3638,7 +3638,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Hay gente con suerte y por eso se le dan las cosas.
+  <label for="inputEmail4"> Hay gente con suerte y por eso se le dan las cosas.
   </label>
   </div>  
   
@@ -3665,7 +3665,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Casi siempre el fracaso es por culpa de fuerzas que no controlamos.</label>
+  <label for="inputEmail4"> Casi siempre el fracaso es por culpa de fuerzas que no controlamos.</label>
   </div>  
   
   <div class="form-check">
@@ -3710,7 +3710,7 @@
   
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Puedo superar momentos difíciles porque ya he pasado por dificultades anteriormente</label>
+  <label for="inputEmail4"> Puedo superar momentos difíciles porque ya he pasado por dificultades anteriormente</label>
   </div>  
   
   <div class="form-check">
@@ -3736,7 +3736,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Generalmente me las arreglo de una manera u otra</label>
+  <label for="inputEmail4"> Generalmente me las arreglo de una manera u otra</label>
   </div>  
   
   <div class="form-check">
@@ -3762,7 +3762,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Me considero una persona muy optimista y persistente</label>
+  <label for="inputEmail4"> Me considero una persona muy optimista y persistente</label>
   </div>  
   
   <div class="form-check">
@@ -3788,7 +3788,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Las situaciones estresantes me afectan física y emocionalmente</label>
+  <label for="inputEmail4"> Las situaciones estresantes me afectan física y emocionalmente</label>
   </div>  
   
   <div class="form-check">
@@ -3832,7 +3832,7 @@
   
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Dar sustento a mi familia y un beneficio a mis empleados</label>
+  <label for="inputEmail4"> Dar sustento a mi familia y un beneficio a mis empleados</label>
   </div>  
   
   <div class="col-md-6 offset-md-3">
@@ -3842,7 +3842,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Posicionar mi establecimiento como el mejor en su ramo</label>
+  <label for="inputEmail4"> Posicionar mi establecimiento como el mejor en su ramo</label>
   </div>  
   
   <div class="col-md-6 offset-md-3">
@@ -3851,7 +3851,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Que los demás valoren mi esfuerzo y me consideren un experto en mi trabajo</label>
+  <label for="inputEmail4"> Que los demás valoren mi esfuerzo y me consideren un experto en mi trabajo</label>
   </div>  
   
   <div class="col-md-6 offset-md-3">
@@ -3861,7 +3861,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Lograr cada vez mayor crecimiento de mi negocio</label>
+  <label for="inputEmail4"> Lograr cada vez mayor crecimiento de mi negocio</label>
   </div>  
   
   <div class="col-md-6 offset-md-3">
@@ -3961,7 +3961,7 @@
 
   <div class="form-group">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4"><b>¿Cuál es el último grado de educación que Ud. aprobó?	</b></label>
+  <label for="inputEmail4"><b>¿Cuál es el último grado de educación que Ud. aprobó? </b></label>
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio5" id="r304" value="Sin estudios">
   <label class="form-check-label" for="r304"> Sin estudios </label>
@@ -7126,7 +7126,7 @@
         countClicks = 37;
       }
         } //Fin de 37
-    	//alert(countClicks);
+      //alert(countClicks);
       // window.location.href = "save.php";
       }
     
