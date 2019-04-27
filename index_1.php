@@ -33,6 +33,7 @@
     <h1 class="text-uppercase mb-0" >ONU MUJERES & PROCOMER</h1>
     <hr class="star-light">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
+
     <div class="carousel-inner">
     <div class="carousel-item active" >  
     <div class="form-group row"> 
@@ -41,27 +42,35 @@
 
 <!--                              FILTROS INICIALES                                -->
 <!--                              Sección 1                                        -->
+
+
 <!-- Pregunta 1 -->
 
 
-<div class="col-md-6 offset-md-3">
-<label for="inputEmail4"><b>FI.1. ¿Sería usted tan amable de regalarnos unos minutos para responder algunas preguntas? Por favor considere que no hay respuestas buenas ni malas, y que la información será tratada de manera generalizada para fines estadísticos.</b></label>
-</div> 
-    </div>
-    <div class="form-check">
-    <form action="" method="post">
-    <input class="form-check-input" type="radio" name="radio" id="r1" value="si">
-    <label class="form-check-label" for="r1">
-          Sí
-    </label>
-    </div>
-    <div class="form-check">
-    <input class="form-check-input" type="radio" name="radio" id="r2" value="no">
-    <label class="form-check-label" for="r2">
-          No
-    </label>
-    </div>  
-    </div>
+
+
+
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4"><b>FI.1. ¿Sería usted tan amable de regalarnos unos minutos para responder algunas preguntas? Por favor considere que no hay respuestas buenas ni malas, y que la información será tratada de manera generalizada para fines estadísticos.</b></label>
+  </div> 
+  </div>
+      
+  <div class="row justify-content-center">  
+  <div align="left">   
+  <div class="form-check">
+  <form action="" method="post">
+  <input class="form-check-input" type="radio" name="radio" id="r1" value="si" >
+  <label class="form-check-label" for="r1">Sí</label>
+  </div>
+  
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio" id="r2" value="no" >
+  <label class="form-check-label" for="r2">No
+  </label>
+  </div> 
+  </div>
+  </div>  
+  </div>
 
 
 <!--                              Sección 2                                        -->
@@ -69,8 +78,13 @@
 
 
     <div class="carousel-item ">
-    <div class="form-group">
+    <div class="form-group row">
+    <div class="col-md-6 offset-md-3">
     <label for="inputEmail4">&nbsp;<b>FI.2. ¿Acepta usted que sus datos de identificación formen parte del Directorio de negocios de mujeres?</b></label>
+    </div>
+    </div>
+    <div class="row justify-content-center">  
+    <div align="left">   
     <div class="form-check">
     <input class="form-check-input" type="radio" name="radio2" id="r3" value="si">
     <label class="form-check-label" for="r3"> Sí </label>
@@ -80,11 +94,18 @@
     <input class="form-check-input" type="radio" name="radio2" id="r4" value="no">
     <label class="form-check-label" for="r4">No</label>
     </div>
+    </div> 
+    </div>
 
 
 <!-- Pregunta 3 -->
-            
+    <div class="form-group row">
+    <div class="col-md-6 offset-md-3">
     <label for="inputPassword4">&nbsp;<b>FI.3. ¿Tiene usted o está usted involucrada en algún negocio?</b></label>
+    </div>
+    </div>
+    <div class="row justify-content-center">  
+    <div align="left">   
     <div class="form-check">
     <input class="form-check-input" type="radio" name="radio3" id="r5" value="si">
     <label class="form-check-label" for="r5">Sí</label>
@@ -96,14 +117,20 @@
     </div>    
     </div>
     </div>
+    </div>
 
 <!--                              Sección 3                                      -->      
 <!-- Pregunta 4 -->
 
     <div class="carousel-item ">
-    <div class="form-group">
+    <div class="form-group row">
+    <div class="col-md-6 offset-md-3">
     <label for="inputEmail4">&nbsp;<b>FI.4.¿Usted diría que este negocio es un emprendimiento, MiPyme, o una actividad como profesional independiente?</b></label>
+    </div>
+    </div>
     
+    <div class="row justify-content-center">  
+    <div align="left">   
     <div class="form-check">
     <input class="form-check-input" type="radio" name="radio4" id="r7" value="1">
     <label class="form-check-label" for="r7"><b>Emprendimiento:</b> (Iniciativa que ya está facturando, aunque no necesariamente redituando ganancias) </label>
@@ -116,7 +143,8 @@
 
     <div class="form-check">
     <input class="form-check-input" type="radio" name="radio4" id="r9" value="3">
-    <label class="form-check-label" for="r9"><b>Actividad Profesional Independiente:</b> (Es una persona que trabaja por su cuenta, manejando su propio ritmo, tiempos y lugar de trabajo, en la actividad que desarrolle. También se le conoce como freelancer)  </label>
+    <label class="form-check-label" for="r9"><b>Actividad Profesional Independiente:</b> (Es una persona que trabaja por su cuenta)</label>
+    </div>
     </div>
     </div>
     </div>
@@ -125,9 +153,14 @@
 <!--                              Sección 4                                      -->      
 <!-- Pregunta 5 -->
 
-<div class="carousel-item ">
-    <div class="form-group">
+    <div class="carousel-item ">
+    <div class="form-group row">
+    <div class="col-md-6 offset-md-3">
     <label for="inputEmail4">&nbsp;<b>FI.5.1 El principal propietario del negocio es:</b></label>
+    </div>
+    </div>
+    <div class="row justify-content-center">  
+    <div align="left">  
     <div class="form-check">
     <input class="form-check-input" type="radio" name="radio5" id="r10" value="Hombre">
     <label class="form-check-label" for="r10"> Hombre </label>
@@ -137,11 +170,18 @@
     <input class="form-check-input" type="radio" name="radio5" id="r11" value="Mujer">
     <label class="form-check-label" for="r11">Mujer</label>
     </div>
+    </div>
+    </div>
 
 
 <!-- Pregunta 6 -->
-            
+    <div class="form-group row">
+    <div class="col-md-6 offset-md-3">       
     <label for="inputPassword4">&nbsp;<b>FI.5.2¿La Gerencia General y/o toma de decisiones estratégicas de este negocio es manejada por:</b></label>
+    </div>
+    </div>
+    <div class="row justify-content-center">  
+    <div align="left"> 
     <div class="form-check">
     <input class="form-check-input" type="radio" name="radio6" id="r12" value="Hombre">
     <label class="form-check-label" for="r12">Hombre</label>
@@ -150,8 +190,9 @@
     <div class="form-check">
     <input class="form-check-input" type="radio" name="radio6" id="r13" value="Mujer">
     <label class="form-check-label" for="r13">Mujer</label>
-    </div>    
+    </div> 
     </div>
+    </div>   
     </div>
 
 
@@ -275,7 +316,7 @@
 <!-- Pregunta 13 -->
 
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">¿Con cuántos colaboradores cuenta su empresa actualmente?</label>
+  <label for="inputEmail4">¿Cuántos colaboradores/empleados fijos en planilla tiene su empresa actualmente?</label>
   <input type="text" class="form-control" id="t11" placeholder="">
   </div>
   </div>
@@ -288,8 +329,28 @@
 <!-- Pregunta 14 -->
 
   <div class="carousel-item ">
-  <div class="form-group">
-  <div class="form-row">
+  <div class="form-group row">
+  <div class="col-md-6 offset-md-3">
+<!-- Pregunta Extra 1 -->
+  <label for="inputEmail4">&nbsp;<b>¿Contrata otros trabajadores para proyectos ocasionales?</b></label>
+  </div>
+  </div>
+  
+  <div class="row justify-content-center">  
+  <div align="left">  
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioex" id="ex1" value="si">
+  <label class="form-check-label" for="ex1"> Sí </label>
+  </div>
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioex" id="ex2" value="no">
+  <label class="form-check-label" for="ex2">No</label>
+  </div>
+  </div>
+  </div>
+
+  <div class="form-group row">
   <div class="col-md-6 offset-md-3">
   <label class="col align-self-center">Año de inicio de operaciones</label>
   <select class="form-control form-control" id="s1">
@@ -417,7 +478,6 @@
     </div>    
     </div>
     </div>
-    </div>
 
 
 <!--                              PARTE II                                -->
@@ -426,189 +486,144 @@
 
 
   <div class="carousel-item ">
-  <div class="form-group">
-  <div class="form-row">
+  <div class="form-group row">
+  <div class="col-md-6 offset-md-3">
   <label class="col align-self-center">&nbsp;<b>PI.2. Clasificación:</b></label>
   </div>
-
-
-  <div class="form-row">
-  <label class="col align-self-center">&nbsp;PII.1. ¿A qué sector diría que pertenece su negocio? Puede seleccionar varios</label>
   </div>
 
 
-  <div class="form-row">
+  <div class="form-group row">
   <div class="col-md-6 offset-md-3">
+  <label class="col align-self-center">&nbsp;PII.1. ¿A qué sector diría que pertenece su negocio? Puede seleccionar varios</label>
+  </div>
+  </div>
+
+
+  <div class="row justify-content-center">  
+  <div align="left">   
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c1" name="c1">
   <label class="custom-control-label" for ="c1">Agrícola</label>
   </div>
-  </div>
 
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c2">
   <label class="custom-control-label" for="c2">Alimentaria</label>
   </div>
-  </div>
 
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c3">
   <label class="custom-control-label" for="c3">Pecuario y lácteos</label>
   </div>
-  </div>
 
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c4">
   <label class="custom-control-label" for="c4">Pesca</label>
   </div>
-  </div>
 
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c5">
   <label class="custom-control-label" for="c5">Plantas, flores y follajes</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c6">
   <label class="custom-control-label" for="c6">Industria-Plástico</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c7">
   <label class="custom-control-label" for="c7">Industria-Metalmecánica</label>
   </div>
-  </div>
 
-
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c8">
   <label class="custom-control-label" for="c8">Industria-Farmacéutica</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c9">
   <label class="custom-control-label" for="c9">Industria-Cuidado personal y limpieza</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c10">
   <label class="custom-control-label" for="c10">Industria-Agroquímicos y fertilizantes</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c11">
   <label class="custom-control-label" for="c11">Industria-Manufactura avanzada</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c12">
   <label class="custom-control-label" for="c12">Industria-Dispositivos médicos</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c13">
   <label class="custom-control-label" for="c13">Industria-Aerospacial y aeronáutica</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c14">
   <label class="custom-control-label" for="c14">Industria-Construcción y ferretería</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c15">
   <label class="custom-control-label" for="c15">Industria-Empaque y embalaje</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c16">
   <label class="custom-control-label" for="c16">Industria-Maderera</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c17">
   <label class="custom-control-label" for="c17">Animación digital</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c18">
   <label class="custom-control-label" for="c18">Biotecnología</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c19">
   <label class="custom-control-label" for="c19">Fílmico/Audiovisual</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c20">
   <label class="custom-control-label" for="c20">Moda</label>
   </div>
-  </div>
   
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c21">
   <label class="custom-control-label" for="c21">Servicios ambientales</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c22">
   <label class="custom-control-label" for="c22">Servicios de diseño y construcción</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c23">
   <label class="custom-control-label" for="c23">Servicios de salud</label>
   </div>
-  </div>
   
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c24">
   <label class="custom-control-label" for="c24">Servicios educativos</label>
-  </div>
   </div>
   </div>
   </div>
@@ -620,9 +635,13 @@
 <!-- Pregunta 16 -->
 
   <div class="carousel-item ">
-  <div class="form-group">
+  <div class="form-group row">
+  <div class="col-md-6 offset-md-3">
   <label class="col align-self-center"><b>PII.2 ¿Ofrece su empresa productos o servicios de elaboración propia, originales?</b></label>
- 
+  </div>
+  </div>
+  <div class="row justify-content-center">  
+  <div align="left"> 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio7" id="r14" value="si">
   <label class="form-check-label" for="r14">Sí</label>
@@ -632,6 +651,8 @@
   <input class="form-check-input" type="radio" name="radio7" id="r15" value="no">
   <label class="form-check-label" for="r15">No</label>
   </div>  <!-- div de form -->
+  </div>
+  </div>
 
 
 <!-- Pregunta 17 -->
@@ -646,69 +667,58 @@
   </div> <!-- div de fila -->
   </div> <!-- div de columna -->
   </div>
-  </div>
 
 
 <!--                              Sección 13                                        -->
 <!-- Pregunta 18 -->
 
   <div class="carousel-item ">
-  <div class="form-group">
-  <div class="form-row">
+  <div class="form-group row">
+  <div class="col-md-6 offset-md-3">
   <label class="col align-self-center">&nbsp;<b>PII.4 ¿Diría que sus principales productos o servicios se podrían ubicar en alguna de las siguientes categorías?</b></label>
+  </div>
   </div>
 
 
-  <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="row justify-content-center">  
+  <div align="left">   
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c25">
   <label class="custom-control-label" for="c25">Alimentos funcionales</label>
   </div>
-  </div>
 
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c26">
   <label class="custom-control-label" for="c26">Agricultura sostenible</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c27">
   <label class="custom-control-label" for="c27">Manufactura avanzada</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c28">
   <label class="custom-control-label" for="c28">Servicios como biotecnología</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c29">
   <label class="custom-control-label" for="c29">TI Aplicada</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c30">
   <label class="custom-control-label" for="c30">Servicios sostenibles</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c31">
-  <label class="custom-control-label" for="c31">Otros</label>
+  <label class="custom-control-label" for="c31">Otros ¿Cuál?</label>
   </div>
-  </div>
+
+  <input type="text" class="form-control" id="otroex" placeholder="Por favor detalle" disabled="disable">
   </div>
   </div>
   </div>
@@ -718,8 +728,13 @@
 <!-- Pregunta 19 -->
 
   <div class="carousel-item ">
-  <div class="form-group">
+  <div class="form-group row">
+  <div class="col-md-6 offset-md-3">
   <label for="inputEmail4"><b>¿Su empresa está registrada como PYME ante el MEIC?</b></label> 
+  </div>
+  </div>
+  <div class="row justify-content-center">  
+  <div align="left">   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio8" id="r16" value="si">
   <label class="form-check-label" for="r16">Sí</label>
@@ -729,10 +744,18 @@
   <input class="form-check-input" type="radio" name="radio8" id="r17" value="no">
   <label class="form-check-label" for="r17">No</label>
   </div>
+  </div>
+  </div>
 
     
 <!-- Pregunta 20 -->
+  <div class="form-group row">
+  <div class="col-md-6 offset-md-3">
   <label for="inputEmail4"><b>PII.6 ¿Qué le motivó a empezar la empresa o negocio?</b></label> 
+  </div>
+  </div>
+  <div class="row justify-content-center">  
+  <div align="left">   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio9" id="r18" value="autoempleo">
   <label class="form-check-label" for="r18">Autoempleo / Necesidad inmediata de ingreso </label>
@@ -770,26 +793,85 @@
   </div>
   </div>
   </div>
+  </div>
 
 <!--                              Sección 15                                        -->
-<!-- Pregunta 21,22,23 no entendi 
-
-<div class="carousel-item ">
-    <div class="form-group">
-    <div class="form-row">
-    <label for="inputEmail4"><b>¿Su empresa está registrada como PYME ante el MEIC?</b></label>
+<!-- Pregunta 21 -->
+  <div class="carousel-item ">
+  <div class="form-group row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4"><b>PII.7 ¿Cuánto tiempo tiene de producir para el mercado nacional?</b></label>
+  </div>
   </div>  
-    <div class="form-check">
-        <input class="form-check-input" type="radio" name="radio8" id="rr16" value="si">
-        <label class="form-check-label" for="rr16">Sí</label>
-        </div>
+
+  <div class="row justify-content-center">  
+  <div align="left">   
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioex2" id="ex3" value="años">
+  <label class="form-check-label" for="ex3">Años</label>
+  </div>
     
-        <div class="form-check">
-        <input class="form-check-input" type="radio" name="radio8" id="rr17" value="no">
-        <label class="form-check-label" for="rr17">No</label>
-        </div>
-    </div>
-  </div>-->
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioex2" id="ex4" value="meses">
+  <label class="form-check-label" for="ex4">Meses</label>
+  </div>
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioex2" id="ex5" value="no producimos">
+  <label class="form-check-label" for="ex5">No producimos para el mercado laboral</label>
+  </div>
+  </div>
+  </div>
+
+  <div class="form-group row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4"><b>PII.8 ¿Cuánto tiempo de producir para el mercado internacional?</b></label>
+  </div>
+  </div>   
+
+  <div class="row justify-content-center">  
+  <div align="left">
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioex3" id="ex6" value="años">
+  <label class="form-check-label" for="ex6">Años</label>
+  </div>
+    
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioex3" id="ex7" value="meses">
+  <label class="form-check-label" for="ex7">Meses</label>
+  </div>
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioex3" id="ex8" value="no producimos">
+  <label class="form-check-label" for="ex8">No producimos para el mercado laboral</label>
+  </div>
+  </div>
+  </div>
+
+  <div class="form-group row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4"><b>PII.9 ¿Cómo visualiza a su empresa en un período de 5 años?</b></label>
+  </div></div> 
+
+  <div class="row justify-content-center">  
+  <div align="left">   
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioex4" id="ex9" value="exportando">
+  <label class="form-check-label" for="ex9">Exportando</label>
+  </div>
+    
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioex4" id="ex10" value="produciendo para mercado nacional">
+  <label class="form-check-label" for="ex10">Produciendo para el mercado nacional</label>
+  </div>
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioex4" id="ex11" value="ambas">
+  <label class="form-check-label" for="ex11">Ambas</label>
+  </div>
+  </div>
+  </div>
+  </div>
 
 
 <!--                              Sección 16                                        -->
@@ -886,10 +968,137 @@
   </div>
   </div>
 
+  <div class="form-row">
+  <div class="col-md-4 offset-md-3">
+  <label for="inputEmail4">Certificación Orgánica</label>
+  </div>    
+                                    
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioextra5" id="ex12" value="si">
+  <label class="form-check-label" for="ex12">Sí&nbsp;&nbsp;</label>
+  </div>
+                                    
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioextra5" id="ex13" value="no">
+  <label class="form-check-label" for="ex13">No&nbsp;&nbsp;</label>
+  </div>
+                              
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioextra5" id="ex14" value="en tramite">
+  <label class="form-check-label" for="ex14">En trámite</label>
+  </div>
+  </div>
+
+  <div class="form-row">
+  <div class="col-md-4 offset-md-3">
+  <label for="inputEmail4">Fair Trade</label>
+  </div>    
+                                    
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioextra6" id="ex15" value="si">
+  <label class="form-check-label" for="ex15">Sí&nbsp;&nbsp;</label>
+  </div>
+                                    
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioextra6" id="ex16" value="no">
+  <label class="form-check-label" for="ex16">No&nbsp;&nbsp;</label>
+  </div>
+                              
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioextra6" id="ex17" value="en tramite">
+  <label class="form-check-label" for="ex17">En trámite</label>
+  </div>
+  </div>
+
+  <div class="form-row">
+  <div class="col-md-4 offset-md-3">
+  <label for="inputEmail4">Rain Forest Alliance </label>
+  </div>    
+                                    
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioextra7" id="ex18" value="si">
+  <label class="form-check-label" for="ex18">Sí&nbsp;&nbsp;</label>
+  </div>
+                                    
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioextra7" id="ex19" value="no">
+  <label class="form-check-label" for="ex19">No&nbsp;&nbsp;</label>
+  </div>
+                              
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioextra7" id="ex20" value="en tramite">
+  <label class="form-check-label" for="ex20">En trámite</label>
+  </div>
+  </div>
+
+  <div class="form-row">
+  <div class="col-md-4 offset-md-3">
+  <label for="inputEmail4">Esencial Costa Rica</label>
+  </div>    
+                                    
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioextra8" id="ex21" value="si">
+  <label class="form-check-label" for="ex21">Sí&nbsp;&nbsp;</label>
+  </div>
+                                    
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioextra8" id="ex22" value="no">
+  <label class="form-check-label" for="ex22">No&nbsp;&nbsp;</label>
+  </div>
+                              
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioextra8" id="ex23" value="en tramite">
+  <label class="form-check-label" for="ex23">En trámite</label>
+  </div>
+  </div>
+
+  <div class="form-row">
+  <div class="col-md-4 offset-md-3">
+  <label for="inputEmail4">ISO 9001</label>
+  </div>    
+                                    
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioextra9" id="ex24" value="si">
+  <label class="form-check-label" for="ex24">Sí&nbsp;&nbsp;</label>
+  </div>
+                                    
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioextra9" id="ex25" value="no">
+  <label class="form-check-label" for="ex25">No&nbsp;&nbsp;</label>
+  </div>
+                              
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioextra9" id="ex26" value="en tramite">
+  <label class="form-check-label" for="ex26">En trámite</label>
+  </div>
+  </div>
+
+  <div class="form-row">
+  <div class="col-md-4 offset-md-3">
+  <label for="inputEmail4">ISO 14001</label>
+  </div>    
+                                    
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioextra10" id="ex27" value="si">
+  <label class="form-check-label" for="ex27">Sí&nbsp;&nbsp;</label>
+  </div>
+                                    
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioextra10" id="ex28" value="no">
+  <label class="form-check-label" for="ex28">No&nbsp;&nbsp;</label>
+  </div>
+                              
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioextra10" id="ex29" value="en tramite">
+  <label class="form-check-label" for="ex29">En trámite</label>
+  </div>
+  </div>
+
 
   <div class="form-row">
   <div class="col-md-4 offset-md-3">
   <label for="inputEmail4">Otra</label>
+  <input type="text" class="form-control" id="ex30" placeholder="Por favor, detalle" disabled="disable">
   </div>  
                                               
   <div class="form-check">
@@ -906,7 +1115,12 @@
   <input class="form-check-input" type="radio" name="rradio13" id="r39" value="en tramite">
   <label class="form-check-label" for="r39">En trámite</label>
   </div>
-  </div>    
+  </div>
+
+
+
+
+
   </div>
   </div>
 
@@ -914,10 +1128,11 @@
 <!-- Pregunta 25 -->
 
   <div class="carousel-item ">
-  <div class="form-group">
-  <div class="form-row">
+  <div class="form-group row">
+  <div class="col-md-6 offset-md-3">
   <label class="col align-self-center">&nbsp;<b>PII.11.¿Cuál es el principal problema que enfrentó la empresa en los últimos 12 meses?</b></label>
   </div> <!-- div de row -->
+  </div> 
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
@@ -926,10 +1141,14 @@
   </div> <!-- div de row -->
 
 <!-- Pregunta 26 -->
-  <div class="row">
+  <div class="form-group row">
+  <div class="col-md-6 offset-md-3">
   <label class="col align-self-center"><b>PII.12. ¿Durante los últimos 5 años se ha asociado con otra empresa o empresas para lograr algún objetivo comercial?</b></label>
   </div> <!-- div de row -->
+  </div>
 
+  <div class="row justify-content-center">  
+  <div align="left">   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="rradio13" id="rr37" value="si">
   <label class="form-check-label" for="rr37">Sí</label>
@@ -939,9 +1158,16 @@
   <input class="form-check-input" type="radio" name="rradio13" id="rr38" value="no">
   <label class="form-check-label" for="rr38">No</label>
   </div>
+  </div>
+  </div>   
+  </div>   
 
 
+<!-- Sección condicional 1 (pág 17) -->
 <!-- Pregunta 27 -->
+  <div class="carousel-item ">
+  <div class="form-group">
+
   <div class="row">
   <label class="col align-self-center">&nbsp;<b>PII.13.¿Cuál o cuáles?¿Con qué objetivo?</b></label>
   </div> 
@@ -950,12 +1176,21 @@
   <input type="text" class="form-control" id="t13" placeholder="">
   </div>
   </div>
+  </div>
+  </div>  
 
+
+<!-- Sección 18E (pág 18) -->
 <!-- Pregunta 28 -->
+  <div class="carousel-item ">
+  <div class="form-group row">
   <div class="col-md-6 offset-md-3">
   <label for="inputEmail4"><b>PII.14. ¿El recurso financiero con el que opera o trabaja la empresa (capital) es principalmente nacional o extranjero?</b></label>
+  </div> 
   </div>  
-                
+
+  <div class="row justify-content-center">  
+  <div align="left">                 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="rrradio13" id="rr39" value="nacional">
   <label class="form-check-label" for="rr39">Nacional</label>
@@ -969,38 +1204,41 @@
   <div class="form-check">
   <input class="form-check-input" type="radio" name="rrradio13" id="r40" value="ambos">
   <label class="form-check-label" for="r40">Ambos por igual</label>
-  </div>  
   </div>
   </div>
+  </div>
+  </div>
+
+
+
 
 
 <!--                              PARTE III                                -->
-<!--                              Sección 18                                        -->
+<!--                              Sección 18  (pág 19)                                      -->
 <!-- Pregunta 29 -->
 
   <div class="carousel-item ">
-  <div class="form-group">
-  <div class="form-row">
+  <div class="form-group row">
   <div class="col-md-6 offset-md-3">
   <label for="inputEmail4"><b>PARTE III. FORMALIZACIÓN E INTERNACIONALIZACIÓN</b></label>
   </div>    <!-- div de columna -->
   </div> <!-- div de fila -->
 
 
-  <div class="form-row">
+  <div class="form-group row">
   <div class="col-md-6 offset-md-3">
   <label for="inputEmail4"><b>PIII.1.¿En lo que respecta a la formalización e internacionalización, su empresa o negocio cuenta con?</b></label> 
   </div>  
   </div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Inscripción de la empresa en el Registro Nacional</label>
   </div> 
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio14" id="r41" value="si">
-  <label class="form-check-label" for="r41">Sí</label>
+  <label class="form-check-label" for="r41">Sí&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
@@ -1010,13 +1248,13 @@
   </div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Inscripción de marcas en el Registro Nacional</label>
   </div>  
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio15" id="r43" value="si">
-  <label class="form-check-label" for="r43">Sí</label>
+  <label class="form-check-label" for="r43">Sí&nbsp;&nbsp;</label>
   </div>
           
   <div class="form-check">
@@ -1026,13 +1264,13 @@
   </div>
           
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Inscripción en el Ministerio de Hacienda</label>
   </div>  
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio16" id="r45" value="si">
-  <label class="form-check-label" for="r45">Sí</label>
+  <label class="form-check-label" for="r45">Sí&nbsp;&nbsp;</label>
   </div>
                           
   <div class="form-check">
@@ -1042,13 +1280,13 @@
   </div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Patente municipal</label>
   </div>    
                                     
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio17" id="r47" value="si">
-  <label class="form-check-label" for="r47">Sí</label>
+  <label class="form-check-label" for="r47">Sí&nbsp;&nbsp;</label>
   </div>
                                     
   <div class="form-check">
@@ -1058,13 +1296,13 @@
   </div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Inscripción como patrono ante la CCSS</label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio18" id="r49" value="si">
-  <label class="form-check-label" for="r49">Sí</label>
+  <label class="form-check-label" for="r49">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -1075,19 +1313,18 @@
 
                                                   
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Inscripción y pago de póliza de RT en el INS</label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio19" id="r51" value="si">
-  <label class="form-check-label" for="r51">Sí</label>
+  <label class="form-check-label" for="r51">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio19" id="r52" value="no">
   <label class="form-check-label" for="r52">No</label>
-  </div>
   </div>
   </div>
   </div>
@@ -1100,8 +1337,10 @@
   <div class="col-md-6 offset-md-3">
   <label for="inputEmail4"><b>PIII.2. ¿Tiene cuentas bancarias a nombre de la empresa?</b></label>
   </div>
-  </div>   
+  </div>
 
+  <div class="row justify-content-center">  
+  <div align="left">  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio20" id="r53" value="si">
   <label class="form-check-label" for="r53">Sí</label>
@@ -1110,6 +1349,8 @@
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio20" id="r54" value="no">
   <label class="form-check-label" for="r54">No</label>
+  </div>
+  </div>
   </div>
 
 
@@ -1120,6 +1361,8 @@
   </div>
   </div>  
 
+  <div class="row justify-content-center">  
+  <div align="left">  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio21" id="r55" value="si">
   <label class="form-check-label" for="r55">Sí</label>
@@ -1130,107 +1373,102 @@
   <label class="form-check-label" for="r56">No</label>
   </div>
   </div>
+  </div>
+  </div>
 
-<!--                              Sección 20                                        -->
-<!-- Pregunta 31,32,33 
-<div class="carousel-item ">
+<!--                              Sección 20 (pag 21)                                     -->
+<!-- Pregunta 31-->
+  <div class="carousel-item ">
   <div class="form-group row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4"><b>PIII.2. ¿Tiene cuentas bancarias a nombre de la empresa?</b></label>
+  <label for="inputEmail4">&nbsp;<b>¿Qué producto o servicio exportó?</b></label>
+  <input type="text" class="form-control" id="ex31" placeholder="Por favor detalle">
   </div>
-  </div>   
-
-  <div class="form-check">
-  <input class="form-check-input" type="radio" name="radio20" id="r53" value="si">
-  <label class="form-check-label" for="r53">Sí</label>
   </div>
-    
-  <div class="form-check">
-  <input class="form-check-input" type="radio" name="radio20" id="r54" value="no">
-  <label class="form-check-label" for="r54">No</label>
   </div>
 
-
-
+<!--                              Sección 20E (pag 22)                                     -->
+<!-- Pregunta 31-->
+  <div class="carousel-item ">
   <div class="form-group row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4"><b>PIII.3. Durante los últimos 12 meses ¿ha realizado la empresa alguna venta fuera del país?</b></label>
+  <label for="inputEmail4"><b>PIII.3.3. ¿Hacen alianzas con otras empresas o negocios para vender fuera del país?</b></label>
   </div>
-  </div>  
+  </div>
 
+  <div class="row justify-content-center">  
+  <div align="left"> 
   <div class="form-check">
-  <input class="form-check-input" type="radio" name="radio21" id="r55" value="si">
-  <label class="form-check-label" for="r55">Sí</label>
+  <input class="form-check-input" type="radio" name="radioex11" id="ex32" value="si">
+  <label class="form-check-label" for="ex32">Sí</label>
   </div>
               
   <div class="form-check">
-  <input class="form-check-input" type="radio" name="radio21" id="r56" value="no">
-  <label class="form-check-label" for="r56">No</label>
+  <input class="form-check-input" type="radio" name="radioex11" id="ex33" value="no">
+  <label class="form-check-label" for="ex33">No</label>
   </div>
-  </div>-->
+  </div>
+  </div>
+  </div>
 
 
-
+<!--                              Sección 20E (pag 23)                                     -->
+<!-- Pregunta 31-->
+  <div class="carousel-item ">
+  <div class="form-group row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4">&nbsp;<b>PIII.3.4. Por favor detalle ¿qué tipo de alianzas realizan?</b></label>
+  <input type="text" class="form-control" id="ex34" placeholder="Por favor detalle">
+  </div>
+  </div>
+  </div>
 
 <!--                              Sección 21                                        -->
 <!-- Pregunta 34 -->
   <div class="carousel-item ">
   <div class="form-group">
-  <div class="form-row">
+  <div class="col-md-6 offset-md-3">
   <label class="col asign-self-center">&nbsp;<b>PIII.4. ¿A qué mercados vende estos productos?</b></label>
   </div>
+  </div>
 
-  <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="row justify-content-center">  
+  <div align="left">   
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c32">
   <label class="custom-control-label" for="c32">Centroamérica</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c33">
   <label class="custom-control-label" for="c33">Panamá</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c34">
   <label class="custom-control-label" for="c34">Caribe</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c35">
   <label class="custom-control-label" for="c35">Otros países latinoamericanos</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c36">
   <label class="custom-control-label" for="c36">Europa</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c37">
   <label class="custom-control-label" for="c37">Asia</label>
   </div>
-  </div>
   
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c38">
   <label class="custom-control-label" for="c38">Canadá</label>
   </div>
-  </div>
 
-  <div class="col-md-6 offset-md-3">
   <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="c39">
   <label class="custom-control-label" for="c39">EEUU</label>
@@ -1238,35 +1476,19 @@
   </div>
   </div>
   </div>
-  </div>
 
-<!--                              Sección 22                                        -->
+<!--                              Sección 22 (pag 25)                                       -->
 <!-- Pregunta 35 -->
 
   <div class="carousel-item ">
   <div class="form-group row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4"><b>PIII.4.1¿Hacen alianzas con otras empresas o negocios para vender fuera del país? </b></label>
-  </div>  
-  </div>  
-
-  <div class="form-check">
-  <input class="form-check-input" type="radio" name="radio21" id="r57" value="si">
-  <label class="form-check-label" for="r57">Sí</label>
-  </div>
-    
-  <div class="form-check">
-  <input class="form-check-input" type="radio" name="radio21" id="r58" value="no">
-  <label class="form-check-label" for="r58">No</label>
-  </div>
-
-<!-- Pregunta 36 -->
-  <div class="form-group row">
-  <div class="col-md-6 offset-md-3">
   <label for="inputEmail4"><b>PIII.4.2. ¿Qué porcentaje aproximado representan las ventas fuera del país del monto total de ventas de la empresa?</b></label>
   </div>  
-  </div>  
+  </div> 
 
+  <div class="row justify-content-center">  
+  <div align="left"> 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio22" id="r59" value="m10">
   <label class="form-check-label" for="r59">Menos del 10 %</label>
@@ -1285,30 +1507,37 @@
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio22" id="r62" value="71">
   <label class="form-check-label" for="r62">Más del 71 %</label>
-  </div>    
   </div>
-  
+  </div>
+  </div>  
 
-<!--                              Sección 23                                        -->
-<!-- Pregunta 37 -->
-
-  <div class="carousel-item ">
-  <div class="form-group">
+<!-- Pregunta 36 -->
+  <div class="form-group row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4"><b>PIII.4.3¿Es su producto o servicio un insumo de otra empresa que exporta o es exportado a otra empresa?</b></label>
-  </div> 
-  </div> 
+  <label for="inputEmail4"><b>PIII.4.2 ¿Es su producto o servicio un insumo de otra empresa que exporta o es exportado a otra empresa?</b></label>
+  </div>  
+  </div>
 
+  <div class="row justify-content-center">  
+  <div align="left"> 
   <div class="form-check">
-  <input class="form-check-input" type="radio" name="radio23" id="r63" value="si">
-  <label class="form-check-label" for="r63">Sí</label>
+  <input class="form-check-input" type="radio" name="radio21" id="r57" value="si">
+  <label class="form-check-label" for="r57">Sí</label>
   </div>
     
   <div class="form-check">
-  <input class="form-check-input" type="radio" name="radio23" id="r64" value="no">
-  <label class="form-check-label" for="r64">No</label>
-  </div>     
+  <input class="form-check-input" type="radio" name="radio21" id="r58" value="no">
+  <label class="form-check-label" for="r58">No</label>
+  </div>  
+  </div>
+  </div>
+  </div>
+  
 
+<!--                              Sección 23 (pag 26)                                        -->
+<!-- Pregunta 37 -->
+
+  <div class="carousel-item ">
   <div class="col-md-6 offset-md-3">
   <label for="inputEmail4"><b>Por favor, detalle</b></label> 
   <input type="text" class="form-control" id="tr13" placeholder="">
@@ -1316,14 +1545,18 @@
   </div>
 
 
-<!--                              Sección 24                                        -->
+<!--                              Sección 24  (pag 27)                                      -->
 <!-- Pregunta 38 -->
 
-  <div class="carousel-item ">
-  <div class="col-md-12">        
-  <div class="row">
+  <div class="carousel-item ">     
+  <div class="form-group row">
   <div class="col-md-6 offset-md-3">
   <label for="Nombre"><b>PIII.4.4. Durante los próximos 12 meses ¿Piensa realizar la empresa alguna venta fuera del país?</b></label>
+  </div>
+  </div>
+
+  <div class="row justify-content-center">  
+  <div align="left"> 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio24" id="r65" value="si">
   <label class="form-check-label" for="r65">Sí</label>
@@ -1333,10 +1566,14 @@
   <input class="form-check-input" type="radio" name="radio24" id="r66" value="no">
   <label class="form-check-label" for="r66">No</label>
   </div> <!-- Div de form -->
-  </div> <!-- Div de columna -->
-  </div>    <!-- Div de fila -->
+  </div> <!-- Div carousel -->
+  </div>
+  </div>
 
-
+<!--                              Sección 24E  (pag 28)                                      -->
+<!-- Pregunta 38 -->
+  <div class="carousel-item ">
+  <div class="col-md-12">     
   <div class="row">
   <div class="col-md-6 offset-md-3">
   <label for="Nombre"><b>PIII.4.5. ¿Cuál sería el principal producto o servicio que están pensando en vender?</b></label>
@@ -1354,24 +1591,23 @@
   </div> <!-- Div carousel -->
 
 
-<!--                              Sección 25                                        -->
+<!--                              Sección 25 (pag 29)                                       -->
 <!-- Pregunta 39 -->
   <div class="carousel-item ">
-  <div class="form-group">
-  <div class="form-row">
+  <div class="form-group row">
   <div class="col-md-6 offset-md-3">
   <label for="inputEmail4"><b>PIII.4.7 ¿Cuáles considera ud que son las principales limitaciones al momento de exportar? </b></label>
   </div>  
   </div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Hay preferencia por enfocarse en el mercadolocal</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio25" id="rr41" value="si">
-  <label class="form-check-label" for="rr41">Sí</label>
+  <label class="form-check-label" for="rr41">Sí&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
@@ -1380,13 +1616,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Considera el riesgo muy alto, tiene temor</label>
   </div>  
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio26" id="rr43" value="si">
-  <label class="form-check-label" for="rr43">Sí</label>
+  <label class="form-check-label" for="rr43">Sí&nbsp;&nbsp;</label>
   </div>
                 
   <div class="form-check">
@@ -1395,13 +1631,13 @@
   </div></div>        
   
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">El volumen solicitado puede superar sucapacidad productiva</label>
   </div>  
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio27" id="rr45" value="si">
-  <label class="form-check-label" for="rr45">Sí</label>
+  <label class="form-check-label" for="rr45">Sí&nbsp;&nbsp;</label>
   </div>
                           
   <div class="form-check">
@@ -1410,13 +1646,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">	Falta de información sobre elmercado destino</label>
   </div>    
                                     
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio28" id="rr47" value="si">
-  <label class="form-check-label" for="rr47">Sí</label>
+  <label class="form-check-label" for="rr47">Sí&nbsp;&nbsp;</label>
   </div>
                                     
   <div class="form-check">
@@ -1426,13 +1662,13 @@
 
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Falta de contactos comerciales    </label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio29" id="rr49" value="si">
-  <label class="form-check-label" for="rr49">Sí</label>
+  <label class="form-check-label" for="rr49">Sí&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
@@ -1442,29 +1678,29 @@
 
                                                   
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Desconocimiento de instituciones de apoyo</label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio30" id="rr51" value="si">
-  <label class="form-check-label" for="rr51">Sí</label>
+  <label class="form-check-label" for="rr51">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio30" id="rr52" value="no">
-  <label class="form-check-label" for="r52">No</label>
+  <label class="form-check-label" for="r52">No&nbsp;&nbsp;</label>
   </div></div>
 
                                                         
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Desconocimiento de trámites de exportación y logística    </label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio31" id="rr53" value="si">
-  <label class="form-check-label" for="rr53">Sí</label>
+  <label class="form-check-label" for="rr53">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -1473,13 +1709,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Problemas con trámites específicos (Ministerio de Salud, Agricultura, ICAFE, entre otros)   </label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio32" id="rr55" value="si">
-  <label class="form-check-label" for="rr55">Sí</label>
+  <label class="form-check-label" for="rr55">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -1488,13 +1724,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Falta de opciones de financiamiento  </label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio33" id="rr57" value="si"> 
-  <label class="form-check-label" for="rr57">Sí</label>
+  <label class="form-check-label" for="rr57">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -1503,13 +1739,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Desconocimiento de los requisitos del comprador en cuanto a normas, certificaciones, etiquetado, etc. </label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio34" id="rr59" value="si">
-  <label class="form-check-label" for="r59">Sí</label>
+  <label class="form-check-label" for="r59">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -1518,13 +1754,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Altos costos de producción (agua, electricidad, mano de obra, insumos, etc.) </label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio35" id="rr61" value="si">
-  <label class="form-check-label" for="rr61">Sí</label>
+  <label class="form-check-label" for="rr61">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -1533,13 +1769,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Altos costos de logística </label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio36" id="rr63" value="si">
-  <label class="form-check-label" for="rr63">Sí</label>
+  <label class="form-check-label" for="rr63">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -1548,13 +1784,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Tipo de cambio </label>
   </div>                                              
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio37" id="rr65" value="si">
-  <label class="form-check-label" for="rr65">Sí</label>
+  <label class="form-check-label" for="rr65">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -1563,13 +1799,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Escasez de materia prima o insumos </label>
   </div>  
                       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio38" id="rr67" value="si">
-  <label class="form-check-label" for="rr67">Sí</label>
+  <label class="form-check-label" for="rr67">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -1578,13 +1814,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">	Alto número de competidores </label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio39" id="rr69" value="si">
-  <label class="form-check-label" for="rr69">Sí</label>
+  <label class="form-check-label" for="rr69">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -1593,13 +1829,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Competencia con mejores precios </label>
   </div>  
                             
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio40" id="rr71" value="si">
-  <label class="form-check-label" for="rr71">Sí</label>
+  <label class="form-check-label" for="rr71">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -1608,13 +1844,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Otro  </label>
   </div>  
                     
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio41" id="rr73" value="si">
-  <label class="form-check-label" for="rr73">Sí</label>
+  <label class="form-check-label" for="rr73">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -1623,34 +1859,36 @@
   </div></div>
 
   <div class="row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">¿Cuál?</label>
-  <input type="text" class="form-control" id="otro" placeholder="">
+  <input type="text" class="form-control" id="otro" placeholder="" disabled="disable">
   </div> <!-- div de fila -->
   </div> <!-- div de columna -->                                          
   </div>
-  </div>
 
-<!--                              Sección 26                                        -->
+<!--                              Sección 26 (pag 30)                                       -->
 <!-- Pregunta 40 -->
 
   <div class="carousel-item ">   
-  <div class="col-md-12">        
-  <div class="row">
+  <div class="form-group row">
   <div class="col-md-6 offset-md-3">
   <label for="Nombre"><b>PIII.4.8. ¿Con base en su experiencia, cuáles diría usted que son los tres (3) factores claves para que una empresa sea exitosa exportando?</b></label>
   <input type="text" id="trrr13" class="form-control" placeholder="">
   </div> <!-- Div de columna -->
   </div> <!-- Div de fila -->
 
-  <div class="row">
+  <div class="form-group row">
   <div class="col-md-6 offset-md-3">
   <label for="Nombre"><b> PARTE IV. ESTRUCTURA Y FINANCIAMIENTO</b></label>
   </div> </div>
 
-  <div class="row">
+  <div class="form-group row">
   <div class="col-md-6 offset-md-3">
   <label for="Nombre"><b>PIV.1¿Ha requerido algún financiamiento para operar la empresa o negocio durante 2017 o 2018?</b></label>
+  </div>
+  </div>
+  <div class="row justify-content-center">  
+  <div align="left">  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio42" id="r75" value="si">
   <label class="form-check-label" for="r75">Sí</label>
@@ -1662,9 +1900,17 @@
   </div> <!-- Div de form -->
   </div> <!-- Div de columna -->
   </div>    <!-- Div de fila -->
+  </div> <!-- Div carousel -->
 
 
-<!-- Pregunta 41 -->
+<!--                              Sección 26E (pag 31)                                       -->
+<!-- Pregunta 40 -->
+
+ <!--                              Sección 26E (pag 31)                                       -->
+<!-- Pregunta 40 -->
+
+  <div class="carousel-item ">   
+  <div class="col-md-12">  
   <div class="form-group">
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
@@ -1672,12 +1918,12 @@
   </div>  
   </div>  
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Recursos propios</label>
   </div>  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio43" id="r77" value="si">
-  <label class="form-check-label" for="r77">Sí</label>
+  <label class="form-check-label" for="r77">Sí&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
@@ -1686,13 +1932,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Préstamos informales</label>
   </div>  
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio44" id="r79" value="si">
-  <label class="form-check-label" for="r79">Sí</label>
+  <label class="form-check-label" for="r79">Sí&nbsp;&nbsp;</label>
   </div>
                 
   <div class="form-check">
@@ -1701,13 +1947,13 @@
   </div></div>
           
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Bancos Públicos</label>
   </div>  
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio45" id="r81" value="si">
-  <label class="form-check-label" for="r81">Sí</label>
+  <label class="form-check-label" for="r81">Sí&nbsp;&nbsp;</label>
   </div>
                          
   <div class="form-check">
@@ -1716,13 +1962,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Préstamos de otras empresas</label>
+  <div class="col-md-5 offset-md-3">
+  <label for="inputEmail4"> Préstamos de otras empresas</label>
   </div>    
                                     
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio46" id="r83" value="si">
-  <label class="form-check-label" for="r83">Sí</label>
+  <label class="form-check-label" for="r83">Sí&nbsp;&nbsp;</label>
   </div>
                                     
   <div class="form-check">
@@ -1731,13 +1977,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Bancos privados</label>
   </div>  
                                             
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio47" id="r85" value="si">
-  <label class="form-check-label" for="r85">Sí</label>
+  <label class="form-check-label" for="r85">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -1746,13 +1992,13 @@
   </div></div>
                                                   
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Tarjetas de crédito</label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio48" id="r87" value="si">
-  <label class="form-check-label" for="r87">Sí</label>
+  <label class="form-check-label" for="r87">Sí&nbsp;&nbsp;</label>
   </div>
                                              
   <div class="form-check">
@@ -1762,13 +2008,13 @@
 
                                                                                                   
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Proveedores  </label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio49" id="r89" value="si">
-  <label class="form-check-label" for="r89">Sí</label>
+  <label class="form-check-label" for="r89">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -1777,13 +2023,13 @@
   </div></div>
                                              
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Parientes/amigos </label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio50" id="r91" value="si">
-  <label class="form-check-label" for="r91">Sí</label>
+  <label class="form-check-label" for="r91">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -1792,13 +2038,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Emisión de acciones </label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio51" id="r93" value="si">
-  <label class="form-check-label" for="r93">Sí</label>
+  <label class="form-check-label" for="r93">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -1807,13 +2053,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Cooperativas</label>
+  <div class="col-md-5 offset-md-3">
+  <label for="inputEmail4"> Cooperativas</label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio52" id="r95" value="si">
-  <label class="form-check-label" for="r95">Sí</label>
+  <label class="form-check-label" for="r95">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -1822,13 +2068,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Org de microfinanzas</label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio53" id="r97" value="si">
-  <label class="form-check-label" for="r97">Sí</label>
+  <label class="form-check-label" for="r97">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -1837,13 +2083,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Fondos Propyme </label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio54" id="r99" value="si">
-  <label class="form-check-label" for="r99">Sí</label>
+  <label class="form-check-label" for="r99">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -1852,13 +2098,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	FINADE</label>
+  <div class="col-md-5 offset-md-3">
+  <label for="inputEmail4"> FINADE</label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio55" id="r101" value="si">
-  <label class="form-check-label" for="r101">Sí</label>
+  <label class="form-check-label" for="r101">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -1867,13 +2113,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Programa banca para el desarrollo </label>
   </div>  
                                             
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio56" id="r103" value="si">
-  <label class="form-check-label" for="r103">Sí</label>
+  <label class="form-check-label" for="r103">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -1882,13 +2128,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	FOMujeres </label>
+  <div class="col-md-5 offset-md-3">
+  <label for="inputEmail4"> FOMujeres </label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio57" id="r105" value="si">
-  <label class="form-check-label" for="r105">Sí</label>
+  <label class="form-check-label" for="r105">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -1897,13 +2143,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4"> Otras asociaciones </label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio58" id="r107" value="si">
-  <label class="form-check-label" for="r107">Sí</label>
+  <label class="form-check-label" for="r107">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -1912,13 +2158,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Otro </label>
   </div>  
                                    
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio59" id="r109" value="si">
-  <label class="form-check-label" for="r109">Sí</label>
+  <label class="form-check-label" for="r109">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -1928,27 +2174,27 @@
   </div>
 
   <div class="row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">¿Cuál?</label>
-  <input type="text" class="form-control" id="otro2" placeholder="Por favor detalle">
+  <input type="text" class="form-control" id="otro2" placeholder="Por favor detalle" disabled="disable">
   </div> <!-- div de fila -->
   </div> <!-- div de columna -->                                          
 
-<!-- Pregunta 42 -->  
+<!--  Pregunta 41   -->  
   <div class="form-group">
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4"><b>PIV.1.2 ¿Para qué fines ha utilizado el financiamiento?</b></label>
   </div>  
   </div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Compra de materia prima o insumos</label>
   </div>  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio60" id="r110" value="si">
-  <label class="form-check-label" for="r110">Sí</label>
+  <label class="form-check-label" for="r110">Sí&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
@@ -1957,13 +2203,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Compra de maquinaria</label>
+  <div class="col-md-5 offset-md-3">
+  <label for="inputEmail4"> Compra de maquinaria</label>
   </div>  
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio61" id="r112" value="si">
-  <label class="form-check-label" for="r112">Sí</label>
+  <label class="form-check-label" for="r112">Sí&nbsp;&nbsp;</label>
   </div>
                 
   <div class="form-check">
@@ -1972,13 +2218,13 @@
   </div></div>
           
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Obtener certificaciones</label>
   </div>  
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio62" id="r114" value="si">
-  <label class="form-check-label" for="r114">Sí</label>
+  <label class="form-check-label" for="r114">Sí&nbsp;&nbsp;</label>
   </div>
                           
   <div class="form-check">
@@ -1987,13 +2233,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Mejoras a las instalaciones de la empresa</label>
+  <div class="col-md-5 offset-md-3">
+  <label for="inputEmail4"> Mejoras a las instalaciones de la empresa</label>
   </div>    
                                     
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio63" id="r116" value="si">
-  <label class="form-check-label" for="r116">Sí</label>
+  <label class="form-check-label" for="r116">Sí&nbsp;&nbsp;</label>
   </div>
                                     
   <div class="form-check">
@@ -2002,13 +2248,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Pago de Planillas</label>
   </div>  
                                              
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio64" id="r118" value="si">
-  <label class="form-check-label" for="r118">Sí</label>
+  <label class="form-check-label" for="r118">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -2017,13 +2263,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Otras (esperifique): </label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio65" id="r120" value="si">
-  <label class="form-check-label" for="r120">Sí</label>
+  <label class="form-check-label" for="r120">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -2032,26 +2278,26 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <input type="text" id="t15" class="form-control" placeholder="Por favor detalle">
+  <div class="col-md-5 offset-md-3">
+  <input type="text" id="t15" class="form-control" placeholder="Por favor detalle" disabled="disable">
   </div> <!-- Div de columna -->
   </div> <!-- Div de fila -->       
   </div>
-  </div> <!-- Div md/12 -->
-  </div> <!-- Div carousel -->
+  </div>
+  </div>
 
 
-
-<!--                              Sección 27                                        -->
+<!--                              Sección 27 (pag 32)                                       -->
 <!-- Pregunta 43 -->
-  <div class="carousel-item ">
-  <div class="form-group">
+<div class="carousel-item ">
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
   <label for="inputEmail4"><b>PIV.1 ¿Ha utilizado alguna vez el apoyo de PROCOMER?</b></label>
   </div>  
   </div>
 
+  <div class="row justify-content-center">  
+  <div align="left">   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio66" id="rr121" value="si">
   <label class="form-check-label" for="rr121">Sí</label>
@@ -2060,23 +2306,28 @@
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio66" id="rr122" value="no">
   <label class="form-check-label" for="rr122">No</label>
-  </div></div>
+  </div>
+  </div>
+  </div>
+  </div>
 
-
+<!--                              Sección 27E (pag 33)                                       -->
+<!-- Pregunta 43E -->
+<div class="carousel-item ">
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4"><b>PV.1.1 ¿En cuál o cuáles áreas? </b></label>
   </div>  
   </div>  
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Ferias, misiones comerciales o agendas comerciales</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio67" id="r122" value="si">
-  <label class="form-check-label" for="r122">Sí</label>
+  <label class="form-check-label" for="r122">Sí&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
@@ -2085,13 +2336,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Asesoría logística</label>
+  <div class="col-md-5 offset-md-3">
+  <label for="inputEmail4"> Asesoría logística</label>
   </div>  
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio68" id="r124" value="si">
-  <label class="form-check-label" for="r124">Sí</label>
+  <label class="form-check-label" for="r124">Sí&nbsp;&nbsp;</label>
   </div>
                 
   <div class="form-check">
@@ -2100,13 +2351,13 @@
   </div></div>        
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Asesoría en el CACEX, regímenes especiales</label>
   </div>  
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio69" id="r126" value="si">
-  <label class="form-check-label" for="r126">Sí</label>
+  <label class="form-check-label" for="r126">Sí&nbsp;&nbsp;</label>
   </div>
                           
   <div class="form-check">
@@ -2115,13 +2366,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Acceso a estudios o información de mercado</label>
+  <div class="col-md-5 offset-md-3">
+  <label for="inputEmail4"> Acceso a estudios o información de mercado</label>
   </div>    
                                     
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio70" id="r128" value="si">
-  <label class="form-check-label" for="r128">Sí</label>
+  <label class="form-check-label" for="r128">Sí&nbsp;&nbsp;</label>
   </div>
                                     
   <div class="form-check">
@@ -2130,13 +2381,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Capacitaciones</label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio71" id="r130" value="si">
-  <label class="form-check-label" for="r130">Sí</label>
+  <label class="form-check-label" for="r130">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -2145,13 +2396,13 @@
   </div></div>
                                                 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Trámites obligatorios o de rutina</label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio72" id="r132" value="si">
-  <label class="form-check-label" for="r132">Sí</label>
+  <label class="form-check-label" for="r132">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -2160,13 +2411,13 @@
   </div></div>
                                                                                                     
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Encadenamientos </label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio73" id="r134" value="si">
-  <label class="form-check-label" for="r134">Sí</label>
+  <label class="form-check-label" for="r134">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -2175,13 +2426,13 @@
   </div></div>
                                                   
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Otra </label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio74" id="r136" value="si">
-  <label class="form-check-label" for="r136">Sí</label>
+  <label class="form-check-label" for="r136">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -2190,13 +2441,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <input type="text" id="tr15" class="form-control" placeholder="Por favor detalle">
+  <div class="col-md-5 offset-md-3">
+  <input type="text" id="tr15" class="form-control" placeholder="Por favor detalle" disabled="disable">
   </div> <!-- Div de columna -->
-  </div> <!-- Div de fila -->       
-  </div>
+  </div> <!-- Div de fila -->   
+  </div>    
 
-<!--                              Sección 28                                         -->
+<!--                              Sección 28 (pag 34)                                        -->
 <!-- Pregunta 44 -->
 
   <div class="carousel-item ">
@@ -2208,13 +2459,13 @@
   </div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">La Red Violeta</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio75" id="r138" value="si">
-  <label class="form-check-label" for="r138">Sí</label>
+  <label class="form-check-label" for="r138">Sí&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
@@ -2223,13 +2474,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Mujeres en Beta</label>
   </div>  
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio76" id="r140" value="si">
-  <label class="form-check-label" for="r140">Sí</label>
+  <label class="form-check-label" for="r140">Sí&nbsp;&nbsp;</label>
   </div>
                 
   <div class="form-check">
@@ -2238,13 +2489,13 @@
   </div></div>
           
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">De.Mentes</label>
   </div>  
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio77" id="r142" value="si">
-  <label class="form-check-label" for="r142">Sí</label>
+  <label class="form-check-label" for="r142">Sí&nbsp;&nbsp;</label>
   </div>
                           
   <div class="form-check">
@@ -2253,13 +2504,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	SuláBatsu</label>
+  <div class="col-md-5 offset-md-3">
+  <label for="inputEmail4"> SuláBatsu</label>
   </div>    
                                     
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio78" id="r144" value="si">
-  <label class="form-check-label" for="r144">Sí</label>
+  <label class="form-check-label" for="r144">Sí&nbsp;&nbsp;</label>
   </div>
                                     
   <div class="form-check">
@@ -2268,13 +2519,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Voces Vitales</label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio79" id="r146" value="si">
-  <label class="form-check-label" for="r146">Sí</label>
+  <label class="form-check-label" for="r146">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -2283,13 +2534,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Foro de Mujeres Empresarias</label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio80" id="r148" value="si">
-  <label class="form-check-label" for="r148">Sí</label>
+  <label class="form-check-label" for="r148">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -2298,13 +2549,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">WeConnect</label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio81" id="r150" value="si">
-  <label class="form-check-label" for="r150">Sí</label>
+  <label class="form-check-label" for="r150">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -2313,13 +2564,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Nosotras WeConnecting</label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio82" id="r152" value="si">
-  <label class="form-check-label" for="r152">Sí</label>
+  <label class="form-check-label" for="r152">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -2328,13 +2579,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">AED</label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio83" id="r154" value="si">
-  <label class="form-check-label" for="r154">Sí</label>
+  <label class="form-check-label" for="r154">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -2343,13 +2594,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Otras (esperifique): </label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio84" id="r156" value="si">
-  <label class="form-check-label" for="r156">Sí</label>
+  <label class="form-check-label" for="r156">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -2358,24 +2609,21 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <input type="text" id="t16" class="form-control" placeholder="Por favor detalle">
+  <div class="col-md-5 offset-md-3">
+  <input type="text" id="t16" class="form-control" placeholder="Por favor detalle" disabled="disable">
   </div> <!-- Div de columna -->
-  </div> <!-- Div de fila -->                                                
-  </div>
-  </div>
+  </div> <!-- Div de fila -->   
 
 
-
-
-<!--                              Sección 29                                         -->
 <!-- Pregunta 45 -->
-
-  <div class="carousel-item ">
-  <div class="col-md-12">        
-  <div class="row">
+  <div class="form-group row">
   <div class="col-md-6 offset-md-3">
-  <label for="Nombre"><b>PV.3. ¿Ha recibido usted y/o su personal capacitación en?</b></label>
+  <label for="Nombre"><b>PV.3. ¿Ha participado su empresa en eventos, ferias, ruedas de negocio, en los últimos 3 años? </b></label>
+  </div>
+  </div>
+
+  <div class="row justify-content-center md-4">  
+  <div align="left">  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio85" id="r158" value="si">
   <label class="form-check-label" for="r158">Sí</label>
@@ -2388,11 +2636,20 @@
   </div> <!-- Div de columna -->
   </div>    <!-- Div de fila -->
 
+  </div>
+  </div>
 
+
+
+
+<!--                              Sección 29 (pag 35)                                        -->
 <!-- Pregunta 46 -->
+
+  <div class="carousel-item ">
+  <div class="col-md-12">        
   <div class="row">
   <div class="col-md-6 offset-md-3">
-  <label for="Nombre"><b>PV.3.1. Para los que respondieron SÍ en PV.3. ¿En cuáles?</b></label>
+  <label for="Nombre"><b>¿En cuáles?</b></label>
   <input type="text" id="t17" class="form-control" placeholder="Por favor detalle">
   </div> <!-- Div de columna -->
   </div> <!-- Div de fila -->  
@@ -2401,13 +2658,13 @@
 
 
 
-<!--                              Sección 30                                         -->
+<!--                              Sección 30 (pag 36)                                       -->
 <!-- Pregunta 47 -->
   <div class="carousel-item ">
   <div class="form-group">
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4"><b>PV.2. ¿Pertenece usted a alguna de las siguientes asociaciones o redes de empresas?</b></label>
+  <label for="inputEmail4"><b>PV.4. ¿Ha recibido usted y/o su personal capacitación en? </b></label>
   </div>  
   </div>
 
@@ -2417,7 +2674,7 @@
   </div>  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio86" id="r160" value="si">
-  <label class="form-check-label" for="r160">Sí</label>
+  <label class="form-check-label" for="r160">Sí&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
@@ -2427,12 +2684,12 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Asistencia profesional (Recursos Humanos, Finanzas, Mercadeo, Publicidad)</label>
+  <label for="inputEmail4"> Asistencia profesional (Recursos Humanos, Finanzas, Mercadeo, Publicidad)</label>
   </div>  
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio87" id="r162" value="si">
-  <label class="form-check-label" for="r162">Sí</label>
+  <label class="form-check-label" for="r162">Sí&nbsp;&nbsp;</label>
   </div>
                 
   <div class="form-check">
@@ -2447,7 +2704,7 @@
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio88" id="r164" value="si">
-  <label class="form-check-label" for="r164">Sí</label>
+  <label class="form-check-label" for="r164">Sí&nbsp;&nbsp;</label>
   </div>
                           
   <div class="form-check">
@@ -2462,7 +2719,7 @@
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio89" id="r166" value="si">
-  <label class="form-check-label" for="r166">Sí</label>
+  <label class="form-check-label" for="r166">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -2473,53 +2730,54 @@
   <div class="row">
   <div class="col-md-6 offset-md-3">
   <label for="Nombre"><b>Esperifique</b></label>
-  <input type="text" id="tr18" class="form-control" placeholder="Por favor detalle">
+  <input type="text" id="tr18" class="form-control" placeholder="Por favor detalle" disabled="disable">
   </div> <!-- Div de columna -->
-  </div> <!-- Div de fila -->                                                  
-  </div>
-  </div>
+  </div> <!-- Div de fila -->  
 
 
-<!--                              Sección 31                                         -->
-<!-- Pregunta 48 -->
-
-  <div class="carousel-item ">
-  <div class="form-group">
+<!-- Pregunta 47 -->
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
   <label for="inputEmail4"><b>PV.5. ¿Ha recibido usted y/o su personal capacitación enProgramas de fortalecimiento de capacidades para emprendedores o PYMES? </b></label>
   </div>  
   </div>
 
-  <div class="col-md-6 offset-md-3">
-  </div>  
+  <div class="row justify-content-center">  
+  <div align="left">   
   <div class="form-check">
-  <div class="col-md-6 offset-md-3">
   <input class="form-check-input" type="radio" name="radio90" id="rr168" value="si">
-  <label class="form-check-label" for="rr168">Sí</label>
-  </div></div>
+  <label class="form-check-label" for="rr168">Sí&nbsp;&nbsp;</label>
+  </div>
       
   <div class="form-check">
-  <div class="col-md-6 offset-md-3">
   <input class="form-check-input" type="radio" name="radio90" id="rr169" value="no">
   <label class="form-check-label" for="rr169">No</label>
-  </div></div>
+  </div>
+  </div> 
+  </div>                                                
+  </div>
+  </div>
 
 
+<!--                              Sección 31 (pag 37)                                        -->
+<!-- Pregunta 48 -->
+
+  <div class="carousel-item ">
+  <div class="form-group">
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4"><b>PV.5.1. Para los que respondieron SÍ en PV.5. ¿En cuáles? </b></label>
+  <div class="col-md-5 offset-md-3">
+  <label for="inputEmail4"><b>PV.5.1. ¿En cuáles? </b></label>
   </div>  
   </div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Mujeres Emprendedoras MEIC</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio91" id="r168" value="si">
-  <label class="form-check-label" for="r168">Sí</label>
+  <label class="form-check-label" for="r168">Sí&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
@@ -2528,13 +2786,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Avanzamos INAMU</label>
   </div>  
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio92" id="r170" value="si">
-  <label class="form-check-label" for="r170">Sí</label>
+  <label class="form-check-label" for="r170">Sí&nbsp;&nbsp;</label>
   </div>
                 
   <div class="form-check">
@@ -2543,13 +2801,13 @@
   </div></div>
           
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Feria Mujeres Empresarias INAMU</label>
   </div>  
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio93" id="r172" value="si">
-  <label class="form-check-label" for="r172">Sí</label>
+  <label class="form-check-label" for="r172">Sí&nbsp;&nbsp;</label>
   </div>
                           
   <div class="form-check">
@@ -2558,13 +2816,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">FoMujeres INAMU</label>
   </div>    
                                     
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio94" id="r174" value="si">
-  <label class="form-check-label" for="r174">Sí</label>
+  <label class="form-check-label" for="r174">Sí&nbsp;&nbsp;</label>
   </div>
                                     
   <div class="form-check">
@@ -2573,13 +2831,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Programa para el Desarrollo de la Mujer Emprendedora - Cámara de Comercio de Costa Rica</label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio95" id="r176" value="si">
-  <label class="form-check-label" for="r176">Sí</label>
+  <label class="form-check-label" for="r176">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -2588,13 +2846,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Al Invest- Cámara de Comercio de Costa Rica</label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio96" id="r178" value="si">
-  <label class="form-check-label" for="r178">Sí</label>
+  <label class="form-check-label" for="r178">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -2603,13 +2861,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Programa de Liderazgo Ejecutivo de la Mujer INCAE</label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio97" id="r180" value="si">
-  <label class="form-check-label" for="r180">Sí</label>
+  <label class="form-check-label" for="r180">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -2618,13 +2876,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Programa Acelera BAC Credomatic</label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio98" id="r182" value="si">
-  <label class="form-check-label" for="r182">Sí</label>
+  <label class="form-check-label" for="r182">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -2633,13 +2891,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Mujer 360 Banco Nacional</label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio99" id="r184" value="si">
-  <label class="form-check-label" for="r184">Sí</label>
+  <label class="form-check-label" for="r184">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -2648,13 +2906,13 @@
   </div></div>
   
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">VV Grow de Voces Vitales</label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio100" id="r186" value="si">
-  <label class="form-check-label" for="r186">Sí</label>
+  <label class="form-check-label" for="r186">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -2663,13 +2921,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Proyecto Emprende Inamu, MEIC, INAMU</label>
+  <div class="col-md-5 offset-md-3">
+  <label for="inputEmail4"> Proyecto Emprende Inamu, MEIC, INAMU</label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio101" id="r188" value="si">
-  <label class="form-check-label" for="r188">Sí</label>
+  <label class="form-check-label" for="r188">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -2678,13 +2936,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Proyecto MADC Iniciativa Dinámica BCIE y UE</label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio102" id="r190" value="si">
-  <label class="form-check-label" for="r190">Sí</label>
+  <label class="form-check-label" for="r190">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -2693,13 +2951,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Proyecto Procalidad MEIC, UE</label>
+  <div class="col-md-5 offset-md-3">
+  <label for="inputEmail4"> Proyecto Procalidad MEIC, UE</label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio103" id="r192" value="si">
-  <label class="form-check-label" for="r192">Sí</label>
+  <label class="form-check-label" for="r192">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -2708,13 +2966,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Otras (esperifique): </label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio104" id="r194" value="si">
-  <label class="form-check-label" for="r194">Sí</label>
+  <label class="form-check-label" for="r194">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -2723,39 +2981,39 @@
   </div></div>
   
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <input type="text" id="tr19" class="form-control" placeholder="Por favor detalle">
+  <div class="col-md-5 offset-md-3">
+  <input type="text" id="tr19" class="form-control" placeholder="Por favor detalle" disabled="disable">
   </div> <!-- Div de columna -->
   </div> <!-- Div de fila -->                                                
   </div>
   </div>
 
 
-<!--                              Sección 32                                         -->
+<!--                              Sección 32 (pag 38)                                        -->
 <!-- Pregunta 50 -->
   <div class="carousel-item ">
   <div class="form-group">
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4"><b>PARTE VI. MERCADEO Y VENTAS </b></label>
   </div>  
   </div>  
 
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4"><b>PVI.1¿Cuenta su empresa con? </b></label>
   </div>  
   </div>  
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Sitio web propio</label>
+  <div class="col-md-5 offset-md-3">
+  <label for="inputEmail4"> Sitio web propio</label>
   </div>  
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio105" id="r196" value="si">
-  <label class="form-check-label" for="r196">Sí</label>
+  <label class="form-check-label" for="r196">Sí&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
@@ -2764,13 +3022,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Logo original</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio106" id="r198" value="si">
-  <label class="form-check-label" for="r198">Sí</label>
+  <label class="form-check-label" for="r198">Sí&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
@@ -2779,13 +3037,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Email corporativo</label>
+  <div class="col-md-5 offset-md-3">
+  <label for="inputEmail4"> Email corporativo</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio107" id="r200" value="si">
-  <label class="form-check-label" for="r200">Sí</label>
+  <label class="form-check-label" for="r200">Sí&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
@@ -2794,13 +3052,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Redes sociales (FB, IG, etc.)</label>
+  <div class="col-md-5 offset-md-3">
+  <label for="inputEmail4"> Redes sociales (FB, IG, etc.)</label>
   </div>  
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio108" id="r202" value="si">
-  <label class="form-check-label" for="r202">Sí</label>
+  <label class="form-check-label" for="r202">Sí&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
@@ -2813,25 +3071,25 @@
 
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4"><b>PVI.2¿Tiene su empresa establecidas las siguientes estrategias?  </b></label>
   </div>  
   </div>  
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4"><b>Estrategias de diferenciación de sus productos:</b></label>
   </div>  
   </div>  
   
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Estudios de mercado</label>
+  <div class="col-md-5 offset-md-3">
+  <label for="inputEmail4"> Estudios de mercado</label>
   </div>  
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio109" id="r204" value="si">
-  <label class="form-check-label" for="r204">Sí</label>
+  <label class="form-check-label" for="r204">Sí&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
@@ -2840,13 +3098,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Estudios de la competencia</label>
   </div>  
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio110" id="r206" value="si">
-  <label class="form-check-label" for="r206">Sí</label>
+  <label class="form-check-label" for="r206">Sí&nbsp;&nbsp;</label>
   </div>
                 
   <div class="form-check">
@@ -2855,13 +3113,13 @@
   </div></div>
           
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Plan de mercadeo</label>
   </div>  
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio111" id="r208" value="si">
-  <label class="form-check-label" for="r208">Sí</label>
+  <label class="form-check-label" for="r208">Sí&nbsp;&nbsp;</label>
   </div>
                           
   <div class="form-check">
@@ -2870,13 +3128,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Libro de marca</label>
   </div>    
                                     
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio112" id="r210" value="si">
-  <label class="form-check-label" for="r210">Sí</label>
+  <label class="form-check-label" for="r210">Sí&nbsp;&nbsp;</label>
   </div>
                                     
   <div class="form-check">
@@ -2885,19 +3143,19 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4"><b>Estrategias a canales de venta:</b></label>
   </div>  
   </div>  
   
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Venta digital</label>
   </div>  
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio113" id="r212" value="si">
-  <label class="form-check-label" for="r212">Sí</label>
+  <label class="form-check-label" for="r212">Sí&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
@@ -2906,13 +3164,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Venta al detalle </label>
   </div>  
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio114" id="r214" value="si">
-  <label class="form-check-label" for="r214">Sí</label>
+  <label class="form-check-label" for="r214">Sí&nbsp;&nbsp;</label>
   </div>
                 
   <div class="form-check">
@@ -2921,13 +3179,13 @@
   </div></div>
           
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Venta al mayor</label>
   </div>  
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio115" id="r216" value="si">
-  <label class="form-check-label" for="r216">Sí</label>
+  <label class="form-check-label" for="r216">Sí&nbsp;&nbsp;</label>
   </div>
                           
   <div class="form-check">
@@ -2936,13 +3194,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Venta a domicilio</label>
   </div>    
                                     
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio116" id="r218" value="si">
-  <label class="form-check-label" for="r218">Sí</label>
+  <label class="form-check-label" for="r218">Sí&nbsp;&nbsp;</label>
   </div>
                                     
   <div class="form-check">
@@ -2953,19 +3211,19 @@
 <!-- Pregunta 52 --> 
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4"><b>Proyección de ventas por períodos:</b></label>
   </div>  
   </div>  
   
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Anuales</label>
+  <div class="col-md-5 offset-md-3">
+  <label for="inputEmail4"> Anuales</label>
   </div>  
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio117" id="r220" value="si">
-  <label class="form-check-label" for="r220">Sí</label>
+  <label class="form-check-label" for="r220">Sí&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
@@ -2974,13 +3232,13 @@
   </div></div>
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Semestrales</label>
   </div>  
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio118" id="r222" value="si">
-  <label class="form-check-label" for="r222">Sí</label>
+  <label class="form-check-label" for="r222">Sí&nbsp;&nbsp;</label>
   </div>
                 
   <div class="form-check">
@@ -2989,13 +3247,13 @@
   </div></div>
           
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-5 offset-md-3">
   <label for="inputEmail4">Trimestrales </label>
   </div>  
                                               
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio119" id="r224" value="si">
-  <label class="form-check-label" for="r224">Sí</label>
+  <label class="form-check-label" for="r224">Sí&nbsp;&nbsp;</label>
   </div>
                                               
   <div class="form-check">
@@ -3007,12 +3265,11 @@
 
 
 
-<!--                              Sección 33                                         -->
+<!--                              Sección 33  (pag 39)                                       -->
 <!-- Pregunta 52 -->
 
   <div class="carousel-item ">
-  <div class="form-group">
-  <div class="form-row">
+  <div class="form-group row">
   <div class="col-md-6 offset-md-3">
   <label for="inputEmail4"><b>PVI.3.¿Cuál diría usted que es el mejor aproximado de su volumen de ventas anual actualmente (en colones)? </b></label>
   </div>  
@@ -3023,7 +3280,9 @@
   <label for="inputEmail4"><b>NACIONALES </b></label>
   </div>  
   </div>  
-  
+
+  <div class="row justify-content-center">  
+  <div align="left"> 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio120" id="r226" value="5">
   <label class="form-check-label" for="r226">Menos de 5 millones</label>
@@ -3058,14 +3317,18 @@
   <input class="form-check-input" type="radio" name="radio120" id="r238" value="250">
   <label class="form-check-label" for="r238">Más de 250 millones</label>
   </div>
+  </div>  
+  </div> 
 
  <!-- INTERNACIONALES -->
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
   <label for="inputEmail4"><b>INTERNACIONALES </b></label>
   </div>  
-  </div>  
-  
+  </div>
+
+  <div class="row justify-content-center">  
+  <div align="left"> 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio127" id="r240" value="5">
   <label class="form-check-label" for="r240">Menos de 5 millones</label>
@@ -3100,19 +3363,19 @@
   <input class="form-check-input" type="radio" name="radio127" id="r251" value="250">
   <label class="form-check-label" for="r251">Más de 250 millones</label>
   </div>
+  </div>  
+  </div>
 
 
 <!-- Pregunta 53 -->
-  <div class="form-row">
+  <div class="form-group row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4"><b>PVI.4. ¿Diría usted que las ventas del 2018 fueron superiores a las de 2017? ¿En qué proporción?  (%). </b></label>
+  <label for="inputEmail4"><b>PVI.4. ¿Diría usted que las ventas del 2018 fueron superiores a las de 2017? </b></label>
   </div>  
-  </div>  
+  </div>   
 
-  <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  </div>  
-  
+  <div class="row justify-content-center">  
+  <div align="left"> 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio134" id="r254" value="si">
   <label class="form-check-label" for="r254">Sí</label>
@@ -3121,11 +3384,16 @@
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio134" id="r255" value="no">
   <label class="form-check-label" for="r255">No</label>
-  </div></div>
+  </div>
+  </div>
+  </div>
+  </div>
 
+<!--                              Sección 33E (pag 40)                                        -->
+  <div class="carousel-item ">
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">%</label>
+  <label for="inputEmail4">¿En qué proporción considera usted que las ventas del 2018 fueron superiores a las del 2017? (%)</label>
   <select class="form-control form-control" id="s2">
         <option>0</option>
         <option>1</option>
@@ -3230,11 +3498,10 @@
         <option>1000</option>
   </select>    
   </div>
-  </div>  
   </div>
   </div>
 
-<!--                              Sección 34                                         -->
+<!--                              Sección 34 (pag 41)                                        -->
 <!-- Pregunta 54 -->
   <div class="carousel-item ">
   <div class="form-group">
@@ -3251,23 +3518,23 @@
   </div>  
   
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Nadie puede velar por mis intereses, a excepción de mis familiares.</label>
+  <div class="col-md-4 offset-md-3">
+  <label for="inputEmail4"> Nadie puede velar por mis intereses, a excepción de mis familiares.</label>
   </div>  
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio135" id="rr255" value="med">
-  <label class="form-check-label" for="rr255">MED</label>
+  <label class="form-check-label" for="rr255">MED&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio135" id="r256" value="aed">
-  <label class="form-check-label" for="r256">AED</label>
+  <label class="form-check-label" for="r256">AED&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio135" id="r257" value="ada">
-  <label class="form-check-label" for="r257">ADA</label>
+  <label class="form-check-label" for="r257">ADA&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
@@ -3277,23 +3544,23 @@
   </div>  
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Uno debe tener amistades en todas partes para resolver los problemas</label>
+  <div class="col-md-4 offset-md-3">
+  <label for="inputEmail4"> Uno debe tener amistades en todas partes para resolver los problemas</label>
   </div>  
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio136" id="r259" value="med">
-  <label class="form-check-label" for="r259">MED</label>
+  <label class="form-check-label" for="r259">MED&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio136" id="r260" value="aed">
-  <label class="form-check-label" for="r260">AED</label>
+  <label class="form-check-label" for="r260">AED&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio136" id="r261" value="ada">
-  <label class="form-check-label" for="r261">ADA</label>
+  <label class="form-check-label" for="r261">ADA&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
@@ -3303,23 +3570,23 @@
   </div>  
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Unirse con la gente lo que trae es problemas</label>
+  <div class="col-md-4 offset-md-3">
+  <label for="inputEmail4"> Unirse con la gente lo que trae es problemas</label>
   </div>  
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio137" id="r263" value="med">
-  <label class="form-check-label" for="r263">MED</label>
+  <label class="form-check-label" for="r263">MED&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio137" id="r264" value="aed">
-  <label class="form-check-label" for="r264">AED</label>
+  <label class="form-check-label" for="r264">AED&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio137" id="r265" value="ada">
-  <label class="form-check-label" for="r265">ADA</label>
+  <label class="form-check-label" for="r265">ADA&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
@@ -3329,23 +3596,23 @@
   </div>  
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Las leyes las hacen los poderosos para su beneficio</label>
+  <div class="col-md-4 offset-md-3">
+  <label for="inputEmail4"> Las leyes las hacen los poderosos para su beneficio</label>
   </div>  
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio138" id="r267" value="med">
-  <label class="form-check-label" for="r267">MED</label>
+  <label class="form-check-label" for="r267">MED&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio138" id="r268" value="aed">
-  <label class="form-check-label" for="r268">AED</label>
+  <label class="form-check-label" for="r268">AED&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio138" id="r269" value="ada">
-  <label class="form-check-label" for="r269">ADA</label>
+  <label class="form-check-label" for="r269">ADA&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
@@ -3363,23 +3630,23 @@
   </div>  
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	El rumbo de la vida está escrito y uno no puede cambiarlo.</label>
+  <div class="col-md-4 offset-md-3">
+  <label for="inputEmail4"> El rumbo de la vida está escrito y uno no puede cambiarlo.</label>
   </div>  
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio139" id="r270" value="med">
-  <label class="form-check-label" for="r270">MED</label>
+  <label class="form-check-label" for="r270">MED&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio139" id="r271" value="aed">
-  <label class="form-check-label" for="r271">AED</label>
+  <label class="form-check-label" for="r271">AED&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio139" id="r272" value="ada">
-  <label class="form-check-label" for="r272">ADA</label>
+  <label class="form-check-label" for="r272">ADA&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
@@ -3389,23 +3656,23 @@
   </div>  
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	La suerte es un factor muy importante para lograr el éxito.</label>
+  <div class="col-md-4 offset-md-3">
+  <label for="inputEmail4"> La suerte es un factor muy importante para lograr el éxito.</label>
   </div>  
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio140" id="r274" value="med">
-  <label class="form-check-label" for="r274">MED</label>
+  <label class="form-check-label" for="r274">MED&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio140" id="r275" value="aed">
-  <label class="form-check-label" for="r275">AED</label>
+  <label class="form-check-label" for="r275">AED&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio140" id="r276" value="ada">
-  <label class="form-check-label" for="r276">ADA</label>
+  <label class="form-check-label" for="r276">ADA&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
@@ -3416,24 +3683,24 @@
 
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Hay gente con suerte y por eso se le dan las cosas.
+  <div class="col-md-4 offset-md-3">
+  <label for="inputEmail4"> Hay gente con suerte y por eso se le dan las cosas.
   </label>
   </div>  
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio141" id="r278" value="med">
-  <label class="form-check-label" for="r278">MED</label>
+  <label class="form-check-label" for="r278">MED&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio141" id="r279" value="aed">
-  <label class="form-check-label" for="r279">AED</label>
+  <label class="form-check-label" for="r279">AED&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio141" id="r280" value="ada">
-  <label class="form-check-label" for="r280">ADA</label>
+  <label class="form-check-label" for="r280">ADA&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
@@ -3443,23 +3710,23 @@
   </div>  
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Casi siempre el fracaso es por culpa de fuerzas que no controlamos.</label>
+  <div class="col-md-4 offset-md-3">
+  <label for="inputEmail4"> Casi siempre el fracaso es por culpa de fuerzas que no controlamos.</label>
   </div>  
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio142" id="r282" value="med">
-  <label class="form-check-label" for="r282">MED</label>
+  <label class="form-check-label" for="r282">MED&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio142" id="r283" value="aed">
-  <label class="form-check-label" for="r283">AED</label>
+  <label class="form-check-label" for="r283">AED&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio142" id="r284" value="ada">
-  <label class="form-check-label" for="r284">ADA</label>
+  <label class="form-check-label" for="r284">ADA&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
@@ -3488,23 +3755,23 @@
   </div>  
   
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Puedo superar momentos difíciles porque ya he pasado por dificultades anteriormente</label>
+  <div class="col-md-4 offset-md-3">
+  <label for="inputEmail4"> Puedo superar momentos difíciles porque ya he pasado por dificultades anteriormente</label>
   </div>  
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio143" id="r286" value="med">
-  <label class="form-check-label" for="r286">MED</label>
+  <label class="form-check-label" for="r286">MED&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio143" id="r287" value="aed">
-  <label class="form-check-label" for="r287">AED</label>
+  <label class="form-check-label" for="r287">AED&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio143" id="r288" value="ada">
-  <label class="form-check-label" for="r288">ADA</label>
+  <label class="form-check-label" for="r288">ADA&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
@@ -3514,23 +3781,23 @@
   </div>  
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Generalmente me las arreglo de una manera u otra</label>
+  <div class="col-md-4 offset-md-3">
+  <label for="inputEmail4"> Generalmente me las arreglo de una manera u otra</label>
   </div>  
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio144" id="r290" value="med">
-  <label class="form-check-label" for="r290">MED</label>
+  <label class="form-check-label" for="r290">MED&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio144" id="r291" value="aed">
-  <label class="form-check-label" for="r291">AED</label>
+  <label class="form-check-label" for="r291">AED&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio144" id="r292" value="ada">
-  <label class="form-check-label" for="r292">ADA</label>
+  <label class="form-check-label" for="r292">ADA&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
@@ -3540,23 +3807,23 @@
   </div>  
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Me considero una persona muy optimista y persistente</label>
+  <div class="col-md-4 offset-md-3">
+  <label for="inputEmail4"> Me considero una persona muy optimista y persistente</label>
   </div>  
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio145" id="r294" value="med">
-  <label class="form-check-label" for="r294">MED</label>
+  <label class="form-check-label" for="r294">MED&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio145" id="r295" value="aed">
-  <label class="form-check-label" for="r295">AED</label>
+  <label class="form-check-label" for="r295">AED&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio145" id="r296" value="ada">
-  <label class="form-check-label" for="r296">ADA</label>
+  <label class="form-check-label" for="r296">ADA&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
@@ -3566,23 +3833,23 @@
   </div>  
 
   <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Las situaciones estresantes me afectan física y emocionalmente</label>
+  <div class="col-md-4 offset-md-3">
+  <label for="inputEmail4"> Las situaciones estresantes me afectan física y emocionalmente</label>
   </div>  
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio146" id="r298" value="med">
-  <label class="form-check-label" for="r298">MED</label>
+  <label class="form-check-label" for="r298">MED&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio146" id="r299" value="aed">
-  <label class="form-check-label" for="r299">AED</label>
+  <label class="form-check-label" for="r299">AED&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio146" id="r300" value="ada">
-  <label class="form-check-label" for="r300">ADA</label>
+  <label class="form-check-label" for="r300">ADA&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
@@ -3611,7 +3878,7 @@
   
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Dar sustento a mi familia y un beneficio a mis empleados</label>
+  <label for="inputEmail4"> Dar sustento a mi familia y un beneficio a mis empleados</label>
   </div>  
   
   <div class="col-md-6 offset-md-3">
@@ -3621,7 +3888,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Posicionar mi establecimiento como el mejor en su ramo</label>
+  <label for="inputEmail4"> Posicionar mi establecimiento como el mejor en su ramo</label>
   </div>  
   
   <div class="col-md-6 offset-md-3">
@@ -3630,7 +3897,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Que los demás valoren mi esfuerzo y me consideren un experto en mi trabajo</label>
+  <label for="inputEmail4"> Que los demás valoren mi esfuerzo y me consideren un experto en mi trabajo</label>
   </div>  
   
   <div class="col-md-6 offset-md-3">
@@ -3640,7 +3907,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4">	Lograr cada vez mayor crecimiento de mi negocio</label>
+  <label for="inputEmail4"> Lograr cada vez mayor crecimiento de mi negocio</label>
   </div>  
   
   <div class="col-md-6 offset-md-3">
@@ -3661,34 +3928,77 @@
 
   <div class="form-row">
   <div class="form-group col-md-6">
-  <label for="inputEmail4">Nombre</label>
+  <label for="inputEmail4"><b>Nombre</b></label>
   <input type="text" class="form-control" placeholder="Nombre" id="t22">
   </div>
   
   <div class="form-group col-md-6">
-  <label for="inputPassword4">Apellido</label>
+  <label for="inputPassword4"><b>Apellido</b></label>
   <input type="text" class="form-control" placeholder="Apellido" id="t23">
   </div>
   </div>
 
   <form>
   <div class="form-row">
-  <div class="form-group col-md-6">
-  <label for="inputEmail4">Edad</label>
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4"><b>Edad</b></label>
   <input type="text" class="form-control" placeholder="Edad" id="t24">
   </div>
-  
-  <div class="form-group col-md-6">
-  <label for="inputPassword4">Etnia</label>
-  <input type="text" class="form-control" placeholder="Etnia" id="t25">
+  </div>
+  <br>
+  <div class="form-group row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputPassword4"><b>Etnia</b></label>
   </div>
   </div>
 
-  <div class="form-row">
-  <div class="col-md-6">
-  <label for="inputEmail4">¿Es Usted el (la) propietario(a) del negocio?</label>
+  <div class="row justify-content-center">  
+  <div align="left">   
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioextra20" id="ex35" value="Blanca">
+  <label class="form-check-label" for="ex35"> Blanca </label>
+  </div>
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioextra20" id="ex36" value="Mestiza">
+  <label class="form-check-label" for="ex36">Mestiza</label>
+  </div>
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioextra20" id="ex37" value="Afrodescendiente">
+  <label class="form-check-label" for="ex37"> Afrodescendiente  </label>
+  </div>
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioextra20" id="ex38" value="Mulata">
+  <label class="form-check-label" for="ex38"> Mulata </label>
+  </div>
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioextra20" id="ex39" value="Indígena">
+  <label class="form-check-label" for="ex39"> Indígena</label>
+  </div>
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioextra20" id="ex40" value="Asiática">
+  <label class="form-check-label" for="ex40"> Asiática </label>
+  </div>
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioextra20" id="ex41" value="Otra">
+  <label class="form-check-label" for="ex41"> Otra </label>
+  </div>
+  </div>
+  </div>
+
+  <div class="form-group row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4"><b>¿Es Usted el (la) propietario(a) del negocio?</b></label>
+  </div> 
   </div>  
   
+  <div class="row justify-content-center">  
+  <div align="left">   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio60" id="r302" value="si">
   <label class="form-check-label" for="r302">Sí</label>
@@ -3697,10 +4007,18 @@
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio60" id="r303" value="no">
   <label class="form-check-label" for="r303">No</label>
-  </div></div>
+  </div>
+  </div>
+  </div> 
 
-  <div class="form-group">
-  <label for="inputEmail4">¿Cuál es el último grado de educación que Ud. aprobó?	</label>
+  <div class="form-group row">
+  <div class="col-md-6 offset-md-3">
+  <label for="inputEmail4"><b>¿Cuál es el último grado de educación que Ud. aprobó? </b></label>
+  </div>
+  </div>
+
+  <div class="row justify-content-center">  
+  <div align="left">   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio5" id="r304" value="Sin estudios">
   <label class="form-check-label" for="r304"> Sin estudios </label>
@@ -3741,15 +4059,16 @@
   <label class="form-check-label" for="r312"> Post-grado / especialización </label>
   </div>
   </div>
+  </div>
         
   <div class="form-row">
   <div class="form-group col-md-6">
-  <label for="inputEmail4">Correo electrónico:</label>
+  <label for="inputEmail4"><b>Correo electrónico:</b></label>
   <input type="email" class="form-control" placeholder="E-mail" id="tr25">
   </div>
 
   <div class="form-group col-md-6">
-  <label for="inputEmail4">¿Cuál diría ud quees su puesto o posición actual en la empresa o negocio? </label>
+  <label for="inputEmail4"><b>¿Cuál diría ud quees su puesto o posición actual en la empresa o negocio? </b></label>
   <input type="text" class="form-control" placeholder="Posición" id="t26">
   </div>
   </div>
@@ -3757,20 +4076,20 @@
 
   <div class="form-row">
   <div class="form-group col-md-6">
-  <label for="inputCity">Provincia</label>
+  <label for="inputCity"><b>Provincia</b></label>
   <input type="text" class="form-control" id="t27">
   </div>
   
   <div class="form-group col-md-3">
-  <label for="inputCity">Cantón</label>
+  <label for="inputCity"><b>Cantón</b></label>
   <input type="text" class="form-control" id="t28">
   </div>
   
   <div class="form-group col-md-3">
-  <label for="inputZip">Distrito</label>
+  <label for="inputZip"><b>Distrito</b></label>
   <input type="text" class="form-control" id="t29">
   </div>
-  </div>    
+  </div>
   </div>
   </div>
 
@@ -3783,136 +4102,144 @@
 
   <!-- Avanzar --> 
   <br></br>
-  <div class="container text-center" id="submitB">
-  <a href="#carouselExampleControls" onclick="hello(); upCount()" id="submitbttn" role="button" data-slide="next" class="btn btn-info btn-lg" role="button" style="background: #62b539; width:140px; height: 52px;">Continuar</a>
+  <div class="container text-center">
+  <a onclick="hello(); upCount()" role="button" id= "submitB" href="#carouselExampleControls" class="btn btn-info btn-lg" style="background: #62b539; width:140px; height: 52px;">Continuar</a>
   <br></br>
   </div>
 
-
-
-
 <!-- Verificaciones y salvar datos en PHP --> 
+
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
   <script type="text/javascript">
+
+
   function hello() {
-    if (document.getElementById("submitbttn").disabled === false){
-      countClicks++;
+    jump = true;
     }
-    alert(countClicks);
+
+    function looksLikeMail(str) {
+      var patt = new RegExp(/^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i);
+      return patt.test((String)(str));
     }
     
+    var jump = false;
     var countClicks = 0;
-
-
     /*Verificar si en la pregunta 1 el usuario contestó "si"*/
-    
+    var enter = 0;
     function upCount() { 
     /*Verificar y enviar a PHP*/
+    if (countClicks == 0){
+      var one, prox = false;
 
-    if (countClicks == 1){
-      var one;
       if (document.getElementById('r1').checked) {
           one = document.getElementById('r1').value;
+          prox = true;
           }
       else if (document.getElementById('r2').checked) {
         one = document.getElementById('r2').value;
+        prox = true;
         }
-
-      $.ajax({
+      else {
+        prox = false;
+      }
+        if (prox){ 
+          enter = 0;         
+          $.ajax({
         type:"POST",
         url:"save.php",
         data: {cont: countClicks,one:one},
         success: function(data){
         }
         });
+        countClicks = 2;
+        $("#carouselExampleControls").carousel("next");
+        }
+
+        else{
+          countClicks = 0;
+          enter++;
+          
+          if (enter>=1){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
+
         } //Fin de 1
 
 
-        if (countClicks == 2){       
-          if (document.getElementById("submitbttn").disabled === false){
-          var r2;
-          var r3;
-      if (document.getElementById('r3').checked) {
-          r2 = document.getElementById('r3').value;
-          alert("hola");
-          document.getElementById("submitbttn").disabled = false;
-          }
-      else if (document.getElementById('r4').checked) {
-        r2 = document.getElementById('r4').value;
-        document.getElementById("submitbttn").disabled = false;
-        }
-      else{
-        document.getElementById("submitbttn").disabled = true; 
-        upCount();
-      }
+      if (countClicks == 2){
 
+        if (document.getElementById('r2').checked){
+          window.location.href = "terminate.html";
+        }
+          var r2 = "Nulo";
+          var r3 = "Nulo";
+          var prox = false;
+
+      if (document.getElementById('r3').checked || document.getElementById('r4').checked){
+       if (document.getElementById('r5').checked || document.getElementById('r6').checked){
+        prox = true;
+        if (document.getElementById('r3').checked) {
+          r2 = document.getElementById('r3').value;
+          }
+      else if (document.getElementById('r3').checked) {
+        r2 = document.getElementById('r4').value;
+        }
         if (document.getElementById('r5').checked) {
           r3 = document.getElementById('r5').value;
           }
       else if (document.getElementById('r6').checked) {
         r3 = document.getElementById('r6').value;
         }
+      }
+      }
 
-      $.ajax({
+      if (prox){
+        enter = 0;
+        $("#carouselExampleControls").carousel("next");
+        $.ajax({
         type:"POST",
         url:"save.php",
         data: {cont: countClicks,r2:r2,r3:r3},
         success: function(data){
-          alert(data);
         }
         });
-
-
+        countClicks = 3;
+        }
+      else if (!prox){
+        countClicks = 2;
+        enter++;
+        if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
         } //Fin de 2
 
-        else {
-          if (document.getElementById('r3').checked) {
-          r2 = document.getElementById('r3').value;
-          alert("hola");
-          document.getElementById("submitbttn").disabled = false;
-          }
-      else if (document.getElementById('r4').checked) {
-        r2 = document.getElementById('r4').value;
-        document.getElementById("submitbttn").disabled = false;
-        }
-      else{
-        document.getElementById("submitbttn").disabled = true; 
-        upCount();
-      }   
-      if (document.getElementById('r5').checked) {
-          r3 = document.getElementById('r5').value;
-          }
-      else if (document.getElementById('r6').checked) {
-        r3 = document.getElementById('r6').value;
-        }
-        else{
-        document.getElementById("submitbttn").disabled = true; 
-        upCount();
-      }   
-      $.ajax({
-        type:"POST",
-        url:"save.php",
-        data: {cont: countClicks,r2:r2,r3:r3},
-        success: function(data){
-          alert(data);
-        }
-        });
 
-        }
+        if (countClicks == 3){
+          if (document.getElementById('r6').checked){
+            window.location.href = "terminate.html";
+          }
 
-        if (countClicks == 3)
-        if (document.getElementById("submitbttn").disabled === false){
-          var r4;
+          var r4, prox = false;
+      if (document.getElementById('r7').checked || document.getElementById('r8').checked ||
+          document.getElementById('r9').checked){
+            prox = true;
       if (document.getElementById('r7').checked) {
           r4 = document.getElementById('r7').value;
           }
       else if (document.getElementById('r8').checked) {
         r4 = document.getElementById('r8').value;
         }
-
         else if (document.getElementById('r9').checked) {
         r4 = document.getElementById('r9').value;
         }
+      }
 
+      if (prox){
+        enter = 0;
+      $("#carouselExampleControls").carousel("next");
       $.ajax({
         type:"POST",
         url:"save.php",
@@ -3920,13 +4247,24 @@
         success: function(data){
         }
         });
-
+        countClicks = 4;
+      }
+      else{
+        enter++;
+        countClicks = 3;
+        if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
 
         } //Fin de 3
-
         if (countClicks == 4){
           var r5;
           var r6;
+          var prox = false;
+      if (document.getElementById('r10').checked || document.getElementById('r11').checked){
+          if (document.getElementById('r12').checked || document.getElementById('r13').checked){
+            prox = true;
       if (document.getElementById('r10').checked) {
           r5 = document.getElementById('r10').value;
           }
@@ -3934,13 +4272,18 @@
         r5 = document.getElementById('r11').value;
         }
 
-        if (document.getElementById('r12').checked) {
+      if (document.getElementById('r12').checked) {
           r6 = document.getElementById('r12').value;
           }
       else if (document.getElementById('r13').checked) {
         r6 = document.getElementById('r13').value;
         }
+      }
+      }
 
+      if (prox){
+        enter = 0;
+      $("#carouselExampleControls").carousel("next");
       $.ajax({
         type:"POST",
         url:"save.php",
@@ -3948,25 +4291,63 @@
         success: function(data){
         }
         });
+        countClicks = 5;
+      }
 
+      else{
+        enter++;
+        countClicks = 4;
+        if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
 
         } //Fin de 4
-
         if (countClicks == 5){
+          var error = false;
+          if (document.getElementById('r10').checked && document.getElementById('r12').checked) {
+            window.location.href = "terminate.html";
+          }
+      
           var r7;
           var r8;
+          var prox = false;
           r7 = document.getElementById("t1").value;
           r8 = document.getElementById("t2").value;
-
-      $.ajax({
-        type:"POST",
-        url:"save.php",
-        data: {cont: countClicks,r7:r7,r8:r8},
-        success: function(data){
-        }
-        });
-
-
+          if (document.getElementById("t1").value != "" && document.getElementById("t2").value != ""){
+            prox = true;
+            if (r7.length > 400 || r8.length > 400){
+              prox = false;
+              error = true;
+              alert("En los campos de texto no deben ir más de 400 caracteres");
+            }
+            onlyNL = false;
+            onlyNL = String(r8).match("^[A-z0-9]+$");
+              if (!onlyNL){
+                prox = false;
+                error = true;
+                alert("En el campo de cédula no puede utilizar puntos, comas, guiones ni carácteres especiales, solo letras y números");
+              }
+          }
+          if (prox){
+            enter = 0;
+          $("#carouselExampleControls").carousel("next");
+          $.ajax({
+            type:"POST",
+            url:"save.php",
+            data: {cont: countClicks,r7:r7,r8:r8},
+            success: function(data){
+            }
+            });
+            countClicks = 6;
+            }
+          else{
+            enter++;
+            countClicks = 5;
+            if (enter>=2 && !error){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+          }
         } //Fin de 5
 
 
@@ -3974,10 +4355,25 @@
           var provincia;
           var canton;
           var distrito;
+          var prox = false;
+          var error = false;
+
           provincia = document.getElementById("t3").value;
           canton = document.getElementById("t4").value;
           distrito = document.getElementById("t5").value;
 
+          if (document.getElementById("t3").value != "" && document.getElementById("t4").value && 
+          document.getElementById("t5").value){
+            prox = true;
+            if (provincia.length > 400 || canton.length > 400 || distrito.length > 400){
+              prox = false;
+              error = true;
+              alert("En los campos de texto no deben ir más de 400 caracteres");
+            }
+          }
+      if (prox){
+        enter = 0;
+      $("#carouselExampleControls").carousel("next");
       $.ajax({
         type:"POST",
         url:"save.php",
@@ -3985,17 +4381,37 @@
         success: function(data){
         }
         });
+        countClicks = 7;
+      }
 
-
+      else{
+        enter++;
+        countClicks = 6;
+        if (enter>=2 && !error){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+      }
         } //Fin de 6
-
-
         if (countClicks == 7){
           var movil;
           var fijo;
+          var prox = false;
+          var error = false;
           movil = document.getElementById("t6").value;
           fijo = document.getElementById("t7").value;
 
+          if (document.getElementById("t6").value != "" && document.getElementById("t7").value != ""){
+            prox = true;
+            if (movil.length > 400 || fijo.length > 400){
+              prox = false;
+              error = true;
+              alert("En los campos de texto no deben ir más de 400 caracteres");
+            }
+          }
+
+      if (prox){
+        enter = 0;
+      $("#carouselExampleControls").carousel("next");
       $.ajax({
         type:"POST",
         url:"save.php",
@@ -4003,16 +4419,58 @@
         success: function(data){
         }
         });
+      countClicks = 8;
+        }
 
-
+        else{
+          enter++;
+        countClicks = 7;
+        if (enter>=2 && !error){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
         } //Fin de 7
+
 
         if (countClicks == 8){
           var correo1;
           var correo2;
+          var prox = false;
+          var error = false;
           correo1 = document.getElementById("t8").value;
           correo2 = document.getElementById("t9").value;
+          if (document.getElementById("t8").value != "" || document.getElementById("t9").value != ""){
+            prox = true;
+            if (document.getElementById("t8").value != ""){
+              var validE;
+              validE = looksLikeMail(String(correo1));
+                if (!validE){
+                  error = true;
+                  prox = false;
+                  alert("Por favor ingrese una dirección de correo electrónico válida: ejemplo@ejemplo.com");
+                }
+            }
+              
+              if (document.getElementById("t9").value != ""){
+              var validE;
+              validE = looksLikeMail(String(correo2));
+                if (!validE){
+                  error = true;
+                  prox = false;
+                  alert("Por favor ingrese una dirección de correo electrónico válida: ejemplo@ejemplo.com");
+                }
+              }
 
+              if (correo1.length > 400 || correo2.length > 400){
+              prox = false;
+              error = true;
+              alert("En los campos de texto no deben ir más de 400 caracteres");
+            }
+          }
+
+      if (prox){
+        enter = 0;
+      $("#carouselExampleControls").carousel("next");
       $.ajax({
         type:"POST",
         url:"save.php",
@@ -4020,16 +4478,46 @@
         success: function(data){
         }
         });
+      countClicks = 9;
+        }
+
+        else{
+          enter++;
+          countClicks = 8;
+          if (enter>=2 && !error){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
 
 
         } //Fin de 8
-
         if (countClicks == 9){
           var r12;
-          var r13;
+          var r13, ex;
+          var prox = false;
+          var error = false;
+
           r12 = document.getElementById("t10").value;
           r13 = document.getElementById("t11").value;
 
+          if (document.getElementById("t10").value != "" && document.getElementById("t11").value != ""){
+            prox = true;
+            if (r12.length > 400 || r13.length > 400){
+              prox = false;
+              error = true;
+              alert("En los campos de texto no deben ir más de 400 caracteres");
+            }
+
+            var placeholder = parseInt(r13,10);
+            if (isNaN(placeholder)){
+              prox = false;
+              error = true;
+              alert("En el campo de número de colaboradores debe ingresar un número entero");
+            }
+            }
+      if (prox){
+        enter = 0;
+        $("#carouselExampleControls").carousel("next");
       $.ajax({
         type:"POST",
         url:"save.php",
@@ -4037,29 +4525,71 @@
         success: function(data){
         }
         });
+        countClicks = 10;
+      }
 
-
+      else{
+        enter++;
+          countClicks = 9;
+          if (enter>=2 && !error){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
         } //Fin de 9
-
-
         if (countClicks == 10){
-          var r14;
+          var r14,ex;
+          var prox = false;
           r14 = document.getElementById("s1").value;
 
+          if (document.getElementById('ex1').checked || document.getElementById('ex2').checked){
+              prox = true;
+
+              if (document.getElementById('ex1').checked) {
+              ex = document.getElementById('ex1').value;
+              }
+              else if (document.getElementById('ex2').checked) {
+              ex = document.getElementById('ex2').value;
+            }
+          }
+      if (prox){
+        enter = 0;
+        $("#carouselExampleControls").carousel("next");
       $.ajax({
         type:"POST",
         url:"save.php",
-        data: {cont: countClicks,r14:r14},
+        data: {cont: countClicks,r14:r14,ex:ex},
         success: function(data){
         }
         });
+        countClicks = 11;
+      }
 
-
+      else{
+        enter++;
+          countClicks = 10;
+          if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
         } //Fin de 10
-
         
         if (countClicks == 11){
           var c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16,c17,c18,c19,c20,c21,c22,c23,c24;
+          var prox = false;
+          if (document.getElementById("c1").checked || document.getElementById("c2").checked || 
+          document.getElementById("c3").checked || document.getElementById("c4").checked || 
+          document.getElementById("c5").checked || document.getElementById("c6").checked ||
+          document.getElementById("c7").checked || document.getElementById("c8").checked ||
+          document.getElementById("c9").checked || document.getElementById("c10").checked ||
+          document.getElementById("c11").checked || document.getElementById("c12").checked ||
+          document.getElementById("c13").checked || document.getElementById("c14").checked ||
+          document.getElementById("c15").checked || document.getElementById("c16").checked ||
+          document.getElementById("c17").checked || document.getElementById("c18").checked ||
+          document.getElementById("c19").checked || document.getElementById("c20").checked ||
+          document.getElementById("c21").checked || document.getElementById("c22").checked ||
+          document.getElementById("c23").checked || document.getElementById("c24").checked ){
+            prox = true;
+          }
           c1 = document.getElementById("c1").checked;
           c2 = document.getElementById("c2").checked;
           c3 = document.getElementById("c3").checked;
@@ -4085,7 +4615,9 @@
           c23 = document.getElementById("c23").checked;
           c24 = document.getElementById("c24").checked;
 
-
+        if (prox){
+          enter = 0;
+          $("#carouselExampleControls").carousel("next");
          $.ajax({
         type:"POST",
         url:"save.php",
@@ -4095,14 +4627,33 @@
         success: function(data){
         }
         });
+        countClicks = 12;
+        }
 
-
+        else{
+          enter++;
+          countClicks = 11;
+          if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
         } //Fin de 11
-
-
         
         if (countClicks == 12){
           var r16,r17;
+          var prox = false;
+          var error = false;
+
+          if (document.getElementById('r14').checked || document.getElementById('r15').checked)
+            if (document.getElementById("tr12").value != ""){
+              prox = true;
+
+              if (document.getElementById("tr12").value.length > 400){
+              prox = false;
+              error = true;
+              alert("En los campos de texto no deben ir más de 400 caracteres");
+            }
+            }
 
           if (document.getElementById('r14').checked) {
           r16 = document.getElementById('r14').value;
@@ -4110,10 +4661,11 @@
       else if (document.getElementById('r15').checked) {
         r16 = document.getElementById('r15').value;
         }
-
-
           r17 = document.getElementById("tr12").value;
 
+      if (prox){
+        enter = 0;
+        $("#carouselExampleControls").carousel("next");
       $.ajax({
         type:"POST",
         url:"save.php",
@@ -4121,14 +4673,47 @@
         success: function(data){
         }
         });
+        countClicks = 13;
+      }
 
-
+      else{
+        enter++;
+          countClicks = 12;
+          if (enter>=2 && !error){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
         } //Fin de 12
-
-
                 
         if (countClicks == 13){
-          var c25,c26,c27,c28,c29,c30,c31;
+          var c25,c26,c27,c28,c29,c30,c31, otroex;
+          otroex = "";
+          var prox = false;
+          var error = false;
+
+          $('#c31').click(function(){ 
+          $("#otroex").prop('disabled', false);
+          if (!$(this).is(':checked')){
+            $("#otroex").prop('disabled', true);
+          }
+         });
+
+          if (document.getElementById("c25").checked || document.getElementById("c26").checked ||
+          document.getElementById("c27").checked || document.getElementById("c28").checked ||
+          document.getElementById("c29").checked || document.getElementById("c30").checked ||
+          document.getElementById("c31").checked){
+            prox = true;
+            if (document.getElementById("c31").checked)
+              if (document.getElementById("otroex").value != ""){
+              otroex = document.getElementById("otroex").value;
+                if (otroex > 400){
+                prox = false;
+                error = true;
+                alert("En los campos de texto no deben ir más de 400 caracteres");
+              }
+              }
+              else prox = false; 
+          }
           c25 = document.getElementById("c25").checked;
           c26 = document.getElementById("c26").checked;
           c27 = document.getElementById("c27").checked;
@@ -4136,22 +4721,40 @@
           c29 = document.getElementById("c29").checked;
           c30 = document.getElementById("c30").checked;
           c31 = document.getElementById("c31").checked;
-
-
+        if (prox){
+          enter = 0;
+          $("#carouselExampleControls").carousel("next");
          $.ajax({
         type:"POST",
         url:"save.php",
-        data: {cont: countClicks,c25:c25,c26:c26,c27:c27,c28:c28,c29:c29,c30:c30,c31:c31},
+        data: {cont: countClicks,c25:c25,c26:c26,c27:c27,c28:c28,c29:c29,c30:c30,c31:c31,otroex:otroex},
         success: function(data){
         }
         });
+        countClicks = 14;
+        }
 
+        else{
+          enter++;
+          countClicks = 13;
+          if (enter>=2 && !error){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
 
         } //Fin de 13
-
                 
         if (countClicks == 14){
           var r18,r19;
+          var prox = false;
+
+          if (document.getElementById('r16').checked || document.getElementById('r17').checked)
+            if (document.getElementById('r18').checked || document.getElementById('r19').checked ||
+            document.getElementById('r20').checked || document.getElementById('r21').checked ||
+            document.getElementById('r22').checked || document.getElementById('r23').checked ||
+            document.getElementById('r24').checked){
+            prox = true;
+            }
 
           if (document.getElementById('r16').checked) {
           r18 = document.getElementById('r16').value;
@@ -4159,6 +4762,7 @@
       else if (document.getElementById('r17').checked) {
         r18 = document.getElementById('r17').value;
         }
+
 
         if (document.getElementById('r18').checked) {
           r19 = document.getElementById('r18').value;
@@ -4181,7 +4785,9 @@
         else if (document.getElementById('r24').checked) {
         r19 = document.getElementById('r24').value;
         }
-
+      if (prox){
+        enter = 0;
+        $("#carouselExampleControls").carousel("next");
       $.ajax({
         type:"POST",
         url:"save.php",
@@ -4189,13 +4795,137 @@
         success: function(data){
         }
         });
+        countClicks = 15;
+      }
 
-
+      else{
+        enter++;
+          countClicks = 14;
+          if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
         } //Fin de 14
 
 
+        if (countClicks == 15){
+          var fi1,fi2,fi3;
+          var prox = false;
+
+          if (document.getElementById('ex3').checked || document.getElementById('ex4').checked || 
+          document.getElementById('ex5').checked)
+            if (document.getElementById('ex6').checked || document.getElementById('ex7').checked ||
+            document.getElementById('ex8').checked)
+              if (document.getElementById('ex9').checked || document.getElementById('ex10').checked ||
+              document.getElementById('ex11').checked){
+                prox = true;
+              }
+
+
+              if (document.getElementById('ex3').checked) {
+                fi1 = document.getElementById('ex3').value;
+                }
+                else if (document.getElementById('ex4').checked) {
+                fi1 = document.getElementById('ex4').value;
+                }
+                else if (document.getElementById('ex5').checked) {
+                fi1 = document.getElementById('ex5').value;
+                }
+          
+                if (document.getElementById('ex6').checked) {
+                fi2 = document.getElementById('ex6').value;
+                }
+                else if (document.getElementById('ex7').checked) {
+                fi2 = document.getElementById('ex7').value;
+                }
+                else if (document.getElementById('ex8').checked) {
+                fi2 = document.getElementById('ex8').value;
+                }
+
+                if (document.getElementById('ex9').checked) {
+                fi3 = document.getElementById('ex9').value;
+                }
+                else if (document.getElementById('ex10').checked) {
+                fi3 = document.getElementById('ex10').value;
+                }
+                else if (document.getElementById('ex11').checked) {
+                fi3 = document.getElementById('ex11').value;
+                }
+
+      if (prox){
+        enter = 0;
+        $("#carouselExampleControls").carousel("next");
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,fi1:fi1,fi2:fi2,fi3:fi3},
+        success: function(data){
+        }
+        });
+        countClicks = 16;
+      }
+
+      else{
+        enter++;
+          countClicks = 15;
+          if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
+        } //Fin de 15
+
         if (countClicks == 16){
-          var bpa,bpm,manipulacion,haccp,otra;
+          var bpa,bpm,manipulacion,haccp,co,ft,rfa,ecrc,iso9001,iso14001,detalle2,otra;
+          var prox = false;
+          var error = false;
+          if (document.getElementById('r25').checked || document.getElementById('r26').checked || 
+          document.getElementById('r27').checked)
+            if (document.getElementById('r28').checked || document.getElementById('r29').checked ||
+            document.getElementById('r30').checked)
+              if (document.getElementById('r31').checked || document.getElementById('r32').checked ||
+              document.getElementById('r33').checked)
+                if (document.getElementById('r34').checked || document.getElementById('r35').checked ||
+                document.getElementById('r36').checked)
+                  if (document.getElementById('r37').checked || document.getElementById('r38').checked ||
+                  document.getElementById('r39').checked)
+                    if (document.getElementById('ex12').checked || document.getElementById('ex13').checked ||
+                    document.getElementById('ex14').checked)
+                      if (document.getElementById('ex15').checked || document.getElementById('ex16').checked ||
+                      document.getElementById('ex17').checked)
+                        if (document.getElementById('ex18').checked || document.getElementById('ex19').checked ||
+                        document.getElementById('ex20').checked)
+                          if (document.getElementById('ex21').checked || document.getElementById('ex22').checked ||
+                          document.getElementById('ex23').checked)
+                            if (document.getElementById('ex24').checked || document.getElementById('ex25').checked ||
+                            document.getElementById('ex26').checked)
+                              if (document.getElementById('ex27').checked || document.getElementById('ex28').checked ||
+                              document.getElementById('ex29').checked){
+                                prox = true;
+                                  if (document.getElementById('r37').checked)
+                                    if (document.getElementById('ex30').value == "")
+                                      prox = false;
+                                    else if (document.getElementById('ex30').value != ""){
+                                      if (document.getElementById("ex30").value.length > 400){
+                                        prox = false;
+                                        error = true;
+                                        alert("En los campos de texto no deben ir más de 400 caracteres");
+                                      }
+
+                                    }
+                              }
+
+          $('#r37').click(function(){ 
+          $("#ex30").prop('disabled', false);
+         });
+
+         $('#r38').click(function(){ 
+          $("#ex30").prop('disabled', true);
+         });
+
+         
+         $('#r39').click(function(){ 
+          $("#ex30").prop('disabled', false);
+         });
 
           if (document.getElementById('r25').checked) {
           bpa = document.getElementById('r25').value;
@@ -4207,6 +4937,7 @@
         bpa = document.getElementById('r27').value;
         }
 
+
         if (document.getElementById('r28').checked) {
           bpm = document.getElementById('r28').value;
           }
@@ -4216,6 +4947,7 @@
         else if (document.getElementById('r30').checked) {
       bpm = document.getElementById('r30').value;
         }
+
 
         if (document.getElementById('r31').checked) {
           manipulacion = document.getElementById('r31').value;
@@ -4238,6 +4970,67 @@
         haccp = document.getElementById('r36').value;
         }
 
+        if (document.getElementById('ex12').checked) {
+        co = document.getElementById('ex12').value;
+        }
+        else if (document.getElementById('ex13').checked) {
+        co = document.getElementById('ex13').value;
+        }
+        else if (document.getElementById('ex14').checked) {
+        co = document.getElementById('ex14').value;
+        }
+
+        
+        if (document.getElementById('ex15').checked) {
+        ft = document.getElementById('ex15').value;
+        }
+        else if (document.getElementById('ex16').checked) {
+        ft = document.getElementById('ex16').value;
+        }
+        else if (document.getElementById('ex17').checked) {
+        ft = document.getElementById('ex17').value;
+        }
+
+        if (document.getElementById('ex18').checked) {
+        rfa = document.getElementById('ex18').value;
+        }
+        else if (document.getElementById('ex19').checked) {
+        rfa = document.getElementById('ex19').value;
+        }
+        else if (document.getElementById('ex20').checked) {
+        rfa = document.getElementById('ex20').value;
+        }
+
+        if (document.getElementById('ex21').checked) {
+        ecrc = document.getElementById('ex21').value;
+        }
+        else if (document.getElementById('ex22').checked) {
+        ecrc = document.getElementById('ex22').value;
+        }
+        else if (document.getElementById('ex23').checked) {
+        ecrc = document.getElementById('ex23').value;
+        }
+
+        if (document.getElementById('ex24').checked) {
+        iso9001 = document.getElementById('ex24').value;
+        }
+        else if (document.getElementById('ex25').checked) {
+        iso9001 = document.getElementById('ex25').value;
+        }
+        else if (document.getElementById('ex26').checked) {
+        iso9001 = document.getElementById('ex26').value;
+        }
+
+        if (document.getElementById('ex27').checked) {
+        iso14001 = document.getElementById('ex27').value;
+        }
+        else if (document.getElementById('ex28').checked) {
+        iso14001 = document.getElementById('ex28').value;
+        }
+        else if (document.getElementById('ex29').checked) {
+        iso14001 = document.getElementById('ex29').value;
+        }
+
         if (document.getElementById('r37').checked) {
         otra = document.getElementById('r37').value;
         }
@@ -4248,30 +5041,146 @@
         otra = document.getElementById('r38').value;
         }
 
+        detalle2 = document.getElementById('ex30').value;
+
+      if (prox){
+        enter = 0;
+        $("#carouselExampleControls").carousel("next");
       $.ajax({
         type:"POST",
         url:"save.php",
-        data: {cont: countClicks,bpa:bpa,bpm:bpm,manipulacion:manipulacion,haccp:haccp,otra:otra},
+        data: {cont: countClicks,bpa:bpa,bpm:bpm,manipulacion:manipulacion,haccp:haccp,
+        co:co,ft:ft,rfa:rfa,ecrc:ecrc,iso9001:iso9001,iso14001:iso14001,detalle2:detalle2,otra:otra},
         success: function(data){
         }
         });
+        countClicks = 17;
+      }
 
-
+      else {
+        enter++;
+        countClicks = 16;
+        if (enter>=2 && !error){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+      }
         } //Fin de 16
-
-
         if (countClicks == 17){
-          var t12,r28,t13,r26;
-          t12 = document.getElementById("t12").value;
-          t13 = document.getElementById("t12").value;
+          var t12,r26;
+          var prox = false;
+          var skip = true;
+          var error = false;
+            if (document.getElementById("t12").value != "")
+              if (document.getElementById('rr37').checked || document.getElementById('rr38').checked){
+                prox = true;
 
+                if (document.getElementById("t12").value.length > 400){
+                  prox = false;
+                  error = true;
+                  alert("En los campos de texto no deben ir más de 400 caracteres");
+                }
+                if (document.getElementById('rr37').checked){
+                  enter = 0;
+                  prox = true;
+                  skip = false;
+                  r26 = document.getElementById('rr37').value;
+                  t12 = document.getElementById("t12").value;
+                  $("#carouselExampleControls").carousel("next");
+                  $.ajax({
+                  type:"POST",
+                  url:"save.php",
+                  data: {cont: countClicks,t12:t12,r26:r26},
+                  success: function(data){
+                  }
+                  });
+                  countClicks = 40;
+                }
+              }
+
+          t12 = document.getElementById("t12").value;
+         
           if (document.getElementById('rr37').checked) {
           r26 = document.getElementById('rr37').value;
           }
-      else if (document.getElementById('rr38').checked) {
-        r26 = document.getElementById('rr38').value;
+          else if (document.getElementById('rr38').checked) {
+          r26 = document.getElementById('rr38').value;
+          }
+
+      if (prox && skip){ 
+        enter = 0;
+        $("#carouselExampleControls").carousel(18);
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,t12:t12,r26:r26},
+        success: function(data){
+        }
+        });
+        countClicks = 41;
         }
 
+        else if (!prox && !skip){
+          enter++;
+          countClicks = 17;
+          if (enter>=2 && !error){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
+
+        else if (!prox && skip){
+          enter++;
+          countClicks = 17;
+          if (enter>=2 & !error){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
+        } //Fin de 17
+
+        if (countClicks == 40){
+          var t13;
+          var prox = false;
+          var error = false;
+
+          if (document.getElementById("t13").value != ""){
+            prox = true;
+
+            if (document.getElementById("t13").value.length > 400){
+              prox = false;
+              error = true;
+              alert("En los campos de texto no deben ir más de 400 caracteres");
+            }
+          }
+
+          t13 = document.getElementById("t13").value;
+          if (prox){
+            enter = 0;
+            $("#carouselExampleControls").carousel("next");
+          $.ajax({
+            type:"POST",
+            url:"save.php",
+            data: {cont: countClicks,t13:t13},
+            success: function(data){
+            }
+            });
+            countClicks = 41;
+          }
+
+          else{
+            enter++;
+            countClicks = 40;
+            if (enter>=2 & !error){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+          }
+        }
+
+        if (countClicks == 41){
+          var r28;
+          var prox = false;
+          if (document.getElementById('rr39').checked || document.getElementById('rrr39').checked ||
+          document.getElementById('r40').checked){
+            prox =true;
+          }
 
           if (document.getElementById('rr39').checked) {
           r28 = document.getElementById('rr39').value;
@@ -4283,19 +5192,41 @@
         r28 = document.getElementById('r40').value;
         }
 
-      $.ajax({
-        type:"POST",
-        url:"save.php",
-        data: {cont: countClicks,t12:t12,t13:t13,r26:r26,r28:r28},
-        success: function(data){
+        if (prox){
+          enter = 0;
+            $("#carouselExampleControls").carousel("next");
+          $.ajax({
+            type:"POST",
+            url:"save.php",
+            data: {cont: countClicks,r28:r28},
+            success: function(data){
+            }
+            });
+            countClicks = 18;
+          }
+
+          else{
+            enter++;
+          countClicks = 41;
+          if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
         }
-        });
+        }
 
-
-        } //Fin de 17
 
         if (countClicks == 18){
           var rn,mrn,mh,pm,ccss,rt;
+          var prox = false;
+
+            if (document.getElementById('r41').checked || document.getElementById('r42').checked)
+              if (document.getElementById('r43').checked || document.getElementById('r44').checked)
+                if (document.getElementById('r45').checked || document.getElementById('r46').checked)
+                  if (document.getElementById('r47').checked || document.getElementById('r48').checked)
+                    if (document.getElementById('r49').checked || document.getElementById('r50').checked)
+                      if (document.getElementById('r51').checked || document.getElementById('r52').checked){
+                        prox = true;
+                      }
 
           if (document.getElementById('r41').checked) {
           rn = document.getElementById('r41').value;
@@ -4303,7 +5234,6 @@
       else if (document.getElementById('r42').checked) {
         rn = document.getElementById('r42').value;
         }
-
 
           if (document.getElementById('r43').checked) {
           mrn = document.getElementById('r43').value;
@@ -4319,7 +5249,6 @@
         mh = document.getElementById('r46').value;
         }
         
-
         if (document.getElementById('r47').checked) {
           pm = document.getElementById('r47').value;
           }
@@ -4327,7 +5256,6 @@
         pm = document.getElementById('r48').value;
         }
         
-
         if (document.getElementById('r49').checked) {
           ccss = document.getElementById('r49').value;
           }
@@ -4341,8 +5269,10 @@
       else if (document.getElementById('r52').checked) {
         rt = document.getElementById('r52').value;
         }
-        
-
+      
+      if (prox){
+        enter = 0;
+        $("#carouselExampleControls").carousel("next");
       $.ajax({
         type:"POST",
         url:"save.php",
@@ -4350,18 +5280,57 @@
         success: function(data){
         }
         });
+        countClicks = 19;
+      }
 
+      else{
+        enter++;
+          countClicks = 18;
+          if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
         } //Fin de 18
-
         
         if (countClicks == 19){
           var r30,r31;
+          var prox = false;
+          var skip = true;
+
+          if (document.getElementById('r53').checked || document.getElementById('r54').checked)
+            if (document.getElementById('r55').checked || document.getElementById('r56').checked){
+              prox = true;
+
+              if (document.getElementById('r55').checked){
+                enter = 0;
+                prox = true;
+                skip = false;
+                if (document.getElementById('r53').checked) {
+                r30 = document.getElementById('r53').value;
+                }
+                else if (document.getElementById('r54').checked) {
+                r30 = document.getElementById('r55').value;
+                }
+
+                r31 = document.getElementById('r55').value;
+                $("#carouselExampleControls").carousel("next");
+
+                $.ajax({
+                type:"POST",
+                url:"save.php",
+                data: {cont: countClicks,r30:r30,r31:r31},
+                success: function(data){
+                }
+                });
+                countClicks = 42;
+              }
+            }
 
           if (document.getElementById('r53').checked) {
           r30 = document.getElementById('r53').value;
           }
       else if (document.getElementById('r54').checked) {
-        r30 = document.getElementById('r55').value;
+        r30 = document.getElementById('r54').value;
         }
 
         if (document.getElementById('r55').checked) {
@@ -4371,6 +5340,9 @@
         r31 = document.getElementById('r56').value;
         }
 
+      if (prox && skip){
+        enter = 0;
+        $("#carouselExampleControls").carousel(22);
       $.ajax({
         type:"POST",
         url:"save.php",
@@ -4378,11 +5350,183 @@
         success: function(data){
         }
         });
+        countClicks = 43;
+      }
+
+      else if (!prox && !skip){
+        enter++;
+          countClicks = 19;
+          if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
+
+        
+      else if (!prox && skip){
+        enter++;
+          countClicks = 19;
+          if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
 
         } //Fin de 19
 
+
+      if (countClicks == 42){
+        var tex;
+        var prox = false;
+        var error = false;
+
+        if (document.getElementById("ex31").value != ""){
+          prox = true;
+
+          if (document.getElementById("ex31").value.length > 400){
+              prox = false;
+              error = true;
+              alert("En los campos de texto no deben ir más de 400 caracteres");
+            }
+        } 
+
+        tex = document.getElementById("ex31").value;
+
+        if (prox){
+          enter = 0;
+          $("#carouselExampleControls").carousel("next");
+          $.ajax({
+          type:"POST",
+          url:"save.php",
+          data: {cont: countClicks,tex:tex},
+          success: function(data){
+          }
+          });
+          countClicks = 43;
+        }
+
+        else if (!prox){
+          enter++;
+          countClicks = 42;
+          if (enter>=2 && !error){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
+
+      } // Fin de 42
+
+      else if (countClicks == 43){
+        var al;
+        var prox = false;
+        var skip = true;
+
+        if (document.getElementById("ex32").checked || document.getElementById("ex33").checked){
+          prox = true;
+          if (document.getElementById("ex32").checked){
+            prox = true;
+            skip = false;
+            al = document.getElementById('ex32').value;
+            $("#carouselExampleControls").carousel("next");
+                $.ajax({
+                type:"POST",
+                url:"save.php",
+                data: {cont: countClicks,al:al},
+                success: function(data){
+                }
+                });
+                countClicks = 44;
+                enter = 0;
+          }
+        }
+
+        if (document.getElementById('ex32').checked) {
+          al = document.getElementById('ex32').value;
+          }
+      else if (document.getElementById('ex33').checked) {
+        al = document.getElementById('ex33').value;
+        }
+
+      if (prox && skip){ 
+        enter = 0;
+      $("#carouselExampleControls").carousel(24);
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,al:al},
+        success: function(data){
+        }
+        });
+        countClicks = 21;
+        }
+
+        else if (!prox && !skip){
+          enter++;
+          countClicks = 43;
+          if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
+
+        else if (!prox && skip){
+          enter++;
+          countClicks = 43;
+          if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
+
+      } //Fin de 43
+
+      if (countClicks == 44){
+        var es;
+        var prox = false;
+        var error = false;
+
+        if (document.getElementById("ex34").value != ""){
+          prox = true;
+
+          if (document.getElementById("ex34").value.length > 400){
+              prox = false;
+              error = true;
+              alert("En los campos de texto no deben ir más de 400 caracteres");
+            }
+        } 
+
+        es = document.getElementById("ex34").value;
+
+        if (prox){
+          enter = 0;
+          $("#carouselExampleControls").carousel("next");
+          $.ajax({
+          type:"POST",
+          url:"save.php",
+          data: {cont: countClicks,es:es},
+          success: function(data){
+          }
+          });
+          countClicks = 21;
+        }
+
+        else{
+          enter++;
+          countClicks = 44;
+          if (enter>=2 && !error){
+            alert(enter);
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
+
+      } // Fin de 44
+
         if (countClicks == 21){
           var c32,c33,c34,c35,c36,c37,c38,c39;
+          var prox = false;
+
+          if (document.getElementById("c32").checked || document.getElementById("c33").checked ||
+          document.getElementById("c34").checked || document.getElementById("c35").checked ||
+          document.getElementById("c36").checked || document.getElementById("c37").checked ||
+          document.getElementById("c38").checked || document.getElementById("c39").checked){
+            prox = true;
+          }
+
           c32 = document.getElementById("c32").checked;
           c33 = document.getElementById("c33").checked;
           c34 = document.getElementById("c34").checked;
@@ -4392,8 +5536,9 @@
           c38 = document.getElementById("c38").checked;
           c39 = document.getElementById("c39").checked;
          
-
-
+        if (prox){
+          enter = 0;
+          $("#carouselExampleControls").carousel("next");
          $.ajax({
         type:"POST",
         url:"save.php",
@@ -4401,12 +5546,58 @@
         success: function(data){
         }
         });
+        countClicks = 22;
+        }
+
+        else{
+          enter++;
+          countClicks = 21;
+          if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
 
 
         } //Fin de 21
-
         if (countClicks == 22){
           var r35,r36;
+          var prox = false;
+          var skip = true;
+
+          if (document.getElementById('r57').checked || document.getElementById('r58').checked)
+            if (document.getElementById('r59').checked || document.getElementById('r60').checked ||
+            document.getElementById('r61').checked || document.getElementById('r62').checked){
+              prox = true;
+
+              if (document.getElementById('r57').checked){
+                prox = true;
+                skip = false;
+                r35 = document.getElementById('r57').value;
+
+              if (document.getElementById('r59').checked) {
+                r36 = document.getElementById('r59').value;
+                }
+              else if (document.getElementById('r60').checked) {
+                r36 = document.getElementById('r60').value;
+                }
+                else if (document.getElementById('r61').checked) {
+                r36 = document.getElementById('r61').value;
+                }
+                else if (document.getElementById('r62').checked) {
+                r36 = document.getElementById('r62').value;
+                }
+                enter = 0;
+                  $("#carouselExampleControls").carousel("next");
+                  $.ajax({
+                  type:"POST",
+                  url:"save.php",
+                  data: {cont: countClicks,r35:r35,r36:r36},
+                  success: function(data){
+                  }
+                  });
+                  countClicks = 23;
+              }
+            }
 
       if (document.getElementById('r57').checked) {
           r35 = document.getElementById('r57').value;
@@ -4427,7 +5618,11 @@
         else if (document.getElementById('r62').checked) {
         r36 = document.getElementById('r62').value;
         }
-  
+      
+
+      if (prox && skip){
+        enter = 0;
+        $("#carouselExampleControls").carousel(27);
       $.ajax({
         type:"POST",
         url:"save.php",
@@ -4435,35 +5630,90 @@
         success: function(data){
         }
         });
+        countClicks = 24;
+      }
 
+      else if (!prox && !skip){
+        enter++;
+          countClicks = 22;
+          if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
+
+        else if (!prox && skip){
+          enter++;
+          countClicks = 22;
+          if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
 
         } //Fin de 22
 
         if (countClicks == 23){
           var r37,tr13;
+          var prox = false;
+          var error = false;
 
-      if (document.getElementById('r63').checked) {
-          r37 = document.getElementById('r63').value;
+          if (document.getElementById("tr13").value != ""){
+            prox = true;
+
+            if (document.getElementById("tr13").value.length > 400){
+              prox = false;
+              error = true;
+              alert("En los campos de texto no deben ir más de 400 caracteres");
+            }
           }
-      else if (document.getElementById('r64').checked) {
-        r37 = document.getElementById('r64').value;
-        }
+     
         tr13 = document.getElementById("tr13").value;
   
-  
+      if (prox){
+        enter = 0;
+        $("#carouselExampleControls").carousel("next");
       $.ajax({
         type:"POST",
         url:"save.php",
-        data: {cont: countClicks,r37:r37,tr13:tr13},
+        data: {cont: countClicks,tr13:tr13},
         success: function(data){
         }
         });
+        countClicks = 24;
+      }
 
-
+      else{
+        enter++;
+        countClicks = 23;
+        if (enter>=2 && !error){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+      }
         } //Fin de 23
 
-        if (countClicks == 24){
-          var r38,producto,mercado;
+
+      else if (countClicks == 24){
+          var r38;
+          var prox = false;
+          var skip = true;
+
+          if (document.getElementById('r65').checked || document.getElementById('r66').checked){
+            prox = true;
+            if (document.getElementById('r65').checked){
+              prox = true;
+              skip = false;
+              r38 = document.getElementById('r65').value;
+              enter = 0;
+              $("#carouselExampleControls").carousel("next");
+                  $.ajax({
+                  type:"POST",
+                  url:"save.php",
+                  data: {cont: countClicks,r38:r38},
+                  success: function(data){
+                  }
+                  });
+                  countClicks = 45;
+            }
+          }
 
       if (document.getElementById('r65').checked) {
           r38 = document.getElementById('r65').value;
@@ -4471,23 +5721,129 @@
       else if (document.getElementById('r66').checked) {
         r38 = document.getElementById('r66').value;
         }
-        producto = document.getElementById("trr13").value;
-        mercado = document.getElementById("t14").value;
-  
-  
+       
+      if (prox && skip){ 
+        enter = 0;
+      $("#carouselExampleControls").carousel(29);
       $.ajax({
         type:"POST",
         url:"save.php",
-        data: {cont: countClicks,r38:r38,producto:producto,mercado:mercado},
+        data: {cont: countClicks,r38:r38},
         success: function(data){
         }
         });
+        countClicks = 25;
+      }
+
+      else if (!prox && !skip){
+        enter++;
+          countClicks = 24;
+          if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
+
+      
+      else if (!prox && skip){
+        enter++;
+          countClicks = 24;
+          if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
+        } //Fin de 24 */
 
 
-        } //Fin de 24
+        if (countClicks == 45){
+          var producto,mercado;
+          var prox = false;
+          var error = false;
+
+          if (document.getElementById("trr13").value != "" && document.getElementById("t14").value != ""){
+            prox = true;
+
+            if (document.getElementById("trr13").value.length > 400){
+              prox = false;
+              error = true;
+              alert("En los campos de texto no deben ir más de 400 caracteres");
+            }
+            
+            if (document.getElementById("t14").value.length > 400){
+              prox = false;
+              error = true;
+              alert("En los campos de texto no deben ir más de 400 caracteres");
+            }
+          }
+
+          producto = document.getElementById("trr13").value;
+          mercado = document.getElementById("t14").value;
+
+          if (prox){
+            enter=0;
+            $("#carouselExampleControls").carousel("next");
+            $.ajax({
+            type:"POST",
+            url:"save.php",
+            data: {cont: countClicks,producto:producto,mercado:mercado},
+            success: function(data){
+            }
+            });
+            countClicks = 25;
+          }
+
+          else{
+            enter++;
+            countClicks = 45;
+            if (enter>=2 && !error){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+          }
+        }
+
 
         if (countClicks == 25){
           var m1,m2,m3,m4,m5,m6,m7,m8,m9,m10,m11,m12,m13,m14,m15,m16,m17;
+          var prox = false;
+          var error = false;
+
+          if (document.getElementById('rr41').checked || document.getElementById('rr42').checked)
+            if (document.getElementById('rr43').checked || document.getElementById('rr44').checked)
+              if (document.getElementById('rr45').checked || document.getElementById('rr46').checked)
+                if (document.getElementById('rr47').checked || document.getElementById('rr48').checked)
+                  if (document.getElementById('rr49').checked || document.getElementById('rr50').checked)
+                    if (document.getElementById('rr51').checked || document.getElementById('rr52').checked)
+                      if (document.getElementById('rr53').checked || document.getElementById('rr54').checked)
+                        if (document.getElementById('rr55').checked || document.getElementById('rr56').checked)
+                          if (document.getElementById('rr57').checked || document.getElementById('rr58').checked)
+                            if (document.getElementById('rr59').checked || document.getElementById('rr60').checked)
+                              if (document.getElementById('rr61').checked || document.getElementById('rr62').checked)
+                                if (document.getElementById('rr63').checked || document.getElementById('rr64').checked)
+                                  if (document.getElementById('rr65').checked || document.getElementById('rr66').checked)
+                                    if (document.getElementById('rr67').checked || document.getElementById('rr68').checked)
+                                      if (document.getElementById('rr69').checked || document.getElementById('rr70').checked)
+                                        if (document.getElementById('rr71').checked || document.getElementById('rr72').checked)
+                                          if (document.getElementById('rr73').checked || document.getElementById('rr74').checked){
+                                            prox =true;
+                                            if (document.getElementById('rr73').checked)
+                                              if (document.getElementById('otro').value == ""){
+                                                prox = false;
+                                              }
+                                              else if (document.getElementById('otro').value != ""){
+                                                if (document.getElementById("otro").value.length > 400){
+                                                  prox = false;
+                                                  error = true;
+                                                  alert("En los campos de texto no deben ir más de 400 caracteres");
+                                                }
+                                              }
+                                          }
+          
+          $('#rr73').click(function(){ 
+          $("#otro").prop('disabled', false);
+         });
+
+         $('#rr74').click(function(){ 
+          $("#otro").prop('disabled', true);
+         });
 
           if (document.getElementById('rr41').checked) {
           m1 = document.getElementById('rr41').value;
@@ -4503,14 +5859,12 @@
         m2 = document.getElementById('rr44').value;
         }
 
-
         if (document.getElementById('rr45').checked) {
           m3 = document.getElementById('rr45').value;
           }
         else if (document.getElementById('rr46').checked) {
         m3 = document.getElementById('rr46').value;
         }
-
 
         if (document.getElementById('rr47').checked) {
         m4 = document.getElementById('rr47').value;
@@ -4525,93 +5879,83 @@
         else if (document.getElementById('rr50').checked) {
         m5 = document.getElementById('rr50').value;
         }
-
         if (document.getElementById('rr51').checked) {
         m6 = document.getElementById('rr51').value;
         }
         else if (document.getElementById('rr52').checked) {
         m6 = document.getElementById('rr52').value;
         }
-
         if (document.getElementById('rr53').checked) {
         m7 = document.getElementById('rr53').value;
         }
         else if (document.getElementById('rr54').checked) {
         m7 = document.getElementById('rr54').value;
         }
-
         if (document.getElementById('rr55').checked) {
         m8 = document.getElementById('rr55').value;
         }
         else if (document.getElementById('rr56').checked) {
         m8 = document.getElementById('rr56').value;
         }
-
         if (document.getElementById('rr57').checked) {
         m9 = document.getElementById('rr57').value;
         }
         else if (document.getElementById('rr58').checked) {
         m9 = document.getElementById('rr58').value;
         }
-
         if (document.getElementById('rr59').checked) {
         m10 = document.getElementById('rr59').value;
         }
         else if (document.getElementById('rr60').checked) {
         m10 = document.getElementById('rr60').value;
         }
-
         if (document.getElementById('rr61').checked) {
         m11 = document.getElementById('rr61').value;
         }
         else if (document.getElementById('rr62').checked) {
         m11 = document.getElementById('rr62').value;
         }
-
         if (document.getElementById('rr63').checked) {
         m12 = document.getElementById('rr63').value;
         }
         else if (document.getElementById('rr64').checked) {
         m12 = document.getElementById('rr64').value;
         }
-
         if (document.getElementById('rr65').checked) {
         m13 = document.getElementById('rr65').value;
         }
         else if (document.getElementById('rr66').checked) {
         m13 = document.getElementById('rr66').value;
         }
-
         if (document.getElementById('rr67').checked) {
         m14 = document.getElementById('rr67').value;
         }
         else if (document.getElementById('rr68').checked) {
         m14 = document.getElementById('rr68').value;
         }
-
         if (document.getElementById('rr69').checked) {
         m15 = document.getElementById('rr69').value;
         }
         else if (document.getElementById('rr70').checked) {
         m15 = document.getElementById('rr70').value;
         }
-
         if (document.getElementById('rr71').checked) {
         m16 = document.getElementById('rr71').value;
         }
         else if (document.getElementById('rr72').checked) {
         m16 = document.getElementById('rr72').value;
         }
-
         if (document.getElementById('rr73').checked) {
         m17 = document.getElementById('rr73').value;
         }
         else if (document.getElementById('rr74').checked) {
         m17 = document.getElementById('rr74').value;
         }
-
         var o1 = document.getElementById('otro').value;
 
+      if (prox){
+        enter = 0;
+        $("#carouselExampleControls").carousel("next");
       $.ajax({
         type:"POST",
         url:"save.php",
@@ -4620,16 +5964,50 @@
         success: function(data){
         }
         });
+        countClicks = 26;
+      }
 
+      else{
+        enter++;
+          countClicks = 25;
+          if (enter>=2 && !error){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
 
         } //Fin de 25
-
-
         if (countClicks == 26){
-          var trrr13 = document.getElementById('trrr13').value;
-          var f;
-          var s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15,s16,s17;
+          var prox = false;
+          var skip = true;
+          var trrr13, f;
+          var error = false;
 
+          if (document.getElementById('trrr13').value != "")
+            if (document.getElementById('r75').checked || document.getElementById('r76').checked) {
+            prox = true;
+            if (document.getElementById("trrr13").value.length > 400){
+              prox = false;
+              error = true;
+              alert("En los campos de texto no deben ir más de 400 caracteres");
+            }
+              if (document.getElementById('r75').checked){
+                prox = true;
+                skip = false;
+                enter = 0;
+                trrr13 = document.getElementById('trrr13').value;
+                f = document.getElementById('r75').value;
+                $("#carouselExampleControls").carousel("next");
+                $.ajax({
+                  type:"POST",
+                  url:"save.php",
+                  data: {cont: countClicks,trrr13:trrr13,f:f},
+                  success: function(data){
+                  }
+                  });
+                  countClicks = 46;
+              }
+          }
+          trrr13 = document.getElementById('trrr13').value;
           if (document.getElementById('r75').checked) {
           f = document.getElementById('r75').value;
           }
@@ -4637,13 +6015,113 @@
         f = document.getElementById('r76').value;
         }
 
-        if (document.getElementById('r77').checked) {
+        if (prox && skip){
+          enter = 0;
+          $("#carouselExampleControls").carousel(32); 
+          $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,trrr13:trrr13,f:f},
+        success: function(data){
+        }
+        });
+        countClicks = 27;
+        }
+
+        else if (!prox && !skip){
+          enter++;
+          countClicks = 26;
+          if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
+
+        else if (!prox && skip){
+          enter++;
+          countClicks = 26;
+          if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
+        
+        } //Fin de 26
+
+        if (countClicks == 46){
+          var s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15,s16,s17;
+          var prox = false;
+
+          if (document.getElementById('r77').checked || document.getElementById('r78').checked)
+            if (document.getElementById('r79').checked || document.getElementById('r80').checked)
+              if (document.getElementById('r81').checked || document.getElementById('r82').checked)
+                if (document.getElementById('r83').checked || document.getElementById('r84').checked)
+                  if (document.getElementById('r85').checked || document.getElementById('r86').checked)
+                    if (document.getElementById('r87').checked || document.getElementById('r88').checked)
+                      if (document.getElementById('r89').checked || document.getElementById('r90').checked)
+                        if (document.getElementById('r91').checked || document.getElementById('r92').checked)
+                          if (document.getElementById('r93').checked || document.getElementById('r94').checked)
+                            if (document.getElementById('r95').checked || document.getElementById('r96').checked)
+                              if (document.getElementById('r97').checked || document.getElementById('r98').checked)
+                                if (document.getElementById('r99').checked || document.getElementById('r100').checked)
+                                  if (document.getElementById('r101').checked || document.getElementById('r102').checked)
+                                    if (document.getElementById('r103').checked || document.getElementById('r104').checked)
+                                      if (document.getElementById('r105').checked || document.getElementById('r106').checked)
+                                        if (document.getElementById('r107').checked || document.getElementById('r108').checked)
+                                          if (document.getElementById('rr109').checked || document.getElementById('r109').checked)
+                                            if (document.getElementById('r109').checked){
+                                              if (document.getElementById('otro2').value != ""){
+                                                prox = true;
+
+                                                if (document.getElementById("otro2").value.length > 400){
+                                                prox = false;
+                                                error = true;
+                                                alert("En los campos de texto no deben ir más de 400 caracteres");
+                                              }
+                                              }
+                                              else prox = false;
+                                            }
+              
+              if (document.getElementById('r110').checked || document.getElementById('r111').checked)
+                if (document.getElementById('r112').checked || document.getElementById('r113').checked)
+                  if (document.getElementById('r114').checked || document.getElementById('r115').checked)
+                    if (document.getElementById('r116').checked || document.getElementById('r117').checked)
+                      if (document.getElementById('r118').checked || document.getElementById('r119').checked)
+                        if (document.getElementById('r120').checked || document.getElementById('r121').checked){
+                          prox = true;
+                          if (document.getElementById('r120').checked)
+                            if (document.getElementById('t15').value != ""){
+                            prox = true;
+
+                            if (document.getElementById("t15").value.length > 400){
+                            prox = false;
+                            error = true;
+                            alert("En los campos de texto no deben ir más de 400 caracteres");
+                          }
+                          }
+                          else if (document.getElementById('t15').value == "") prox = false;
+                        }
+
+          $('#r109').click(function(){ 
+          $("#otro2").prop('disabled', false);
+         });
+
+         $('#rr109').click(function(){ 
+          $("#otro2").prop('disabled', true);
+         });
+
+         $('#r120').click(function(){ 
+          $("#t15").prop('disabled', false);
+         });
+         
+         $('#r121').click(function(){ 
+          $("#t15").prop('disabled', true);
+         });
+
+          if (document.getElementById('r77').checked) {
           s1 = document.getElementById('r77').value;
           }
       else if (document.getElementById('r78').checked) {
         s1 = document.getElementById('r78').value;
         }
-
 
         if (document.getElementById('r79').checked) {
           s2 = document.getElementById('r79').value;
@@ -4651,7 +6129,6 @@
         else if (document.getElementById('r80').checked) {
         s2 = document.getElementById('r80').value;
         }
-
 
         if (document.getElementById('r81').checked) {
         s3 = document.getElementById('r81').value;
@@ -4673,133 +6150,112 @@
         else if (document.getElementById('r86').checked) {
         s5 = document.getElementById('r86').value;
         }
-
         if (document.getElementById('r87').checked) {
         s6 = document.getElementById('r87').value;
         }
         else if (document.getElementById('r88').checked) {
         s6 = document.getElementById('r88').value;
         }
-
         if (document.getElementById('r89').checked) {
         s7 = document.getElementById('r89').value;
         }
         else if (document.getElementById('r90').checked) {
         s7 = document.getElementById('r90').value;
         }
-
         if (document.getElementById('r91').checked) {
         s8 = document.getElementById('r91').value;
         }
         else if (document.getElementById('r92').checked) {
         s8 = document.getElementById('r92').value;
         }
-
         if (document.getElementById('r93').checked) {
         s9 = document.getElementById('r93').value;
         }
         else if (document.getElementById('r94').checked) {
         s9 = document.getElementById('r94').value;
         }
-
         if (document.getElementById('r95').checked) {
         s10 = document.getElementById('r95').value;
         }
         else if (document.getElementById('r96').checked) {
         s10 = document.getElementById('r96').value;
         }
-
         if (document.getElementById('r97').checked) {
         s11 = document.getElementById('r97').value;
         }
         else if (document.getElementById('r98').checked) {
         s11 = document.getElementById('r98').value;
         }
-
         if (document.getElementById('r99').checked) {
         s12 = document.getElementById('r99').value;
         }
         else if (document.getElementById('r100').checked) {
         s12 = document.getElementById('r100').value;
         }
-
         if (document.getElementById('r101').checked) {
         s13 = document.getElementById('r101').value;
         }
         else if (document.getElementById('r102').checked) {
         s13 = document.getElementById('r102').value;
         }
-
         if (document.getElementById('r103').checked) {
         s14 = document.getElementById('r103').value;
         }
         else if (document.getElementById('r104').checked) {
         s14 = document.getElementById('r104').value;
         }
-
         if (document.getElementById('r105').checked) {
         s15 = document.getElementById('r105').value;
         }
         else if (document.getElementById('r106').checked) {
         s15 = document.getElementById('r106').value;
         }
-
         if (document.getElementById('r107').checked) {
         s16 = document.getElementById('r107').value;
         }
         else if (document.getElementById('r108').checked) {
         s16 = document.getElementById('r108').value;
         }
-
         if (document.getElementById('rr109').checked) {
         s17 = document.getElementById('rr109').value;
         }
         else if (document.getElementById('r109').checked) {
         s17 = document.getElementById('r109').value;
         }
-
         var otro2 = document.getElementById('otro2').value;
         var t15 = document.getElementById('t15').value;
-
         /*fines*/
-
         var f1,f2,f3,f4,f5,f6;
-
         if (document.getElementById('r110').checked) {
         f1 = document.getElementById('r110').value;
         }
         else if (document.getElementById('r111').checked) {
         f1 = document.getElementById('r111').value;
         }
-
         if (document.getElementById('r112').checked) {
         f2 = document.getElementById('r112').value;
         }
         else if (document.getElementById('r113').checked) {
         f2 = document.getElementById('r113').value;
         }
-
         if (document.getElementById('r114').checked) {
         f3 = document.getElementById('r114').value;
         }
         else if (document.getElementById('r115').checked) {
         f3 = document.getElementById('r115').value;
         }
-
         if (document.getElementById('r116').checked) {
         f4 = document.getElementById('r116').value;
         }
         else if (document.getElementById('r117').checked) {
         f4 = document.getElementById('r117').value;
         }
-
         if (document.getElementById('r118').checked) {
         f5 = document.getElementById('r118').value;
         }
         else if (document.getElementById('r119').checked) {
         f5 = document.getElementById('r119').value;
         }
-
         if (document.getElementById('r120').checked) {
         f6 = document.getElementById('r120').value;
         }
@@ -4807,22 +6263,55 @@
         f6 = document.getElementById('r121').value;
         }
 
+      if (prox){
+        enter = 0;
+        $("#carouselExampleControls").carousel("next");
       $.ajax({
         type:"POST",
         url:"save.php",
-        data: {cont: countClicks,trrr13:trrr13,f:f,otro2:otro2,s1:s1,s2:s2,s3:s3,s4:s4,s5:s5,s6:s6,s7:s7,s8:s8,s9:s9,s10:s10,s11:s11,s12:s12
+        data: {cont: countClicks,otro2:otro2,s1:s1,s2:s2,s3:s3,s4:s4,s5:s5,s6:s6,s7:s7,s8:s8,s9:s9,s10:s10,s11:s11,s12:s12
         ,s13:s13,s14:s14,s15:s15,s16:s16,s17:s17,f1:f1,f2:f2,f3:f3,f4:f4,f5:f5,f6:f6,t15:t15},
         success: function(data){
         }
         });
+        countClicks = 27;
+      }
+
+      else {
+        enter++;
+        countClicks = 46;
+        if (enter>=2 && !error){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+      }
+
+      } // Fin de 46
 
 
-        } //Fin de 26
 
         if (countClicks == 27){
-
           var r43;
-          var z1,z2,z3,z4,z5,z6,z7,z8;
+          var prox = false;
+          var skip = true;
+
+          if (document.getElementById('rr121').checked || document.getElementById('rr122').checked){
+            prox = true;
+            if (document.getElementById('rr121').checked){
+              prox = true;
+              skip = false;
+              r43 = document.getElementById('rr121').value;
+              enter = 0;
+              $("#carouselExampleControls").carousel("next");
+              $.ajax({
+                type:"POST",
+                url:"save.php",
+                data: {cont: countClicks,t12:t12,r43:r43},
+                success: function(data){
+                }
+                });
+                countClicks = 47;
+            }
+          }
 
           if (document.getElementById('rr121').checked) {
           r43 = document.getElementById('rr121').value;
@@ -4831,13 +6320,76 @@
         r43 = document.getElementById('rr122').value;
         }
 
-        if (document.getElementById('r122').checked) {
+        if (prox && skip){ 
+          enter = 0;
+        $("#carouselExampleControls").carousel(34);
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,r43:r43},
+        success: function(data){
+        }
+        });
+        countClicks = 28;
+        }
+
+        else if (!prox && !skip){
+          enter++;
+          countClicks = 27;
+          if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
+
+        else if (!prox && skip){
+          enter++;
+          countClicks = 27;
+          if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
+        
+        } //Fin de 27
+
+        if (countClicks == 47){
+          var prox = false;
+          var z1,z2,z3,z4,z5,z6,z7,z8;
+          var error = false;
+
+          if (document.getElementById('r122').checked || document.getElementById('r123').checked)
+            if (document.getElementById('r124').checked || document.getElementById('r125').checked)
+              if (document.getElementById('r126').checked || document.getElementById('r127').checked)
+                if (document.getElementById('r128').checked || document.getElementById('r129').checked)
+                  if (document.getElementById('r130').checked || document.getElementById('r131').checked)
+                    if (document.getElementById('r132').checked || document.getElementById('r133').checked)
+                      if (document.getElementById('r134').checked || document.getElementById('r135').checked)
+                        if (document.getElementById('r136').checked || document.getElementById('r137').checked){
+                          prox = true;
+                          if (document.getElementById('r136').checked)
+                            if (document.getElementById('tr15').value == "")
+                              prox = false;
+                            else if (document.getElementById('tr15').value != ""){
+                              if (document.getElementById("tr15").value.length > 400){
+                              prox = false;
+                              error = true;
+                              alert("En los campos de texto no deben ir más de 400 caracteres");
+                            }
+                            }
+                        }
+          $('#r136').click(function(){ 
+          $("#tr15").prop('disabled', false);
+         });
+
+         $('#r137').click(function(){ 
+          $("#tr15").prop('disabled', true);
+         });
+
+          if (document.getElementById('r122').checked) {
           z1 = document.getElementById('r122').value;
           }
       else if (document.getElementById('r123').checked) {
         z1 = document.getElementById('r123').value;
         }
-
 
         if (document.getElementById('r124').checked) {
           z2 = document.getElementById('r124').value;
@@ -4845,7 +6397,6 @@
         else if (document.getElementById('r125').checked) {
         z2 = document.getElementById('r125').value;
         }
-
 
         if (document.getElementById('r126').checked) {
         z3 = document.getElementById('r126').value;
@@ -4867,21 +6418,18 @@
         else if (document.getElementById('r131').checked) {
         z5 = document.getElementById('r131').value;
         }
-
         if (document.getElementById('r132').checked) {
         z6 = document.getElementById('r132').value;
         }
         else if (document.getElementById('r133').checked) {
         z6 = document.getElementById('r133').value;
         }
-
         if (document.getElementById('r134').checked) {
         z7 = document.getElementById('r134').value;
         }
         else if (document.getElementById('r135').checked) {
         z7 = document.getElementById('r135').value;
         }
-
         if (document.getElementById('r136').checked) {
         z8 = document.getElementById('r136').value;
         }
@@ -4890,22 +6438,158 @@
         }
         var otro4 = document.getElementById('tr15').value;
 
+      if (prox){
+        enter=0;
+        $("#carouselExampleControls").carousel("next");
       $.ajax({
         type:"POST",
         url:"save.php",
-        data: {cont: countClicks,r43:r43,z1:z1,z2:z2,z3:z3,z4:z4,z5:z5,z6:z6,z7:z7,z8:z8,otro4:otro4},
+        data: {cont: countClicks,z1:z1,z2:z2,z3:z3,z4:z4,z5:z5,z6:z6,z7:z7,z8:z8,otro4:otro4},
         success: function(data){
         }
         });
+        countClicks = 28;
+      }
 
-
-        } //Fin de 27
-
+      else{
+        enter++;
+          countClicks = 47;
+          if (enter>=2 && !error){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
+        } // Fin de 47
       
         if (countClicks == 28){
-
-          var sub1,sub2,sub3,sub4,sub5,sub6,sub7,sub8,sub9,sub10;
+          var sub1,sub2,sub3,sub4,sub5,sub6,sub7,sub8,sub9,sub10, r45;
           var t6;
+          var prox = false;
+          var skip = true;
+          var error = false;
+
+          if (document.getElementById('r138').checked || document.getElementById('r139').checked)
+            if (document.getElementById('r140').checked || document.getElementById('r141').checked)
+              if (document.getElementById('r142').checked || document.getElementById('r143').checked)
+                if (document.getElementById('r144').checked || document.getElementById('r145').checked)
+                  if (document.getElementById('r146').checked || document.getElementById('r147').checked)
+                    if (document.getElementById('r148').checked || document.getElementById('r149').checked)
+                      if (document.getElementById('r150').checked || document.getElementById('r151').checked)
+                        if (document.getElementById('r152').checked || document.getElementById('r153').checked)
+                          if (document.getElementById('r154').checked || document.getElementById('r155').checked)
+                            if (document.getElementById('r156').checked || document.getElementById('r157').checked){
+                              prox = true;
+                              if (document.getElementById('r156').checked){
+                                if (document.getElementById('t16').value == ""){
+                                  prox = false;
+                                }
+                                else{
+                                  if (document.getElementById("t16").value.length > 400){
+                                  prox = false;
+                                  error = true;
+                                  alert("En los campos de texto no deben ir más de 400 caracteres");
+                                }
+                                }
+                              }
+
+                                if (document.getElementById('r158').checked || document.getElementById('r159').checked)
+                                  if (document.getElementById('r158').checked){
+                                    skip = false;
+                                    r45 = document.getElementById('r158').value;
+
+                                    if (document.getElementById('r138').checked) {
+                                    sub1 = document.getElementById('r138').value;
+                                    }
+                                else if (document.getElementById('r139').checked) {
+                                  sub1 = document.getElementById('r139').value;
+                                  }
+
+                                  if (document.getElementById('r140').checked) {
+                                    sub2 = document.getElementById('r140').value;
+                                    }
+                                else if (document.getElementById('r141').checked) {
+                                  sub2= document.getElementById('r141').value;
+                                  }
+
+                                  if (document.getElementById('r142').checked) {
+                                    sub3 = document.getElementById('r142').value;
+                                    }
+                                  else if (document.getElementById('r143').checked) {
+                                  sub3 = document.getElementById('r143').value;
+                                  }
+
+                                  if (document.getElementById('r144').checked) {
+                                  sub4 = document.getElementById('r144').value;
+                                  }
+                                  else if (document.getElementById('r145').checked) {
+                                sub4 = document.getElementById('r145').value;
+                                  }
+                                  if (document.getElementById('r146').checked) {
+                                  sub5 = document.getElementById('r146').value;
+                                  }
+                                  else if (document.getElementById('r147').checked) {
+                                  sub5 = document.getElementById('r147').value;
+                                  }
+                                  if (document.getElementById('r148').checked) {
+                                  sub6 = document.getElementById('r148').value;
+                                  }
+                                  else if (document.getElementById('r149').checked) {
+                                  sub6 = document.getElementById('r149').value;
+                                  }
+                                  if (document.getElementById('r150').checked) {
+                                  sub7 = document.getElementById('r150').value;
+                                  }
+                                  else if (document.getElementById('r151').checked) {
+                                  sub7 = document.getElementById('r151').value;
+                                  }
+                                  if (document.getElementById('r152').checked) {
+                                  sub8 = document.getElementById('r152').value;
+                                  }
+                                  else if (document.getElementById('r153').checked) {
+                                  sub8 = document.getElementById('r153').value;
+                                  }
+                                  if (document.getElementById('r154').checked) {
+                                  sub9 = document.getElementById('r154').value;
+                                  }
+                                  else if (document.getElementById('r155').checked) {
+                                  sub9 = document.getElementById('r155').value;
+                                  }
+                                  if (document.getElementById('r156').checked) {
+                                  sub10 = document.getElementById('r156').value;
+                                  }
+                                  else if (document.getElementById('r157').checked) {
+                                  sub10 = document.getElementById('r157').value;
+                                  }
+                                  var otro5 = document.getElementById('t16').value;
+                                      if (prox){
+                                        enter = 0;
+                                        $("#carouselExampleControls").carousel("next");
+                                        $.ajax({
+                                        type:"POST",
+                                        url:"save.php",
+                                        data: {cont: countClicks,r45:r45,sub1:sub1,sub2:sub2,sub3:sub3,sub4:sub4,sub5:sub5,sub6:sub6,sub7:sub7,
+                                        sub8:sub8,sub9:sub9,sub10:sub10,otro5:otro5},
+                                        success: function(data){
+                                        }
+                                        });
+                                        countClicks = 29;
+                                      }
+                                  }
+                            }
+
+          $('#r156').click(function(){ 
+          $("#t16").prop('disabled', false);
+         });
+
+         $('#r157').click(function(){ 
+          $("#t16").prop('disabled', true);
+         });
+        if (document.getElementById('r158').checked) {
+          r45 = document.getElementById('r158').value;
+
+          }
+      else if (document.getElementById('r159').checked) {
+        r45 = document.getElementById('r159').value;
+        }
 
           if (document.getElementById('r138').checked) {
           sub1 = document.getElementById('r138').value;
@@ -4921,7 +6605,6 @@
         sub2= document.getElementById('r141').value;
         }
 
-
         if (document.getElementById('r142').checked) {
           sub3 = document.getElementById('r142').value;
           }
@@ -4929,49 +6612,42 @@
         sub3 = document.getElementById('r143').value;
         }
 
-
         if (document.getElementById('r144').checked) {
         sub4 = document.getElementById('r144').value;
         }
         else if (document.getElementById('r145').checked) {
        sub4 = document.getElementById('r145').value;
         }
-
         if (document.getElementById('r146').checked) {
         sub5 = document.getElementById('r146').value;
         }
         else if (document.getElementById('r147').checked) {
         sub5 = document.getElementById('r147').value;
         }
-
         if (document.getElementById('r148').checked) {
         sub6 = document.getElementById('r148').value;
         }
         else if (document.getElementById('r149').checked) {
         sub6 = document.getElementById('r149').value;
         }
-
         if (document.getElementById('r150').checked) {
         sub7 = document.getElementById('r150').value;
         }
         else if (document.getElementById('r151').checked) {
         sub7 = document.getElementById('r151').value;
         }
-
         if (document.getElementById('r152').checked) {
         sub8 = document.getElementById('r152').value;
         }
         else if (document.getElementById('r153').checked) {
         sub8 = document.getElementById('r153').value;
         }
-
         if (document.getElementById('r154').checked) {
         sub9 = document.getElementById('r154').value;
         }
         else if (document.getElementById('r155').checked) {
         sub9 = document.getElementById('r155').value;
         }
-
         if (document.getElementById('r156').checked) {
         sub10 = document.getElementById('r156').value;
         }
@@ -4980,44 +6656,159 @@
         }
         var otro5 = document.getElementById('t16').value;
 
+        if (prox && skip){ 
+          enter = 0;
+        $("#carouselExampleControls").carousel(36);
       $.ajax({
         type:"POST",
         url:"save.php",
-        data: {cont: countClicks,r43:r43,sub1:sub1,sub2:sub2,sub3:sub3,sub4:sub4,sub5:sub5,sub6:sub6,sub7:sub7,
+        data: {cont: countClicks,r45:r45,sub1:sub1,sub2:sub2,sub3:sub3,sub4:sub4,sub5:sub5,sub6:sub6,sub7:sub7,
         sub8:sub8,sub9:sub9,sub10:sub10,otro5:otro5},
         success: function(data){
         }
         });
+        countClicks = 30;
+        }
 
+        else if (!prox && !skip){
+          enter++;
+          countClicks = 28;
+          if (enter>=2 && !error){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
+
+        else if (!prox && skip){
+          enter++;
+          countClicks = 28;
+          if (enter>=2 && !error){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
 
         } //Fin de 28
 
+
         if (countClicks == 29){
-          var r45,r46;
+          var r46;
+          var prox = false;
+          var error = false;
           r46 = "N/A";
 
-          if (document.getElementById('r158').checked) {
-          r45 = document.getElementById('r158').value;
-          r46 = document.getElementById("t17").value;
-          }
-      else if (document.getElementById('r159').checked) {
-        r45 = document.getElementById('r159').value;
-        }
+            if (document.getElementById("t17").value != ""){
+              prox = true;
+              if (document.getElementById("t17").value.length > 400){
+              prox = false;
+              error = true;
+              alert("En los campos de texto no deben ir más de 400 caracteres");
+            }
+            }
 
+          r46 = document.getElementById("t17").value;
+
+      if (prox){
+        enter = 0;
+        $("#carouselExampleControls").carousel("next");
       $.ajax({
         type:"POST",
         url:"save.php",
-        data: {cont: countClicks,r45:r45,r46:r46},
+        data: {cont: countClicks,r46:r46},
         success: function(data){
         }
         });
+        countClicks = 30;
+      }
+      else {
+        enter++;
+        countClicks = 29;
+        if (enter>=2 && !error){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+      }
 
         } //Fin de 29
 
-        if (countClicks == 30){
 
-          var sec1,sec2,sec3,sec4;
+        if (countClicks == 30){
+          var sec1,sec2,sec3,sec4,p1;
+          var otro6;
           var tr18;
+          var prox = false;
+          var skip = true;
+
+          if (document.getElementById('r160').checked || document.getElementById('r161').checked)
+            if (document.getElementById('r162').checked || document.getElementById('r163').checked)
+              if (document.getElementById('r164').checked || document.getElementById('r165').checked)
+                if (document.getElementById('r166').checked || document.getElementById('r167').checked){
+                  if (document.getElementById('r166').checked){
+                    if (document.getElementById('tr18').value == ""){
+                      prox = false;
+                    }
+                    else {
+                      if (document.getElementById("tr18").value.length > 400){
+                      prox = false;
+                      error = true;
+                      alert("En los campos de texto no deben ir más de 400 caracteres");
+                    }
+                    }
+                  }
+                }
+
+                if (document.getElementById('rr168').checked || document.getElementById('rr169').checked){
+                  prox = true;
+                  if (document.getElementById('rr168').checked){
+                    prox = true;
+                    skip = false;
+                    if (document.getElementById('r160').checked) {
+                    sec1 = document.getElementById('r160').value;
+                    }
+                else if (document.getElementById('r161').checked) {
+                  sec1 = document.getElementById('r161').value;
+                  }
+
+                  if (document.getElementById('r162').checked) {
+                    sec2 = document.getElementById('r162').value;
+                    }
+                else if (document.getElementById('r163').checked) {
+                  sec2= document.getElementById('r163').value;
+                  }
+
+                  if (document.getElementById('r164').checked) {
+                    sec3 = document.getElementById('r164').value;
+                    }
+                  else if (document.getElementById('r165').checked) {
+                  sec3 = document.getElementById('r165').value;
+                  }
+
+                  if (document.getElementById('r166').checked) {
+                  sec4 = document.getElementById('r166').value;
+                  }
+                  else if (document.getElementById('r167').checked) {
+                sec4 = document.getElementById('r167').value;
+                  }
+
+              otro6 = document.getElementById('tr18').value;
+              p1 = document.getElementById('rr168').value;
+              enter = 0;
+              $("#carouselExampleControls").carousel("next");
+              $.ajax({
+              type:"POST",
+              url:"save.php",
+              data: {cont: countClicks,p1:p1,sec1:sec1,sec2:sec2,sec3:sec3,sec4:sec4,otro6:otro6},
+              success: function(data){
+              }
+              });
+              countClicks = 31;
+              }
+              }
+
+          $('#r166').click(function(){ 
+          $("#tr18").prop('disabled', false);
+         });
+
+         $('#r167').click(function(){ 
+          $("#tr18").prop('disabled', true);
+         });
 
           if (document.getElementById('r160').checked) {
           sec1 = document.getElementById('r160').value;
@@ -5033,14 +6824,12 @@
         sec2= document.getElementById('r163').value;
         }
 
-
         if (document.getElementById('r164').checked) {
           sec3 = document.getElementById('r164').value;
           }
         else if (document.getElementById('r165').checked) {
         sec3 = document.getElementById('r165').value;
         }
-
 
         if (document.getElementById('r166').checked) {
         sec4 = document.getElementById('r166').value;
@@ -5051,27 +6840,85 @@
 
         var otro6 = document.getElementById('tr18').value;
 
-      $.ajax({
-        type:"POST",
-        url:"save.php",
-        data: {cont: countClicks,r43:r43,sec1:sec1,sec2:sec2,sec3:sec3,sec4:sec4,otro6:otro6},
-        success: function(data){
-        }
-        });
-
-
-        } //Fin de 30
-
-        if (countClicks == 31){
-
-    var p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17;
-
-    if (document.getElementById('rr168').checked) {
+        if (document.getElementById('rr168').checked) {
     p1 = document.getElementById('rr168').value;
     }
     else if (document.getElementById('rr169').checked) {
     p1 = document.getElementById('rr169').value;
     }
+
+    if (prox && skip){
+      enter = 0;
+      $("#carouselExampleControls").carousel(38);
+      $.ajax({
+        type:"POST",
+        url:"save.php",
+        data: {cont: countClicks,p1:p1,sec1:sec1,sec2:sec2,sec3:sec3,sec4:sec4,otro6:otro6},
+        success: function(data){
+        }
+        });
+        countClicks = 32;
+        }
+
+        else if (!prox && !skip){
+          enter++;
+          countClicks = 30;
+          if (enter>=2 && !error){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
+        
+        else if (!prox && skip){
+          enter++;
+          countClicks = 30;
+          if (enter>=2 && !error){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
+
+        } //Fin de 30
+
+
+        if (countClicks == 31){
+    var p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17;
+    var prox = false;
+    var error = false;
+
+    if (document.getElementById('r168').checked || document.getElementById('r169').checked)
+      if (document.getElementById('r170').checked || document.getElementById('r171').checked)
+        if (document.getElementById('r172').checked || document.getElementById('r173').checked)
+          if (document.getElementById('r174').checked || document.getElementById('r175').checked)
+            if (document.getElementById('r176').checked || document.getElementById('r177').checked)
+              if (document.getElementById('r178').checked || document.getElementById('r179').checked)
+                if (document.getElementById('r180').checked || document.getElementById('r181').checked)
+                  if (document.getElementById('r182').checked || document.getElementById('r183').checked)
+                    if (document.getElementById('r184').checked || document.getElementById('r185').checked)
+                      if (document.getElementById('r186').checked || document.getElementById('r187').checked)
+                        if (document.getElementById('r188').checked || document.getElementById('r189').checked)
+                          if (document.getElementById('r190').checked || document.getElementById('r191').checked)
+                            if (document.getElementById('r192').checked || document.getElementById('r193').checked)
+                              if (document.getElementById('r194').checked || document.getElementById('r195').checked){
+                                prox = true;
+                                if (document.getElementById('r194').checked)
+                                  if (document.getElementById('tr19').value == ""){
+                                    prox = false;
+                                  }
+                                  else{
+                                    if (document.getElementById("tr19").value.length > 400){
+                                    prox = false;
+                                    error = true;
+                                    alert("En los campos de texto no deben ir más de 400 caracteres");
+                                  }
+                                  }
+                              }
+    
+          $('#r194').click(function(){ 
+          $("#tr19").prop('disabled', false);
+         });
+
+         $('#r195').click(function(){ 
+          $("#tr19").prop('disabled', true);
+         });
 
     if (document.getElementById('r168').checked) {
     p2 = document.getElementById('r168').value;
@@ -5080,14 +6927,12 @@
     p2= document.getElementById('r169').value;
     }
 
-
     if (document.getElementById('r170').checked) {
     p3 = document.getElementById('r170').value;
     }
     else if (document.getElementById('r171').checked) {
     p3 = document.getElementById('r171').value;
     }
-
 
     if (document.getElementById('r172').checked) {
     p4 = document.getElementById('r172').value;
@@ -5109,63 +6954,54 @@
     else if (document.getElementById('r177').checked) {
     p6 = document.getElementById('r177').value;
     }
-
     if (document.getElementById('r178').checked) {
     p7 = document.getElementById('r178').value;
     }
     else if (document.getElementById('r179').checked) {
     p7 = document.getElementById('r179').value;
     }
-
     if (document.getElementById('r180').checked) {
     p8 = document.getElementById('r180').value;
     }
     else if (document.getElementById('r181').checked) {
     p8 = document.getElementById('r181').value;
     }
-
     if (document.getElementById('r182').checked) {
     p9 = document.getElementById('r182').value;
     }
     else if (document.getElementById('r183').checked) {
     p9 = document.getElementById('r183').value;
     }
-
     if (document.getElementById('r184').checked) {
     p10 = document.getElementById('r184').value;
     }
     else if (document.getElementById('r185').checked) {
     p10 = document.getElementById('r185').value;
     }
-
     if (document.getElementById('r186').checked) {
     p11 = document.getElementById('r186').value;
     }
     else if (document.getElementById('r187').checked) {
     p11 = document.getElementById('r187').value;
     }
-
     if (document.getElementById('r188').checked) {
     p12 = document.getElementById('r188').value;
     }
     else if (document.getElementById('r189').checked) {
     p12 = document.getElementById('r189').value;
     }
-
     if (document.getElementById('r190').checked) {
     p13 = document.getElementById('r190').value;
     }
     else if (document.getElementById('r191').checked) {
     p13 = document.getElementById('r191').value;
     }
-
     if (document.getElementById('r192').checked) {
     p14 = document.getElementById('r192').value;
     }
     else if (document.getElementById('r193').checked) {
     p14 = document.getElementById('r193').value;
     }
-
     if (document.getElementById('r194').checked) {
     p15 = document.getElementById('r194').value;
     }
@@ -5174,6 +7010,9 @@
     }
     var otro7 = document.getElementById('tr19').value;
 
+    if (prox){
+      enter = 0;
+      $("#carouselExampleControls").carousel("next");
     $.ajax({
     type:"POST",
     url:"save.php",
@@ -5182,12 +7021,41 @@
     success: function(data){
     }
     });
+    countClicks = 32;
+    }
 
+    else{
+      enter++;
+      countClicks = 31;
+      if (enter>=2 && !error){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+    }
 
     } //Fin de 31
 
+
     if (countClicks == 32){
     var re1,re2,re3,re4;
+    var prox = false;
+
+    if (document.getElementById('r196').checked || document.getElementById('r197').checked)
+      if (document.getElementById('r198').checked || document.getElementById('r199').checked)
+        if (document.getElementById('r200').checked || document.getElementById('r201').checked)
+          if (document.getElementById('r202').checked || document.getElementById('r203').checked)
+            if (document.getElementById('r204').checked || document.getElementById('r205').checked)
+              if (document.getElementById('r206').checked || document.getElementById('r207').checked)
+                if (document.getElementById('r208').checked || document.getElementById('r209').checked)
+                  if (document.getElementById('r210').checked || document.getElementById('r211').checked)
+                    if (document.getElementById('r212').checked || document.getElementById('r213').checked)
+                      if (document.getElementById('r214').checked || document.getElementById('r215').checked)
+                        if (document.getElementById('r216').checked || document.getElementById('r217').checked)
+                          if (document.getElementById('r218').checked || document.getElementById('r219').checked)
+                            if (document.getElementById('r220').checked || document.getElementById('r221').checked)
+                              if (document.getElementById('r222').checked || document.getElementById('r223').checked)
+                                if (document.getElementById('r224').checked || document.getElementById('r225').checked){
+                                  prox = true;
+                                }
 
     if (document.getElementById('r196').checked) {
     re1 = document.getElementById('r196').value;
@@ -5203,7 +7071,6 @@
     re2 = document.getElementById('r199').value;
     }
 
-
     if (document.getElementById('r200').checked) {
     re3 = document.getElementById('r200').value;
     }
@@ -5211,92 +7078,76 @@
     re3 = document.getElementById('r201').value;
     }
 
-
     if (document.getElementById('r202').checked) {
     re4 = document.getElementById('r202').value;
     }
     else if (document.getElementById('r203').checked) {
     re4 = document.getElementById('r203').value;
     }
-
        /*estrategias*/
-
        var d1,d2,d3,d4
-
     if (document.getElementById('r204').checked) {
     d1 = document.getElementById('r204').value;
     }
     else if (document.getElementById('r205').checked) {
     d1 = document.getElementById('r205').value;
     }
-
     if (document.getElementById('r206').checked) {
     d2 = document.getElementById('r206').value;
     }
     else if (document.getElementById('r207').checked) {
     d2 = document.getElementById('r207').value;
     }
-
     if (document.getElementById('r208').checked) {
     d3 = document.getElementById('r208').value;
     }
     else if (document.getElementById('r209').checked) {
     d3 = document.getElementById('r209').value;
     }
-
     if (document.getElementById('r210').checked) {
     d4 = document.getElementById('r210').value;
     }
     else if (document.getElementById('r211').checked) {
     d4 = document.getElementById('r211').value;
     }
-
     var v1,v2,v3,v4
-
     if (document.getElementById('r212').checked) {
     v1 = document.getElementById('r212').value;
     }
     else if (document.getElementById('r213').checked) {
     v1 = document.getElementById('r213').value;
     }
-
     if (document.getElementById('r214').checked) {
     v2 = document.getElementById('r214').value;
     }
     else if (document.getElementById('r215').checked) {
     v2 = document.getElementById('r215').value;
     }
-
     if (document.getElementById('r216').checked) {
     v3 = document.getElementById('r216').value;
     }
     else if (document.getElementById('r217').checked) {
     v3 = document.getElementById('r217').value;
     }
-
     if (document.getElementById('r218').checked) {
     v4 = document.getElementById('r218').value;
     }
     else if (document.getElementById('r219').checked) {
     v4 = document.getElementById('r219').value;
     }
-
     var pe1,pe2,pe3;
-
     if (document.getElementById('r220').checked) {
     pe1 = document.getElementById('r220').value;
     }
     else if (document.getElementById('r221').checked) {
     pe1 = document.getElementById('r221').value;
     }
-
     if (document.getElementById('r222').checked) {
     pe2 = document.getElementById('r222').value;
     }
     else if (document.getElementById('r223').checked) {
     pe2 = document.getElementById('r223').value;
     }
-
     if (document.getElementById('r224').checked) {
     pe3 = document.getElementById('r224').value;
     }
@@ -5304,8 +7155,9 @@
     pe3 = document.getElementById('r225').value;
     }
 
-
-
+    if (prox){
+      enter = 0;
+      $("#carouselExampleControls").carousel("next");
     $.ajax({
     type:"POST",
     url:"save.php",
@@ -5314,12 +7166,96 @@
     success: function(data){
     }
     });
+    countClicks = 33;
+    }
 
-
+    else{
+      enter++;
+      countClicks = 32;
+      if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+    }
     } //Fin de 32
 
+
     if (countClicks == 33){
-    var nacional, internacional, r59, rr59;
+    var nacional, internacional, rr59;
+    var prox = false;
+    var skip = true;
+    
+    if (document.getElementById('r226').checked || document.getElementById('r228').checked ||
+    document.getElementById('r231').checked || document.getElementById('r232').checked 
+    || document.getElementById('r233').checked || document.getElementById('r235').checked ||
+    document.getElementById('r238').checked)
+      if (document.getElementById('r240').checked || document.getElementById('r241').checked ||
+      document.getElementById('r242').checked || document.getElementById('r243').checked ||
+      document.getElementById('r246').checked || document.getElementById('r249').checked ||
+      document.getElementById('r251').checked)
+        if (document.getElementById('r254').checked || document.getElementById('r255').checked){
+          prox = true;
+          if (document.getElementById('r254').checked){
+            prox = true;
+            skip = false;
+            /*Nacional*/
+            if (document.getElementById('r226').checked) {
+            nacional = document.getElementById('r226').value;
+            }
+            else if (document.getElementById('r228').checked) {
+            nacional = document.getElementById('r228').value;
+            }
+            else if (document.getElementById('r231').checked) {
+            nacional = document.getElementById('r231').value;
+            }
+            else if (document.getElementById('r232').checked) {
+            nacional = document.getElementById('r232').value;
+            }
+            else if (document.getElementById('r233').checked) {
+            nacional = document.getElementById('r233').value;
+            }
+            else if (document.getElementById('r235').checked) {
+            nacional = document.getElementById('r235').value;
+            }
+            else if (document.getElementById('r238').checked) {
+            nacional = document.getElementById('r238').value;
+            }
+            /*Internacional*/
+            if (document.getElementById('r240').checked) {
+            internacional = document.getElementById('r240').value;
+            }
+            else if (document.getElementById('r241').checked) {
+            internacional = document.getElementById('r241').value;
+            }
+            else if (document.getElementById('r242').checked) {
+            internacional = document.getElementById('r242').value;
+            }
+            else if (document.getElementById('r243').checked) {
+            internacional = document.getElementById('r243').value;
+            }
+            else if (document.getElementById('r246').checked) {
+            internacional = document.getElementById('r246').value;
+            }
+            else if (document.getElementById('r249').checked) {
+            internacional = document.getElementById('r249').value;
+            }
+            else if (document.getElementById('r251').checked) {
+            internacional = document.getElementById('r251').value;
+            }
+
+            rr59 = document.getElementById('r254').value;
+            $("#carouselExampleControls").carousel("next");
+            enter = 0;
+            $.ajax({
+            type:"POST",
+            url:"save.php",
+            data: {cont: countClicks,nacional:nacional,internacional:internacional,rr59:rr59},
+            success: function(data){
+            }
+            });
+
+            countClicks = 48;
+          }
+        }
 
     /*Nacional*/
     if (document.getElementById('r226').checked) {
@@ -5343,9 +7279,7 @@
     else if (document.getElementById('r238').checked) {
     nacional = document.getElementById('r238').value;
     }
-
     /*Internacional*/
-
     if (document.getElementById('r240').checked) {
     internacional = document.getElementById('r240').value;
     }
@@ -5374,23 +7308,85 @@
     else if (document.getElementById('r255').checked) {
     rr59 = document.getElementById('r255').value;
     }
-
     
-    r59 = document.getElementById("s2").value;
-
+    if (prox && skip){
+      enter=0;
+      $("#carouselExampleControls").carousel(41);
     $.ajax({
     type:"POST",
     url:"save.php",
-    data: {cont: countClicks,nacional:nacional,internacional:internacional,r59:r59,rr59:rr59},
+    data: {cont: countClicks,nacional:nacional,internacional:internacional,rr59:rr59},
     success: function(data){
     }
     });
+    countClicks = 34;
+    }
+
+    else if (!prox && !skip){
+      enter++;
+          countClicks = 33;
+          if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+        }
+
+    else if (!prox && skip){
+      enter++;
+      countClicks = 33;
+      if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+    }
 
 
     } //Fin de 33
 
+    if (countClicks == 48){
+      var r59;
+        if (document.getElementById("s2").value != "0"){
+          r59 = document.getElementById("s2").value;
+          enter = 0;
+          $("#carouselExampleControls").carousel("next");
+          $.ajax({
+          type:"POST",
+          url:"save.php",
+          data: {cont: countClicks,r59:r59},
+          success: function(data){
+          }
+          });
+          countClicks = 34;
+        }
+      else {
+        enter++;
+        countClicks = 48;
+          if (enter >= 2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+      }
+    } //Fin de 48
+
     if (countClicks == 34){
     var g1,g2,g3,g4;
+    var prox = false;
+
+    if (document.getElementById('rr255').checked || document.getElementById('r256').checked ||
+    document.getElementById('r257').checked || document.getElementById('r258').checked)
+      if (document.getElementById('r259').checked || document.getElementById('r260').checked ||
+      document.getElementById('r261').checked || document.getElementById('r262').checked)
+        if (document.getElementById('r263').checked || document.getElementById('r264').checked ||
+        document.getElementById('r265').checked || document.getElementById('r266').checked)
+          if (document.getElementById('r267').checked || document.getElementById('r268').checked
+          || document.getElementById('r269').checked || document.getElementById('rr269').checked)
+            if (document.getElementById('r270').checked || document.getElementById('r271').checked ||
+            document.getElementById('r272').checked || document.getElementById('r273').checked)
+              if (document.getElementById('r274').checked || document.getElementById('r275').checked ||
+              document.getElementById('r276').checked || document.getElementById('r277').checked)
+                if (document.getElementById('r278').checked || document.getElementById('r279').checked ||
+                document.getElementById('r280').checked || document.getElementById('r281').checked)
+                  if (document.getElementById('r282').checked || document.getElementById('r283').checked ||
+                  document.getElementById('r284').checked || document.getElementById('r285').checked){
+                    prox = true;
+                  }
 
     /*Nadie puede velar por mis intereses, a excepción de mis familiares*/
     if (document.getElementById('rr255').checked) {
@@ -5405,9 +7401,7 @@
     else if (document.getElementById('r258').checked) {
     g1 = document.getElementById('r258').value;
     }
-
     /*Uno debe tener amistades en todas partes para resolver los problemas*/
-
     if (document.getElementById('r259').checked) {
     g2 = document.getElementById('r259').value;
     }
@@ -5417,12 +7411,10 @@
     else if (document.getElementById('r261').checked) {
     g2 = document.getElementById('r261').value;
     }
-    else if (document.getElementById('r262').checked) {
+    else if (document.getElementById('r261').checked) {
     g2 = document.getElementById('r262').value;
     }
-
     /*Unirse con la gente lo que trae es problemas*/
-
     if (document.getElementById('r263').checked) {
     g3 = document.getElementById('r263').value;
     }
@@ -5435,9 +7427,7 @@
     else if (document.getElementById('r266').checked) {
     g3 = document.getElementById('r266').value;
     }
-
     /*Las leyes las hacen los poderosos para su beneficio*/
-
     if (document.getElementById('r267').checked) {
     g4 = document.getElementById('r267').value;
     }
@@ -5450,11 +7440,8 @@
     else if (document.getElementById('rr269').checked) {
     g4 = document.getElementById('rr269').value;
     }
-
     var q1,q2,q3,q4;
-
     /*El rumbo de la vida está escrito y uno no puede cambiarlo*/
-
     if (document.getElementById('r270').checked) {
     q1 = document.getElementById('r270').value;
     }
@@ -5467,10 +7454,8 @@
     else if (document.getElementById('r273').checked) {
     q1 = document.getElementById('r273').value;
     }
-
     
     /*La suerte es un factor muy importante para lograr el éxito*/
-
     if (document.getElementById('r274').checked) {
     q2 = document.getElementById('r274').value;
     }
@@ -5483,9 +7468,7 @@
     else if (document.getElementById('r277').checked) {
     q2 = document.getElementById('r277').value;
     }
-
     /*Hay gente con suerte y por eso se le dan las cosas.*/
-
     if (document.getElementById('r278').checked) {
     q3 = document.getElementById('r278').value;
     }
@@ -5498,9 +7481,7 @@
     else if (document.getElementById('r281').checked) {
     q3 = document.getElementById('r281').value;
     }
-
     /*Casi siempre el fracaso es por culpa de fuerzas que no controlamos*/
-
     if (document.getElementById('r282').checked) {
     q4 = document.getElementById('r282').value;
     }
@@ -5514,6 +7495,9 @@
     q4   = document.getElementById('r285').value;
     }
 
+    if (prox){
+      enter = 0;
+      $("#carouselExampleControls").carousel("next");
     $.ajax({
     type:"POST",
     url:"save.php",
@@ -5521,14 +7505,33 @@
     success: function(data){
     }
     });
+    countClicks = 35;
+    }
 
-
+    else{
+      enter++;
+      countClicks = 34;
+      if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+    }
     } //Fin de 34
 
 
     if (countClicks == 35){
     var k1,k2,k3,k4;
+    var prox = false;
 
+    if (document.getElementById('r286').checked || document.getElementById('r287').checked ||
+    document.getElementById('r288').checked || document.getElementById('r289').checked)
+      if (document.getElementById('r290').checked || document.getElementById('r291').checked
+      || document.getElementById('r292').checked || document.getElementById('r293').checked)
+        if (document.getElementById('r294').checked || document.getElementById('r295').checked ||
+        document.getElementById('r296').checked || document.getElementById('r297').checked)
+          if (document.getElementById('r298').checked || document.getElementById('r299').checked ||
+          document.getElementById('r300').checked || document.getElementById('r301').checked){
+            prox = true;
+          }
     /*Puedo superar momentos difíciles porque ya he pasado por dificultades anteriormente*/
     if (document.getElementById('r286').checked) {
     k1 = document.getElementById('r286').value;
@@ -5542,9 +7545,7 @@
     else if (document.getElementById('r289').checked) {
     k1 = document.getElementById('r289').value;
     }
-
     /*Generalmente me las arreglo de una manera u otra*/
-
     if (document.getElementById('r290').checked) {
     k2 = document.getElementById('r290').value;
     }
@@ -5557,9 +7558,7 @@
     else if (document.getElementById('r293').checked) {
     k2 = document.getElementById('r293').value;
     }
-
     /*Me considero una persona muy optimista y persistente*/
-
     if (document.getElementById('r294').checked) {
     k3 = document.getElementById('r294').value;
     }
@@ -5572,9 +7571,7 @@
     else if (document.getElementById('r297').checked) {
     k3 = document.getElementById('r297').value;
     }
-
     /*Las situaciones estresantes me afectan física y emocionalmente*/
-
     if (document.getElementById('r298').checked) {
     k4 = document.getElementById('r298').value;
     }
@@ -5587,7 +7584,9 @@
     else if (document.getElementById('r301').checked) {
     k4 = document.getElementById('r301').value;
     }
-
+    if (prox){
+      enter = 0;
+      $("#carouselExampleControls").carousel("next");
     $.ajax({
     type:"POST",
     url:"save.php",
@@ -5595,19 +7594,69 @@
     success: function(data){
     }
     });
+    countClicks = 36;
+    }
 
+    else{
+      enter++;
+      countClicks = 35;
+      if (enter>=2){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+    }
 
     } //Fin de 35
+
 
     if (countClicks == 36){
       var t22,t23,t24,t25;  
       var educacion;
       var propi;
+      var prox = false;
+      var error = false;
+
+      if (document.getElementById("t18").value != "" && document.getElementById("t19").value != "" &&
+      document.getElementById("t20").value != "" && document.getElementById("t21").value != ""){
+
       t18 = document.getElementById("t18").value;
       t19 = document.getElementById("t19").value;
       t20 = document.getElementById("t20").value;
       t21 = document.getElementById("t21").value;
+      n18 = parseInt(t18, 10);
+      n19 = parseInt(t19, 10);
+      n20 = parseInt(t20, 10);
+      n21 = parseInt(t21, 10);
+        if (n18 > 0 && n18 < 5 && n18 != n19 && n18 != n20 && n18 != n21)
+          if (n19 > 0 && n19 < 5 && n19 != n18 && n19 != n20 && n19 != n21)
+            if (n20 > 0 && n20 < 5 && n20 != n18 && n20 != n19 && n20 != n21)
+              if (n21 > 0 && n21 < 5 && n21 != n18 && n21 != n19 && n21 != n20)
+                prox = true;
+              else{
+                alert("Por favor revise su orden de prioridad: Del 1 al 4, no pueden repetirse números");
+                error = true;
+                prox = false;
+              }
+            else{
+              alert("Por favor revise su orden de prioridad: Del 1 al 4, no pueden repetirse números");
+            error = true;
+            prox = false;
+            }
+          else{
+            alert("Por favor revise su orden de prioridad: Del 1 al 4, no pueden repetirse números");
+            error = true;
+            prox = false;
+          }
+        else{
+          alert("Por favor revise su orden de prioridad: Del 1 al 4, no pueden repetirse números");
+          error = true;
+          prox = false;
+          }
 
+      }
+
+    if (prox){
+      enter = 0;
+      $("#carouselExampleControls").carousel("next");
       $.ajax({
         type:"POST",
         url:"save.php",
@@ -5615,28 +7664,82 @@
         success: function(data){
         }
         });
-
+        countClicks = 37;
+    }
+    else {
+      enter++;
+      countClicks = 36;
+      if (enter>=2 && !error){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+    }
 
         } //Fin de 36
 
+
       if (countClicks == 37){
-      var t22,t23,t24,t25;
+        var t22,t23,t24,t29,tr25,propi,etnia,educacion;
+        var prox = false;
+        var error = false;
+        if (document.getElementById("t22").value != "" && document.getElementById("t23").value != "" &&
+        document.getElementById("t24").value != ""  && document.getElementById("t26").value != "" &&
+        document.getElementById("t27").value != "" && document.getElementById("t28").value != "" &&
+        document.getElementById("t29").value != "" && document.getElementById("tr25").value !="")
+
+          if (document.getElementById('r302').checked || document.getElementById('r303').checked)
+            if (document.getElementById('r304').checked || document.getElementById('r305').checked ||
+            document.getElementById('r307').checked || document.getElementById('r308').checked ||
+            document.getElementById('r309').checked || document.getElementById('r310').checked ||
+            document.getElementById('r311').checked || document.getElementById('r312').checked)
+
+              if (document.getElementById('ex35').checked || document.getElementById('ex36').checked ||
+              document.getElementById('ex37').checked || document.getElementById('ex38').checked ||
+              document.getElementById('ex39').checked || document.getElementById('ex40').checked ||
+              document.getElementById('ex41').checked){
+                prox = true;
+
+                if (document.getElementById("t22").value.length > 400 || document.getElementById("t23").value.length > 400
+                || document.getElementById("t24").value.length > 400 || document.getElementById("t26").value.length > 400
+                || document.getElementById("t27").value.length > 400 || document.getElementById("t28").value.length > 400
+                || document.getElementById("t29").value.length > 400 || document.getElementById("tr25").value.length > 400){
+                prox = false;
+                error = true;
+                alert("En los campos de texto no deben ir más de 400 caracteres");
+              }
+
+              tr25 = document.getElementById("tr25").value;
+              var validE;
+              validE = looksLikeMail(String(tr25));
+                if (!validE){
+                  error = true;
+                  prox = false;
+                  alert("Por favor ingrese una dirección de correo electrónico válida: ejemplo@ejemplo.com");
+                }
+
+            t24 = document.getElementById("t24").value;
+            var placeholder = parseInt(t24,10);
+            if (isNaN(placeholder)){
+              prox = false;
+              error = true;
+              alert("En el campo de edad debe ingresar un número entero");
+            }
+              }
+
       t22 = document.getElementById("t22").value;
       t23 = document.getElementById("t23").value;
       t24 = document.getElementById("t24").value;
-      t25 = document.getElementById("t25").value;
       t26 = document.getElementById("t26").value;
       t27 = document.getElementById("t27").value;
       t28 = document.getElementById("t28").value;
       t29 = document.getElementById("t29").value;
       tr25 = document.getElementById("tr25").value;
-
       if (document.getElementById('r302').checked) {
     propi = document.getElementById('r302').value;
     }
     else if (document.getElementById('r303').checked) {
     propi = document.getElementById('r303').value;
     }  
+
 
     if (document.getElementById('r304').checked) {
     educacion = document.getElementById('r304').value;
@@ -5663,71 +7766,53 @@
     educacion = document.getElementById('r312').value;
     }
 
-
+    if (document.getElementById('ex35').checked) {
+    etnia = document.getElementById('ex35').value;
+    }
+    else if (document.getElementById('ex36').checked) {
+    etnia = document.getElementById('ex36').value;
+    }
+    else if (document.getElementById('ex37').checked) {
+    etnia = document.getElementById('ex37').value;
+    }
+    else if (document.getElementById('ex38').checked) {
+    etnia = document.getElementById('ex38').value;
+    }
+    else if (document.getElementById('ex39').checked) {
+    etnia = document.getElementById('ex39').value;
+    }
+    else if (document.getElementById('ex40').checked) {
+    etnia = document.getElementById('ex40').value;
+    }
+    else if (document.getElementById('ex41').checked) {
+    etnia = document.getElementById('ex41').value;
+    }
+    if (prox){
+      enter = 0;
       $.ajax({
         type:"POST",
         url:"save.php",
-        data: {cont: countClicks,tr25:tr25,t22:t22,t23:t23,t24:t24,t25:t25,t26:t26,t27:t27,
-        t28:t28,t29:t29,educacion:educacion,propi:propi},
+        data: {cont: countClicks,tr25:tr25,t22:t22,t23:t23,t24:t24,t26:t26,t27:t27,
+        t28:t28,t29:t29,educacion:educacion,propi:propi,etnia:etnia},
         success: function(data){
-          alert(data);
         }
         });
+        countClicks = 38;
+      }
 
-
-        } //Fin de 36
-
-
-
-    	//alert(countClicks);
+      else{
+        enter++;
+        countClicks = 37;
+        if (enter>=2 && !error){
+            alert("Por favor, rellene todos los campos antes de continuar");
+          }
+      }
+        } //Fin de 37
+      //alert(countClicks);
       // window.location.href = "save.php";
       }
-    }
-
-
-    if (countClicks == 0){
-    function one(oEvent) { 
-            oEvent = oEvent || window.event; 
-            var txtField = oEvent.target || oEvent.srcElement; 
-
-            var t1ck=true;
-            var msg=" ";
-            if(!document.getElementById("r1").checked && !document.getElementById("r2").checked){ t1ck=false;}
-
-            //alert(msg + t1ck);
-
-            if(t1ck){document.getElementById("submitbttn").disabled = false;
-            msg=msg+ " <b> Submit Button is enabled </b>";
-            }
-            else{document.getElementById("submitbttn").disabled = true; 
-            msg=msg+ " <b> Submit Button is disabled </b>";
-            }// end of if checking status of t1ck variable 
-            } 
-
-            window.onload = function () { 
-            var btnSignUp = document.getElementById("submitbttn"); 
-
-            var r1 = document.getElementById("r1"); 
-            var r2 = document.getElementById("r2"); 
-
-            var t1ck=false;
-            document.getElementById("submitbttn").disabled = true;
-            r1.onclick = one; 
-            r2.onclick = one; 
-}
-  }
-
-
-
-
-      
     
   </script>
-
-
-
-
-
   </div>
   </div>
   </form>  
