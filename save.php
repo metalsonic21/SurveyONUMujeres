@@ -1511,7 +1511,8 @@ else if ($cont == 33){
         }
 
     $conn = new mysqli($servername, $username, $password, $dbname);
-    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q53', '$r53["Respuesta"]')";
+    $temp = r53["Respuesta"];
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q53', '$temp')";
     if ($conn->query($sql) === TRUE) {
         echo "New record created successfully";
     } else {
@@ -1525,9 +1526,10 @@ else if ($cont == 33){
 else if ($cont == 48){
     $id = $_POST['id'];
     $r53["Porcentaje"] = $_POST['r59'];
+    $temp = $r53["Porcentaje"];
 
     $conn = new mysqli($servername, $username, $password, $dbname);
-    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', 'Porcentaje', '$r53["Porcentaje"]')";
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', 'Porcentaje', '$temp')";
     if ($conn->query($sql) === TRUE) {
         echo "New record created successfully";
     } else {
