@@ -3872,7 +3872,7 @@
 
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4"><b>PIX.1. A continuación se le presentan un conjunto de frases y le pedimos que las ordene jerárquicamente del 1 al 4, según su prioridad (asignando 1 al más importante y 4 al menos importante).</b></label>
+  <label for="inputEmail4"><b>PX.1. A continuación se le presentan un conjunto de frases y le pedimos que las ordene jerárquicamente del 1 al 4, según su prioridad (asignando 1 al más importante y 4 al menos importante).</b></label>
   </div>  
   </div>  
   
