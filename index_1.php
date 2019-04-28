@@ -1647,7 +1647,7 @@
 
   <div class="form-row">
   <div class="col-md-5 offset-md-3">
-  <label for="inputEmail4">	Falta de información sobre elmercado destino</label>
+  <label for="inputEmail4"> Falta de información sobre elmercado destino</label>
   </div>    
                                     
   <div class="form-check">
@@ -1815,7 +1815,7 @@
 
   <div class="form-row">
   <div class="col-md-5 offset-md-3">
-  <label for="inputEmail4">	Alto número de competidores </label>
+  <label for="inputEmail4"> Alto número de competidores </label>
   </div>  
                                               
   <div class="form-check">
