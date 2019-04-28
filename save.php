@@ -1,23 +1,59 @@
 <!-- PHP (Validaciones) -->
 <?php
+$id;
 $cont = $_POST['cont'];
-if ($cont == 1){
+$servername = "localhost";
+$username = "root";
+$password = "metalsonic21";
+$dbname = "surveyonumujeres";
+
+if ($cont == 0){
+$conn = new mysqli($servername, $username, $password, $dbname);
 $q1 = "FI.1. ¿Sería usted tan amable de regalarnos unos minutos para responder algunas preguntas? Por favor considere que no hay respuestas buenas ni malas, y que la información será tratada de manera generalizada para fines estadísticos.";
 $one = $_POST['one'];
+$id = $_POST['id'];
+
+$sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q1', '$one')";
+if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully";
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+mysqli_close($conn);
 }
 
 else if ($cont == 2){
+$id = $_POST['id'];
+$conn = new mysqli($servername, $username, $password, $dbname);
 $q2 = "FI.2. ¿Acepta usted que sus datos de identificación formen parte del Directorio de negocios de mujeres?";
 $r2 = $_POST['r2'];
+$sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q2', '$r2')";
+if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully";
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+mysqli_close($conn);
+
+$conn = new mysqli($servername, $username, $password, $dbname);
 $q3 = "FI.3. ¿Tiene usted o está usted involucrada en algún negocio?";
 $r3 = $_POST['r3'];
+$sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q3', '$r3')";
+if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully";
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
 
-echo $r2;
+mysqli_close($conn);
 }
 
 
 
 else if ($cont == 3){
+    $id = $_POST['id'];
     $q4 = "FI.4.¿Usted diría que este negocio es un emprendimiento, MiPyme, o una actividad como profesional independiente?";
     $r4 = $_POST['r4'];
 
@@ -31,57 +67,195 @@ else if ($cont == 3){
     else if ($r4 == "3"){
         $r4 = "Independiente";
     }
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q4', '$r4')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
     }
 
 else if ($cont == 4){
+    $id = $_POST['id'];
     $q5 = "FI.5.1 El principal propietario del negocio es:";
     $r5 = $_POST['r5'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q5', '$r5')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+
     $q6 = "FI.5.2¿La Gerencia General y/o toma de decisiones estratégicas de este negocio es manejada por:";
     $r6 = $_POST['r6'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q6', '$r6')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
     }
 
 else if ($cont == 5){
+    $id = $_POST['id'];
     $q7 = "Nombre o Razón Social:";
     $r7 = $_POST['r7'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q7', '$r7')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+
+
     $q8 = "Cédula Jurídica o Física:";
     $r8 = $_POST['r8'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q8', '$r8')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
     }
 
 else if ($cont == 6){
+    $id = $_POST['id'];
     $q9 = "Dirección";
     $r9 = array("Distrito"=>"", "Canton"=>"", "Provincia"=>"");
     $r9["Distrito"] = $_POST['distrito'];
     $r9["Canton"] = $_POST['canton'];    
     $r9["Provincia"] = $_POST['provincia'];
+
+    $serializedArray = serialize($r9);
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q9', '$serializedArray')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
     }
 
 else if ($cont == 7){
+    $id = $_POST['id'];
     $q10 = "Teléfono";
     $r10 = array("Movil"=>"", "Fijo"=>"");
     $r10["Movil"] = $_POST['movil'];
     $r10["Fijo"] = $_POST['fijo'];    
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray = serialize($r10);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q10', '$serializedArray')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+mysqli_close($conn);
     }
 
 else if ($cont == 8){
+    $id = $_POST['id'];
     $q11 = "PI.1.4 Correos electrónicos (al menos uno)";
     $r11 = array("Correo1"=>"", "Correo2"=>"");
     $r11["Correo1"] = $_POST['correo1'];
     $r11["Correo2"] = $_POST['correo2'];    
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray = serialize($r11);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q11', '$serializedArray')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
     }
 
 else if ($cont == 9){
+    $id = $_POST['id'];
     $q12 = "Nombre de fantasía";
     $r12 = $_POST['r12'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q12', '$r12')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
     $q13 = "¿Con cuántos colaboradores cuenta su empresa actualmente?";
-    $r13 = $_POST['r13'];    
+    $r13 = $_POST['r13'];  
+    
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q13', '$r13')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
     }
 
 else if ($cont == 10){
+    $id = $_POST['id'];
     $q14 = "Año de inicio de operaciones";
     $r14 = $_POST['r14'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q14', '$r14')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+
+
+    $qex1 = "¿Contrata otros trabajadores para proyectos ocasionales?";
+    $rex1 = $_POST['ex'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$qex1', '$rex1')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
     }
 
 else if ($cont == 11){
+    $id = $_POST['id'];
     $q15 = "PII.1. ¿A qué sector diría que pertenece su negocio? Puede seleccionar varios";
     $r15 = array("Agricola"=>"","Alimentaria"=>"","Pecuario y lacteos"=>"","Pesca"=>"","Plantas flores y follajes"=>""
     ,"Industria-Plastico"=>"","Industria-Metalmecanica"=>"","Industria-Farmaceutica"=>"","Industria-Cuidado personal y limpieza"=>""
@@ -208,20 +382,56 @@ else if ($cont == 11){
     if ($placeholder == "false")
     $r15["Servicios educativos"] = "No";
     else $r15["Servicios educativos"] = "Si";
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray = serialize($r15);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q15', '$serializedArray')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+    
     }
 
 else if ($cont == 12){
+    $id = $_POST['id'];
     $q16 = "PII.2 ¿Ofrece su empresa productos o servicios de elaboración propia, originales?";
     $r16 = $_POST['r16'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q16', '$r16')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+
     $q17 = "PII.3 Por favor, describa detalladamente qué produce su negocio";
     $r17 = $_POST['r17'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q17', '$r17')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
     }
 
 
 else if ($cont == 13){
+    $id = $_POST['id'];
     $q18 = "PII.4 ¿Diría que sus principales productos o servicios se podrían ubicar en alguna de las siguientes categorías?";
     $r18 = array("Alimentos funcionales"=>"","Agricultura sostenible"=>"","Manufactura avanzada"=>"","Servicios como biotecnología"=>"","TI Aplicada"=>""
-    ,"Servicios sostenibles"=>"","Otros"=>"");
+    ,"Servicios sostenibles"=>"");
+    $otroex = array("Respuesta"=>"", "Detalle"=>"");
 
     $placeholder = $_POST['c25'];
     if ($placeholder == "false")
@@ -255,42 +465,220 @@ else if ($cont == 13){
     
     $placeholder = $_POST['c31'];
     if ($placeholder == "false")
-        $r18["Otros"] = "No";
-    else $r18["Otros"] = "Si";
+        $otroex["Otros"] = "No";
+    else {
+        $otroex["Respuesta"] = "Si";
+        $otroex["Detalle"] = $_POST['otroex'];
+    }
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray = serialize($r18);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q18', '$serializedArray')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray2 = serialize($otroex);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', 'Otros', '$serializedArray2')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+
+
     }
 
 else if ($cont == 14){
+    $id = $_POST['id'];
     $q19 = "¿Su empresa está registrada como PYME ante el MEIC?";
     $r19 = $_POST['r18'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q19', '$r19')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+
     $q20 = "PII.6 ¿Qué le motivó a empezar la empresa o negocio?";
     $r20 = $_POST['r19'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q20', '$r20')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+    }
+
+else if ($cont == 15){
+    $id = $_POST['id'];
+    $q21 = "¿Cuánto tiempo tiene de producir para el mercado nacional?";
+    $r21 = $_POST['fi1'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q21', '$r21')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+
+    $q22 = "¿Cuánto tiempo de producir para el mercado internacional?";
+    $r22 = $_POST['fi2'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q22', '$r22')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+
+
+    $q23 = "¿Cómo visualiza a su empresa en un período de 5 años? ";
+    $r23 = $_POST['fi3'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q23', '$r23')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
     }
 
 
 else if ($cont == 16){
+    $id = $_POST['id'];
     $q24 = "PII.10 ¿Cuenta su empresa, lista o en trámite, con alguna de las siguientes certificaciones?";
     $r24 = array("BPA (Buenas Prácticas Alimenticias)"=>"","BPM (Buenas Prácticas de Manufactura)"=>"","Manipulación de alimentos"=>"","HACCP(Análisis de Riesgo y Puntos Críticos de Control)"=>""
-    ,"Otra"=>"");
+    ,"Certificación Orgánica"=>"","Fair Trade"=>"","Rain Forest Alliance"=>"","Esencial Costa Rica"=>"",
+    "ISO 9001"=>"","ISO 14001"=>"");
+    $otroex2 = array("Respuesta"=>"", "Detalle"=>"");
     
     $r24["BPA (Buenas Prácticas Alimenticias)"] = $_POST['bpa'];
     $r24["BPM (Buenas Prácticas de Manufactura)"] = $_POST['bpm'];
     $r24["Manipulación de alimentos"] = $_POST['manipulacion'];
     $r24["HACCP(Análisis de Riesgo y Puntos Críticos de Control)"] = $_POST['haccp'];
-    $r24["Otra"] = $_POST['otra'];
+    $r24["Certificación Orgánica"] = $_POST['co'];
+    $r24["Fair Trade"] = $_POST['ft'];
+    $r24["Rain Forest Alliance "] = $_POST['rfa'];
+    $r24["Esencial Costa Rica"] = $_POST['ecrc'];
+    $r24["ISO 9001"] = $_POST['iso9001'];
+    $r24["ISO 14001"] = $_POST['iso14001'];
+
+    $otroex2["Respuesta"] = $_POST['otra'];
+        if ($otroex2["Respuesta"] == "si" || $otroex["Respuesta"] == "et") {
+            $otroex2["Detalle"] = $_POST['detalle2'];
+        }
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray = serialize($r24);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q24', '$serializedArray')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray2 = serialize($otroex2);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', 'Otro', '$serializedArray2')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
     }
 
 else if ($cont == 17){
+    $id = $_POST['id'];
      $q25 = "PII.11.¿Cuál es el principal problema que enfrentó la empresa en los últimos 12 meses?";
      $r25 = $_POST['t12'];
+
+     $conn = new mysqli($servername, $username, $password, $dbname);
+     $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q25', '$r25')";
+     if ($conn->query($sql) === TRUE) {
+         echo "New record created successfully";
+     } else {
+         echo "Error: " . $sql . "<br>" . $conn->error;
+     }
+ 
+     mysqli_close($conn);
+
      $q26 = "PII.12. ¿Durante los últimos 5 años se ha asociado con otra empresa o empresas para lograr algún objetivo comercial?";
      $r26 = $_POST['r26'];
-     $q27 = "PII.13.¿Cuál o cuáles?¿Con qué objetivo?";
-     $r27 = $_POST['t13'];
-     $q28 = "PII.14. ¿El recurso financiero con el que opera o trabaja la empresa (capital) es principalmente nacional o extranjero?";
-     $r28 = $_POST['r28'];
+
+     $conn = new mysqli($servername, $username, $password, $dbname);
+     $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q26', '$r26')";
+     if ($conn->query($sql) === TRUE) {
+         echo "New record created successfully";
+     } else {
+         echo "Error: " . $sql . "<br>" . $conn->error;
+     }
+ 
+     mysqli_close($conn);
     }
 
+else if ($cont == 40){
+    $id = $_POST['id'];
+    $q27 = "PII.13.¿Cuál o cuáles?¿Con qué objetivo?";
+    $r27 = $_POST['t13'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q27', '$r27')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+}
+
+else if ($cont == 41){
+    $id = $_POST['id'];
+    $q28 = "PII.14. ¿El recurso financiero con el que opera o trabaja la empresa (capital) es principalmente nacional o extranjero?";
+    $r28 = $_POST['r28'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q28', '$r28')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+}
+
 else if ($cont == 18){
+    $id = $_POST['id'];
     $q29 = "PIII.1.¿En lo que respecta a la formalización e internacionalización, su empresa o negocio cuenta con?";
     $r29 = array("Inscripción de la empresa en el Registro Nacional"=>"","Inscripción de marcas en el Registro Nacional"=>"","Inscripción en el Ministerio de Hacienda"=>"","Patente municipal"=>""
     ,"Inscripción como patrono ante la CCSS"=>"","Inscripción y pago de póliza de RT en el INS"=>"");
@@ -301,16 +689,100 @@ else if ($cont == 18){
     $r29["Patente municipal"] = $_POST['pm'];
     $r29["Inscripción como patrono ante la CCSS"] = $_POST['ccss'];
     $r29["Inscripción y pago de póliza de RT en el INS"] = $_POST['rt'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray = serialize($r29);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q29', '$serializedArray')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
     }
 
 else if ($cont == 19){
+    $id = $_POST['id'];
     $q30 = "PIII.2. ¿Tiene cuentas bancarias a nombre de la empresa?";
     $r30 = $_POST['r30'];
-    $q31 = "PIII.3. Durante los últimos 12 meses ¿ha realizado la empresa alguna venta fuera del país?";
-    $r31 = $_POST['r31'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q30', '$r30')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
     }
 
+    mysqli_close($conn);
+
+    $q31 = "PIII.3. Durante los últimos 12 meses ¿ha realizado la empresa alguna venta fuera del país?";
+    $r31 = $_POST['r31'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q31', '$r31')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+    }
+
+
+else if ($cont == 42){
+    $id = $_POST['id'];
+    $qex2 = "¿Qué producto o servicio exportó?";
+    $rex2 = $_POST['tex'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$qex2', '$rex2')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+}
+
+
+else if ($cont == 43){
+    $id = $_POST['id'];
+    $qex3 = "¿Hacen alianzas con otras empresas o negocios para vender fuera del país?";
+    $rex3 = $_POST['al'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$qex3', '$rex3')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+}
+
+else if ($cont == 44){
+    $id = $_POST['id'];
+    $qex4 = "PIII.3.4. Por favor detalle ¿qué tipo de alianzas realizan?";
+    $rex4 = $_POST['es'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$qex4', '$rex4')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+}
+
 else if ($cont == 21){
+    $id = $_POST['id'];
     $q34 = "PIII.4. ¿A qué mercados vende estos productos?";
     $r34 = array("Centroamérica"=>"","Panamá"=>"","Caribe"=>"","Otros países latinoamericanos"=>"","Europa"=>""
     ,"Asia"=>"","Canadá"=>"","EEUU"=>"");
@@ -354,11 +826,34 @@ else if ($cont == 21){
     if ($placeholder == "false")
         $r34["EEUU"] = "No";
     else $r34["EEUU"] = "Si";
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray = serialize($r34);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q34', '$serializedArray')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+
 }
 
 else if ($cont == 22){
-    $q35 = "PIII.4.1¿Hacen alianzas con otras empresas o negocios para vender fuera del país?";
+    $id = $_POST['id'];
+    $q35 = "PIII.4.2 ¿Es su producto o servicio un insumo de otra empresa que exporta o es exportado a otra empresa?";
     $r35 = $_POST['r35'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q35', '$r35')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
     $q36 = "PIII.4.2. ¿Qué porcentaje aproximado representan las ventas fuera del país del monto total de ventas de la empresa?";
     $placeholder = $_POST['r36'];
     $r36 = "nulo";
@@ -375,27 +870,78 @@ else if ($cont == 22){
     else if ($placeholder == "71"){
         $r36 = "Más del 71 %"; 
     }
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q36', '$r36')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
     }
 
 
 else if ($cont == 23){
-    $q37 = "PIII.4.3¿Es su producto o servicio un insumo de otra empresa que exporta o es exportado a otra empresa?";
-    $r37 = array("Respuesta"=>"","Detalles"=>"");
-    $r37["Respuesta"] = $_POST['r37'];
-    $r37["Detalles"] = $_POST['tr13'];
+    $id = $_POST['id'];
+    $q37 = "Por favor, detalle";
+    $r37 = $_POST['tr13'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q37', '$r37')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
     }
+
+    mysqli_close($conn);
+    }
+
 
 else if ($cont == 24){
+    $id = $_POST['id'];
     $q38 = "PIII.4.4. Durante los próximos 12 meses ¿Piensa realizar la empresa alguna venta fuera del país?";
-    $q381 = "PIII.4.5. ¿Cuál sería el principal producto o servicio que están pensando en vender?";
-    $q382 = "PIII.4.6. ¿A qué mercado planean vender?";
-    $r38 = array("Venta"=>"","Producto"=>"","Mercado"=>"");
-    $r38["Venta"] = $_POST['r38'];
-    $r38["Producto"] = $_POST['producto'];
-    $r38["Mercado"] = $_POST['mercado'];
+    $r38 = $_POST['r38'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q38', '$r38')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
     }
 
+    mysqli_close($conn);
+}
+
+
+else if ($cont == 45){
+    $id = $_POST['id'];
+    $q381 = "PIII.4.5. ¿Cuál sería el principal producto o servicio que están pensando en vender?";
+    $q382 = "PIII.4.6. ¿A qué mercado planean vender?";
+    $associate = array("PIII.4.5. ¿Cuál sería el principal producto o servicio que están pensando en vender?",
+    "PIII.4.6. ¿A qué mercado planean vender?");
+    $serializedArray = serialize($associate);
+    $rez = array("Producto"=>"","Mercado"=>"");
+    $rez["Producto"] = $_POST['producto'];
+    $rez["Mercado"] = $_POST['mercado'];
+    $serializedArray2 = serialize($rez);
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$serializedArray', '$serializedArray2')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+}
+
 else if ($cont == 25){
+    $id = $_POST['id'];
     $q39 = "PIII.4.7 ¿Cuáles considera ud que son las principales limitaciones al momento de exportar?";
     $r39 = array("Hay preferencia por enfocarse en el mercadolocal"=>"","Considera el riesgo muy alto, tiene temor"=>"",
     "El volumen solicitado puede superar sucapacidad productiva"=>"","Falta de información sobre el mercado destino"=>""
@@ -425,25 +971,71 @@ else if ($cont == 25){
 
     $otro["Respuesta"] = $_POST['m17'];
     $otro["Detalle"] = $_POST['o1'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray = serialize($r39);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q39', '$serializedArray')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray2 = serialize($otro);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', 'Otro', '$serializedArray2')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
     }
 
 else if ($cont == 26){
+    $id = $_POST['id'];
     $factoresr = $_POST['trrr13'];
     $factoresq = "PIII.4.8. ¿Con base en su experiencia, cuáles diría usted que son los tres (3) factores claves para que una empresa sea exitosa exportando?";
+    
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$factoresq', '$factoresr')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+
     $q40 = "PIV.1¿Ha requerido algún financiamiento para operar la empresa o negocio durante 2017 o 2018?";
     $r40 = $_POST['f'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q40', '$r40')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+    }
+
+else if ($cont == 46){
+    $id = $_POST['id'];
     $q41 = "PIV.1.1 ¿Qué tipo de financiamiento?";
-    if ($r40 == "si"){
-    
     $r41 = array("Recursos propios"=>"","Préstamos informales"=>"",
     "Bancos Públicos"=>"","Préstamos de otras empresas"=>""
     ,"Bancos privados"=>"","Tarjetas de crédito"=>"","Proveedores"=>"",
     "Parientes/amigos"=>"","Emisión de acciones"=>"","Cooperativas"=>"",
     "Org de microfinanzas"=>"","Fondos Propyme"=>"","FINADE"=>"","Programa banca para el desarrollo"=>"",
     "FOMujeres"=>"","Otras asociaciones"=>"");
-    
+        
     $otro2 = array("Respuesta"=>"", "Detalle"=>"");
-                
+                    
     $r41["Recursos propios"] = $_POST['s1'];
     $r41["Préstamos informales"] = $_POST['s2'];
     $r41["Bancos Públicos"] = $_POST['s3'];
@@ -460,34 +1052,90 @@ else if ($cont == 26){
     $r41["Programa banca para el desarrollo"] = $_POST['s14'];
     $r41["FOMujeres"] = $_POST['s15'];
     $r41["Otras asociaciones"] = $_POST['s16'];
-    
+      
     $otro2["Respuesta"] = $_POST['s17'];
     $otro2["Detalle"] = $_POST['otro2'];
 
-    $fq = "PIV.1.1 ¿Qué tipo de financiamiento?";
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray = serialize($r41);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q41', '$serializedArray')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray2 = serialize($otro2);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', 'Otro', '$serializedArray2')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+    
+    $fq = "¿Para qué fines ha utilizado el financiamiento?";
     $f1 = array("Compra de materia prima o insumos"=>"","Compra de maquinaria"=>"",
     "Obtener certificaciones"=>"","Mejoras a las instalaciones de la empresa"=>""
     ,"Pago de Planillas"=>"");
-
+    
     $f1["Compra de materia prima o insumos"] = $_POST['f1'];
     $f1["Compra de maquinaria"] = $_POST['f2'];
     $f1["Obtener certificaciones"] = $_POST['f3']; 
     $f1["Mejoras a las instalaciones de la empresa"] = $_POST['f4'];
     $f1["Pago de Planillas"] = $_POST['f5'];
-
+    
     $otro3 = array("Respuesta"=>"", "Detalle"=>"");
-
+    
     $otro3["Respuesta"] = $_POST['f6'];
     $otro3["Detalle"] = $_POST ['t15'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray = serialize($f1);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$fq', '$serializedArray')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
     }
-    else $r41 = "N/A";
+
+    mysqli_close($conn);
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray2 = serialize($otro3);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', 'Otro', '$serializedArray2')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
     }
 
 else if ($cont == 27){
+    $id = $_POST['id'];
     $q43 = "PIV.1 ¿Ha utilizado alguna vez el apoyo de PROCOMER?";
     $r43 = $_POST['r43'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q43', '$r43')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+    }
+
+else if ($cont == 47){
+    $id = $_POST['id'];
     $especifico = "PV.1.1 ¿En cuál o cuáles áreas?";
-    if ($r43 == "si"){
     $re = array("Ferias, misiones comerciales"=>"","Asesoría logística"=>"",
     "Asesoría en el CACEX"=>"","Acceso a estudios"=>""
     ,"Capacitaciones"=>"","Trámites"=>"","Encadenamientos"=>"");
@@ -503,11 +1151,32 @@ else if ($cont == 27){
     $otro4 = array("Respuesta"=>"", "Detalle"=>"");
     $otro4["Respuesta"] = $_POST['z8'];
     $otro4["Detalle"] = $_POST ['otro4'];
-    }
-    else $r43 = "N/A";
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray = serialize($re);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$especifico', '$serializedArray')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
     }
 
+    mysqli_close($conn);
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray2 = serialize($otro4);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', 'Otro', '$serializedArray2')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+}
+
 else if ($cont == 28){
+    $id = $_POST['id'];
     $q44 = "PV.2. ¿Pertenece usted a alguna de las siguientes asociaciones o redes de empresas?";
     $r44 = array("La Red Violeta"=>"","Mujeres en Beta"=>"",
     "De.Mentes"=>"","SuláBatsu"=>""
@@ -527,21 +1196,64 @@ else if ($cont == 28){
     $otro5 = array("Respuesta"=>"", "Detalle"=>"");
     $otro5["Respuesta"] = $_POST['sub10'];
     $otro5["Detalle"] = $_POST ['otro5'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray = serialize($r44);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q44', '$serializedArray')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray2 = serialize($otro5);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', 'Otro', '$serializedArray2')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+
+    $q45 = "PV.3. ¿Ha participado su empresa en eventos, ferias, ruedas de negocio, en los últimos 3 años?";
+    $r45 = $_POST['r45'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray = serialize($r45);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q45', '$r45')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
     }
     
 
 else if ($cont == 29){
-    $q45 = "PV.3. ¿Ha recibido usted y/o su personal capacitación en?";
-    $r45 = $_POST['r45'];
-        if ($r45 == "si"){
-        $q46 = "PV.3.1. Para los que respondieron SÍ en PV.3. ¿En cuáles?";
-        $r46 = $_POST['r46'];
-        }
-    else $r46 = "N/A";
+    $id = $_POST['id'];
+    $q46 = "PV.3.1. Para los que respondieron SÍ en PV.3. ¿En cuáles?";
+    $r46 = $_POST['r46'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q46', '$r46')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
     }
 
 else if ($cont == 30){
-    $q47 = "PV.2. ¿Pertenece usted a alguna de las siguientes asociaciones o redes de empresas?";
+    $id = $_POST['id'];
+    $q47 = "PV.4. ¿Ha recibido usted y/o su personal capacitación en? ";
     $r47 = array("Aspectos técnicos del trabajo"=>"","Asistencia profesional"=>"",
     "Habilidades blandas"=>"");
     
@@ -552,11 +1264,45 @@ else if ($cont == 30){
     $otro6 = array("Respuesta"=>"", "Detalle"=>"");
     $otro6["Respuesta"] = $_POST['sec4'];
     $otro6["Detalle"] = $_POST ['otro6'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray = serialize($r47);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q47', '$serializedArray')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray2 = serialize($otro6);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', 'Otro', '$serializedArray2')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+
+    $q48 = "PV.5. ¿Ha recibido usted y/o su personal capacitación en Programas de fortalecimiento de capacidades para emprendedores o PYMES?";
+    $r48 = $_POST['p1'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q48', '$r48')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
     }
     
 else if ($cont == 31){
-    $q48 = "PV.5. ¿Ha recibido usted y/o su personal capacitación en Programas de fortalecimiento de capacidades para emprendedores o PYMES?";
-    $r48 = $_POST['p1'];
+    $id = $_POST['id'];
     $q49 = "PV.5.1. Para los que respondieron SÍ en PV.5. ¿En cuáles?";
     $r49 = array("Mujeres Emprendedoras MEIC"=>"","Avanzamos INAMU"=>"",
     "Feria Mujeres Empresarias INAMU"=>"","FoMujeres INAMU"=>""
@@ -581,11 +1327,35 @@ else if ($cont == 31){
     $r49["Proyecto MADC"] = $_POST['p13'];
     $r49["Proyecto Procalidad"] = $_POST['p14'];
     
-    $otro["Respuesta"] = $_POST['p15'];
-    $otro["Detalle"] = $_POST['otro7'];
+    $otro7["Respuesta"] = $_POST['p15'];
+    $otro7["Detalle"] = $_POST['otro7'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray = serialize($r49);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q49', '$serializedArray')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray2 = serialize($otro7);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', 'Otro', '$serializedArray2')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
     }
 
 else if ($cont == 32){
+    $id = $_POST['id'];
     $q50 = "PVI.1¿Cuenta su empresa con?";
     $r50 = array("Sitio web propio"=>"","Logo original"=>"",
     "Email corporativo"=>"","Redes sociales"=>""); 
@@ -594,6 +1364,17 @@ else if ($cont == 32){
     $r50["Logo original"] = $_POST['re2'];
     $r50["Email corporativo"] = $_POST['re3'];
     $r50["Redes sociales"] = $_POST['re4'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray = serialize($r50);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q50', '$serializedArray')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
 
     $q501 = "Estudios de mercado";
     $estudios = array("Competencia"=>"","Plan"=>"",
@@ -604,6 +1385,17 @@ else if ($cont == 32){
     $estudios["Libro"] = $_POST['d3'];
     $estudios["Canal de ventas"] = $_POST['d4'];
 
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray2 = serialize($estudios);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q501', '$serializedArray2')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+
     $q502 = "Estrategias a canales de venta";
     $cv = array("Digital"=>"","Detal"=>"",
     "Mayor"=>"","Domicilio"=>"");
@@ -613,16 +1405,39 @@ else if ($cont == 32){
     $cv["Mayor"] = $_POST['v3'];
     $cv["Domicilio"] = $_POST['v4'];
 
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray3 = serialize($cv);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q502', '$serializedArray3')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+
     $q503 = "Proyección de ventas por períodos";
     $p = array("Anuales"=>"","Semestrales"=>"",
     "Trimestrales"=>"");
                     
     $p["Anuales"] = $_POST['pe1'];
     $p["Semestrales"] = $_POST['pe2'];
-    $p["Digitales"] = $_POST['pe3'];
+    $p["Trimestrales"] = $_POST['pe3'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray4 = serialize($r50);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q503', '$serializedArray4')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
     }
 
 else if ($cont == 33){
+    $id = $_POST['id'];
     $q52 = "PVI.3.¿Cuál diría usted que es el mejor aproximado de su volumen de ventas anual actualmente (en colones)?";
     $r52 = array("Nacionales"=>"","Internacionales"=>"");
 
@@ -673,23 +1488,57 @@ else if ($cont == 33){
     else if ($placeholder == "250"){
         $r52["Internacionales"]= "Más de 250 millones";
     }
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray = serialize($r52);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q52', '$serializedArray')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
     
     $q53 = "PVI.4. ¿Diría usted que las ventas del 2018 fueron superiores a las de 2017? ¿En qué proporción?  (%)";
     $r53 = array("Respuesta"=>"","Porcentaje"=>"");
 
     $placeholder = $_POST['rr59'];
 
-        if ($placeholder == "si"){
-            $r53["Respuesta"] = "si";
-            $r53["Porcentaje"] = $_POST['r59'];
-        }
-        else {
+        if ($placeholder == "no"){
             $r53["Respuesta"] = "no";
             $r53["Porcentaje"] = "N/A";
         }
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q53', '$r53["Respuesta"]')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
     }
 
+    mysqli_close($conn);
+
+    }
+
+else if ($cont == 48){
+    $id = $_POST['id'];
+    $r53["Porcentaje"] = $_POST['r59'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', 'Porcentaje', '$r53["Porcentaje"]')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+}
+
 else if ($cont == 34){
+    $id = $_POST['id'];
     $q54 = "PVII.1.A continuación se le presentan un conjunto de frases y le pedimos que indique qué tan de acuerdo está con cada una de esas frases(Favor utilizar la siguiente escala: 1. Muy en desacuerdo 2. Algo en desacuerdo 3. Algo de acuerdo 4. Muy de acuerdo)";
     $r54 = array("1"=>"","2"=>"","3"=>"","4"=>""); 
 
@@ -698,6 +1547,17 @@ else if ($cont == 34){
     $r54["3"]= $_POST['g3'];
     $r54["4"]= $_POST['g4'];
 
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray = serialize($r54);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q54', '$serializedArray')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+
     $q55 = "PVII.1.A continuación se le presentan un conjunto de frases y le pedimos que indique qué tan de acuerdo está con cada una de esas frases(Favor utilizar la siguiente escala: 1. Muy en desacuerdo 2. Algo en desacuerdo 3. Algo de acuerdo 4. Muy de acuerdo)";
     $r55 = array("1"=>"","2"=>"","3"=>"","4"=>""); 
 
@@ -705,9 +1565,21 @@ else if ($cont == 34){
     $r55["2"]= $_POST['q2'];
     $r55["3"]= $_POST['q3'];
     $r55["4"]= $_POST['q4'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray2 = serialize($r55);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q54', '$serializedArray2')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
     }
 
 else if ($cont == 35){
+    $id = $_POST['id'];
     $q56 = "PVII.1.A continuación se le presentan un conjunto de frases y le pedimos que indique qué tan de acuerdo está con cada una de esas frases(Favor utilizar la siguiente escala: 1. Muy en desacuerdo 2. Algo en desacuerdo 3. Algo de acuerdo 4. Muy de acuerdo)";
     $r56 = array("1"=>"","2"=>"","3"=>"","4"=>""); 
     
@@ -715,9 +1587,21 @@ else if ($cont == 35){
     $r56["2"]= $_POST['k2'];
     $r56["3"]= $_POST['k3'];
     $r56["4"]= $_POST['k4'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray = serialize($r56);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q56', '$serializedArray')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
 }
 
 else if ($cont == 36){
+    $id = $_POST['id'];
     $q57 = "PVII.1.A continuación se le presentan un conjunto de frases y le pedimos que indique qué tan de acuerdo está con cada una de esas frases(Favor utilizar la siguiente escala: 1. Muy en desacuerdo 2. Algo en desacuerdo 3. Algo de acuerdo 4. Muy de acuerdo)";
     $r57 = array("1"=>"","2"=>"","3"=>"","4"=>""); 
     
@@ -725,9 +1609,21 @@ else if ($cont == 36){
     $r57["2"]= $_POST['t19'];
     $r57["3"]= $_POST['t20'];
     $r57["4"]= $_POST['t21'];
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray = serialize($r57);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q57', '$serializedArray')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
 }
 
 else if ($cont == 37){
+    $id = $_POST['id'];
     $q58 = "PARTE XI.  DATOS DEL ENTREVISTADO (PARA VALIDACIÓN)";
     $r58 = array("Nombre"=>"","Apellido"=>"","Edad"=>"","Etnia"=>"","Propietario"=>"",
     "Educacion"=>"","Correo"=>"","Posicion"=>"","Provincia"=>"","Canton"=>"","Distrito"=>""); 
@@ -735,7 +1631,7 @@ else if ($cont == 37){
     $r58["Nombre"]= $_POST['t22'];
     $r58["Apellido"]= $_POST['t23'];
     $r58["Edad"]= $_POST['t24'];
-    $r58["Etnia"]= $_POST['t25'];   
+    $r58["Etnia"]= $_POST['etnia'];   
     $r58["Correo"]= $_POST['tr25'];
     $r58["Posicion"]= $_POST['t26'];
     $r58["Provincia"]= $_POST['t27'];
@@ -744,6 +1640,30 @@ else if ($cont == 37){
     $r58["Educacion"]= $_POST['educacion'];
     $r58["Propietario"]= $_POST['propi'];
 
-    print_r($r58);
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $serializedArray = serialize($r58);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q58', '$serializedArray')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '1', '1')";
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    mysqli_close($conn);
+}
+
+else if ($cont == 38){
+    $id = $_POST['id'];
+    echo $id."\n";
 }
 ?>
