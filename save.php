@@ -1717,12 +1717,13 @@ else if ($cont == 48){
 else if ($cont == 34){
     $id = $_POST['id'];
     $q54 = "PVII.1.A continuacion se le presentan un conjunto de frases y le pedimos que indique que tan de acuerdo esta con cada una de esas frases(Favor utilizar la siguiente escala: 1. Muy en desacuerdo 2. Algo en desacuerdo 3. Algo de acuerdo 4. Muy de acuerdo)";
-    $r54 = array("1"=>"","2"=>"","3"=>"","4"=>""); 
+    $r54 = array("Nadie puede velar por mis intereses, a excepcion de mis familiares"=>"","Uno debe tener amistades en todas partes para resolver los problemas"=>"",
+    "Unirse con la gente lo que trae es problemas"=>"","Las leyes las hacen los poderosos para su beneficio"=>""); 
 
-    $r54["1"]= $_POST['g1'];
-    $r54["2"]= $_POST['g2'];
-    $r54["3"]= $_POST['g3'];
-    $r54["4"]= $_POST['g4'];
+    $r54["Nadie puede velar por mis intereses, a excepcion de mis familiares"]= $_POST['g1'];
+    $r54["Uno debe tener amistades en todas partes para resolver los problemas"]= $_POST['g2'];
+    $r54["Unirse con la gente lo que trae es problemas"]= $_POST['g3'];
+    $r54["Las leyes las hacen los poderosos para su beneficio"]= $_POST['g4'];
 
     $conn = new mysqli($servername, $username, $password, $dbname);
     foreach($r54 as $item => $value){
@@ -1741,12 +1742,13 @@ else if ($cont == 34){
     mysqli_close($conn);
 
     $q55 = "PVIII.1.A continuacion se le presentan un conjunto de frases y le pedimos que indique que tan de acuerdo esta con cada una de esas frases(Favor utilizar la siguiente escala: 1. Muy en desacuerdo 2. Algo en desacuerdo 3. Algo de acuerdo 4. Muy de acuerdo)";
-    $r55 = array("1"=>"","2"=>"","3"=>"","4"=>""); 
+    $r55 = array("El rumbo de la vida esta escrito y uno no puede cambiarlo"=>"","La suerte es un factor muy importante para lograr el exito"=>"",
+    "Hay gente con suerte y por eso se le dan las cosas"=>"","Casi siempre el fracaso es por culpa de fuerzas que no controlamos"=>""); 
 
-    $r55["1"]= $_POST['q1'];
-    $r55["2"]= $_POST['q2'];
-    $r55["3"]= $_POST['q3'];
-    $r55["4"]= $_POST['q4'];
+    $r55["El rumbo de la vida esta escrito y uno no puede cambiarlo"]= $_POST['q1'];
+    $r55["La suerte es un factor muy importante para lograr el exito"]= $_POST['q2'];
+    $r55["Hay gente con suerte y por eso se le dan las cosas."]= $_POST['q3'];
+    $r55["Casi siempre el fracaso es por culpa de fuerzas que no controlamos"]= $_POST['q4'];
 
     $conn = new mysqli($servername, $username, $password, $dbname);
     foreach($r55 as $item => $value){
@@ -1768,12 +1770,13 @@ else if ($cont == 34){
 else if ($cont == 35){
     $id = $_POST['id'];
     $q56 = "PIX.1.A continuacion se le presentan un conjunto de frases y le pedimos que indique que tan de acuerdo esta con cada una de esas frases(Favor utilizar la siguiente escala: 1. Muy en desacuerdo 2. Algo en desacuerdo 3. Algo de acuerdo 4. Muy de acuerdo)";
-    $r56 = array("1"=>"","2"=>"","3"=>"","4"=>""); 
+    $r56 = array("Puedo superar momentos dificiles porque ya he pasado por dificultades anteriormente"=>"","Generalmente me las arreglo de una manera u otra"=>"",
+    "Me considero una persona muy optimista y persistente"=>"","Las situaciones estresantes me afectan fisica y emocionalmente"=>""); 
     
-    $r56["1"]= $_POST['k1'];
-    $r56["2"]= $_POST['k2'];
-    $r56["3"]= $_POST['k3'];
-    $r56["4"]= $_POST['k4'];
+    $r56["Puedo superar momentos dificiles porque ya he pasado por dificultades anteriormente"]= $_POST['k1'];
+    $r56["Generalmente me las arreglo de una manera u otra"]= $_POST['k2'];
+    $r56["Me considero una persona muy optimista y persistente"]= $_POST['k3'];
+    $r56["Las situaciones estresantes me afectan fisica y emocionalmente"]= $_POST['k4'];
 
     $conn = new mysqli($servername, $username, $password, $dbname);
     foreach($r56 as $item => $value){
@@ -1795,12 +1798,13 @@ else if ($cont == 35){
 else if ($cont == 36){
     $id = $_POST['id'];
     $q57 = "PIX.1. A continuacion se le presentan un conjunto de frases y le pedimos que las ordene jerarquicamente del 1 al 4, segun su prioridad (asignando 1 al mas importante y 4 al menos importante)";
-    $r57 = array("1"=>"","2"=>"","3"=>"","4"=>""); 
+    $r57 = array("Dar sustento a mi familia y un beneficio a mis empleados"=>"","Posicionar mi establecimiento como el mejor en su ramo"=>""
+    ,"Que los demas valoren mi esfuerzo y me consideren un experto en mi trabajo"=>"","Lograr cada vez mayor crecimiento de mi negocio"=>""); 
     
-    $r57["1"]= $_POST['t18'];
-    $r57["2"]= $_POST['t19'];
-    $r57["3"]= $_POST['t20'];
-    $r57["4"]= $_POST['t21'];
+    $r57["Dar sustento a mi familia y un beneficio a mis empleados"]= $_POST['t18'];
+    $r57["Posicionar mi establecimiento como el mejor en su ramo"]= $_POST['t19'];
+    $r57["Que los demas valoren mi esfuerzo y me consideren un experto en mi trabajo"]= $_POST['t20'];
+    $r57["Lograr cada vez mayor crecimiento de mi negocio"]= $_POST['t21'];
 
     $conn = new mysqli($servername, $username, $password, $dbname);
     foreach($r57 as $item => $value){
