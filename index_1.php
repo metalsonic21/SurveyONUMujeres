@@ -124,12 +124,12 @@
 
     <div class="carousel-item ">
     <div class="form-group row">
-    <div class="col-md-6 offset-md-3">
+    <div class="col-md-5 offset-md-4">
     <label for="inputEmail4">&nbsp;<b>FI.4.¿Usted diría que este negocio es un emprendimiento, MiPyme, o una actividad como profesional independiente?</b></label>
     </div>
     </div>
     
-    <div class="row justify-content-center">  
+    <div class="col-md-5 offset-md-4"">  
     <div align="left">   
     <div class="form-check">
     <input class="form-check-input" type="radio" name="radio4" id="r7" value="1">
@@ -806,19 +806,19 @@
 
   <div class="row justify-content-center">  
   <div align="left">   
-  <div class="form-check">
-  <input class="form-check-input" type="radio" name="radioex2" id="ex3" value="años">
-  <label class="form-check-label" for="ex3">Años</label>
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="ex3">
+  <label class="custom-control-label" for="ex3">Años</label>
   </div>
     
-  <div class="form-check">
-  <input class="form-check-input" type="radio" name="radioex2" id="ex4" value="meses">
-  <label class="form-check-label" for="ex4">Meses</label>
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="ex4">
+  <label class="custom-control-label" for="ex4">Meses</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radioex2" id="ex5" value="no producimos">
-  <label class="form-check-label" for="ex5">No producimos para el mercado laboral</label>
+  <label class="form-check-label" for="ex5">No producimos para el mercado nacional</label>
   </div>
   </div>
   </div>
@@ -831,19 +831,19 @@
 
   <div class="row justify-content-center">  
   <div align="left">
-  <div class="form-check">
-  <input class="form-check-input" type="radio" name="radioex3" id="ex6" value="años">
-  <label class="form-check-label" for="ex6">Años</label>
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="ex6">
+  <label class="custom-control-label" for="ex6">Años</label>
   </div>
     
-  <div class="form-check">
-  <input class="form-check-input" type="radio" name="radioex3" id="ex7" value="meses">
-  <label class="form-check-label" for="ex7">Meses</label>
+  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="ex7">
+  <label class="custom-control-label" for="ex7">Meses</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radioex3" id="ex8" value="no producimos">
-  <label class="form-check-label" for="ex8">No producimos para el mercado laboral</label>
+  <label class="form-check-label" for="ex8">No producimos para el mercado internacional</label>
   </div>
   </div>
   </div>
@@ -884,11 +884,13 @@
   </div>
   </div> 
 
-  <div class="form-row">
-  <div class="col-md-4 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-4 p-3">
   <label for="inputEmail4">BPA (Buenas Prácticas Alimenticias)</label>
   </div>
+  </div>  
 
+  <div class="form-row d-flex justify-content-center">
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio10" id="r25" value="si">
   <label class="form-check-label" for="r25">Sí&nbsp;&nbsp;</label>
@@ -903,13 +905,16 @@
   <input class="form-check-input" type="radio" name="radio10" id="r27" value="en tramite">
   <label class="form-check-label" for="r27">En trámite</label>
   </div>
-  </div>  
+  </div>
+  
 
-  <div class="form-row">
-  <div class="col-md-4 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-4 p-3">
   <label for="inputEmail4">BPM (Buenas Prácticas de Manufactura)</label>
-  </div>  
+  </div>
+  </div>    
 
+  <div class="form-row d-flex justify-content-center">
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio11" id="r28" value="si">
   <label class="form-check-label" for="r28">Sí&nbsp;&nbsp;</label>
@@ -926,11 +931,13 @@
   </div>
   </div>
 
-  <div class="form-row">
-  <div class="col-md-4 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-4 p-3">
   <label for="inputEmail4">Manipulación de alimentos</label>
+  </div> 
   </div>  
 
+  <div class="form-row d-flex justify-content-center">
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio12" id="r31" value="si">
   <label class="form-check-label" for="r31">Sí&nbsp;&nbsp;</label>
@@ -947,11 +954,13 @@
   </div>
   </div>
 
-  <div class="form-row">
-  <div class="col-md-4 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-4 p-3">
   <label for="inputEmail4">HACCP(Análisis de Riesgo y Puntos Críticos de Control)</label>
+  </div>  
   </div>    
                                     
+  <div class="form-row d-flex justify-content-center">
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio13" id="r34" value="si">
   <label class="form-check-label" for="r34">Sí&nbsp;&nbsp;</label>
@@ -968,11 +977,13 @@
   </div>
   </div>
 
-  <div class="form-row">
-  <div class="col-md-4 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-4 p-3">
   <label for="inputEmail4">Certificación Orgánica</label>
+  </div>   
   </div>    
-                                    
+
+  <div class="form-row d-flex justify-content-center">                                   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radioextra5" id="ex12" value="si">
   <label class="form-check-label" for="ex12">Sí&nbsp;&nbsp;</label>
@@ -989,11 +1000,13 @@
   </div>
   </div>
 
-  <div class="form-row">
-  <div class="col-md-4 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-4 p-3">
   <label for="inputEmail4">Fair Trade</label>
+  </div> 
   </div>    
-                                    
+
+  <div class="form-row d-flex justify-content-center">                                    
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radioextra6" id="ex15" value="si">
   <label class="form-check-label" for="ex15">Sí&nbsp;&nbsp;</label>
@@ -1010,11 +1023,13 @@
   </div>
   </div>
 
-  <div class="form-row">
-  <div class="col-md-4 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-4 p-3">
   <label for="inputEmail4">Rain Forest Alliance </label>
+  </div> 
   </div>    
-                                    
+
+  <div class="form-row d-flex justify-content-center">   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radioextra7" id="ex18" value="si">
   <label class="form-check-label" for="ex18">Sí&nbsp;&nbsp;</label>
@@ -1031,11 +1046,13 @@
   </div>
   </div>
 
-  <div class="form-row">
-  <div class="col-md-4 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-4 p-3">
   <label for="inputEmail4">Esencial Costa Rica</label>
+  </div> 
   </div>    
-                                    
+
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radioextra8" id="ex21" value="si">
   <label class="form-check-label" for="ex21">Sí&nbsp;&nbsp;</label>
@@ -1052,11 +1069,13 @@
   </div>
   </div>
 
-  <div class="form-row">
-  <div class="col-md-4 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-4 p-3">
   <label for="inputEmail4">ISO 9001</label>
+  </div> 
   </div>    
-                                    
+
+  <div class="form-row d-flex justify-content-center">                                                          
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radioextra9" id="ex24" value="si">
   <label class="form-check-label" for="ex24">Sí&nbsp;&nbsp;</label>
@@ -1073,11 +1092,13 @@
   </div>
   </div>
 
-  <div class="form-row">
-  <div class="col-md-4 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-4 p-3">
   <label for="inputEmail4">ISO 14001</label>
+  </div> 
   </div>    
-                                    
+
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radioextra10" id="ex27" value="si">
   <label class="form-check-label" for="ex27">Sí&nbsp;&nbsp;</label>
@@ -1095,12 +1116,14 @@
   </div>
 
 
-  <div class="form-row">
-  <div class="col-md-4 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-4 p-3">
   <label for="inputEmail4">Otra</label>
   <input type="text" class="form-control" id="ex30" placeholder="Por favor, detalle" disabled="disable">
+  </div> 
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="rradio13" id="r37" value="si">
   <label class="form-check-label" for="r37">Sí&nbsp;&nbsp;</label>
@@ -1116,10 +1139,6 @@
   <label class="form-check-label" for="r39">En trámite</label>
   </div>
   </div>
-
-
-
-
 
   </div>
   </div>
@@ -1231,11 +1250,13 @@
   </div>  
   </div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Inscripción de la empresa en el Registro Nacional</label>
   </div> 
+  </div> 
 
+  <div class="form-row d-flex justify-content-center">    
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio14" id="r41" value="si">
   <label class="form-check-label" for="r41">Sí&nbsp;&nbsp;</label>
@@ -1247,11 +1268,13 @@
   </div>
   </div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Inscripción de marcas en el Registro Nacional</label>
   </div>  
+  </div> 
 
+  <div class="form-row d-flex justify-content-center">   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio15" id="r43" value="si">
   <label class="form-check-label" for="r43">Sí&nbsp;&nbsp;</label>
@@ -1263,27 +1286,31 @@
   </div>
   </div>
           
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Inscripción en el Ministerio de Hacienda</label>
   </div>  
+  </div> 
 
+  <div class="form-row d-flex justify-content-center"> 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio16" id="r45" value="si">
   <label class="form-check-label" for="r45">Sí&nbsp;&nbsp;</label>
   </div>
-                          
+                    
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio16" id="r46" value="no">
   <label class="form-check-label" for="r46">No</label>
   </div>
   </div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Patente municipal</label>
   </div>    
-                                    
+  </div> 
+
+  <div class="form-row d-flex justify-content-center">              
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio17" id="r47" value="si">
   <label class="form-check-label" for="r47">Sí&nbsp;&nbsp;</label>
@@ -1295,11 +1322,13 @@
   </div>
   </div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Inscripción como patrono ante la CCSS</label>
   </div>  
-                                              
+  </div> 
+
+  <div class="form-row d-flex justify-content-center">                                                          
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio18" id="r49" value="si">
   <label class="form-check-label" for="r49">Sí&nbsp;&nbsp;</label>
@@ -1312,11 +1341,13 @@
   </div>
 
                                                   
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Inscripción y pago de póliza de RT en el INS</label>
+  </div> 
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio19" id="r51" value="si">
   <label class="form-check-label" for="r51">Sí&nbsp;&nbsp;</label>
@@ -1600,11 +1631,13 @@
   </div>  
   </div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Hay preferencia por enfocarse en el mercadolocal</label>
   </div>
+  </div>
 
+  <div class="form-row d-flex justify-content-center">  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio25" id="rr41" value="si">
   <label class="form-check-label" for="rr41">Sí&nbsp;&nbsp;</label>
@@ -1615,11 +1648,13 @@
   <label class="form-check-label" for="rr42">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Considera el riesgo muy alto, tiene temor</label>
   </div>  
+  </div>
 
+  <div class="form-row d-flex justify-content-center">  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio26" id="rr43" value="si">
   <label class="form-check-label" for="rr43">Sí&nbsp;&nbsp;</label>
@@ -1630,11 +1665,13 @@
   <label class="form-check-label" for="rr44">No</label>
   </div></div>        
   
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">El volumen solicitado puede superar sucapacidad productiva</label>
   </div>  
+  </div>
 
+  <div class="form-row d-flex justify-content-center">  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio27" id="rr45" value="si">
   <label class="form-check-label" for="rr45">Sí&nbsp;&nbsp;</label>
@@ -1645,11 +1682,13 @@
   <label class="form-check-label" for="rr46">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4"> Falta de información sobre elmercado destino</label>
   </div>    
-                                    
+  </div>
+
+  <div class="form-row d-flex justify-content-center">  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio28" id="rr47" value="si">
   <label class="form-check-label" for="rr47">Sí&nbsp;&nbsp;</label>
@@ -1661,11 +1700,13 @@
   </div></div>
 
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Falta de contactos comerciales    </label>
   </div>  
-                                              
+  </div>
+
+  <div class="form-row d-flex justify-content-center">                                              
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio29" id="rr49" value="si">
   <label class="form-check-label" for="rr49">Sí&nbsp;&nbsp;</label>
@@ -1677,11 +1718,13 @@
   </div></div>
 
                                                   
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Desconocimiento de instituciones de apoyo</label>
-  </div>  
-                                              
+  </div>
+  </div>
+
+  <div class="form-row d-flex justify-content-center">                                              
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio30" id="rr51" value="si">
   <label class="form-check-label" for="rr51">Sí&nbsp;&nbsp;</label>
@@ -1693,11 +1736,13 @@
   </div></div>
 
                                                         
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Desconocimiento de trámites de exportación y logística    </label>
   </div>  
-                                              
+  </div>
+
+  <div class="form-row d-flex justify-content-center">                                              
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio31" id="rr53" value="si">
   <label class="form-check-label" for="rr53">Sí&nbsp;&nbsp;</label>
@@ -1708,11 +1753,13 @@
   <label class="form-check-label" for="rr54">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Problemas con trámites específicos (Ministerio de Salud, Agricultura, ICAFE, entre otros)   </label>
   </div>  
-                                              
+  </div>
+
+  <div class="form-row d-flex justify-content-center">                                              
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio32" id="rr55" value="si">
   <label class="form-check-label" for="rr55">Sí&nbsp;&nbsp;</label>
@@ -1723,11 +1770,13 @@
   <label class="form-check-label" for="rr56">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Falta de opciones de financiamiento  </label>
   </div>  
-                                              
+  </div>
+
+  <div class="form-row d-flex justify-content-center">                                              
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio33" id="rr57" value="si"> 
   <label class="form-check-label" for="rr57">Sí&nbsp;&nbsp;</label>
@@ -1738,11 +1787,13 @@
   <label class="form-check-label" for="rr58">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Desconocimiento de los requisitos del comprador en cuanto a normas, certificaciones, etiquetado, etc. </label>
   </div>  
-                                              
+  </div>
+
+  <div class="form-row d-flex justify-content-center">                                              
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio34" id="rr59" value="si">
   <label class="form-check-label" for="r59">Sí&nbsp;&nbsp;</label>
@@ -1753,11 +1804,13 @@
   <label class="form-check-label" for="rr60">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Altos costos de producción (agua, electricidad, mano de obra, insumos, etc.) </label>
   </div>  
-                                              
+  </div>
+
+  <div class="form-row d-flex justify-content-center">                                              
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio35" id="rr61" value="si">
   <label class="form-check-label" for="rr61">Sí&nbsp;&nbsp;</label>
@@ -1768,11 +1821,13 @@
   <label class="form-check-label" for="rr62">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Altos costos de logística </label>
-  </div>  
-                                              
+  </div> 
+  </div> 
+
+  <div class="form-row d-flex justify-content-center">                                              
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio36" id="rr63" value="si">
   <label class="form-check-label" for="rr63">Sí&nbsp;&nbsp;</label>
@@ -1783,11 +1838,13 @@
   <label class="form-check-label" for="rr64">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Tipo de cambio </label>
-  </div>                                              
-                                              
+  </div> 
+  </div>                                             
+
+  <div class="form-row d-flex justify-content-center">                                              
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio37" id="rr65" value="si">
   <label class="form-check-label" for="rr65">Sí&nbsp;&nbsp;</label>
@@ -1798,11 +1855,13 @@
   <label class="form-check-label" for="rr66">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Escasez de materia prima o insumos </label>
   </div>  
-                      
+  </div>
+
+  <div class="form-row d-flex justify-content-center">                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio38" id="rr67" value="si">
   <label class="form-check-label" for="rr67">Sí&nbsp;&nbsp;</label>
@@ -1813,11 +1872,13 @@
   <label class="form-check-label" for="rr68">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4"> Alto número de competidores </label>
   </div>  
-                                              
+  </div>
+
+  <div class="form-row d-flex justify-content-center">                                              
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio39" id="rr69" value="si">
   <label class="form-check-label" for="rr69">Sí&nbsp;&nbsp;</label>
@@ -1828,11 +1889,13 @@
   <label class="form-check-label" for="rr70">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Competencia con mejores precios </label>
   </div>  
-                            
+  </div>
+
+  <div class="form-row d-flex justify-content-center">                            
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio40" id="rr71" value="si">
   <label class="form-check-label" for="rr71">Sí&nbsp;&nbsp;</label>
@@ -1843,11 +1906,13 @@
   <label class="form-check-label" for="rr72">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Otro  </label>
   </div>  
-                    
+  </div>
+
+  <div class="form-row d-flex justify-content-center">                    
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio41" id="rr73" value="si">
   <label class="form-check-label" for="rr73">Sí&nbsp;&nbsp;</label>
@@ -1858,8 +1923,8 @@
   <label class="form-check-label" for="rr74">No</label>
   </div></div>
 
-  <div class="row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">¿Cuál?</label>
   <input type="text" class="form-control" id="otro" placeholder="" disabled="disable">
   </div> <!-- div de fila -->
@@ -1917,10 +1982,14 @@
   <label for="inputEmail4"><b>PIV.1.1 ¿Qué tipo de financiamiento?</b></label>
   </div>  
   </div>  
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Recursos propios</label>
+  </div>
   </div>  
+  
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio43" id="r77" value="si">
   <label class="form-check-label" for="r77">Sí&nbsp;&nbsp;</label>
@@ -1931,11 +2000,13 @@
   <label class="form-check-label" for="r78">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Préstamos informales</label>
+  </div>
   </div>  
 
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio44" id="r79" value="si">
   <label class="form-check-label" for="r79">Sí&nbsp;&nbsp;</label>
@@ -1946,11 +2017,13 @@
   <label class="form-check-label" for="r80">No</label>
   </div></div>
           
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Bancos Públicos</label>
+  </div>
   </div>  
 
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio45" id="r81" value="si">
   <label class="form-check-label" for="r81">Sí&nbsp;&nbsp;</label>
@@ -1961,11 +2034,13 @@
   <label class="form-check-label" for="r82">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4"> Préstamos de otras empresas</label>
+  </div>
   </div>    
-                                    
+
+  <div class="form-row d-flex justify-content-center">                                                                        
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio46" id="r83" value="si">
   <label class="form-check-label" for="r83">Sí&nbsp;&nbsp;</label>
@@ -1976,11 +2051,13 @@
   <label class="form-check-label" for="r84">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Bancos privados</label>
+  </div>
   </div>  
-                                            
+
+  <div class="form-row d-flex justify-content-center">                                                                                
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio47" id="r85" value="si">
   <label class="form-check-label" for="r85">Sí&nbsp;&nbsp;</label>
@@ -1991,11 +2068,13 @@
   <label class="form-check-label" for="r86">No</label>
   </div></div>
                                                   
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Tarjetas de crédito</label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio48" id="r87" value="si">
   <label class="form-check-label" for="r87">Sí&nbsp;&nbsp;</label>
@@ -2007,11 +2086,13 @@
   </div></div>
 
                                                                                                   
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Proveedores  </label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio49" id="r89" value="si">
   <label class="form-check-label" for="r89">Sí&nbsp;&nbsp;</label>
@@ -2022,11 +2103,13 @@
   <label class="form-check-label" for="r90">No</label>
   </div></div>
                                              
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Parientes/amigos </label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio50" id="r91" value="si">
   <label class="form-check-label" for="r91">Sí&nbsp;&nbsp;</label>
@@ -2037,11 +2120,13 @@
   <label class="form-check-label" for="r92">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Emisión de acciones </label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio51" id="r93" value="si">
   <label class="form-check-label" for="r93">Sí&nbsp;&nbsp;</label>
@@ -2052,11 +2137,13 @@
   <label class="form-check-label" for="r94">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4"> Cooperativas</label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio52" id="r95" value="si">
   <label class="form-check-label" for="r95">Sí&nbsp;&nbsp;</label>
@@ -2067,11 +2154,13 @@
   <label class="form-check-label" for="r96">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Org de microfinanzas</label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio53" id="r97" value="si">
   <label class="form-check-label" for="r97">Sí&nbsp;&nbsp;</label>
@@ -2082,11 +2171,13 @@
   <label class="form-check-label" for="r98">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Fondos Propyme </label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio54" id="r99" value="si">
   <label class="form-check-label" for="r99">Sí&nbsp;&nbsp;</label>
@@ -2097,11 +2188,13 @@
   <label class="form-check-label" for="r100">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4"> FINADE</label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio55" id="r101" value="si">
   <label class="form-check-label" for="r101">Sí&nbsp;&nbsp;</label>
@@ -2112,11 +2205,13 @@
   <label class="form-check-label" for="r102">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Programa banca para el desarrollo </label>
+  </div>
   </div>  
-                                            
+
+  <div class="form-row d-flex justify-content-center">                                                                                
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio56" id="r103" value="si">
   <label class="form-check-label" for="r103">Sí&nbsp;&nbsp;</label>
@@ -2127,11 +2222,13 @@
   <label class="form-check-label" for="r104">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4"> FOMujeres </label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio57" id="r105" value="si">
   <label class="form-check-label" for="r105">Sí&nbsp;&nbsp;</label>
@@ -2142,11 +2239,13 @@
   <label class="form-check-label" for="r106">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4"> Otras asociaciones </label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio58" id="r107" value="si">
   <label class="form-check-label" for="r107">Sí&nbsp;&nbsp;</label>
@@ -2157,11 +2256,13 @@
   <label class="form-check-label" for="r108">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Otro </label>
+  </div>
   </div>  
-                                   
+
+  <div class="form-row d-flex justify-content-center">                                                                       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio59" id="r109" value="si">
   <label class="form-check-label" for="r109">Sí&nbsp;&nbsp;</label>
@@ -2173,8 +2274,8 @@
   </div></div>                                          
   </div>
 
-  <div class="row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">¿Cuál?</label>
   <input type="text" class="form-control" id="otro2" placeholder="Por favor detalle" disabled="disable">
   </div> <!-- div de fila -->
@@ -2188,10 +2289,13 @@
   </div>  
   </div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Compra de materia prima o insumos</label>
-  </div>  
+  </div>
+  </div>
+  
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio60" id="r110" value="si">
   <label class="form-check-label" for="r110">Sí&nbsp;&nbsp;</label>
@@ -2202,11 +2306,13 @@
   <label class="form-check-label" for="r111">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4"> Compra de maquinaria</label>
+  </div>
   </div>  
 
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio61" id="r112" value="si">
   <label class="form-check-label" for="r112">Sí&nbsp;&nbsp;</label>
@@ -2217,11 +2323,13 @@
   <label class="form-check-label" for="r113">No</label>
   </div></div>
           
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Obtener certificaciones</label>
+  </div>
   </div>  
 
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio62" id="r114" value="si">
   <label class="form-check-label" for="r114">Sí&nbsp;&nbsp;</label>
@@ -2232,11 +2340,13 @@
   <label class="form-check-label" for="r115">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4"> Mejoras a las instalaciones de la empresa</label>
+  </div>
   </div>    
-                                    
+
+  <div class="form-row d-flex justify-content-center">                                                                          
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio63" id="r116" value="si">
   <label class="form-check-label" for="r116">Sí&nbsp;&nbsp;</label>
@@ -2247,11 +2357,13 @@
   <label class="form-check-label" for="r117">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Pago de Planillas</label>
+  </div>
   </div>  
-                                             
+
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio64" id="r118" value="si">
   <label class="form-check-label" for="r118">Sí&nbsp;&nbsp;</label>
@@ -2262,11 +2374,13 @@
   <label class="form-check-label" for="r119">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Otras (esperifique): </label>
   </div>  
-                                              
+  </div>
+  
+  <div class="form-row d-flex justify-content-center">                                                                                    
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio65" id="r120" value="si">
   <label class="form-check-label" for="r120">Sí&nbsp;&nbsp;</label>
@@ -2277,8 +2391,8 @@
   <label class="form-check-label" for="r121">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <input type="text" id="t15" class="form-control" placeholder="Por favor detalle" disabled="disable">
   </div> <!-- Div de columna -->
   </div> <!-- Div de fila -->       
@@ -2314,17 +2428,19 @@
 <!--                              Sección 27E (pag 33)                                       -->
 <!-- Pregunta 43E -->
 <div class="carousel-item ">
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+<div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4"><b>PV.1.1 ¿En cuál o cuáles áreas? </b></label>
   </div>  
   </div>  
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Ferias, misiones comerciales o agendas comerciales</label>
   </div>
+  </div>
 
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio67" id="r122" value="si">
   <label class="form-check-label" for="r122">Sí&nbsp;&nbsp;</label>
@@ -2335,11 +2451,13 @@
   <label class="form-check-label" for="r123">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4"> Asesoría logística</label>
+  </div>
   </div>  
 
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio68" id="r124" value="si">
   <label class="form-check-label" for="r124">Sí&nbsp;&nbsp;</label>
@@ -2350,11 +2468,13 @@
   <label class="form-check-label" for="r125">No</label>
   </div></div>        
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Asesoría en el CACEX, regímenes especiales</label>
+  </div>
   </div>  
 
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio69" id="r126" value="si">
   <label class="form-check-label" for="r126">Sí&nbsp;&nbsp;</label>
@@ -2365,11 +2485,13 @@
   <label class="form-check-label" for="r127">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4"> Acceso a estudios o información de mercado</label>
+  </div>
   </div>    
-                                    
+
+  <div class="form-row d-flex justify-content-center">                                                                        
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio70" id="r128" value="si">
   <label class="form-check-label" for="r128">Sí&nbsp;&nbsp;</label>
@@ -2380,11 +2502,13 @@
   <label class="form-check-label" for="r129">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Capacitaciones</label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio71" id="r130" value="si">
   <label class="form-check-label" for="r130">Sí&nbsp;&nbsp;</label>
@@ -2395,11 +2519,13 @@
   <label class="form-check-label" for="r131">No</label>
   </div></div>
                                                 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Trámites obligatorios o de rutina</label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio72" id="r132" value="si">
   <label class="form-check-label" for="r132">Sí&nbsp;&nbsp;</label>
@@ -2410,11 +2536,13 @@
   <label class="form-check-label" for="r133">No</label>
   </div></div>
                                                                                                     
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Encadenamientos </label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio73" id="r134" value="si">
   <label class="form-check-label" for="r134">Sí&nbsp;&nbsp;</label>
@@ -2425,11 +2553,13 @@
   <label class="form-check-label" for="r135">No</label>
   </div></div>
                                                   
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Otra </label>
   </div>  
-                                              
+  </div>
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio74" id="r136" value="si">
   <label class="form-check-label" for="r136">Sí&nbsp;&nbsp;</label>
@@ -2440,8 +2570,8 @@
   <label class="form-check-label" for="r137">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <input type="text" id="tr15" class="form-control" placeholder="Por favor detalle" disabled="disable">
   </div> <!-- Div de columna -->
   </div> <!-- Div de fila -->   
@@ -2458,11 +2588,13 @@
   </div>  
   </div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">La Red Violeta</label>
   </div>
+  </div>
 
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio75" id="r138" value="si">
   <label class="form-check-label" for="r138">Sí&nbsp;&nbsp;</label>
@@ -2473,11 +2605,13 @@
   <label class="form-check-label" for="r139">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Mujeres en Beta</label>
+  </div>
   </div>  
 
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio76" id="r140" value="si">
   <label class="form-check-label" for="r140">Sí&nbsp;&nbsp;</label>
@@ -2488,11 +2622,13 @@
   <label class="form-check-label" for="r141">No</label>
   </div></div>
           
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">De.Mentes</label>
+  </div>
   </div>  
 
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio77" id="r142" value="si">
   <label class="form-check-label" for="r142">Sí&nbsp;&nbsp;</label>
@@ -2503,11 +2639,13 @@
   <label class="form-check-label" for="r143">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4"> SuláBatsu</label>
+  </div>
   </div>    
-                                    
+
+  <div class="form-row d-flex justify-content-center">                                                                        
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio78" id="r144" value="si">
   <label class="form-check-label" for="r144">Sí&nbsp;&nbsp;</label>
@@ -2518,11 +2656,13 @@
   <label class="form-check-label" for="r145">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Voces Vitales</label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio79" id="r146" value="si">
   <label class="form-check-label" for="r146">Sí&nbsp;&nbsp;</label>
@@ -2533,11 +2673,13 @@
   <label class="form-check-label" for="r147">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Foro de Mujeres Empresarias</label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio80" id="r148" value="si">
   <label class="form-check-label" for="r148">Sí&nbsp;&nbsp;</label>
@@ -2548,11 +2690,13 @@
   <label class="form-check-label" for="r149">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">WeConnect</label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio81" id="r150" value="si">
   <label class="form-check-label" for="r150">Sí&nbsp;&nbsp;</label>
@@ -2563,11 +2707,13 @@
   <label class="form-check-label" for="r151">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Nosotras WeConnecting</label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio82" id="r152" value="si">
   <label class="form-check-label" for="r152">Sí&nbsp;&nbsp;</label>
@@ -2578,11 +2724,13 @@
   <label class="form-check-label" for="r153">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">AED</label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio83" id="r154" value="si">
   <label class="form-check-label" for="r154">Sí&nbsp;&nbsp;</label>
@@ -2593,11 +2741,13 @@
   <label class="form-check-label" for="r155">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Otras (esperifique): </label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                    
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio84" id="r156" value="si">
   <label class="form-check-label" for="r156">Sí&nbsp;&nbsp;</label>
@@ -2608,8 +2758,8 @@
   <label class="form-check-label" for="r157">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <input type="text" id="t16" class="form-control" placeholder="Por favor detalle" disabled="disable">
   </div> <!-- Div de columna -->
   </div> <!-- Div de fila -->   
@@ -2668,10 +2818,13 @@
   </div>  
   </div>
 
-  <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-6 p-3">
   <label for="inputEmail4">Aspectos técnicos del trabajo</label>
-  </div>  
+  </div>
+  </div>
+
+  <div class="form-row d-flex justify-content-center">                                        
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio86" id="r160" value="si">
   <label class="form-check-label" for="r160">Sí&nbsp;&nbsp;</label>
@@ -2682,11 +2835,13 @@
   <label class="form-check-label" for="r161">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-6 p-3">
   <label for="inputEmail4"> Asistencia profesional (Recursos Humanos, Finanzas, Mercadeo, Publicidad)</label>
+  </div>
   </div>  
 
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio87" id="r162" value="si">
   <label class="form-check-label" for="r162">Sí&nbsp;&nbsp;</label>
@@ -2697,11 +2852,13 @@
   <label class="form-check-label" for="r163">No</label>
   </div></div>        
 
-  <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-6 p-3">
   <label for="inputEmail4">Habilidades blandas: liderazgo, manejo de equipos, motivación al logro, inteligencia emocional</label>
+  </div>
   </div>  
 
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio88" id="r164" value="si">
   <label class="form-check-label" for="r164">Sí&nbsp;&nbsp;</label>
@@ -2712,11 +2869,13 @@
   <label class="form-check-label" for="r165">No</label>
   </div></div>                                    
 
-  <div class="form-row">
-  <div class="col-md-6 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-6 p-3">
   <label for="inputEmail4">Otras </label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                    
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio89" id="r166" value="si">
   <label class="form-check-label" for="r166">Sí&nbsp;&nbsp;</label>
@@ -2727,8 +2886,8 @@
   <label class="form-check-label" for="r167">No</label>
   </div></div>
 
-  <div class="row">
-  <div class="col-md-6 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-6 p-3">
   <label for="Nombre"><b>Esperifique</b></label>
   <input type="text" id="tr18" class="form-control" placeholder="Por favor detalle" disabled="disable">
   </div> <!-- Div de columna -->
@@ -2764,17 +2923,19 @@
 
   <div class="carousel-item ">
   <div class="form-group">
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-4 p-3">
   <label for="inputEmail4"><b>PV.5.1. ¿En cuáles? </b></label>
   </div>  
   </div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Mujeres Emprendedoras MEIC</label>
   </div>
+  </div>
 
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio91" id="r168" value="si">
   <label class="form-check-label" for="r168">Sí&nbsp;&nbsp;</label>
@@ -2785,11 +2946,13 @@
   <label class="form-check-label" for="r169">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Avanzamos INAMU</label>
+  </div>
   </div>  
 
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio92" id="r170" value="si">
   <label class="form-check-label" for="r170">Sí&nbsp;&nbsp;</label>
@@ -2800,11 +2963,13 @@
   <label class="form-check-label" for="r171">No</label>
   </div></div>
           
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Feria Mujeres Empresarias INAMU</label>
+  </div>
   </div>  
 
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio93" id="r172" value="si">
   <label class="form-check-label" for="r172">Sí&nbsp;&nbsp;</label>
@@ -2815,11 +2980,13 @@
   <label class="form-check-label" for="r173">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">FoMujeres INAMU</label>
+  </div>
   </div>    
-                                    
+
+  <div class="form-row d-flex justify-content-center">                                                                        
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio94" id="r174" value="si">
   <label class="form-check-label" for="r174">Sí&nbsp;&nbsp;</label>
@@ -2830,11 +2997,13 @@
   <label class="form-check-label" for="r175">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Programa para el Desarrollo de la Mujer Emprendedora - Cámara de Comercio de Costa Rica</label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio95" id="r176" value="si">
   <label class="form-check-label" for="r176">Sí&nbsp;&nbsp;</label>
@@ -2845,11 +3014,13 @@
   <label class="form-check-label" for="r177">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Al Invest- Cámara de Comercio de Costa Rica</label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio96" id="r178" value="si">
   <label class="form-check-label" for="r178">Sí&nbsp;&nbsp;</label>
@@ -2860,11 +3031,13 @@
   <label class="form-check-label" for="r179">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Programa de Liderazgo Ejecutivo de la Mujer INCAE</label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio97" id="r180" value="si">
   <label class="form-check-label" for="r180">Sí&nbsp;&nbsp;</label>
@@ -2875,11 +3048,13 @@
   <label class="form-check-label" for="r181">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Programa Acelera BAC Credomatic</label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio98" id="r182" value="si">
   <label class="form-check-label" for="r182">Sí&nbsp;&nbsp;</label>
@@ -2890,11 +3065,13 @@
   <label class="form-check-label" for="r183">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Mujer 360 Banco Nacional</label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio99" id="r184" value="si">
   <label class="form-check-label" for="r184">Sí&nbsp;&nbsp;</label>
@@ -2905,11 +3082,13 @@
   <label class="form-check-label" for="r185">No</label>
   </div></div>
   
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">VV Grow de Voces Vitales</label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio100" id="r186" value="si">
   <label class="form-check-label" for="r186">Sí&nbsp;&nbsp;</label>
@@ -2920,11 +3099,13 @@
   <label class="form-check-label" for="r187">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4"> Proyecto Emprende Inamu, MEIC, INAMU</label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio101" id="r188" value="si">
   <label class="form-check-label" for="r188">Sí&nbsp;&nbsp;</label>
@@ -2935,11 +3116,13 @@
   <label class="form-check-label" for="r189">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Proyecto MADC Iniciativa Dinámica BCIE y UE</label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                  
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio102" id="r190" value="si">
   <label class="form-check-label" for="r190">Sí&nbsp;&nbsp;</label>
@@ -2950,11 +3133,13 @@
   <label class="form-check-label" for="r191">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4"> Proyecto Procalidad MEIC, UE</label>
-  </div>  
-                                              
+  </div>
+  </div>
+
+  <div class="form-row d-flex justify-content-center">                                                                                    
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio103" id="r192" value="si">
   <label class="form-check-label" for="r192">Sí&nbsp;&nbsp;</label>
@@ -2965,11 +3150,13 @@
   <label class="form-check-label" for="r193">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Otras (esperifique): </label>
+  </div>
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                    
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio104" id="r194" value="si">
   <label class="form-check-label" for="r194">Sí&nbsp;&nbsp;</label>
@@ -2980,8 +3167,8 @@
   <label class="form-check-label" for="r195">No</label>
   </div></div>
   
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <input type="text" id="tr19" class="form-control" placeholder="Por favor detalle" disabled="disable">
   </div> <!-- Div de columna -->
   </div> <!-- Div de fila -->                                                
@@ -2993,24 +3180,26 @@
 <!-- Pregunta 50 -->
   <div class="carousel-item ">
   <div class="form-group">
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-4 p-3">
   <label for="inputEmail4"><b>PARTE VI. MERCADEO Y VENTAS </b></label>
   </div>  
   </div>  
 
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4"><b>PVI.1¿Cuenta su empresa con? </b></label>
   </div>  
   </div>  
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4"> Sitio web propio</label>
+  </div> 
   </div>  
 
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio105" id="r196" value="si">
   <label class="form-check-label" for="r196">Sí&nbsp;&nbsp;</label>
@@ -3021,11 +3210,13 @@
   <label class="form-check-label" for="r197">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Logo original</label>
   </div>
+  </div> 
 
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio106" id="r198" value="si">
   <label class="form-check-label" for="r198">Sí&nbsp;&nbsp;</label>
@@ -3036,11 +3227,13 @@
   <label class="form-check-label" for="r199">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4"> Email corporativo</label>
   </div>
+  </div> 
 
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio107" id="r200" value="si">
   <label class="form-check-label" for="r200">Sí&nbsp;&nbsp;</label>
@@ -3051,11 +3244,13 @@
   <label class="form-check-label" for="r201">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4"> Redes sociales (FB, IG, etc.)</label>
+  </div> 
   </div>  
-  
+
+  <div class="form-row d-flex justify-content-center">                                        
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio108" id="r202" value="si">
   <label class="form-check-label" for="r202">Sí&nbsp;&nbsp;</label>
@@ -3070,23 +3265,25 @@
   <!-- Pregunta 51 -->
 
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4"><b>PVI.2¿Tiene su empresa establecidas las siguientes estrategias?  </b></label>
   </div>  
   </div>  
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4"><b>Estrategias de diferenciación de sus productos:</b></label>
   </div>  
   </div>  
   
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4"> Estudios de mercado</label>
   </div>  
-  
+  </div>  
+
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio109" id="r204" value="si">
   <label class="form-check-label" for="r204">Sí&nbsp;&nbsp;</label>
@@ -3097,11 +3294,13 @@
   <label class="form-check-label" for="r205">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Estudios de la competencia</label>
   </div>  
+  </div>  
 
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio110" id="r206" value="si">
   <label class="form-check-label" for="r206">Sí&nbsp;&nbsp;</label>
@@ -3112,11 +3311,13 @@
   <label class="form-check-label" for="r207">No</label>
   </div></div>
           
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Plan de mercadeo</label>
   </div>  
+  </div>  
 
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio111" id="r208" value="si">
   <label class="form-check-label" for="r208">Sí&nbsp;&nbsp;</label>
@@ -3127,11 +3328,13 @@
   <label class="form-check-label" for="r209">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Libro de marca</label>
+  </div>  
   </div>    
-                                    
+
+  <div class="form-row d-flex justify-content-center">                                                                        
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio112" id="r210" value="si">
   <label class="form-check-label" for="r210">Sí&nbsp;&nbsp;</label>
@@ -3142,17 +3345,19 @@
   <label class="form-check-label" for="r211">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4"><b>Estrategias a canales de venta:</b></label>
   </div>  
   </div>  
   
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Venta digital</label>
   </div>  
-  
+  </div>  
+
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio113" id="r212" value="si">
   <label class="form-check-label" for="r212">Sí&nbsp;&nbsp;</label>
@@ -3163,11 +3368,13 @@
   <label class="form-check-label" for="r213">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Venta al detalle </label>
   </div>  
+  </div>  
 
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio114" id="r214" value="si">
   <label class="form-check-label" for="r214">Sí&nbsp;&nbsp;</label>
@@ -3178,11 +3385,13 @@
   <label class="form-check-label" for="r215">No</label>
   </div></div>
           
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Venta al mayor</label>
   </div>  
+  </div>  
 
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio115" id="r216" value="si">
   <label class="form-check-label" for="r216">Sí&nbsp;&nbsp;</label>
@@ -3193,11 +3402,13 @@
   <label class="form-check-label" for="r217">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Venta a domicilio</label>
+  </div>  
   </div>    
-                                    
+  
+  <div class="form-row d-flex justify-content-center">                                                                        
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio116" id="r218" value="si">
   <label class="form-check-label" for="r218">Sí&nbsp;&nbsp;</label>
@@ -3210,17 +3421,19 @@
 
 <!-- Pregunta 52 --> 
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4"><b>Proyección de ventas por períodos:</b></label>
   </div>  
   </div>  
   
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4"> Anuales</label>
+  </div> 
   </div>  
-  
+
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio117" id="r220" value="si">
   <label class="form-check-label" for="r220">Sí&nbsp;&nbsp;</label>
@@ -3231,11 +3444,13 @@
   <label class="form-check-label" for="r221">No</label>
   </div></div>
 
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Semestrales</label>
+  </div> 
   </div>  
-
+  
+  <div class="form-row d-flex justify-content-center">                                      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio118" id="r222" value="si">
   <label class="form-check-label" for="r222">Sí&nbsp;&nbsp;</label>
@@ -3246,11 +3461,13 @@
   <label class="form-check-label" for="r223">No</label>
   </div></div>
           
-  <div class="form-row">
-  <div class="col-md-5 offset-md-3">
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
   <label for="inputEmail4">Trimestrales </label>
+  </div> 
   </div>  
-                                              
+
+  <div class="form-row d-flex justify-content-center">                                                                                    
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio119" id="r224" value="si">
   <label class="form-check-label" for="r224">Sí&nbsp;&nbsp;</label>
@@ -4814,7 +5031,7 @@
 
 
         if (countClicks == 15){
-          var fi1,fi2,fi3;
+          var fi1="", fi11="", fi111="", fi2="", fi22="", fi222="", fi3="", fi33="", fi333="";
           var prox = false;
 
           if (document.getElementById('ex3').checked || document.getElementById('ex4').checked || 
@@ -4826,25 +5043,55 @@
                 prox = true;
               }
 
+              $('#ex3').click(function(){ 
+              $("#ex5").prop('disabled', true);
+              if (!$(this).is(':checked')){
+                $("#ex5").prop('disabled', false);
+              }
+            });
+
+            
+            $('#ex4').click(function(){ 
+              $("#ex5").prop('disabled', true);
+              if (!$(this).is(':checked')){
+                $("#ex5").prop('disabled', false);
+              }
+            });
+
+            $('#ex6').click(function(){ 
+              $("#ex8").prop('disabled', true);
+              if (!$(this).is(':checked')){
+                $("#ex8").prop('disabled', false);
+              }
+            });
+
+            $('#ex7').click(function(){ 
+              $("#ex8").prop('disabled', true);
+              if (!$(this).is(':checked')){
+                $("#ex8").prop('disabled', false);
+              }
+            });
+
+
 
               if (document.getElementById('ex3').checked) {
                 fi1 = document.getElementById('ex3').value;
                 }
                 else if (document.getElementById('ex4').checked) {
-                fi1 = document.getElementById('ex4').value;
+                fi11 = document.getElementById('ex4').value;
                 }
                 else if (document.getElementById('ex5').checked) {
-                fi1 = document.getElementById('ex5').value;
+                fi111 = document.getElementById('ex5').value;
                 }
           
                 if (document.getElementById('ex6').checked) {
                 fi2 = document.getElementById('ex6').value;
                 }
                 else if (document.getElementById('ex7').checked) {
-                fi2 = document.getElementById('ex7').value;
+                fi22 = document.getElementById('ex7').value;
                 }
                 else if (document.getElementById('ex8').checked) {
-                fi2 = document.getElementById('ex8').value;
+                fi222 = document.getElementById('ex8').value;
                 }
 
                 if (document.getElementById('ex9').checked) {
@@ -4863,7 +5110,7 @@
       $.ajax({
         type:"POST",
         url:"save.php",
-        data: {cont: countClicks,fi1:fi1,fi2:fi2,fi3:fi3,id:id},
+        data: {cont: countClicks,fi1:fi1,fi11:fi11,fi111:fi111,fi2:fi2,fi22:fi22,fi222:fi222,fi3:fi3,id:id},
         success: function(data){
         }
         });
@@ -7793,6 +8040,7 @@
     etnia = document.getElementById('ex41').value;
     }
     if (prox){
+        
       enter = 0;
       $.ajax({
         type:"POST",
@@ -7800,8 +8048,11 @@
         data: {cont: countClicks,tr25:tr25,t22:t22,t23:t23,t24:t24,t26:t26,t27:t27,
         t28:t28,t29:t29,educacion:educacion,propi:propi,etnia:etnia,id:id},
         success: function(data){
+        
         }
+
         });
+           alert("Ha llegado al final de la encuesta");
         countClicks = 38;
       }
 
@@ -7835,11 +8086,76 @@
   </header>
 
   <!-- Portfolio Grid Section -->
-  <section class="portfolio" id="portfolio">
+  <section class="portfolio" id="portfolio"style="padding-top: 0px;">
     <div class="container">
-      <hr class="star-dark mb-5">
+        
+      <hr class="star-dark mb-5"> 
+      <div style="display: flex; justify-content: center; color: #FF0000;">
+            <span style="color: #2c3e50;;">Programa Ganar-Ganar: La igualdad de género es un buen negocio.<br><br><br></span>
+      </div>
+      
+      <div class="row"> 
+      
+       <div class="col-sm-3">
+          
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+            
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/win.png" alt="">
+         
+        </div>
+        
+        <div class="col-sm-3">
+          
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+            
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/oit.png" alt="" width="250" height="250">
+         
+        </div>
+        
+        <div class="col-sm-3">
+          
+            <div class="portfolio-item-caption d-flex position-absolute h-50 w-50">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+            
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/UE.png" alt="" width="200" height="200">
+         
+        </div>
+      
+
+        <div class="col-sm-3">
+          
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+            
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/onu.png" alt="" >
+          
+        </div>
+        
+      </div>
+      
+      <hr class="star-dark mb-5"> 
+      
+      <section class="portfolio" id="portfolio" style="padding-top: 0px;">
+    <div class="container">
+        
+        
+        <div style="display: flex; justify-content: center; color: #FF0000;">
+            <span style="color: #2c3e50;">En colaboración con:</span>
+        </div>
+        
       <div class="row">
-        <div class="col-md-6 col-lg-4">
+
+         <div class="col-md-6">
           
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -7849,7 +8165,7 @@
             <img class="img-fluid" src="img/portfolio/pro.jpg" alt="">
          
         </div>
-        <div class="col-md-6 col-lg-4">
+        <div class="col-md-7 col-lg-4">
           
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -7859,19 +8175,17 @@
             <img class="img-fluid" src="img/portfolio/esencial.jpg" alt="">
           
         </div>
-        <div class="col-md-6 col-lg-4">
-         
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-            
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/onu.png" alt="">
-         
-        </div>
         
       </div>
+      
+      
     </div>
+    
+    <div class="row justify-content-center">
+        <pre><a href="http://corporacionjsk.es" target="_blank" style="color: #2c3e50; width:500px; height: 52px;">Hecho por Corporación JSK</a></pre>
+    </div>
+    
+    
   </section>
 
 

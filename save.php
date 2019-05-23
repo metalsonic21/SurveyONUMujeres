@@ -3,9 +3,9 @@
 $id;
 $cont = $_POST['cont'];
 $servername = "localhost";
-$username = "root";
-$password = "metalsonic21";
-$dbname = "surveyonumujeres";
+$username = "x77amyca";
+$password = "anibal..81..99";
+$dbname = "x77amyca_encuesta";
 
 if ($cont == 0){
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -562,10 +562,40 @@ else if ($cont == 14){
 else if ($cont == 15){
     $id = $_POST['id'];
     $q21 = "Cuanto tiempo tiene de producir para el mercado nacional?";
-    $r21 = $_POST['fi1'];
+    $r21 = array("Años"=>"","Meses"=>"","No producimos para el mercado nacional"=>"");
+    $temp=$_POST['fi1'];
+        if ($temp == ""){
+            $r21["Años"]="N/A";
+        }
+        else{
+            $r21["Años"]="Si";
+        }
+
+    $temp=$_POST['fi11'];
+        if ($temp == ""){
+            $r21["Meses"]="N/A";
+        }
+        else{
+            $r21["Meses"]="Si";
+        }
+
+    $temp=$_POST['fi11'];
+        if ($temp == ""){
+            $r21["No producimos para el mercado nacional"]="N/A";
+        }
+
+        else{
+            $r21["No producimos para el mercado nacional"]="Si";
+        }
+
+        foreach($r21 as $item => $value){
+            $serializedArray .= $item . ":" . $value .";";
+        }
+    
+        $serializedArray = substr ($serializedArray, 0, strlen($serializedArray) - 1);
 
     $conn = new mysqli($servername, $username, $password, $dbname);
-    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q21', '$r21')";
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q21', '$serializedArray')";
     if ($conn->query($sql) === TRUE) {
         echo "New record created successfully";
     } else {
@@ -575,10 +605,40 @@ else if ($cont == 15){
     mysqli_close($conn);
 
     $q22 = "Cuanto tiempo de producir para el mercado internacional?";
-    $r22 = $_POST['fi2'];
+    $r22 = array("Años"=>"","Meses"=>"","No producimos para el mercado internacional"=>"");
+    $temp=$_POST['fi2'];
+        if ($temp == ""){
+            $r22["Años"]="N/A";
+        }
+        else{
+            $r22["Años"]="Si";
+        }
+
+    $temp=$_POST['fi22'];
+        if ($temp == ""){
+            $r22["Meses"]="N/A";
+        }
+        else{
+            $r22["Meses"]="Si";
+        }
+
+    $temp=$_POST['fi222'];
+        if ($temp == ""){
+            $r22["No producimos para el mercado internacional"]="N/A";
+        }
+
+        else{
+            $r22["No producimos para el mercado internacional"]="Si";
+        }
+
+        foreach($r22 as $item => $value){
+            $serializedArray2 .= $item . ":" . $value .";";
+        }
+    
+        $serializedArray2 = substr ($serializedArray2, 0, strlen($serializedArray2) - 1);
 
     $conn = new mysqli($servername, $username, $password, $dbname);
-    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q22', '$r22')";
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q22', '$serializedArray2')";
     if ($conn->query($sql) === TRUE) {
         echo "New record created successfully";
     } else {
@@ -1822,6 +1882,8 @@ else if ($cont == 36){
     }
 
     mysqli_close($conn);
+    
+
 }
 
 else if ($cont == 37){
@@ -1856,7 +1918,9 @@ else if ($cont == 37){
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
 
-    mysqli_close($conn);
+
+
+    mysqli_close($conn); 
 
     $conn = new mysqli($servername, $username, $password, $dbname);
     $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '1', '1')";
@@ -1866,7 +1930,7 @@ else if ($cont == 37){
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
 
-    mysqli_close($conn);
+    mysqli_close($conn); 
 }
 
 else if ($cont == 38){
