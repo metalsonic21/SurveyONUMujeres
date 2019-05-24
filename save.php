@@ -562,40 +562,10 @@ else if ($cont == 14){
 else if ($cont == 15){
     $id = $_POST['id'];
     $q21 = "Cuanto tiempo tiene de producir para el mercado nacional?";
-    $r21 = array("Años"=>"","Meses"=>"","No producimos para el mercado nacional"=>"");
-    $temp=$_POST['fi1'];
-        if ($temp == ""){
-            $r21["Años"]="N/A";
-        }
-        else{
-            $r21["Años"]="Si";
-        }
-
-    $temp=$_POST['fi11'];
-        if ($temp == ""){
-            $r21["Meses"]="N/A";
-        }
-        else{
-            $r21["Meses"]="Si";
-        }
-
-    $temp=$_POST['fi11'];
-        if ($temp == ""){
-            $r21["No producimos para el mercado nacional"]="N/A";
-        }
-
-        else{
-            $r21["No producimos para el mercado nacional"]="Si";
-        }
-
-        foreach($r21 as $item => $value){
-            $serializedArray .= $item . ":" . $value .";";
-        }
-    
-        $serializedArray = substr ($serializedArray, 0, strlen($serializedArray) - 1);
+    $r21 = $_POST['fi1'];
 
     $conn = new mysqli($servername, $username, $password, $dbname);
-    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q21', '$serializedArray')";
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q21', '$r21')";
     if ($conn->query($sql) === TRUE) {
         echo "New record created successfully";
     } else {
@@ -605,40 +575,10 @@ else if ($cont == 15){
     mysqli_close($conn);
 
     $q22 = "Cuanto tiempo de producir para el mercado internacional?";
-    $r22 = array("Años"=>"","Meses"=>"","No producimos para el mercado internacional"=>"");
-    $temp=$_POST['fi2'];
-        if ($temp == ""){
-            $r22["Años"]="N/A";
-        }
-        else{
-            $r22["Años"]="Si";
-        }
-
-    $temp=$_POST['fi22'];
-        if ($temp == ""){
-            $r22["Meses"]="N/A";
-        }
-        else{
-            $r22["Meses"]="Si";
-        }
-
-    $temp=$_POST['fi222'];
-        if ($temp == ""){
-            $r22["No producimos para el mercado internacional"]="N/A";
-        }
-
-        else{
-            $r22["No producimos para el mercado internacional"]="Si";
-        }
-
-        foreach($r22 as $item => $value){
-            $serializedArray2 .= $item . ":" . $value .";";
-        }
-    
-        $serializedArray2 = substr ($serializedArray2, 0, strlen($serializedArray2) - 1);
+    $r22 = $_POST['fi2'];
 
     $conn = new mysqli($servername, $username, $password, $dbname);
-    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q22', '$serializedArray2')";
+    $sql = "INSERT INTO encuesta (id, pregunta, respuesta) VALUES ('$id', '$q22', '$r22')";
     if ($conn->query($sql) === TRUE) {
         echo "New record created successfully";
     } else {
