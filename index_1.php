@@ -893,7 +893,6 @@
   </div>
   </div>
 
-
 <!--                              Sección 16                                        -->
 <!-- Pregunta 24 -->
 <div class="carousel-item ">
@@ -1256,7 +1255,7 @@
 <!--                              Sección 18  (pág 19)                                      -->
 <!-- Pregunta 29 -->
 
-<div class="carousel-item ">
+  <div class="carousel-item ">
   <div class="form-group row">
   <div class="col-md-6 offset-md-3">
   <label for="inputEmail4"><b>PARTE III. FORMALIZACIÓN E INTERNACIONALIZACIÓN</b></label>
@@ -1644,7 +1643,7 @@
 
 <!--                              Sección 25 (pag 29)                                       -->
 <!-- Pregunta 39 -->
-<div class="carousel-item ">
+  <div class="carousel-item ">
   <div class="form-group row">
   <div class="col-md-6 offset-md-3">
   <label for="inputEmail4"><b>PIII.4.7 ¿Cuáles considera ud que son las principales limitaciones al momento de exportar? </b></label>
@@ -1951,7 +1950,6 @@
   </div> <!-- div de columna -->                                          
   </div>
 
-
 <!--                              Sección 26 (pag 30)                                       -->
 <!-- Pregunta 40 -->
 
@@ -1989,10 +1987,13 @@
   </div> <!-- Div carousel -->
 
 
+<!--                              Sección 26E (pag 31)                                       -->
+<!-- Pregunta 40 -->
+
  <!--                              Sección 26E (pag 31)                                       -->
 <!-- Pregunta 40 -->
 
-<div class="carousel-item ">   
+  <div class="carousel-item ">   
   <div class="col-md-12">  
   <div class="form-group">
   <div class="form-row">
@@ -2299,6 +2300,124 @@
   </div> <!-- div de fila -->
   </div> <!-- div de columna -->                                          
 
+<!--  Pregunta 41   -->  
+  <div class="form-group">
+  <div class="form-row">
+  <div class="col-md-5 offset-md-3">
+  <label for="inputEmail4"><b>PIV.1.2 ¿Para qué fines ha utilizado el financiamiento?</b></label>
+  </div>  
+  </div>
+
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
+  <label for="inputEmail4">Compra de materia prima o insumos</label>
+  </div>
+  </div>
+  
+  <div class="form-row d-flex justify-content-center">                                      
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio60" id="r110" value="si">
+  <label class="form-check-label" for="r110">Sí&nbsp;&nbsp;</label>
+  </div>
+      
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio60" id="r111" value="no">
+  <label class="form-check-label" for="r111">No</label>
+  </div></div>
+
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
+  <label for="inputEmail4"> Compra de maquinaria</label>
+  </div>
+  </div>  
+
+  <div class="form-row d-flex justify-content-center">                                      
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio61" id="r112" value="si">
+  <label class="form-check-label" for="r112">Sí&nbsp;&nbsp;</label>
+  </div>
+                
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio61" id="r113" value="no">
+  <label class="form-check-label" for="r113">No</label>
+  </div></div>
+          
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
+  <label for="inputEmail4">Obtener certificaciones</label>
+  </div>
+  </div>  
+
+  <div class="form-row d-flex justify-content-center">                                      
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio62" id="r114" value="si">
+  <label class="form-check-label" for="r114">Sí&nbsp;&nbsp;</label>
+  </div>
+                          
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio62" id="r115" value="no">
+  <label class="form-check-label" for="r115">No</label>
+  </div></div>
+
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
+  <label for="inputEmail4"> Mejoras a las instalaciones de la empresa</label>
+  </div>
+  </div>    
+
+  <div class="form-row d-flex justify-content-center">                                                                          
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio63" id="r116" value="si">
+  <label class="form-check-label" for="r116">Sí&nbsp;&nbsp;</label>
+  </div>
+                                    
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio63" id="r117" value="no">
+  <label class="form-check-label" for="r117">No</label>
+  </div></div>
+
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
+  <label for="inputEmail4">Pago de Planillas</label>
+  </div>
+  </div>  
+
+  <div class="form-row d-flex justify-content-center">                                      
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio64" id="r118" value="si">
+  <label class="form-check-label" for="r118">Sí&nbsp;&nbsp;</label>
+  </div>
+                                              
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio64" id="r119" value="no">
+  <label class="form-check-label" for="r119">No</label>
+  </div></div>
+
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
+  <label for="inputEmail4">Otras (esperifique): </label>
+  </div>  
+  </div>
+  
+  <div class="form-row d-flex justify-content-center">                                                                                    
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio65" id="r120" value="si">
+  <label class="form-check-label" for="r120">Sí&nbsp;&nbsp;</label>
+  </div>
+                                              
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio65" id="r121" value="no">
+  <label class="form-check-label" for="r121">No</label>
+  </div></div>
+
+  <div class="form-row d-flex justify-content-center">
+  <div class="col-md-5 p-3">
+  <input type="text" id="t15" class="form-control" placeholder="Por favor detalle" disabled="disable">
+  </div> <!-- Div de columna -->
+  </div> <!-- Div de fila -->       
+  </div>
+  </div>
+  </div>
 
 
 <!--                              Sección 27 (pag 32)                                       -->
@@ -2480,7 +2599,7 @@
 <!--                              Sección 28 (pag 34)                                        -->
 <!-- Pregunta 44 -->
 
-<div class="carousel-item ">
+  <div class="carousel-item ">
   <div class="form-group">
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
@@ -2818,35 +2937,10 @@
   </div>
 
 
-
-<!-- Pregunta 47 -->
-  <div class="form-row">
-  <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4"><b>PV.5. ¿Ha recibido usted y/o su personal capacitación en programas de fortalecimiento de capacidades para emprendedores o PYMES? </b></label>
-  </div>  
-  </div>
-
-  <div class="row justify-content-center">  
-  <div align="left">   
-  <div class="form-check">
-  <input class="form-check-input" type="radio" name="radio90" id="rr168" value="si">
-  <label class="form-check-label" for="rr168">Sí&nbsp;&nbsp;</label>
-  </div>
-      
-  <div class="form-check">
-  <input class="form-check-input" type="radio" name="radio90" id="rr169" value="no">
-  <label class="form-check-label" for="rr169">No</label>
-  </div>
-  </div> 
-  </div>                                                
-  </div>
-  </div>
-
-
 <!--                              Sección 31 (pag 37)                                        -->
 <!-- Pregunta 48 -->
 
-<div class="carousel-item ">
+  <div class="carousel-item ">
   <div class="form-group">
   <div class="form-row d-flex justify-content-center">
   <div class="col-md-4 p-3">
@@ -3101,10 +3195,9 @@
   </div>
 
 
-
 <!--                              Sección 32 (pag 38)                                        -->
 <!-- Pregunta 50 -->
-<div class="carousel-item ">
+  <div class="carousel-item ">
   <div class="form-group">
   <div class="form-row d-flex justify-content-center">
   <div class="col-md-4 p-3">
@@ -3408,7 +3501,6 @@
 
 
 
-
 <!--                              Sección 33  (pag 39)                                       -->
 <!-- Pregunta 52 -->
 
@@ -3639,7 +3731,7 @@
         <option>97</option>
         <option>98</option>
         <option>99</option>
-        <option>100</option>
+        <option>1000</option>
   </select>    
   </div>
   </div>
@@ -4961,10 +5053,10 @@
           var fi1="",fi2="",fi3, temp, verify, verify2;
           var prox = false;
 
-          if (document.getElementById('ex5').checked || document.getElementById('ex3').value != "" && 
-          document.getElementById('ex4').value != "")
-            if (document.getElementById('ex8').checked || document.getElementById('ex6').value != "" && 
-            document.getElementById('ex7').value != "")
+          if (document.getElementById('ex5').checked || (document.getElementById('ex3').value != "" || 
+          document.getElementById('ex4').value != ""))
+            if (document.getElementById('ex8').checked || (document.getElementById('ex6').value != "" || 
+            document.getElementById('ex7').value != ""))
               if (document.getElementById('ex9').checked || document.getElementById('ex10').checked ||
               document.getElementById('ex11').checked){
                 prox = true;
@@ -4977,13 +5069,13 @@
                 else if (document.getElementById('trigger').checked) {
                 verify = document.getElementById('ex3').value;
                 var placeholder = parseInt(verify,10);
-                  if (isNaN(placeholder)){
+                  if (isNaN(placeholder) && verify != ""){
                     prox = false;
                     alert("En el campo de Años/Meses debe ingresar un número entero");
                   }
                   verify2 = document.getElementById('ex4').value;
                   var placeholder = parseInt(verify2,10);
-                  if (isNaN(placeholder)){
+                  if (isNaN(placeholder) && verify2 != ""){
                     prox = false;
                     alert("En el campo de Años/Meses debe ingresar un número entero");
                   }
@@ -4991,8 +5083,12 @@
                     prox = false;
                     alert("Formato inválido, debería ser: [Años] [1-11]Meses");
                   }
-
+                  if (verify != "" && verify2 != "")
                   fi1 = document.getElementById('ex3').value + " Años " + document.getElementById('ex4').value + " Meses";
+                  else if (verify == "")
+                  fi1 = document.getElementById('ex4').value + " Meses";
+                  else if (verify2 == "")
+                  fi1 = document.getElementById('ex3').value + " Años ";
                 }
           
                 if (document.getElementById('ex8').checked) {
@@ -5001,13 +5097,13 @@
                 else if (document.getElementById('itrigger').checked){
                   verify = document.getElementById('ex6').value;
                 var placeholder = parseInt(verify,10);
-                  if (isNaN(placeholder)){
+                  if (isNaN(placeholder) && verify != ""){
                     prox = false;
                     alert("En el campo de Años/Meses debe ingresar un número entero");
                   }
                   verify2 = document.getElementById('ex7').value;
                   var placeholder = parseInt(verify2,10);
-                  if (isNaN(placeholder)){
+                  if (isNaN(placeholder) && verify2 != ""){
                     prox = false;
                     alert("En el campo de Años/Meses debe ingresar un número entero");
                   }
@@ -5015,8 +5111,12 @@
                     prox = false;
                     alert("Formato inválido, debería ser: [Años] [1-11]Meses");
                   }
-
+                  if (verify != "" && verify != "")
                   fi2 = document.getElementById('ex6').value + " Años " + document.getElementById('ex7').value + " Meses";
+                  else if (verify == "")
+                  document.getElementById('ex7').value + " Meses";
+                  else if (verify2 == "")
+                  fi2 = document.getElementById('ex6').value + " Años ";
                 }
 
                 if (document.getElementById('ex9').checked) {
@@ -5644,7 +5744,7 @@
 
       if (prox && skip){ 
         enter = 0;
-      $("#carouselExampleControls").carousel(24);
+      $("#carouselExampleControls").carousel(25);
       $.ajax({
         type:"POST",
         url:"save.php",
@@ -5652,7 +5752,7 @@
         success: function(data){
         }
         });
-        countClicks = 21;
+        countClicks = 22;
         }
 
         else if (!prox && !skip){
@@ -7915,7 +8015,7 @@
               tr25 = document.getElementById("tr25").value;
               var validE;
               validE = looksLikeMail(String(tr25));
-                if (!validE){
+                if (!validE && tr25 != ""){
                   error = true;
                   prox = false;
                   alert("Por favor ingrese una dirección de correo electrónico válida: ejemplo@ejemplo.com");
