@@ -2,10 +2,15 @@
 <?php
 $id;
 $cont = $_POST['cont'];
-$servername = "localhost";
+/*$servername = "localhost";
 $username = "x77amyca";
 $password = "anibal..81..99";
-$dbname = "x77amyca_encuesta";
+$dbname = "x77amyca_encuesta";*/
+
+$servername = "localhost";
+$username = "root";
+$password = "metalsonic21";
+$dbname = "surveyonumujeres";
 
 if ($cont == 0){
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -1612,7 +1617,9 @@ else if ($cont == 33){
     $r52 = array("Nacionales"=>"","Internacionales"=>"");
 
     $placeholder = $_POST['nacional'];
-
+    if ($placeholder == "0"){
+        $r52["Nacionales"]= "No hubo ventas";
+    }
     if ($placeholder == "5"){
         $r52["Nacionales"]= "Menos de 5 millones";
     }
@@ -1636,7 +1643,9 @@ else if ($cont == 33){
     }
 
     $placeholder = $_POST['internacional'];
-
+    if ($placeholder == "0"){
+        $r52["Internacionales"]= "No hubo ventas";
+    }
     if ($placeholder == "5"){
         $r52["Internacionales"]= "Menos de 5 millones";
     }

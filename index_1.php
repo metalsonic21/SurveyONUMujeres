@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>MUJERES ONU - PROCOMER</title>
+  <title>Encuesta a negocios de mujeres</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,7 +30,7 @@
 
   <header class="masthead bg-primary text-white text-center" style="padding-top: 15px;">
     <div class="container">
-    <h1 class="text-uppercase mb-0" >ONU MUJERES & PROCOMER</h1>
+    <h1 class="text-uppercase mb-0" >Encuesta a negocios de mujeres</h1>
     <hr class="star-light">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
 
@@ -93,6 +93,7 @@
     <div class="form-check">
     <input class="form-check-input" type="radio" name="radio2" id="r4" value="no">
     <label class="form-check-label" for="r4">No</label>
+    <br><br>
     </div>
     </div> 
     </div>
@@ -169,6 +170,7 @@
     <div class="form-check">
     <input class="form-check-input" type="radio" name="radio5" id="r11" value="Mujer">
     <label class="form-check-label" for="r11">Mujer</label>
+    <br><br>
     </div>
     </div>
     </div>
@@ -346,6 +348,7 @@
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radioex" id="ex2" value="no">
   <label class="form-check-label" for="ex2">No</label>
+  <br><br>
   </div>
   </div>
   </div>
@@ -650,6 +653,7 @@
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio7" id="r15" value="no">
   <label class="form-check-label" for="r15">No</label>
+  <br><br>
   </div>  <!-- div de form -->
   </div>
   </div>
@@ -743,6 +747,7 @@
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio8" id="r17" value="no">
   <label class="form-check-label" for="r17">No</label>
+  <br><br>
   </div>
   </div>
   </div>
@@ -822,6 +827,7 @@
   <div class="col-md-4"> 
   <label for ="ex4">Meses</label>
   <input type="text" class="form-control" id="ex4" placeholder="Meses" disabled="disable">
+  <br>
   </div>
   </div>
 
@@ -829,6 +835,7 @@
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radioex2" id="ex5" value="no producimos">
   <label class="form-check-label" for="ex5">No producimos para el mercado nacional</label>
+  <br><br>
   </div>
   </div>
 
@@ -857,7 +864,7 @@
   <div class="col-md-4"> 
   <label class="form-check-label" for="ex7">Meses</label>
   <input type="text" class="form-control" id="ex7" placeholder="Meses" disabled="disable">
-
+  <br>
   </div>
   </div>
 
@@ -865,6 +872,7 @@
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radioex3" id="ex8" value="no producimos">
   <label class="form-check-label" for="ex8">No producimos para el mercado internacional</label>
+  <br><br>
   </div>
   </div>
 
@@ -1175,6 +1183,7 @@
   <div class="form-row">
   <div class="col-md-6 offset-md-3">
   <input type="text" class="form-control" id="t12" placeholder="">
+  <br><br>
   </div> <!-- div de columna -->
   </div> <!-- div de row -->
 
@@ -1399,6 +1408,7 @@
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio20" id="r54" value="no">
   <label class="form-check-label" for="r54">No</label>
+  <br><br>
   </div>
   </div>
   </div>
@@ -1557,6 +1567,7 @@
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio22" id="r62" value="71">
   <label class="form-check-label" for="r62">Más del 71 %</label>
+  <br><br>
   </div>
   </div>
   </div>  
@@ -2728,7 +2739,7 @@
 
   <div class="form-row d-flex justify-content-center">
   <div class="col-md-5 p-3">
-  <label for="inputEmail4">Nosotras WeConnecting</label>
+  <label for="inputEmail4">Nosostras Women Connecting</label>
   </div>
   </div>  
 
@@ -3507,7 +3518,7 @@
   <div class="carousel-item ">
   <div class="form-group row">
   <div class="col-md-6 offset-md-3">
-  <label for="inputEmail4"><b>PVI.3.¿Cuál diría usted que es el mejor aproximado de su volumen de ventas anual actualmente (en colones)? </b></label>
+  <label for="inputEmail4"><b>PVI.3.¿Cuál diría usted que es el mejor aproximado de su volumen de ventas anual en el 2018 (en colones)? </b></label>
   </div>  
   </div>  
 
@@ -3519,6 +3530,11 @@
 
   <div class="row justify-content-center">  
   <div align="left"> 
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio120" id="ag1" value="0">
+  <label class="form-check-label" for="ag1">No tuvo ventas</label>
+  </div>
+
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio120" id="r226" value="5">
   <label class="form-check-label" for="r226">Menos de 5 millones</label>
@@ -3552,6 +3568,7 @@
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio120" id="r238" value="250">
   <label class="form-check-label" for="r238">Más de 250 millones</label>
+  <br><br>
   </div>
   </div>  
   </div> 
@@ -3565,6 +3582,12 @@
 
   <div class="row justify-content-center">  
   <div align="left"> 
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radio127" id="ag2" value="0">
+  <label class="form-check-label" for="ag2">No tuvo ventas</label>
+  </div>
+
+
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio127" id="r240" value="5">
   <label class="form-check-label" for="r240">Menos de 5 millones</label>
@@ -3598,6 +3621,7 @@
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio127" id="r251" value="250">
   <label class="form-check-label" for="r251">Más de 250 millones</label>
+  <br><br>
   </div>
   </div>  
   </div>
@@ -3760,22 +3784,22 @@
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio135" id="rr255" value="med">
-  <label class="form-check-label" for="rr255">MED&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="rr255">1&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio135" id="r256" value="aed">
-  <label class="form-check-label" for="r256">AED&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r256">2&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio135" id="r257" value="ada">
-  <label class="form-check-label" for="r257">ADA&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r257">3&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio135" id="r258" value="mda">
-  <label class="form-check-label" for="r258">MDA</label>
+  <label class="form-check-label" for="r258">4</label>
   </div>
   </div>  
 
@@ -3786,22 +3810,22 @@
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio136" id="r259" value="med">
-  <label class="form-check-label" for="r259">MED&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r259">1&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio136" id="r260" value="aed">
-  <label class="form-check-label" for="r260">AED&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r260">2&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio136" id="r261" value="ada">
-  <label class="form-check-label" for="r261">ADA&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r261">3&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio136" id="r262" value="mda">
-  <label class="form-check-label" for="r262">MDA</label>
+  <label class="form-check-label" for="r262">4</label>
   </div>
   </div>  
 
@@ -3812,22 +3836,22 @@
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio137" id="r263" value="med">
-  <label class="form-check-label" for="r263">MED&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r263">1&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio137" id="r264" value="aed">
-  <label class="form-check-label" for="r264">AED&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r264">2&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio137" id="r265" value="ada">
-  <label class="form-check-label" for="r265">ADA&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r265">3&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio137" id="r266" value="mda">
-  <label class="form-check-label" for="r266">MDA</label>
+  <label class="form-check-label" for="r266">4</label>
   </div>
   </div>  
 
@@ -3838,23 +3862,24 @@
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio138" id="r267" value="med">
-  <label class="form-check-label" for="r267">MED&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r267">1&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio138" id="r268" value="aed">
-  <label class="form-check-label" for="r268">AED&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r268">2&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio138" id="r269" value="ada">
-  <label class="form-check-label" for="r269">ADA&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r269">3&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio138" id="rr269" value="mda">
-  <label class="form-check-label" for="rr269">MDA</label>
+  <label class="form-check-label" for="rr269">4</label>
   </div>
+  <br><br>
   </div> 
 
 
@@ -3872,23 +3897,24 @@
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio139" id="r270" value="med">
-  <label class="form-check-label" for="r270">MED&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r270">1&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio139" id="r271" value="aed">
-  <label class="form-check-label" for="r271">AED&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r271">2&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio139" id="r272" value="ada">
-  <label class="form-check-label" for="r272">ADA&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r272">3&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio139" id="r273" value="mda">
-  <label class="form-check-label" for="r273">MDA</label>
+  <label class="form-check-label" for="r273">4</label>
   </div>
+  <br><br>
   </div>  
 
   <div class="form-row">
@@ -3898,22 +3924,22 @@
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio140" id="r274" value="med">
-  <label class="form-check-label" for="r274">MED&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r274">1&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio140" id="r275" value="aed">
-  <label class="form-check-label" for="r275">AED&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r275">2&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio140" id="r276" value="ada">
-  <label class="form-check-label" for="r276">ADA&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r276">3&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio140" id="r277" value="mda">
-  <label class="form-check-label" for="r277">MDA</label>
+  <label class="form-check-label" for="r277">4</label>
   </div>
   </div>  
 
@@ -3926,22 +3952,22 @@
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio141" id="r278" value="med">
-  <label class="form-check-label" for="r278">MED&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r278">1&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio141" id="r279" value="aed">
-  <label class="form-check-label" for="r279">AED&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r279">2&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio141" id="r280" value="ada">
-  <label class="form-check-label" for="r280">ADA&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r280">3&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio141" id="r281" value="mda">
-  <label class="form-check-label" for="r281">MDA</label>
+  <label class="form-check-label" for="r281">4</label>
   </div>
   </div>  
 
@@ -3952,22 +3978,22 @@
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio142" id="r282" value="med">
-  <label class="form-check-label" for="r282">MED&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r282">1&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio142" id="r283" value="aed">
-  <label class="form-check-label" for="r283">AED&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r283">2&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio142" id="r284" value="ada">
-  <label class="form-check-label" for="r284">ADA&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r284">3&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio142" id="r285" value="mda">
-  <label class="form-check-label" for="r285">MDA</label>
+  <label class="form-check-label" for="r285">4</label>
   </div>
   </div>                                                            
   </div>
@@ -3997,22 +4023,22 @@
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio143" id="r286" value="med">
-  <label class="form-check-label" for="r286">MED&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r286">1&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio143" id="r287" value="aed">
-  <label class="form-check-label" for="r287">AED&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r287">2&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio143" id="r288" value="ada">
-  <label class="form-check-label" for="r288">ADA&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r288">3&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio143" id="r289" value="mda">
-  <label class="form-check-label" for="r289">MDA</label>
+  <label class="form-check-label" for="r289">4</label>
   </div>
   </div>  
 
@@ -4023,22 +4049,22 @@
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio144" id="r290" value="med">
-  <label class="form-check-label" for="r290">MED&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r290">1&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio144" id="r291" value="aed">
-  <label class="form-check-label" for="r291">AED&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r291">2&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio144" id="r292" value="ada">
-  <label class="form-check-label" for="r292">ADA&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r292">3&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio144" id="r293" value="mda">
-  <label class="form-check-label" for="r293">MDA</label>
+  <label class="form-check-label" for="r293">4</label>
   </div>
   </div>  
 
@@ -4049,22 +4075,22 @@
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio145" id="r294" value="med">
-  <label class="form-check-label" for="r294">MED&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r294">1&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio145" id="r295" value="aed">
-  <label class="form-check-label" for="r295">AED&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r295">2&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio145" id="r296" value="ada">
-  <label class="form-check-label" for="r296">ADA&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r296">3&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio145" id="r297" value="mda">
-  <label class="form-check-label" for="r297">MDA</label>
+  <label class="form-check-label" for="r297">4</label>
   </div>
   </div>  
 
@@ -4075,22 +4101,22 @@
   
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio146" id="r298" value="med">
-  <label class="form-check-label" for="r298">MED&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r298">1&nbsp;&nbsp;</label>
   </div>
       
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio146" id="r299" value="aed">
-  <label class="form-check-label" for="r299">AED&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r299">2&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio146" id="r300" value="ada">
-  <label class="form-check-label" for="r300">ADA&nbsp;&nbsp;</label>
+  <label class="form-check-label" for="r300">3&nbsp;&nbsp;</label>
   </div>
 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio146" id="r301" value="mda">
-  <label class="form-check-label" for="r301">MDA</label>
+  <label class="form-check-label" for="r301">4</label>
   </div>
   </div>  
   </div>
@@ -4118,7 +4144,7 @@
   </div>  
   
   <div class="col-md-6 offset-md-3">
-  <input type="text" id="t18" class="form-control" placeholder="Por favor detalle">
+  <input type="text" id="t18" class="form-control" placeholder="Por favor introduzca un número del 1 al 4 sin repetirlo entre las preguntas">
   </div> </div> 
   </div>
 
@@ -4128,7 +4154,7 @@
   </div>  
   
   <div class="col-md-6 offset-md-3">
-  <input type="text" id="t19" class="form-control" placeholder="Por favor detalle">
+  <input type="text" id="t19" class="form-control" placeholder="Por favor introduzca un número del 1 al 4 sin repetirlo entre las preguntas">
   </div> </div> 
 
   <div class="form-row">
@@ -4137,7 +4163,7 @@
   </div>  
   
   <div class="col-md-6 offset-md-3">
-  <input type="text" id="t20" class="form-control" placeholder="Por favor detalle">
+  <input type="text" id="t20" class="form-control" placeholder="Por favor introduzca un número del 1 al 4 sin repetirlo entre las preguntas">
   </div> 
   </div>  
 
@@ -4147,7 +4173,7 @@
   </div>  
   
   <div class="col-md-6 offset-md-3">
-  <input type="text" id="t21" class="form-control" placeholder="Por favor detalle">
+  <input type="text" id="t21" class="form-control" placeholder="Por favor introduzca un número del 1 al 4 sin repetirlo entre las preguntas">
   </div> 
   </div>
   </div>
@@ -4223,9 +4249,11 @@
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radioextra20" id="ex41" value="Otra">
   <label class="form-check-label" for="ex41"> Otra </label>
+   <br><br>
   </div>
   </div>
   </div>
+ 
 
   <div class="form-group row">
   <div class="col-md-6 offset-md-3">
@@ -4243,6 +4271,7 @@
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio60" id="r303" value="no">
   <label class="form-check-label" for="r303">No</label>
+  <br><br>
   </div>
   </div>
   </div> 
@@ -4293,6 +4322,7 @@
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radio5" id="r312" value="Post-grado">
   <label class="form-check-label" for="r312"> Post-grado / especialización </label>
+   <br><br>
   </div>
   </div>
   </div>
@@ -7489,11 +7519,13 @@
     var prox = false;
     var skip = true;
     
-    if (document.getElementById('r226').checked || document.getElementById('r228').checked ||
+    if (document.getElementById('ag1').checked ||
+    document.getElementById('r226').checked || document.getElementById('r228').checked ||
     document.getElementById('r231').checked || document.getElementById('r232').checked 
     || document.getElementById('r233').checked || document.getElementById('r235').checked ||
     document.getElementById('r238').checked)
-      if (document.getElementById('r240').checked || document.getElementById('r241').checked ||
+      if (document.getElementById('ag2').checked || 
+      document.getElementById('r240').checked || document.getElementById('r241').checked ||
       document.getElementById('r242').checked || document.getElementById('r243').checked ||
       document.getElementById('r246').checked || document.getElementById('r249').checked ||
       document.getElementById('r251').checked)
@@ -7503,6 +7535,9 @@
             prox = true;
             skip = false;
             /*Nacional*/
+            if (document.getElementById('ag1').checked) {
+            nacional = document.getElementById('ag1').value;
+            }
             if (document.getElementById('r226').checked) {
             nacional = document.getElementById('r226').value;
             }
@@ -7525,6 +7560,9 @@
             nacional = document.getElementById('r238').value;
             }
             /*Internacional*/
+            if (document.getElementById('ag2').checked) {
+            internacional = document.getElementById('ag2').value;
+            }
             if (document.getElementById('r240').checked) {
             internacional = document.getElementById('r240').value;
             }
@@ -7563,6 +7601,9 @@
         }
 
     /*Nacional*/
+    if (document.getElementById('ag1').checked) {
+      nacional = document.getElementById('ag1').value;
+    }
     if (document.getElementById('r226').checked) {
     nacional = document.getElementById('r226').value;
     }
@@ -7585,6 +7626,9 @@
     nacional = document.getElementById('r238').value;
     }
     /*Internacional*/
+    if (document.getElementById('ag2').checked) {
+      internacional = document.getElementById('ag2').value;
+    }
     if (document.getElementById('r240').checked) {
     internacional = document.getElementById('r240').value;
     }
@@ -8139,13 +8183,11 @@
   </header>
 
   <!-- Portfolio Grid Section -->
-  <section class="portfolio" id="portfolio"style="padding-top: 0px;">
+  <section class="portfolio" id="portfolio">
     <div class="container">
         
-      <hr class="star-dark mb-5"> 
-      <div style="display: flex; justify-content: center; color: #FF0000;">
-            <span style="color: #2c3e50;;">Programa Ganar-Ganar: La igualdad de género es un buen negocio.<br><br><br></span>
-      </div>
+      <!--<hr class="star-dark mb-5"> -->
+     
       
       <div class="row"> 
       
@@ -8194,18 +8236,20 @@
           
         </div>
         
+
+        
       </div>
       
+      
+      <div style="display: flex; justify-content: center; color: #FF0000;">
+            <span style="color: #2c3e50;;">Programa Ganar-Ganar: La igualdad de género es un buen negocio.<br><br><br></span>
+      </div>
       <hr class="star-dark mb-5"> 
       
       <section class="portfolio" id="portfolio" style="padding-top: 0px;">
     <div class="container">
         
-        
-        <div style="display: flex; justify-content: center; color: #FF0000;">
-            <span style="color: #2c3e50;">En colaboración con:</span>
-        </div>
-        
+
       <div class="row">
 
          <div class="col-md-6">
@@ -8233,6 +8277,12 @@
       
       
     </div>
+    
+    
+        
+        <div style="display: flex; justify-content: center; color: #FF0000;">
+            <span style="color: #2c3e50;">En colaboración con.<br><br><br><br><br></span>
+        </div>
     
     <div class="row justify-content-center">
         <pre><a href="http://corporacionjsk.es" target="_blank" style="color: #2c3e50; width:500px; height: 52px;">Hecho por Corporación JSK</a></pre>
