@@ -57,16 +57,11 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 * [XAMPP](https://www.apachefriends.org/es/index.html)
-```sh
-npm install npm@latest -g
-```
 
 ### Installation
  
-1. Clone the repo
-```sh
-git clone https:://github.com/github_username/repo.git
-```
+1. [Clone the repo](https://github.com/metalsonic21/SurveyONUMujeres/archive/master.zip)
+
 2. Activate Apache and MySQL services in XAMPP
 3. Copy the repo folder in xampp/htdocs
 4. Type "localhost" in your favorite browser
