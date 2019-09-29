@@ -2,13 +2,9 @@
 <?php
 $id;
 $cont = $_POST['cont'];
-/*$servername = "localhost";
-$username = "x77amyca";
-$password = "anibal..81..99";
-$dbname = "x77amyca_encuesta";*/
 
 $servername = "localhost";
-$username = "root";
+$username = "FrankHesse";
 $password = "metalsonic21";
 $dbname = "surveyonumujeres";
 

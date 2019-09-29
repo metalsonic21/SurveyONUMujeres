@@ -1,9 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "x77amyca";
-$password = "anibal..81..99";
-$dbname = "x77amyca_encuesta";
-$filler = 1;
+$username = "FrankHesse";
+$password = "metalsonic21";
+$dbname = "surveyonumujeres";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 $sql = "DELETE FROM encuesta
@@ -27,7 +26,7 @@ $db_record = 'encuesta';
 // optional where query
 $where = 'order by id';
 // filename for export
-$csv_filename = "Survey_ONU_Procomer.txt";
+$csv_filename = "Survey_ONU_Procomer.csv";
 // database variables
 
 // create empty variable to be filled with export data
