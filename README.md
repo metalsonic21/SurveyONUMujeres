@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/metalsonic21/SurveyONUMujeres">
-    <img src="img/portfolio/onu.png" width="400px" height="100px" alt="Logo">
+    <img src="img/portfolio/onu.png" width="400px" height="120px" alt="Logo">
   </a>
 
   <h3 align="center">Study about entrepreneurship and business in women</h3>
